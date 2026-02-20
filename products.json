@@ -6,7 +6,7 @@
     "code": "099 275 - 10BO",
     "brand": "KARDEN",
     "name": "Marş Motoru Komple Bosch Tipi, CCW",
-    "image": "099_275_BO.jpg"
+    "image": "099_275_10BO.jpg"
   },
   {
     "id": "099_275_-_0143-KARDEN-Marş_Motoru_Graves_Tipi_8_Diş_CCW",
@@ -24,7 +24,7 @@
     "code": "STR 3484",
     "brand": "KARDEN",
     "name": "Marş Motoru Valeo Tipi Antor, 22’lik, 8 Diş, CCW",
-    "image": "placeholder.PNG"
+    "image": "placeholder.png"
   },
   {
     "id": "099_275_-_0142-KARDEN-Jeneratör_Marş_Motoru_8_Diş_CCW",
@@ -78,7 +78,7 @@
     "code": "099 278 - 2208",
     "brand": "KARDEN",
     "name": "Marş Otomatiği – Bosch Tipi",
-    "image": ""
+    "image": "099_278_2208.jpeg"
   },
   {
     "id": "099_273_-_2008-KARDEN-Marş_Kömür_Yuvası__Bosch_Tipi",
@@ -87,7 +87,7 @@
     "code": "099 273 - 2008",
     "brand": "KARDEN",
     "name": "Marş Kömür Yuvası – Bosch Tipi",
-    "image": ""
+    "image": "099_273_2008.png"
   },
   {
     "id": "126_102-KARDEN-Marş_Kömür_Yuvası__Geniş_Bosch_Tipi",
@@ -96,7 +96,7 @@
     "code": "126 102",
     "brand": "KARDEN",
     "name": "Marş Kömür Yuvası – Geniş Bosch Tipi",
-    "image": ""
+    "image": "126_102.png"
   },
   {
     "id": "099_341-KARDEN-Marş_Redüktör_Mili_Komple__Bosch_Tipi",
@@ -105,7 +105,7 @@
     "code": "099 341",
     "brand": "KARDEN",
     "name": "Marş Redüktör Mili Komple – Bosch Tipi",
-    "image": ""
+    "image": "099_341.png"
   },
   {
     "id": "KARDEN-36_Diş_Dişli_Yuvası_Plastik__Bosch_Tipi",
@@ -114,7 +114,7 @@
     "code": "",
     "brand": "KARDEN",
     "name": "36 Diş Dişli Yuvası (Plastik) – Bosch Tipi",
-    "image": ""
+    "image": "36_dis.png"
   },
   {
     "id": "099_040-KARDEN-Redüktör_Dişli_Takımı__Bosch_Tipi",
@@ -123,7 +123,7 @@
     "code": "099 040",
     "brand": "KARDEN",
     "name": "Redüktör Dişli Takımı – Bosch Tipi",
-    "image": ""
+    "image": "099_040.png"
   },
   {
     "id": "77-78-127-GOVA-Marş_Burç_Takımı_77-78-127__Bosch_Tipi",
@@ -393,7 +393,7 @@
     "code": "099 286",
     "brand": "KARDEN",
     "name": "Damper Kaldırma 20/5 Ara Otomatik",
-    "image": ""
+    "image": "099_286.png"
   },
   {
     "id": "099_452-KARDEN-Marş_Bağlantı_Sacı",
@@ -402,7 +402,7 @@
     "code": "099 452",
     "brand": "KARDEN",
     "name": "Marş Bağlantı Sacı",
-    "image": ""
+    "image": "099_452.png"
   },
   {
     "id": "099_453-KARDEN-Marş_Flanşı__Alüminyum",
@@ -411,7 +411,7 @@
     "code": "099 453",
     "brand": "KARDEN",
     "name": "Marş Flanşı – Alüminyum",
-    "image": ""
+    "image": "099_453.png"
   },
   {
     "id": "099_306-KARDEN-Volant_Dişlisi__510_Antor",
@@ -420,7 +420,7 @@
     "code": "099 306",
     "brand": "KARDEN",
     "name": "Volant Dişlisi – 510 Antor",
-    "image": ""
+    "image": "099_306.png"
   },
   {
     "id": "099_451-KARDEN-Volant_Dişlisi__Graves",
@@ -429,7 +429,7 @@
     "code": "099 451",
     "brand": "KARDEN",
     "name": "Volant Dişlisi – Graves",
-    "image": ""
+    "image": "099_451.png"
   },
   {
     "id": "099_455-KARDEN-Marş_Sacı_510_Dış_Büyük",
@@ -438,7 +438,7 @@
     "code": "099 455",
     "brand": "KARDEN",
     "name": "Marş Sacı 510 Dış (Büyük)",
-    "image": ""
+    "image": "099_455.png"
   },
   {
     "id": "099_454-KARDEN-Marş_Sacı_510_İç_Küçük",
@@ -447,7 +447,7 @@
     "code": "099 454",
     "brand": "KARDEN",
     "name": "Marş Sacı 510 İç (Küçük)",
-    "image": ""
+    "image": "099_454.png"
   },
   {
     "id": "099_287-KARDEN-Marş_Kiti_Marş_motoru_iç-dış_sargı_kontak_tesisat_volant_dişli_flanşı_bağlantı_aparatı_konjektör",
@@ -456,7 +456,7 @@
     "code": "099 287",
     "brand": "KARDEN",
     "name": "Marş Kiti\n(Marş motoru, iç-dış sargı, kontak, tesisat, volant dişli flanşı, bağlantı aparatı, konjektör)",
-    "image": ""
+    "image": "099_287.png"
   },
   {
     "id": "099_290-KARDEN-Komple_Marş_Kiti_Marş_motoru_iç-dış_sargı_kontak_tesisat_volant_dişli_flanşı_bağlantı_aparatı_konjektör_marş_sacı_büyük_marş_sacı_küçük_egzoz",
@@ -465,7 +465,7 @@
     "code": "099 290",
     "brand": "KARDEN",
     "name": "Komple Marş Kiti\n(Marş motoru, iç-dış sargı, kontak, tesisat, volant dişli flanşı, bağlantı aparatı, konjektör, marş sacı büyük, marş sacı küçük, egzoz)",
-    "image": ""
+    "image": "099_290.png"
   },
   {
     "id": "155_102-KARDEN-Alternatör_ALT_480",
@@ -600,7 +600,7 @@
     "code": "099 296",
     "brand": "KARDEN",
     "name": "Yağmur Kaput – Komple (E.M)",
-    "image": ""
+    "image": "099_296.png"
   },
   {
     "id": "099_342-KARDEN-Yağmur_Kaput_Far_Tası",
@@ -609,7 +609,7 @@
     "code": "099 342",
     "brand": "KARDEN",
     "name": "Yağmur Kaput Far Tası",
-    "image": ""
+    "image": "099_342.png"
   },
   {
     "id": "099_343-KARDEN-Yağmur_Kaput_Far_Çerçevesi",
@@ -618,7 +618,7 @@
     "code": "099 343",
     "brand": "KARDEN",
     "name": "Yağmur Kaput Far Çerçevesi",
-    "image": ""
+    "image": "099_343.png"
   },
   {
     "id": "099_346-KARDEN-Yağmur_Kaput_Far_Paneli",
@@ -627,7 +627,7 @@
     "code": "099 346",
     "brand": "KARDEN",
     "name": "Yağmur Kaput Far Paneli",
-    "image": ""
+    "image": "099_346.png"
   },
   {
     "id": "099_298-KARDEN-Yağmur_Kaput_Bağlantı_Ayağı__EM",
@@ -636,7 +636,7 @@
     "code": "099 298",
     "brand": "KARDEN",
     "name": "Yağmur Kaput Bağlantı Ayağı – E.M",
-    "image": ""
+    "image": "099_298.png"
   },
   {
     "id": "099_298-1-KARDEN-Yağmur_Kaput_Bağlantı_Ayağı__YM",
@@ -645,7 +645,7 @@
     "code": "099 298-1",
     "brand": "KARDEN",
     "name": "Yağmur Kaput Bağlantı Ayağı – Y.M",
-    "image": ""
+    "image": "099_298_1"
   },
   {
     "id": "099_297-KARDEN-Yağmur_Kaput_Menteşe_U_Ayağı",
@@ -654,7 +654,7 @@
     "code": "099 297",
     "brand": "KARDEN",
     "name": "Yağmur Kaput Menteşe U Ayağı",
-    "image": ""
+    "image": "099_297.png"
   },
   {
     "id": "099_299-KARDEN-Yağmur_Kaput_Dayama_Ayağı__YM",
@@ -663,7 +663,7 @@
     "code": "099 299",
     "brand": "KARDEN",
     "name": "Yağmur Kaput Dayama Ayağı – Y.M",
-    "image": ""
+    "image": "099_299.png"
   },
   {
     "id": "099_299_-_1-KARDEN-Yağmur_Kaput_Dayama_Ayağı__EM",
@@ -672,7 +672,7 @@
     "code": "099 299 - 1",
     "brand": "KARDEN",
     "name": "Yağmur Kaput Dayama Ayağı – E.M",
-    "image": ""
+    "image": "099_299_1.png"
   },
   {
     "id": "099_304-KARDEN-510_Yağ_Filtresi",
