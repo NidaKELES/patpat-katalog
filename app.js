@@ -98,16 +98,9 @@ function renderProducts(products) {
       <div class="brand">${p.brand || ""}</div>
     `;
 
-    card.addEventListener("click", () => {
-      alert(
-        "ÜRÜN DETAYI\n\n" +
-        "Ürün: " + (p.name || "") + "\n" +
-        "Kod: " + (p.code || "") + "\n" +
-        "Marka: " + (p.brand || "") + "\n" +
-        "Grup: " + (p.group || "") + "\n" +
-        "Alt Grup: " + (p.subcategory || "")
-      );
-    });
+   card.addEventListener("click", () => {
+  window.location.href = `product.html?id=${encodeURIComponent(p.id)}`;
+});
 
     grid.appendChild(card);
   });
