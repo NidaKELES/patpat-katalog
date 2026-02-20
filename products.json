@@ -811,7 +811,7 @@
   },
   {
     "id": "099_354-KARDEN-Kaput_Takozu_Üst__Yağmur_EM",
-    "group": "FİLTRE GRUBU",
+    "group": "KAPUT TAKOZLARI, KÖRÜK VE KAUÇUK AKSAMLAR",
     "subcategory": "KAPUT TAKOZLARI & BAĞLANTI ELEMANLARI",
     "code": "099 354",
     "brand": "KARDEN",
@@ -820,7 +820,7 @@
   },
   {
     "id": "099_350-KARDEN-Kaput_Takozu_Üst__Yağmur_YM",
-    "group": "FİLTRE GRUBU",
+    "group": "KAPUT TAKOZLARI, KÖRÜK VE KAUÇUK AKSAMLAR",
     "subcategory": "KAPUT TAKOZLARI & BAĞLANTI ELEMANLARI",
     "code": "099 350",
     "brand": "KARDEN",
@@ -829,7 +829,7 @@
   },
   {
     "id": "099_351-KARDEN-Kaput_Takozu_Üst__Yağmur_YM_Dış",
-    "group": "FİLTRE GRUBU",
+    "group": "KAPUT TAKOZLARI, KÖRÜK VE KAUÇUK AKSAMLAR",
     "subcategory": "KAPUT TAKOZLARI & BAĞLANTI ELEMANLARI",
     "code": "099 351",
     "brand": "KARDEN",
@@ -838,7 +838,7 @@
   },
   {
     "id": "099_353-KARDEN-Kaput_Takozu_Alt_Yağmur_YM_Dış",
-    "group": "FİLTRE GRUBU",
+    "group": "KAPUT TAKOZLARI, KÖRÜK VE KAUÇUK AKSAMLAR",
     "subcategory": "KAPUT TAKOZLARI & BAĞLANTI ELEMANLARI",
     "code": "099 353",
     "brand": "KARDEN",
@@ -847,7 +847,7 @@
   },
   {
     "id": "099_352-KARDEN-Kaput_Takozu_Alt_Yağmur_YM_İç",
-    "group": "FİLTRE GRUBU",
+    "group": "KAPUT TAKOZLARI, KÖRÜK VE KAUÇUK AKSAMLAR",
     "subcategory": "KAPUT TAKOZLARI & BAĞLANTI ELEMANLARI",
     "code": "099 352",
     "brand": "KARDEN",
@@ -856,7 +856,7 @@
   },
   {
     "id": "099_355-KARDEN-Kaput_Yan_Bağlantı_Takozu",
-    "group": "FİLTRE GRUBU",
+    "group": "KAPUT TAKOZLARI, KÖRÜK VE KAUÇUK AKSAMLAR",
     "subcategory": "KAPUT TAKOZLARI & BAĞLANTI ELEMANLARI",
     "code": "099 355",
     "brand": "KARDEN",
@@ -865,7 +865,7 @@
   },
   {
     "id": "099_357-KARDEN-Kaput_Kule_Titreşim_Takozu",
-    "group": "FİLTRE GRUBU",
+    "group": "KAPUT TAKOZLARI, KÖRÜK VE KAUÇUK AKSAMLAR",
     "subcategory": "KAPUT TAKOZLARI & BAĞLANTI ELEMANLARI",
     "code": "099 357",
     "brand": "KARDEN",
@@ -874,7 +874,7 @@
   },
   {
     "id": "099_403-KARDEN-Şaft_Altı_Köşe_Takoz",
-    "group": "FİLTRE GRUBU",
+    "group": "KAPUT TAKOZLARI, KÖRÜK VE KAUÇUK AKSAMLAR",
     "subcategory": "KAPUT TAKOZLARI & BAĞLANTI ELEMANLARI",
     "code": "099 403",
     "brand": "KARDEN",
@@ -883,7 +883,7 @@
   },
   {
     "id": "099_501-KARDEN-Makas_Burcu",
-    "group": "FİLTRE GRUBU",
+    "group": "KAPUT TAKOZLARI, KÖRÜK VE KAUÇUK AKSAMLAR",
     "subcategory": "MAKAS & YÜK TAKOZLARI",
     "code": "099 501",
     "brand": "KARDEN",
@@ -892,7 +892,7 @@
   },
   {
     "id": "099_356-KARDEN-Makas_Yük_TakozuTek_Tarafı_Civatalı_5535_Römork",
-    "group": "FİLTRE GRUBU",
+    "group": "KAPUT TAKOZLARI, KÖRÜK VE KAUÇUK AKSAMLAR",
     "subcategory": "MAKAS & YÜK TAKOZLARI",
     "code": "099 356",
     "brand": "KARDEN",
@@ -901,7 +901,7 @@
   },
   {
     "id": "099_404-KARDEN-Makas_Yük_Takozu__Taral_2_Tarafı_Civatalı",
-    "group": "FİLTRE GRUBU",
+    "group": "KAPUT TAKOZLARI, KÖRÜK VE KAUÇUK AKSAMLAR",
     "subcategory": "MAKAS & YÜK TAKOZLARI",
     "code": "099 404",
     "brand": "KARDEN",
@@ -910,7 +910,7 @@
   },
   {
     "id": "780-KARDEN-Makas_Bağlantı_Aparatı_Römork_İçin",
-    "group": "FİLTRE GRUBU",
+    "group": "KAPUT TAKOZLARI, KÖRÜK VE KAUÇUK AKSAMLAR",
     "subcategory": "MAKAS & YÜK TAKOZLARI",
     "code": "780",
     "brand": "KARDEN",
@@ -919,7 +919,7 @@
   },
   {
     "id": "768-KARDEN-Kaput_Üst_Takozu_Motor_İçin",
-    "group": "FİLTRE GRUBU",
+    "group": "KAPUT TAKOZLARI, KÖRÜK VE KAUÇUK AKSAMLAR",
     "subcategory": "MOTOR & ŞANZIMAN TAKOZLARI",
     "code": "768",
     "brand": "KARDEN",
@@ -928,7 +928,7 @@
   },
   {
     "id": "774-KARDEN-Şanzıman_Alt_Takozu_Motor_İçin",
-    "group": "FİLTRE GRUBU",
+    "group": "KAPUT TAKOZLARI, KÖRÜK VE KAUÇUK AKSAMLAR",
     "subcategory": "MOTOR & ŞANZIMAN TAKOZLARI",
     "code": "774",
     "brand": "KARDEN",
@@ -937,7 +937,7 @@
   },
   {
     "id": "099_322-KARDEN-Eksoz_Takozu__Somunlu",
-    "group": "FİLTRE GRUBU",
+    "group": "KAPUT TAKOZLARI, KÖRÜK VE KAUÇUK AKSAMLAR",
     "subcategory": "MOTOR & ŞANZIMAN TAKOZLARI",
     "code": "099 322",
     "brand": "KARDEN",
@@ -946,7 +946,7 @@
   },
   {
     "id": "766-KARDEN-Akü_Sehpa_Takozu",
-    "group": "FİLTRE GRUBU",
+    "group": "KAPUT TAKOZLARI, KÖRÜK VE KAUÇUK AKSAMLAR",
     "subcategory": "AKÜ & ELEKTRİK AKSAMLARI",
     "code": "766",
     "brand": "KARDEN",
@@ -955,7 +955,7 @@
   },
   {
     "id": "099_800-KARDEN-Akü_Ayırıcı_Jak_2535",
-    "group": "FİLTRE GRUBU",
+    "group": "KAPUT TAKOZLARI, KÖRÜK VE KAUÇUK AKSAMLAR",
     "subcategory": "AKÜ & ELEKTRİK AKSAMLARI",
     "code": "099 800",
     "brand": "KARDEN",
@@ -964,7 +964,7 @@
   },
   {
     "id": "099_801-KARDEN-Akü_Ayırıcı_Jak_3550",
-    "group": "FİLTRE GRUBU",
+    "group": "KAPUT TAKOZLARI, KÖRÜK VE KAUÇUK AKSAMLAR",
     "subcategory": "AKÜ & ELEKTRİK AKSAMLARI",
     "code": "099 801",
     "brand": "KARDEN",
@@ -973,7 +973,7 @@
   },
   {
     "id": "099_373-KARDEN-Vites_Körüğü",
-    "group": "FİLTRE GRUBU",
+    "group": "KAPUT TAKOZLARI, KÖRÜK VE KAUÇUK AKSAMLAR",
     "subcategory": "KÖRÜK, HORTUM &FLANŞLAR",
     "code": "099 373",
     "brand": "KARDEN",
@@ -982,7 +982,7 @@
   },
   {
     "id": "099_373_-_1-KARDEN-Vites_Körüğü__Uzun_Tip",
-    "group": "FİLTRE GRUBU",
+    "group": "KAPUT TAKOZLARI, KÖRÜK VE KAUÇUK AKSAMLAR",
     "subcategory": "KÖRÜK, HORTUM &FLANŞLAR",
     "code": "099 373 - 1",
     "brand": "KARDEN",
@@ -991,7 +991,7 @@
   },
   {
     "id": "4215-KARDEN-Yağ_Geri_Dönüş_Tahliye_Hortumu",
-    "group": "FİLTRE GRUBU",
+    "group": "KAPUT TAKOZLARI, KÖRÜK VE KAUÇUK AKSAMLAR",
     "subcategory": "KÖRÜK, HORTUM &FLANŞLAR",
     "code": "4215",
     "brand": "KARDEN",
@@ -1000,7 +1000,7 @@
   },
   {
     "id": "099_360-KARDEN-Geri_Dönüş_Flanşlı_Hortum",
-    "group": "FİLTRE GRUBU",
+    "group": "KAPUT TAKOZLARI, KÖRÜK VE KAUÇUK AKSAMLAR",
     "subcategory": "KÖRÜK, HORTUM &FLANŞLAR",
     "code": "099 360",
     "brand": "KARDEN",
@@ -1009,7 +1009,7 @@
   },
   {
     "id": "099_360-1-KARDEN-Alüminyum_Geri_Dönüş_Flanşı",
-    "group": "FİLTRE GRUBU",
+    "group": "KAPUT TAKOZLARI, KÖRÜK VE KAUÇUK AKSAMLAR",
     "subcategory": "KÖRÜK, HORTUM &FLANŞLAR",
     "code": "099 360-1",
     "brand": "KARDEN",
@@ -1018,7 +1018,7 @@
   },
   {
     "id": "099_500-KARDEN-Depo_Kapağı",
-    "group": "FİLTRE GRUBU",
+    "group": "KAPUT TAKOZLARI, KÖRÜK VE KAUÇUK AKSAMLAR",
     "subcategory": "KAPAKLAR & MUHAFAZA PARÇALARI",
     "code": "099 500",
     "brand": "KARDEN",
@@ -1027,7 +1027,7 @@
   },
   {
     "id": "099_550-KARDEN-Yağ_Kapağı",
-    "group": "FİLTRE GRUBU",
+    "group": "KAPUT TAKOZLARI, KÖRÜK VE KAUÇUK AKSAMLAR",
     "subcategory": "KAPAKLAR & MUHAFAZA PARÇALARI",
     "code": "099 550",
     "brand": "KARDEN",
@@ -1036,7 +1036,7 @@
   },
   {
     "id": "099_367_-_1-KARDEN-Çalıştırma_İpi__Komple",
-    "group": "FİLTRE GRUBU",
+    "group": "KAPUT TAKOZLARI, KÖRÜK VE KAUÇUK AKSAMLAR",
     "subcategory": "ÇALIŞTIRMA MEKANİZMASI",
     "code": "099 367 - 1",
     "brand": "KARDEN",
@@ -1045,7 +1045,7 @@
   },
   {
     "id": "099_367_-_2-KARDEN-Çalıştırma_İpi",
-    "group": "FİLTRE GRUBU",
+    "group": "KAPUT TAKOZLARI, KÖRÜK VE KAUÇUK AKSAMLAR",
     "subcategory": "ÇALIŞTIRMA MEKANİZMASI",
     "code": "099 367 - 2",
     "brand": "KARDEN",
@@ -1054,7 +1054,7 @@
   },
   {
     "id": "099_367-KARDEN-Çalıştırma_İpi_Plastiği",
-    "group": "FİLTRE GRUBU",
+    "group": "KAPUT TAKOZLARI, KÖRÜK VE KAUÇUK AKSAMLAR",
     "subcategory": "ÇALIŞTIRMA MEKANİZMASI",
     "code": "099 367",
     "brand": "KARDEN",
@@ -1063,7 +1063,7 @@
   },
   {
     "id": "099_390_-_1-KARDEN-Direksiyon_Simidi",
-    "group": "FİLTRE GRUBU",
+    "group": "KAPUT TAKOZLARI, KÖRÜK VE KAUÇUK AKSAMLAR",
     "subcategory": "DİREKSİYON AKSAMLARI",
     "code": "099 390 - 1",
     "brand": "KARDEN",
@@ -1072,7 +1072,7 @@
   },
   {
     "id": "099_390-KARDEN-Direksiyon_Simidi__Göbekli",
-    "group": "FİLTRE GRUBU",
+    "group": "KAPUT TAKOZLARI, KÖRÜK VE KAUÇUK AKSAMLAR",
     "subcategory": "DİREKSİYON AKSAMLARI",
     "code": "099 390",
     "brand": "KARDEN",
@@ -1081,7 +1081,7 @@
   },
   {
     "id": "099_1125-KARDEN-Kaput_Teli",
-    "group": "FİLTRE GRUBU",
+    "group": "KAPUT TAKOZLARI, KÖRÜK VE KAUÇUK AKSAMLAR",
     "subcategory": "DİĞER PARÇALAR",
     "code": "099 1125",
     "brand": "KARDEN",
@@ -1090,7 +1090,7 @@
   },
   {
     "id": "778-KARDEN-Kasa_Mandalı_Römork_İçin",
-    "group": "FİLTRE GRUBU",
+    "group": "KAPUT TAKOZLARI, KÖRÜK VE KAUÇUK AKSAMLAR",
     "subcategory": "DİĞER PARÇALAR",
     "code": "778",
     "brand": "KARDEN",
@@ -1099,7 +1099,7 @@
   },
   {
     "id": "099_349-KARDEN-Eksoz",
-    "group": "FİLTRE GRUBU",
+    "group": "KAPUT TAKOZLARI, KÖRÜK VE KAUÇUK AKSAMLAR",
     "subcategory": "DİĞER PARÇALAR",
     "code": "099 349",
     "brand": "KARDEN",
@@ -1108,7 +1108,7 @@
   },
   {
     "id": "099_456-KARDEN-Yağmur_Traktör_Şaftı",
-    "group": "FİLTRE GRUBU",
+    "group": "ŞAFT & AKS MALZEMELERİ",
     "subcategory": "TRAKTÖR ŞAFTLARI",
     "code": "099 456",
     "brand": "KARDEN",
@@ -1117,7 +1117,7 @@
   },
   {
     "id": "099_457-KARDEN-Taral_Traktör_Şaftı",
-    "group": "FİLTRE GRUBU",
+    "group": "ŞAFT & AKS MALZEMELERİ",
     "subcategory": "TRAKTÖR ŞAFTLARI",
     "code": "099 457",
     "brand": "KARDEN",
@@ -1126,7 +1126,7 @@
   },
   {
     "id": "42-KARDEN-Mafsal_İstavrozu__24lük",
-    "group": "FİLTRE GRUBU",
+    "group": "ŞAFT & AKS MALZEMELERİ",
     "subcategory": "MAFSALLAR",
     "code": "42",
     "brand": "KARDEN",
@@ -1135,7 +1135,7 @@
   },
   {
     "id": "44-KARDEN-Mafsal_İstavrozu__22lik",
-    "group": "FİLTRE GRUBU",
+    "group": "ŞAFT & AKS MALZEMELERİ",
     "subcategory": "MAFSALLAR",
     "code": "44",
     "brand": "KARDEN",
@@ -1144,7 +1144,7 @@
   },
   {
     "id": "6772-KARDEN-1600_Aks",
-    "group": "FİLTRE GRUBU",
+    "group": "ŞAFT & AKS MALZEMELERİ",
     "subcategory": "AKS & DİREKSİYON AKSAMLARI",
     "code": "6772",
     "brand": "KARDEN",
@@ -1153,7 +1153,7 @@
   },
   {
     "id": "8560-KARDEN-1600_Aks__Rulmanlı",
-    "group": "FİLTRE GRUBU",
+    "group": "ŞAFT & AKS MALZEMELERİ",
     "subcategory": "AKS & DİREKSİYON AKSAMLARI",
     "code": "8560",
     "brand": "KARDEN",
@@ -1162,7 +1162,7 @@
   },
   {
     "id": "3102-KARDEN-1600_Direksiyon_Kutusu",
-    "group": "FİLTRE GRUBU",
+    "group": "ŞAFT & AKS MALZEMELERİ",
     "subcategory": "AKS & DİREKSİYON AKSAMLARI",
     "code": "3102",
     "brand": "KARDEN",
@@ -1171,7 +1171,7 @@
   },
   {
     "id": "304-KARDEN-Vites_Üst_Kolu",
-    "group": "FİLTRE GRUBU",
+    "group": "ŞAFT & AKS MALZEMELERİ",
     "subcategory": "VİTES AKSAMLARI",
     "code": "304",
     "brand": "KARDEN",
@@ -1180,7 +1180,7 @@
   },
   {
     "id": "306-KARDEN-1300_Vites_Alt_Kolu",
-    "group": "FİLTRE GRUBU",
+    "group": "ŞAFT & AKS MALZEMELERİ",
     "subcategory": "VİTES AKSAMLARI",
     "code": "306",
     "brand": "KARDEN",
@@ -1189,7 +1189,7 @@
   },
   {
     "id": "308-KARDEN-Vites_Alt_Kolu__Komple",
-    "group": "FİLTRE GRUBU",
+    "group": "ŞAFT & AKS MALZEMELERİ",
     "subcategory": "VİTES AKSAMLARI",
     "code": "308",
     "brand": "KARDEN",
@@ -1198,7 +1198,7 @@
   },
   {
     "id": "342-KARDEN-Vites_Alt_Kolu__Yaylı",
-    "group": "FİLTRE GRUBU",
+    "group": "ŞAFT & AKS MALZEMELERİ",
     "subcategory": "VİTES AKSAMLARI",
     "code": "342",
     "brand": "KARDEN",
@@ -1207,7 +1207,7 @@
   },
   {
     "id": "7756-KARDEN-1300_Vites_Kolu_Tamir_Takımı",
-    "group": "FİLTRE GRUBU",
+    "group": "ŞAFT & AKS MALZEMELERİ",
     "subcategory": "VİTES AKSAMLARI",
     "code": "7756",
     "brand": "KARDEN",
@@ -1216,7 +1216,7 @@
   },
   {
     "id": "310-KARDEN-Vites_Alt_Körüğü",
-    "group": "FİLTRE GRUBU",
+    "group": "ŞAFT & AKS MALZEMELERİ",
     "subcategory": "VİTES AKSAMLARI",
     "code": "310",
     "brand": "KARDEN",
@@ -1225,7 +1225,7 @@
   },
   {
     "id": "312-KARDEN-Vites_Üst_Körüğü",
-    "group": "FİLTRE GRUBU",
+    "group": "ŞAFT & AKS MALZEMELERİ",
     "subcategory": "VİTES AKSAMLARI",
     "code": "312",
     "brand": "KARDEN",
@@ -1234,7 +1234,7 @@
   },
   {
     "id": "318-KARDEN-Vites_Çanağı",
-    "group": "FİLTRE GRUBU",
+    "group": "ŞAFT & AKS MALZEMELERİ",
     "subcategory": "VİTES AKSAMLARI",
     "code": "318",
     "brand": "KARDEN",
@@ -1243,7 +1243,7 @@
   },
   {
     "id": "760-KARDEN-Arka_Teker_Bijonu",
-    "group": "FİLTRE GRUBU",
+    "group": "ŞAFT & AKS MALZEMELERİ",
     "subcategory": "TEKER BİJONLARI (RÖMORK İÇİN)",
     "code": "760",
     "brand": "KARDEN",
@@ -1252,7 +1252,7 @@
   },
   {
     "id": "7600-KARDEN-Arka_Teker_Bijonu__Çakma_Tip",
-    "group": "FİLTRE GRUBU",
+    "group": "ŞAFT & AKS MALZEMELERİ",
     "subcategory": "TEKER BİJONLARI (RÖMORK İÇİN)",
     "code": "7600",
     "brand": "KARDEN",
@@ -1261,7 +1261,7 @@
   },
   {
     "id": "7882-KARDEN-Çakma_Bijon_Somunu",
-    "group": "FİLTRE GRUBU",
+    "group": "ŞAFT & AKS MALZEMELERİ",
     "subcategory": "TEKER BİJONLARI (RÖMORK İÇİN)",
     "code": "7882",
     "brand": "KARDEN",
@@ -1270,7 +1270,7 @@
   },
   {
     "id": "099_459-KARDEN-1600_Fren_Silindiri",
-    "group": "FİLTRE GRUBU",
+    "group": "DEBRİYAJ, FREN & BALATA MALZEMELERİ",
     "subcategory": "FREN HİDROLİK SİSTEMLERİ",
     "code": "099 459",
     "brand": "KARDEN",
@@ -1279,7 +1279,7 @@
   },
   {
     "id": "099_458-KARDEN-1300_Fren_Silindiri",
-    "group": "FİLTRE GRUBU",
+    "group": "DEBRİYAJ, FREN & BALATA MALZEMELERİ",
     "subcategory": "FREN HİDROLİK SİSTEMLERİ",
     "code": "099 458",
     "brand": "KARDEN",
@@ -1288,7 +1288,7 @@
   },
   {
     "id": "6797-KARDEN-Anadol_1300_Fren_Ana_Merkez",
-    "group": "FİLTRE GRUBU",
+    "group": "DEBRİYAJ, FREN & BALATA MALZEMELERİ",
     "subcategory": "FREN HİDROLİK SİSTEMLERİ",
     "code": "6797",
     "brand": "KARDEN",
@@ -1297,7 +1297,7 @@
   },
   {
     "id": "26003019-BOSCH-Bosch_Tofaş_Fren_Ana_Merkez",
-    "group": "FİLTRE GRUBU",
+    "group": "DEBRİYAJ, FREN & BALATA MALZEMELERİ",
     "subcategory": "FREN HİDROLİK SİSTEMLERİ",
     "code": "26003019",
     "brand": "BOSCH",
@@ -1306,7 +1306,7 @@
   },
   {
     "id": "6924-KARDEN-Ana_Merkez_Hidrolik_Deposu__Kapaklı",
-    "group": "FİLTRE GRUBU",
+    "group": "DEBRİYAJ, FREN & BALATA MALZEMELERİ",
     "subcategory": "FREN HİDROLİK SİSTEMLERİ",
     "code": "6924",
     "brand": "KARDEN",
@@ -1315,7 +1315,7 @@
   },
   {
     "id": "60000A-KARDEN-Ön_Fren_Balatası__Tofaş_Bosch",
-    "group": "FİLTRE GRUBU",
+    "group": "DEBRİYAJ, FREN & BALATA MALZEMELERİ",
     "subcategory": "FREN BALATALARI",
     "code": "60000A",
     "brand": "KARDEN",
@@ -1324,7 +1324,7 @@
   },
   {
     "id": "F026004546-BOSCH-Arka_Fren_Balatası__Bosch",
-    "group": "FİLTRE GRUBU",
+    "group": "DEBRİYAJ, FREN & BALATA MALZEMELERİ",
     "subcategory": "FREN BALATALARI",
     "code": "F026004546",
     "brand": "BOSCH",
@@ -1333,7 +1333,7 @@
   },
   {
     "id": "099_361-KARDEN-Fren_Borusu__Uzun_İnce_Diş__Kalın_Diş",
-    "group": "FİLTRE GRUBU",
+    "group": "DEBRİYAJ, FREN & BALATA MALZEMELERİ",
     "subcategory": "FREN BORULARI",
     "code": "099 361",
     "brand": "KARDEN",
@@ -1342,7 +1342,7 @@
   },
   {
     "id": "099_362-KARDEN-Fren_Borusu__Orta_İnce_Diş__Kalın_Diş",
-    "group": "FİLTRE GRUBU",
+    "group": "DEBRİYAJ, FREN & BALATA MALZEMELERİ",
     "subcategory": "FREN BORULARI",
     "code": "099 362",
     "brand": "KARDEN",
@@ -1351,7 +1351,7 @@
   },
   {
     "id": "099_363-KARDEN-Fren_Borusu__Kısa_İnce_Diş__Kalın_Diş",
-    "group": "FİLTRE GRUBU",
+    "group": "DEBRİYAJ, FREN & BALATA MALZEMELERİ",
     "subcategory": "FREN BORULARI",
     "code": "099 363",
     "brand": "KARDEN",
@@ -1360,7 +1360,7 @@
   },
   {
     "id": "099_536-KARDEN-Yağmur_Debriyaj_Seti__Bilyalı_Komple",
-    "group": "FİLTRE GRUBU",
+    "group": "DEBRİYAJ, FREN & BALATA MALZEMELERİ",
     "subcategory": "DEBRİYAJ SETLERİ & KİTLER",
     "code": "099 536",
     "brand": "KARDEN",
@@ -1369,7 +1369,7 @@
   },
   {
     "id": "099_547-KARDEN-Taral_Debriyaj_Seti__Bilyalı_Komple",
-    "group": "FİLTRE GRUBU",
+    "group": "DEBRİYAJ, FREN & BALATA MALZEMELERİ",
     "subcategory": "DEBRİYAJ SETLERİ & KİTLER",
     "code": "099 547",
     "brand": "KARDEN",
@@ -1378,7 +1378,7 @@
   },
   {
     "id": "099_545-KARDEN-YET_300_Kit",
-    "group": "FİLTRE GRUBU",
+    "group": "DEBRİYAJ, FREN & BALATA MALZEMELERİ",
     "subcategory": "DEBRİYAJ SETLERİ & KİTLER",
     "code": "099 545",
     "brand": "KARDEN",
@@ -1387,7 +1387,7 @@
   },
   {
     "id": "099_517-KARDEN-YET_300_Konik_Balata_Kit",
-    "group": "FİLTRE GRUBU",
+    "group": "DEBRİYAJ, FREN & BALATA MALZEMELERİ",
     "subcategory": "DEBRİYAJ SETLERİ & KİTLER",
     "code": "099 517",
     "brand": "KARDEN",
@@ -1396,7 +1396,7 @@
   },
   {
     "id": "099_370-KARDEN-Yağmur_Balata",
-    "group": "FİLTRE GRUBU",
+    "group": "DEBRİYAJ, FREN & BALATA MALZEMELERİ",
     "subcategory": "BALATALAR",
     "code": "099 370",
     "brand": "KARDEN",
@@ -1405,7 +1405,7 @@
   },
   {
     "id": "099_370-1-KARDEN-Taral_Balata",
-    "group": "FİLTRE GRUBU",
+    "group": "DEBRİYAJ, FREN & BALATA MALZEMELERİ",
     "subcategory": "BALATALAR",
     "code": "099 370-1",
     "brand": "KARDEN",
@@ -1414,7 +1414,7 @@
   },
   {
     "id": "099_369-KARDEN-Taral_Yaprak_Balata",
-    "group": "FİLTRE GRUBU",
+    "group": "DEBRİYAJ, FREN & BALATA MALZEMELERİ",
     "subcategory": "BALATALAR",
     "code": "099 369",
     "brand": "KARDEN",
@@ -1423,7 +1423,7 @@
   },
   {
     "id": "099_539-KARDEN-YET_300_Konik_Balata_YM",
-    "group": "FİLTRE GRUBU",
+    "group": "DEBRİYAJ, FREN & BALATA MALZEMELERİ",
     "subcategory": "BALATALAR",
     "code": "099 539",
     "brand": "KARDEN",
@@ -1432,7 +1432,7 @@
   },
   {
     "id": "099_475-KARDEN-Yağmur_Balata_Göbek_Freze",
-    "group": "FİLTRE GRUBU",
+    "group": "DEBRİYAJ, FREN & BALATA MALZEMELERİ",
     "subcategory": "BALATALAR",
     "code": "099 475",
     "brand": "KARDEN",
@@ -1441,7 +1441,7 @@
   },
   {
     "id": "099_378-KARDEN-Taral_Balata_Göbek_Freze",
-    "group": "FİLTRE GRUBU",
+    "group": "DEBRİYAJ, FREN & BALATA MALZEMELERİ",
     "subcategory": "BALATALAR",
     "code": "099 378",
     "brand": "KARDEN",
@@ -1450,7 +1450,7 @@
   },
   {
     "id": "099_368-KARDEN-Yağmur_Bilya_Kapağı",
-    "group": "FİLTRE GRUBU",
+    "group": "DEBRİYAJ, FREN & BALATA MALZEMELERİ",
     "subcategory": "DEBRİYAJ & BALATA AKSAMLARI",
     "code": "099 368",
     "brand": "KARDEN",
@@ -1459,7 +1459,7 @@
   },
   {
     "id": "099_544-KARDEN-Debriyaj_Balata_Yayı",
-    "group": "FİLTRE GRUBU",
+    "group": "DEBRİYAJ, FREN & BALATA MALZEMELERİ",
     "subcategory": "DEBRİYAJ & BALATA AKSAMLARI",
     "code": "099 544",
     "brand": "KARDEN",
@@ -1468,7 +1468,7 @@
   },
   {
     "id": "KARDEN-Yağmur_Debriyaj_Balata_Saplaması",
-    "group": "FİLTRE GRUBU",
+    "group": "DEBRİYAJ, FREN & BALATA MALZEMELERİ",
     "subcategory": "DEBRİYAJ & BALATA AKSAMLARI",
     "code": "",
     "brand": "KARDEN",
@@ -1477,7 +1477,7 @@
   },
   {
     "id": "346-KARDEN-Fren_Konik_Yay__Arka_M131__DKŞ",
-    "group": "FİLTRE GRUBU",
+    "group": "DEBRİYAJ, FREN & BALATA MALZEMELERİ",
     "subcategory": "FREN YAYLARI & KÜÇÜK PARÇALAR",
     "code": "346",
     "brand": "KARDEN",
@@ -1486,7 +1486,7 @@
   },
   {
     "id": "348-KARDEN-Fren_Çapraz_Yayı__Arka_M131__DKŞ",
-    "group": "FİLTRE GRUBU",
+    "group": "DEBRİYAJ, FREN & BALATA MALZEMELERİ",
     "subcategory": "FREN YAYLARI & KÜÇÜK PARÇALAR",
     "code": "348",
     "brand": "KARDEN",
@@ -1495,7 +1495,7 @@
   },
   {
     "id": "350-KARDEN-Fren_Üst_Yayı__Kalın_M131__DKŞ",
-    "group": "FİLTRE GRUBU",
+    "group": "DEBRİYAJ, FREN & BALATA MALZEMELERİ",
     "subcategory": "FREN YAYLARI & KÜÇÜK PARÇALAR",
     "code": "350",
     "brand": "KARDEN",
@@ -1513,7 +1513,7 @@
   },
   {
     "id": "354-KARDEN-Fren_Konik_Yay_Mührü_M131__DKŞ",
-    "group": "FİLTRE GRUBU",
+    "group": "DEBRİYAJ, FREN & BALATA MALZEMELERİ",
     "subcategory": "FREN YAYLARI & KÜÇÜK PARÇALAR",
     "code": "354",
     "brand": "KARDEN",
@@ -1522,7 +1522,7 @@
   },
   {
     "id": "356-KARDEN-Kamalı_Mil_Somunu_M131__DKŞ",
-    "group": "FİLTRE GRUBU",
+    "group": "DEBRİYAJ, FREN & BALATA MALZEMELERİ",
     "subcategory": "FREN YAYLARI & KÜÇÜK PARÇALAR",
     "code": "356",
     "brand": "KARDEN",
@@ -1531,7 +1531,7 @@
   },
   {
     "id": "358-KARDEN-Mahruti_Ayar_Somunu_M131__DKŞ",
-    "group": "FİLTRE GRUBU",
+    "group": "DEBRİYAJ, FREN & BALATA MALZEMELERİ",
     "subcategory": "FREN YAYLARI & KÜÇÜK PARÇALAR",
     "code": "358",
     "brand": "KARDEN",
@@ -1540,7 +1540,7 @@
   },
   {
     "id": "360-KARDEN-Fren_Tahliye_Rekoru__İnce_Diş_Tofaş",
-    "group": "FİLTRE GRUBU",
+    "group": "DEBRİYAJ, FREN & BALATA MALZEMELERİ",
     "subcategory": "FREN YAYLARI & KÜÇÜK PARÇALAR",
     "code": "360",
     "brand": "KARDEN",
@@ -1549,7 +1549,7 @@
   },
   {
     "id": "KARDEN-SEÇKİN_TARIM",
-    "group": "FİLTRE GRUBU",
+    "group": "DEBRİYAJ, FREN & BALATA MALZEMELERİ",
     "subcategory": "FREN YAYLARI & KÜÇÜK PARÇALAR",
     "code": "",
     "brand": "KARDEN",
@@ -1558,7 +1558,7 @@
   },
   {
     "id": "175-KARDEN-Tofaş_El_Fren_Tabancası",
-    "group": "FİLTRE GRUBU",
+    "group": "ELCİK VE MANET AKSAMLARI",
     "subcategory": "EL FRENİ AKSAMI",
     "code": "175",
     "brand": "KARDEN",
@@ -1567,7 +1567,7 @@
   },
   {
     "id": "KARDEN-Gaz_Mandalı__Plastik",
-    "group": "FİLTRE GRUBU",
+    "group": "ELCİK VE MANET AKSAMLARI",
     "subcategory": "GAZ & KUMANDA PARÇALARI",
     "code": "",
     "brand": "KARDEN",
@@ -1576,7 +1576,7 @@
   },
   {
     "id": "101_80273-KARDEN-Yağmur_Manet__Sağ",
-    "group": "FİLTRE GRUBU",
+    "group": "ELCİK VE MANET AKSAMLARI",
     "subcategory": "GAZ & KUMANDA PARÇALARI",
     "code": "101 80273",
     "brand": "KARDEN",
@@ -1585,7 +1585,7 @@
   },
   {
     "id": "102_80273-KARDEN-Yağmur_Manet__Sol",
-    "group": "FİLTRE GRUBU",
+    "group": "ELCİK VE MANET AKSAMLARI",
     "subcategory": "GAZ & KUMANDA PARÇALARI",
     "code": "102 80273",
     "brand": "KARDEN",
@@ -1594,7 +1594,7 @@
   },
   {
     "id": "102_80273-KARDEN-Yağmur_Manet__Komple",
-    "group": "FİLTRE GRUBU",
+    "group": "ELCİK VE MANET AKSAMLARI",
     "subcategory": "GAZ & KUMANDA PARÇALARI",
     "code": "102 80273",
     "brand": "KARDEN",
@@ -1603,7 +1603,7 @@
   },
   {
     "id": "KARDEN-Taral_Manet__Sağ",
-    "group": "FİLTRE GRUBU",
+    "group": "ELCİK VE MANET AKSAMLARI",
     "subcategory": "GAZ & KUMANDA PARÇALARI",
     "code": "",
     "brand": "KARDEN",
@@ -1612,7 +1612,7 @@
   },
   {
     "id": "KARDEN-Taral_Manet__Sol",
-    "group": "FİLTRE GRUBU",
+    "group": "ELCİK VE MANET AKSAMLARI",
     "subcategory": "GAZ & KUMANDA PARÇALARI",
     "code": "",
     "brand": "KARDEN",
@@ -1621,7 +1621,7 @@
   },
   {
     "id": "101_80272-KARDEN-Taral_Manet__Komple",
-    "group": "FİLTRE GRUBU",
+    "group": "ELCİK VE MANET AKSAMLARI",
     "subcategory": "GAZ & KUMANDA PARÇALARI",
     "code": "101 80272",
     "brand": "KARDEN",
@@ -1630,7 +1630,7 @@
   },
   {
     "id": "KARDEN-Manet_Kütük",
-    "group": "FİLTRE GRUBU",
+    "group": "ELCİK VE MANET AKSAMLARI",
     "subcategory": "GAZ & KUMANDA PARÇALARI",
     "code": "",
     "brand": "KARDEN",
@@ -1639,7 +1639,7 @@
   },
   {
     "id": "977-KARDEN-250_Stop_Lambası_-_YM",
-    "group": "FİLTRE GRUBU",
+    "group": "AYDINLATMA ÇEŞİTLERİ",
     "subcategory": "MF SERİSİ STOP LAMBALARI",
     "code": "977",
     "brand": "KARDEN",
@@ -1648,7 +1648,7 @@
   },
   {
     "id": "978-KARDEN-250_Stop_Lamba_Camı_-YM",
-    "group": "FİLTRE GRUBU",
+    "group": "AYDINLATMA ÇEŞİTLERİ",
     "subcategory": "MF SERİSİ STOP LAMBALARI",
     "code": "978",
     "brand": "KARDEN",
@@ -1657,7 +1657,7 @@
   },
   {
     "id": "712224-ÇERAY-275_Stop_Lambası",
-    "group": "FİLTRE GRUBU",
+    "group": "AYDINLATMA ÇEŞİTLERİ",
     "subcategory": "MF SERİSİ STOP LAMBALARI",
     "code": "712224",
     "brand": "ÇERAY",
@@ -1666,7 +1666,7 @@
   },
   {
     "id": "712224-C-ÇERAY-275_Stop_Lamba_Camı",
-    "group": "FİLTRE GRUBU",
+    "group": "AYDINLATMA ÇEŞİTLERİ",
     "subcategory": "MF SERİSİ STOP LAMBALARI",
     "code": "712224-C",
     "brand": "ÇERAY",
@@ -1675,7 +1675,7 @@
   },
   {
     "id": "712211-ÇERAY-MF_240_Stop_Lambası",
-    "group": "FİLTRE GRUBU",
+    "group": "AYDINLATMA ÇEŞİTLERİ",
     "subcategory": "MF SERİSİ STOP LAMBALARI",
     "code": "712211",
     "brand": "ÇERAY",
@@ -1684,7 +1684,7 @@
   },
   {
     "id": "712212-C-ÇERAY-MF_240_Stop_Lamba_Camı",
-    "group": "FİLTRE GRUBU",
+    "group": "AYDINLATMA ÇEŞİTLERİ",
     "subcategory": "MF SERİSİ STOP LAMBALARI",
     "code": "712212-C",
     "brand": "ÇERAY",
@@ -1693,7 +1693,7 @@
   },
   {
     "id": "202-205D-ÇERAY-LEDli_Stop_Lambası",
-    "group": "FİLTRE GRUBU",
+    "group": "AYDINLATMA ÇEŞİTLERİ",
     "subcategory": "LED'Lİ & ÖZEL MODEL STOP LAMBALARI",
     "code": "202-205D",
     "brand": "ÇERAY",
@@ -1702,7 +1702,7 @@
   },
   {
     "id": "201-309GV-ÇERAY-Hamburger_Tip_Stop_Lambası__LEDli_GV",
-    "group": "FİLTRE GRUBU",
+    "group": "AYDINLATMA ÇEŞİTLERİ",
     "subcategory": "LED'Lİ & ÖZEL MODEL STOP LAMBALARI",
     "code": "201-309GV",
     "brand": "ÇERAY",
@@ -1711,7 +1711,7 @@
   },
   {
     "id": "201-309SK-ÇERAY-Hamburger_Tip_Stop_Lambası__LEDli_GV_Sarı-Kırmızı",
-    "group": "FİLTRE GRUBU",
+    "group": "AYDINLATMA ÇEŞİTLERİ",
     "subcategory": "LED'Lİ & ÖZEL MODEL STOP LAMBALARI",
     "code": "201-309SK",
     "brand": "ÇERAY",
@@ -1720,7 +1720,7 @@
   },
   {
     "id": "202-207-ÇERAY-Neon_LEDli_Stop_Lambası__Dinamik_Sinyalli",
-    "group": "FİLTRE GRUBU",
+    "group": "AYDINLATMA ÇEŞİTLERİ",
     "subcategory": "LED'Lİ & ÖZEL MODEL STOP LAMBALARI",
     "code": "202-207",
     "brand": "ÇERAY",
@@ -1729,7 +1729,7 @@
   },
   {
     "id": "ÇERAY-6_Fonksiyonlu_Traktör__Römork_Stop_Lambası_-_LED",
-    "group": "FİLTRE GRUBU",
+    "group": "AYDINLATMA ÇEŞİTLERİ",
     "subcategory": "RÖMORK & TRAKTÖR STOP LAMBALARI",
     "code": "",
     "brand": "ÇERAY",
@@ -1738,7 +1738,7 @@
   },
   {
     "id": "2009-ÇERAY-6_Fonksiyonlu_Traktör__Römork_Stop_Sinyal_Lambası",
-    "group": "FİLTRE GRUBU",
+    "group": "AYDINLATMA ÇEŞİTLERİ",
     "subcategory": "RÖMORK & TRAKTÖR STOP LAMBALARI",
     "code": "2009",
     "brand": "ÇERAY",
@@ -1747,7 +1747,7 @@
   },
   {
     "id": "2009-C-ÇERAY-6_Fonksiyonlu_Traktör__Römork_Stop_Sinyal_Camı",
-    "group": "FİLTRE GRUBU",
+    "group": "AYDINLATMA ÇEŞİTLERİ",
     "subcategory": "RÖMORK & TRAKTÖR STOP LAMBALARI",
     "code": "2009-C",
     "brand": "ÇERAY",
@@ -1756,7 +1756,7 @@
   },
   {
     "id": "YT1-ÇERAY-Ön_Far_Reflektörü__Yağmur_EM",
-    "group": "FİLTRE GRUBU",
+    "group": "AYDINLATMA ÇEŞİTLERİ",
     "subcategory": "ÖN FAR & SİS LAMBALARI",
     "code": "YT1",
     "brand": "ÇERAY",
@@ -1765,7 +1765,7 @@
   },
   {
     "id": "099_330_-331-KARDEN-Yağmur_YM_Kedi_Gözü_Far__Takım_RL",
-    "group": "FİLTRE GRUBU",
+    "group": "AYDINLATMA ÇEŞİTLERİ",
     "subcategory": "ÖN FAR & SİS LAMBALARI",
     "code": "099 330 -331",
     "brand": "KARDEN",
@@ -1774,7 +1774,7 @@
   },
   {
     "id": "HY85X-KARDEN-Universal_Yuvarlak_Sis_Farı__Büyük_85_mm",
-    "group": "FİLTRE GRUBU",
+    "group": "AYDINLATMA ÇEŞİTLERİ",
     "subcategory": "ÖN FAR & SİS LAMBALARI",
     "code": "HY85X",
     "brand": "KARDEN",
@@ -1783,7 +1783,7 @@
   },
   {
     "id": "HY85-KARDEN-Universal_Yuvarlak_Sis_Farı__Küçük_65_mm",
-    "group": "FİLTRE GRUBU",
+    "group": "AYDINLATMA ÇEŞİTLERİ",
     "subcategory": "ÖN FAR & SİS LAMBALARI",
     "code": "HY85",
     "brand": "KARDEN",
@@ -1792,7 +1792,7 @@
   },
   {
     "id": "EMR_01-EMİRAS-12V_Galaksi_Döner_Lamba",
-    "group": "FİLTRE GRUBU",
+    "group": "AYDINLATMA ÇEŞİTLERİ",
     "subcategory": "DÖNER & İKAZ LAMBALARI",
     "code": "EMR 01",
     "brand": "EMİRAS",
@@ -1801,7 +1801,7 @@
   },
   {
     "id": "EMR_03-EMİRAS-12V_Döner_Lamba__Mıknatıslı",
-    "group": "FİLTRE GRUBU",
+    "group": "AYDINLATMA ÇEŞİTLERİ",
     "subcategory": "DÖNER & İKAZ LAMBALARI",
     "code": "EMR 03",
     "brand": "EMİRAS",
@@ -1810,7 +1810,7 @@
   },
   {
     "id": "KRD_11-KARDEN-12V_Döner_Lamba__LEDli_Çakarlı",
-    "group": "FİLTRE GRUBU",
+    "group": "AYDINLATMA ÇEŞİTLERİ",
     "subcategory": "DÖNER & İKAZ LAMBALARI",
     "code": "KRD 11",
     "brand": "KARDEN",
@@ -1819,7 +1819,7 @@
   },
   {
     "id": "KRD_41-KARDEN-1224V_3_Fonksiyonlu_LEDli_LambaÇakmak_FişliMık",
-    "group": "FİLTRE GRUBU",
+    "group": "AYDINLATMA ÇEŞİTLERİ",
     "subcategory": "DÖNER & İKAZ LAMBALARI",
     "code": "KRD 41",
     "brand": "KARDEN",
@@ -1828,7 +1828,7 @@
   },
   {
     "id": "058_-_013-KARDEN-9_LEDli_Kare_Çalışma_Lambası",
-    "group": "FİLTRE GRUBU",
+    "group": "AYDINLATMA ÇEŞİTLERİ",
     "subcategory": "ÇALIŞMA LAMBALARI",
     "code": "058 - 013",
     "brand": "KARDEN",
@@ -1837,7 +1837,7 @@
   },
   {
     "id": "EMR91-EMİRAS-9_LEDli_Yuvarlak_Çalışma_Lambası",
-    "group": "FİLTRE GRUBU",
+    "group": "AYDINLATMA ÇEŞİTLERİ",
     "subcategory": "ÇALIŞMA LAMBALARI",
     "code": "EMR91",
     "brand": "EMİRAS",
@@ -1846,7 +1846,7 @@
   },
   {
     "id": "058_-_015-KARDEN-16_LEDli_Kare_Çalışma_Lambası",
-    "group": "FİLTRE GRUBU",
+    "group": "AYDINLATMA ÇEŞİTLERİ",
     "subcategory": "ÇALIŞMA LAMBALARI",
     "code": "058 - 015",
     "brand": "KARDEN",
@@ -1855,7 +1855,7 @@
   },
   {
     "id": "201203-K-ÇERAY-Üçgen_Reflektör",
-    "group": "FİLTRE GRUBU",
+    "group": "AYDINLATMA ÇEŞİTLERİ",
     "subcategory": "REFLEKTÖR &MARKER LAMBALAR",
     "code": "201203-K",
     "brand": "ÇERAY",
@@ -1864,7 +1864,7 @@
   },
   {
     "id": "024-073-KARDEN-Side_Marker_LEDli_Lamba",
-    "group": "FİLTRE GRUBU",
+    "group": "AYDINLATMA ÇEŞİTLERİU",
     "subcategory": "REFLEKTÖR &MARKER LAMBALAR",
     "code": "024-073",
     "brand": "KARDEN",
@@ -1873,7 +1873,7 @@
   },
   {
     "id": "1292-KARDEN-Takoz_Lamba",
-    "group": "FİLTRE GRUBU",
+    "group": "AYDINLATMA ÇEŞİTLERİ",
     "subcategory": "TAKOZ & MİNİ LAMBALAR",
     "code": "1292",
     "brand": "KARDEN",
@@ -1882,7 +1882,7 @@
   },
   {
     "id": "1371-KARDEN-Mini_Takoz_Lambası",
-    "group": "FİLTRE GRUBU",
+    "group": "AYDINLATMA ÇEŞİTLERİ",
     "subcategory": "TAKOZ & MİNİ LAMBALAR",
     "code": "1371",
     "brand": "KARDEN",
@@ -1891,7 +1891,7 @@
   },
   {
     "id": "1361-KARDEN-6_LEDli_Parmak_Lamba_Sarı__Kırmızı__Mavi__Beyaz",
-    "group": "FİLTRE GRUBU",
+    "group": "AYDINLATMA ÇEŞİTLERİ",
     "subcategory": "TAKOZ & MİNİ LAMBALAR",
     "code": "1361",
     "brand": "KARDEN",
@@ -1900,7 +1900,7 @@
   },
   {
     "id": "EMR_20-EMİRAS-Döner_Lamba_Bağlantı_Ayağı__Ayarlı",
-    "group": "FİLTRE GRUBU",
+    "group": "AYDINLATMA ÇEŞİTLERİ",
     "subcategory": "DÖNER LAMBA BAĞLANTI AYAKLARI",
     "code": "EMR 20",
     "brand": "EMİRAS",
@@ -1909,7 +1909,7 @@
   },
   {
     "id": "EMR_21-EMİRAS-Döner_Lamba_Bağlantı_Ayağı__Kabin_Sabit",
-    "group": "FİLTRE GRUBU",
+    "group": "AYDINLATMA ÇEŞİTLERİ",
     "subcategory": "DÖNER LAMBA BAĞLANTI AYAKLARI",
     "code": "EMR 21",
     "brand": "EMİRAS",
@@ -1918,7 +1918,7 @@
   },
   {
     "id": "EMR_22-EMİRAS-Döner_Lamba_Bağlantı_Ayağı__Mafsallı",
-    "group": "FİLTRE GRUBU",
+    "group": "AYDINLATMA ÇEŞİTLERİ",
     "subcategory": "DÖNER LAMBA BAĞLANTI AYAKLARI",
     "code": "EMR 22",
     "brand": "EMİRAS",
