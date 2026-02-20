@@ -6,7 +6,7 @@
     "code": "099 275 - 10BO",
     "brand": "KARDEN",
     "name": "Marş Motoru Komple Bosch Tipi, CCW",
-    "image": ""
+    "image": "099_275_BO.jpg"
   },
   {
     "id": "099_275_-_0143-KARDEN-Marş_Motoru_Graves_Tipi_8_Diş_CCW",
@@ -15,7 +15,7 @@
     "code": "099 275 - 0143",
     "brand": "KARDEN",
     "name": "Marş Motoru Graves Tipi, 8 Diş, CCW",
-    "image": ""
+    "image": "099_275_0143.png"
   },
   {
     "id": "STR_3484-KARDEN-Marş_Motoru_Valeo_Tipi_Antor_22lik_8_Diş_CCW",
@@ -24,7 +24,7 @@
     "code": "STR 3484",
     "brand": "KARDEN",
     "name": "Marş Motoru Valeo Tipi Antor, 22’lik, 8 Diş, CCW",
-    "image": ""
+    "image": "placeholder.PNG"
   },
   {
     "id": "099_275_-_0142-KARDEN-Jeneratör_Marş_Motoru_8_Diş_CCW",
@@ -33,7 +33,7 @@
     "code": "099 275 - 0142",
     "brand": "KARDEN",
     "name": "Jeneratör Marş Motoru, 8 Diş, CCW",
-    "image": ""
+    "image": "099_275_0142.png"
   },
   {
     "id": "099_334-KARDEN-Marş_Pinyon_Kapağı__Bosch_Tipi",
@@ -42,7 +42,7 @@
     "code": "099 334",
     "brand": "KARDEN",
     "name": "Marş Pinyon Kapağı – Bosch Tipi",
-    "image": ""
+    "image": "099_334.png"
   },
   {
     "id": "099_277_-_2007-KARDEN-Marş_Dişlisi__Bosch_Tipi_9_Diş",
@@ -51,7 +51,7 @@
     "code": "099 277 - 2007",
     "brand": "KARDEN",
     "name": "Marş Dişlisi – Bosch Tipi, 9 Diş",
-    "image": ""
+    "image": "099_277_2007.png"
   },
   {
     "id": "123_100-KARDEN-Marş_Kollektörü__Uzun_Bosch_Tipi",
@@ -60,7 +60,7 @@
     "code": "123 100",
     "brand": "KARDEN",
     "name": "Marş Kollektörü – Uzun (Bosch Tipi)",
-    "image": ""
+    "image": "123_100.png"
   },
   {
     "id": "123_100-1-KARDEN-Marş_Kollektörü__Kısa_Bosch_Tipi",
@@ -69,7 +69,7 @@
     "code": "123 100-1",
     "brand": "KARDEN",
     "name": "Marş Kollektörü – Kısa (Bosch Tipi)",
-    "image": ""
+    "image": "123_100_1.png"
   },
   {
     "id": "099_278_-_2208-KARDEN-Marş_Otomatiği__Bosch_Tipi",
@@ -2139,7 +2139,7 @@
     "code": "001 011",
     "brand": "INWELLS",
     "name": "67 10W Park Ampulü – Hella Tipi",
-    "image": "001_011.jpeg"
+    "image": "001_011.png"
   },
   {
     "id": "001_020-INWELLS-93_21W_Sinyal_Ampulü",
@@ -2148,7 +2148,7 @@
     "code": "001 020",
     "brand": "INWELLS",
     "name": "93 21W Sinyal Ampulü",
-    "image": "001_020.jpeg"
+    "image": "001_020.png"
   },
   {
     "id": "001_021-INWELLS-93_21W_Sinyal_Ampulü__Turuncu",
@@ -2157,7 +2157,7 @@
     "code": "001 021",
     "brand": "INWELLS",
     "name": "93 21W Sinyal Ampulü – Turuncu",
-    "image": "001_021.jpeg"
+    "image": "001_021.png"
   },
   {
     "id": "001_022-INWELLS-93_21W_Yakın_Tırnak_Sinyal_Ampulü",
@@ -2202,7 +2202,7 @@
     "code": "001 035",
     "brand": "INWELLS",
     "name": "1176 21/5W Stop-Sinyal Ampulü",
-    "image": "001_035.jpeg"
+    "image": "001_035.png"
   },
   {
     "id": "001_040-INWELLS-P45T_4540W_Üç_Fişli_Far_Ampulü",
@@ -2247,7 +2247,7 @@
     "code": "006 001",
     "brand": "INWELLS",
     "name": "H1 100W Far İçi & Sis Ampulü",
-    "image": "006_001.jpeg"
+    "image": "006_001.png"
   },
   {
     "id": "EMİRSAN-Far_Ampulü__Cıvalı_Tip",
