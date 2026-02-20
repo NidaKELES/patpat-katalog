@@ -2130,7 +2130,7 @@
     "code": "001 010",
     "brand": "INWELLS",
     "name": "67 5W Park Ampulü – Hella Tipi",
-    "image": ""
+    "image": "001_010.jpeg"
   },
   {
     "id": "001_011-INWELLS-67_10W_Park_Ampulü__Hella_Tipi",
@@ -2139,7 +2139,7 @@
     "code": "001 011",
     "brand": "INWELLS",
     "name": "67 10W Park Ampulü – Hella Tipi",
-    "image": ""
+    "image": "001_011.jpeg"
   },
   {
     "id": "001_020-INWELLS-93_21W_Sinyal_Ampulü",
@@ -2148,7 +2148,7 @@
     "code": "001 020",
     "brand": "INWELLS",
     "name": "93 21W Sinyal Ampulü",
-    "image": ""
+    "image": "001_020.jpeg"
   },
   {
     "id": "001_021-INWELLS-93_21W_Sinyal_Ampulü__Turuncu",
@@ -2157,7 +2157,7 @@
     "code": "001 021",
     "brand": "INWELLS",
     "name": "93 21W Sinyal Ampulü – Turuncu",
-    "image": ""
+    "image": "001_021.jpeg"
   },
   {
     "id": "001_022-INWELLS-93_21W_Yakın_Tırnak_Sinyal_Ampulü",
@@ -2166,7 +2166,7 @@
     "code": "001 022",
     "brand": "INWELLS",
     "name": "93 21W Yakın Tırnak Sinyal Ampulü",
-    "image": ""
+    "image": "001_022.jpeg"
   },
   {
     "id": "001_023-INWELLS-93_21W_Yakın_Tırnak_Sinyal_Ampulü__Turuncu",
@@ -2175,7 +2175,7 @@
     "code": "001 023",
     "brand": "INWELLS",
     "name": "93 21W Yakın Tırnak Sinyal Ampulü – Turuncu",
-    "image": ""
+    "image": "001_023.jpeg"
   },
   {
     "id": "001_030-INWELLS-1016_215W_Stop-Sinyal_Ampulü",
@@ -2184,7 +2184,7 @@
     "code": "001 030",
     "brand": "INWELLS",
     "name": "1016 21/5W Stop-Sinyal Ampulü",
-    "image": ""
+    "image": "001_030.jpeg"
   },
   {
     "id": "001_031-INWELLS-1016_215W_Stop-Sinyal_Yakın_Tırnak_Ampulü",
@@ -2193,7 +2193,7 @@
     "code": "001 031",
     "brand": "INWELLS",
     "name": "1016 21/5W Stop-Sinyal Yakın Tırnak Ampulü",
-    "image": ""
+    "image": "001_031.jpeg"
   },
   {
     "id": "001_035-INWELLS-1176_215W_Stop-Sinyal_Ampulü",
@@ -2202,7 +2202,7 @@
     "code": "001 035",
     "brand": "INWELLS",
     "name": "1176 21/5W Stop-Sinyal Ampulü",
-    "image": ""
+    "image": "001_035.jpeg"
   },
   {
     "id": "001_040-INWELLS-P45T_4540W_Üç_Fişli_Far_Ampulü",
@@ -2211,7 +2211,7 @@
     "code": "001 040",
     "brand": "INWELLS",
     "name": "P45T 45/40W Üç Fişli Far Ampulü",
-    "image": ""
+    "image": "001_040.jpeg"
   },
   {
     "id": "004_001-INWELLS-H4_6055W_P43T_Tırnaklı_Far_Ampulü",
@@ -2220,7 +2220,7 @@
     "code": "004 001",
     "brand": "INWELLS",
     "name": "H4 60/55W P43T Tırnaklı Far Ampulü",
-    "image": ""
+    "image": "004_001.jpeg"
   },
   {
     "id": "003_002-INWELLS-H4_3535W_P43T_Tırnaklı_Far_Ampulü",
@@ -2229,7 +2229,7 @@
     "code": "003 002",
     "brand": "INWELLS",
     "name": "H4 35/35W P43T Tırnaklı Far Ampulü",
-    "image": ""
+    "image": "003_002.jpeg"
   },
   {
     "id": "004_025-INWELLS-H1_55W_Far_İçi__Sis_Ampulü",
@@ -2238,7 +2238,7 @@
     "code": "004 025",
     "brand": "INWELLS",
     "name": "H1 55W Far İçi & Sis Ampulü",
-    "image": ""
+    "image": "004_025.jpeg"
   },
   {
     "id": "006_001-INWELLS-H1_100W_Far_İçi__Sis_Ampulü",
@@ -2247,7 +2247,7 @@
     "code": "006 001",
     "brand": "INWELLS",
     "name": "H1 100W Far İçi & Sis Ampulü",
-    "image": ""
+    "image": "006_001.jpeg"
   },
   {
     "id": "EMİRSAN-Far_Ampulü__Cıvalı_Tip",
@@ -2256,7 +2256,7 @@
     "code": "",
     "brand": "EMİRSAN",
     "name": "Far Ampulü – Cıvalı Tip",
-    "image": ""
+    "image": "placeholder.PNG"
   },
   {
     "id": "EMİRSAN-Far_Ampulü__Düz_Tip",
@@ -2265,7 +2265,7 @@
     "code": "",
     "brand": "EMİRSAN",
     "name": "Far Ampulü – Düz Tip",
-    "image": ""
+    "image": "placeholder.PNG"
   },
   {
     "id": "004_030-INWELLS-H3_55W_Sis_Ampulü__Kablolu",
@@ -2274,7 +2274,7 @@
     "code": "004 030",
     "brand": "INWELLS",
     "name": "H3 55W Sis Ampulü – Kablolu",
-    "image": ""
+    "image": "004_030.jpeg"
   },
   {
     "id": "006_005-INWELLS-H3_100W_Sis_Ampulü__Kablolu",
@@ -2283,7 +2283,7 @@
     "code": "006 005",
     "brand": "INWELLS",
     "name": "H3 100W Sis Ampulü – Kablolu",
-    "image": ""
+    "image": "006_005.jpeg"
   },
   {
     "id": "11-001-AKSA-SağSol_Sinyal_Anahtarı",
