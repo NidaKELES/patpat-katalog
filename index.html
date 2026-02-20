@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ürün Kataloğu</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<header class="top-bar">
+  <div class="header-row">
+
+    <div class="logo left">
+      <img src="images/karadeniz.jpeg" alt="Karadeniz">
+    </div>
+
+    <h1>Ürün Kataloğu</h1>
+
+    <div class="right-area">
+      <img src="images/karden.PNG" class="logo-right" alt="Karden">
+
+      <input 
+        type="text"
+        id="searchInput"
+        placeholder="Ürün adı, kod, marka ile ara..."
+      />
+    </div>
+
+  </div>
+
+  <div id="filters" class="filter-bar"></div>
+</header>
+
+<main>
+  <div id="productGrid" class="grid"></div>
+</main>
+
+<script src="app.js"></script>
+</body>
+</html>
