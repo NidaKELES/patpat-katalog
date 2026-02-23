@@ -2292,7 +2292,7 @@
     "code": "11-001",
     "brand": "AKSA",
     "name": "Sağ–Sol Sinyal Anahtarı",
-    "image": ""
+    "image": "11-001.jpeg"
   },
   {
     "id": "ÇA-1K-EMAS-Tekli_Çekme_Lamba_Anahtarı__Kısa_Paso",
@@ -2301,7 +2301,7 @@
     "code": "ÇA-1K",
     "brand": "EMAS",
     "name": "Tekli Çekme Lamba Anahtarı – Kısa Paso",
-    "image": ""
+    "image": "ça1k.jpeg"
   },
   {
     "id": "11-004-AKSA-Tekli_Çekme_Lamba_Anahtarı__Uzun_Paso",
@@ -2310,7 +2310,7 @@
     "code": "11-004",
     "brand": "AKSA",
     "name": "Tekli Çekme Lamba Anahtarı – Uzun Paso",
-    "image": ""
+    "image": "11-004.jpeg"
   },
   {
     "id": "13074-KARDEN-Metal_Buton",
@@ -2319,7 +2319,7 @@
     "code": "13074",
     "brand": "KARDEN",
     "name": "Metal Buton",
-    "image": ""
+    "image": "13074.jpeg"
   },
   {
     "id": "13077-KARDEN-Metal_Buton__Mini",
@@ -2328,7 +2328,7 @@
     "code": "13077",
     "brand": "KARDEN",
     "name": "Metal Buton – Mini",
-    "image": ""
+    "image": "13077.jpeg"
   },
   {
     "id": "099_0020-KARDEN-Universal_Damper_Kaldırma__Cam_Açma_Anahtarı",
@@ -2346,7 +2346,7 @@
     "code": "AF134D",
     "brand": "AFEM",
     "name": "Mini LED’li Yuvarlak Anahtar",
-    "image": ""
+    "image": "AF134D.jpg"
   },
   {
     "id": "AF134B-AFEM-Işıklı_Oval_LEDli_Anahtar",
@@ -2355,7 +2355,7 @@
     "code": "AF134B",
     "brand": "AFEM",
     "name": "Işıklı Oval LED’li Anahtar",
-    "image": ""
+    "image": "AF134B.jpg"
   },
   {
     "id": "D22TS_-_A-EMAS-Göz_Lambası__Akü_Şarj_İşaretli",
@@ -2364,7 +2364,7 @@
     "code": "D22TS - A",
     "brand": "EMAS",
     "name": "Göz Lambası – Akü Şarj İşaretli",
-    "image": ""
+    "image": "dd22ts-a.png"
   },
   {
     "id": "D22TS_-_H-EMAS-Göz_Lambası__Hararet_Gösterge_İşaretli",
@@ -2373,7 +2373,7 @@
     "code": "D22TS - H",
     "brand": "EMAS",
     "name": "Göz Lambası – Hararet Gösterge İşaretli",
-    "image": ""
+    "image": "d22ts-h.png"
   },
   {
     "id": "D22TS_-_Y-EMAS-Göz_Lambası__Yağ_Gösterge_İşaretli",
@@ -2382,7 +2382,7 @@
     "code": "D22TS - Y",
     "brand": "EMAS",
     "name": "Göz Lambası – Yağ Gösterge İşaretli",
-    "image": ""
+    "image": "d22ts-y.png"
   },
   {
     "id": "13-001SKY-AKSA-Göz_Lambası__Sarı__Kırmızı__Yeşil",
@@ -2391,7 +2391,7 @@
     "code": "13-001/S/K/Y",
     "brand": "AKSA",
     "name": "Göz Lambası – Sarı / Kırmızı / Yeşil",
-    "image": ""
+    "image": "13 001.jpeg"
   },
   {
     "id": "13062-AKSA-Renault_12_Fren_Müşürü__İnce_Diş",
