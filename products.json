@@ -2364,7 +2364,7 @@
     "code": "D22TS - A",
     "brand": "EMAS",
     "name": "Göz Lambası – Akü Şarj İşaretli",
-    "image": "dd22ts-a.png"
+    "image": "d22ts-a.png"
   },
   {
     "id": "D22TS_-_H-EMAS-Göz_Lambası__Hararet_Gösterge_İşaretli",
@@ -2400,7 +2400,7 @@
     "code": "13062",
     "brand": "AKSA",
     "name": "Renault 12 Fren Müşürü – İnce Diş",
-    "image": ""
+    "image": "13062.png"
   },
   {
     "id": "08-006-AKSA-131_Fren_Müşürü__Metal",
@@ -2409,7 +2409,7 @@
     "code": "08-006",
     "brand": "AKSA",
     "name": "131 Fren Müşürü – Metal",
-    "image": ""
+    "image": "08-006.jpeg"
   },
   {
     "id": "08-007-AKSA-131_Fren_Müşürü__Plastik",
@@ -2418,7 +2418,7 @@
     "code": "08-007",
     "brand": "AKSA",
     "name": "131 Fren Müşürü – Plastik",
-    "image": ""
+    "image": "08-007.jpeg"
   },
   {
     "id": "08-003-AKSA-5000_Ford_Fren_Müşürü__Metal",
@@ -2427,7 +2427,7 @@
     "code": "08-003",
     "brand": "AKSA",
     "name": "5000 Ford Fren Müşürü – Metal",
-    "image": ""
+    "image": "08-003.jpeg"
   },
   {
     "id": "099_358-KARDEN-Karden_Yağ_Müşürü",
@@ -2436,7 +2436,7 @@
     "code": "099 358",
     "brand": "KARDEN",
     "name": "Karden Yağ Müşürü",
-    "image": ""
+    "image": "099 358.png"
   },
   {
     "id": "KARDENKLF-22lik_Yağ_Müşürü",
@@ -2445,7 +2445,7 @@
     "code": "",
     "brand": "KARDEN/KLF",
     "name": "22’lik Yağ Müşürü",
-    "image": ""
+    "image": "22 yağ.jpeg"
   },
   {
     "id": "16082-KARDEN-M131_Hararet_Müşürü",
@@ -2463,7 +2463,7 @@
     "code": "F17013VT",
     "brand": "TDS",
     "name": "Fan Müşürü Yazlık/Kışlık",
-    "image": ""
+    "image": "f17013vt.jpeg"
   },
   {
     "id": "09-003-AKSA-M131_1300_Geri_Vites_Müşürü",
@@ -2472,7 +2472,7 @@
     "code": "09-003",
     "brand": "AKSA",
     "name": "M131 1300 Geri Vites Müşürü",
-    "image": ""
+    "image": "09-003.jpeg"
   },
   {
     "id": "09-002-AKSA-M131_1600_Geri_Vites_Müşürü",
@@ -2481,7 +2481,7 @@
     "code": "09-002",
     "brand": "AKSA",
     "name": "M131 1600 Geri Vites Müşürü",
-    "image": ""
+    "image": "09-002.jpeg"
   },
   {
     "id": "KARDEN-Kontak_Anahtarı__Komple",
