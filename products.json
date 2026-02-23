@@ -3579,7 +3579,7 @@
     "code": "1110",
     "brand": "KARDEN",
     "name": "25 Amper Bıçak Sigorta",
-    "image": "25A.jpg"
+    "image": "25A.png"
   },
   {
     "id": "1110-KARDEN-30_Amper_Bıçak_Sigorta",
@@ -3898,7 +3898,7 @@
   },
   {
     "id": "018_005-INWELLS-450_mm_Universal_Muz_Tip_Silecek_Süpürgesi",
-    "group": "KSİLECEK SÜPÜRGE VE KOL ÇEŞİTLERİ",
+    "group": "SİLECEK SÜPÜRGE VE KOL ÇEŞİTLERİ",
     "subcategory": "SİLECEK SÜPÜRGELERİ – MUZ (TELSİZ)",
     "code": "018 005",
     "brand": "INWELLS",
