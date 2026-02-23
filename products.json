@@ -816,7 +816,7 @@
     "code": "099 354",
     "brand": "KARDEN",
     "name": "Kaput Takozu Üst – Yağmur E.M",
-    "image": ""
+    "image": "üsttakoz.jpeg"
   },
   {
     "id": "099_350-KARDEN-Kaput_Takozu_Üst__Yağmur_YM",
@@ -825,7 +825,7 @@
     "code": "099 350",
     "brand": "KARDEN",
     "name": "Kaput Takozu Üst – Yağmur Y.M",
-    "image": ""
+    "image": "placeholder.png"
   },
   {
     "id": "099_351-KARDEN-Kaput_Takozu_Üst__Yağmur_YM_Dış",
@@ -834,7 +834,7 @@
     "code": "099 351",
     "brand": "KARDEN",
     "name": "Kaput Takozu Üst – Yağmur Y.M Dış",
-    "image": ""
+    "image": "dıştakozym.jpeg"
   },
   {
     "id": "099_353-KARDEN-Kaput_Takozu_Alt_Yağmur_YM_Dış",
@@ -861,7 +861,7 @@
     "code": "099 355",
     "brand": "KARDEN",
     "name": "Kaput Yan Bağlantı Takozu",
-    "image": ""
+    "image": "yanbağtakoz.jpeg"
   },
   {
     "id": "099_357-KARDEN-Kaput_Kule_Titreşim_Takozu",
@@ -870,7 +870,7 @@
     "code": "099 357",
     "brand": "KARDEN",
     "name": "Kaput Kule Titreşim Takozu",
-    "image": ""
+    "image": "titreşimtakozu.jpeg"
   },
   {
     "id": "099_403-KARDEN-Şaft_Altı_Köşe_Takoz",
@@ -879,7 +879,7 @@
     "code": "099 403",
     "brand": "KARDEN",
     "name": "Şaft Altı Köşe Takoz",
-    "image": ""
+    "image": "altıköşeşaft.JPG"
   },
   {
     "id": "099_501-KARDEN-Makas_Burcu",
@@ -888,7 +888,7 @@
     "code": "099 501",
     "brand": "KARDEN",
     "name": "Makas Burcu",
-    "image": ""
+    "image": "makasburcu.jpeg"
   },
   {
     "id": "099_356-KARDEN-Makas_Yük_TakozuTek_Tarafı_Civatalı_5535_Römork",
@@ -897,7 +897,7 @@
     "code": "099 356",
     "brand": "KARDEN",
     "name": "Makas Yük Takozu–Tek Tarafı Civatalı 55×35 (Römork)",
-    "image": ""
+    "image": "yüktakozu.jpeg"
   },
   {
     "id": "099_404-KARDEN-Makas_Yük_Takozu__Taral_2_Tarafı_Civatalı",
@@ -906,7 +906,7 @@
     "code": "099 404",
     "brand": "KARDEN",
     "name": "Makas Yük Takozu – Taral, 2 Tarafı Civatalı",
-    "image": ""
+    "image": "makasyük2.JPG"
   },
   {
     "id": "780-KARDEN-Makas_Bağlantı_Aparatı_Römork_İçin",
@@ -942,7 +942,7 @@
     "code": "099 322",
     "brand": "KARDEN",
     "name": "Eksoz Takozu – Somunlu",
-    "image": ""
+    "image": "eksoztakozu.JPG"
   },
   {
     "id": "766-KARDEN-Akü_Sehpa_Takozu",
@@ -960,7 +960,7 @@
     "code": "099 800",
     "brand": "KARDEN",
     "name": "Akü Ayırıcı Jak 25/35",
-    "image": ""
+    "image": "JAK25.jpeg"
   },
   {
     "id": "099_801-KARDEN-Akü_Ayırıcı_Jak_3550",
@@ -969,7 +969,7 @@
     "code": "099 801",
     "brand": "KARDEN",
     "name": "Akü Ayırıcı Jak 35/50",
-    "image": ""
+    "image": "JAK35.jpeg"
   },
   {
     "id": "099_373-KARDEN-Vites_Körüğü",
@@ -996,7 +996,7 @@
     "code": "4215",
     "brand": "KARDEN",
     "name": "Yağ Geri Dönüş Tahliye Hortumu",
-    "image": ""
+    "image": "yağgeridönüş.png"
   },
   {
     "id": "099_360-KARDEN-Geri_Dönüş_Flanşlı_Hortum",
@@ -1023,7 +1023,7 @@
     "code": "099 500",
     "brand": "KARDEN",
     "name": "Depo Kapağı",
-    "image": ""
+    "image": "depokapağı.jpeg"
   },
   {
     "id": "099_550-KARDEN-Yağ_Kapağı",
@@ -1032,7 +1032,7 @@
     "code": "099 550",
     "brand": "KARDEN",
     "name": "Yağ Kapağı",
-    "image": ""
+    "image": "yağkapağı.JPG"
   },
   {
     "id": "099_367_-_1-KARDEN-Çalıştırma_İpi__Komple",
@@ -1041,7 +1041,7 @@
     "code": "099 367 - 1",
     "brand": "KARDEN",
     "name": "Çalıştırma İpi – Komple",
-    "image": ""
+    "image": "çalıştırmaipi.JPG"
   },
   {
     "id": "099_367_-_2-KARDEN-Çalıştırma_İpi",
@@ -1068,7 +1068,7 @@
     "code": "099 390 - 1",
     "brand": "KARDEN",
     "name": "Direksiyon Simidi",
-    "image": ""
+    "image": "DİREKSİYON.png"
   },
   {
     "id": "099_390-KARDEN-Direksiyon_Simidi__Göbekli",
@@ -1077,7 +1077,7 @@
     "code": "099 390",
     "brand": "KARDEN",
     "name": "Direksiyon Simidi – Göbekli",
-    "image": ""
+    "image": "direksiyongöbekli.png"
   },
   {
     "id": "099_1125-KARDEN-Kaput_Teli",
@@ -1104,7 +1104,7 @@
     "code": "099 349",
     "brand": "KARDEN",
     "name": "Eksoz",
-    "image": ""
+    "image": "eksoz.jpeg"
   },
   {
     "id": "099_456-KARDEN-Yağmur_Traktör_Şaftı",
