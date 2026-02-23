@@ -2287,7 +2287,7 @@
   },
   {
     "id": "11-001-AKSA-SağSol_Sinyal_Anahtarı",
-    "group": "AMPUL GRUBU",
+    "group": "ANAHTAR & GÖSTERGE LAMBALARI",
     "subcategory": "SİNYAL & ÇEKME ANAHTARI",
     "code": "11-001",
     "brand": "AKSA",
@@ -2296,7 +2296,7 @@
   },
   {
     "id": "ÇA-1K-EMAS-Tekli_Çekme_Lamba_Anahtarı__Kısa_Paso",
-    "group": "AMPUL GRUBU",
+    "group": "ANAHTAR & GÖSTERGE LAMBALARI",
     "subcategory": "SİNYAL & ÇEKME ANAHTARI",
     "code": "ÇA-1K",
     "brand": "EMAS",
@@ -2305,7 +2305,7 @@
   },
   {
     "id": "11-004-AKSA-Tekli_Çekme_Lamba_Anahtarı__Uzun_Paso",
-    "group": "AMPUL GRUBU",
+    "group": "ANAHTAR & GÖSTERGE LAMBALARI",
     "subcategory": "SİNYAL & ÇEKME ANAHTARI",
     "code": "11-004",
     "brand": "AKSA",
@@ -2314,7 +2314,7 @@
   },
   {
     "id": "13074-KARDEN-Metal_Buton",
-    "group": "AMPUL GRUBU",
+    "group": "ANAHTAR & GÖSTERGE LAMBALARI",
     "subcategory": "BUTONLAR",
     "code": "13074",
     "brand": "KARDEN",
@@ -2323,7 +2323,7 @@
   },
   {
     "id": "13077-KARDEN-Metal_Buton__Mini",
-    "group": "AMPUL GRUBU",
+    "group": "ANAHTAR & GÖSTERGE LAMBALARI",
     "subcategory": "BUTONLAR",
     "code": "13077",
     "brand": "KARDEN",
@@ -2332,7 +2332,7 @@
   },
   {
     "id": "099_0020-KARDEN-Universal_Damper_Kaldırma__Cam_Açma_Anahtarı",
-    "group": "AMPUL GRUBU",
+    "group": "ANAHTAR & GÖSTERGE LAMBALARI",
     "subcategory": "UNİVERSAL & LED'Lİ ANAHTARLAR",
     "code": "099 0020",
     "brand": "KARDEN",
@@ -2341,7 +2341,7 @@
   },
   {
     "id": "AF134D-AFEM-Mini_LEDli_Yuvarlak_Anahtar",
-    "group": "AMPUL GRUBU",
+    "group": "ANAHTAR & GÖSTERGE LAMBALARI",
     "subcategory": "UNİVERSAL & LED'Lİ ANAHTARLAR",
     "code": "AF134D",
     "brand": "AFEM",
@@ -2350,7 +2350,7 @@
   },
   {
     "id": "AF134B-AFEM-Işıklı_Oval_LEDli_Anahtar",
-    "group": "AMPUL GRUBU",
+    "group": "ANAHTAR & GÖSTERGE LAMBALARI",
     "subcategory": "UNİVERSAL & LED'Lİ ANAHTARLAR",
     "code": "AF134B",
     "brand": "AFEM",
@@ -2359,7 +2359,7 @@
   },
   {
     "id": "D22TS_-_A-EMAS-Göz_Lambası__Akü_Şarj_İşaretli",
-    "group": "AMPUL GRUBU",
+    "group": "ANAHTAR & GÖSTERGE LAMBALARI",
     "subcategory": "GÖSTERGE (GÖZ) LAMBALARI",
     "code": "D22TS - A",
     "brand": "EMAS",
@@ -2368,7 +2368,7 @@
   },
   {
     "id": "D22TS_-_H-EMAS-Göz_Lambası__Hararet_Gösterge_İşaretli",
-    "group": "AMPUL GRUBU",
+    "group": "ANAHTAR & GÖSTERGE LAMBALARI",
     "subcategory": "GÖSTERGE (GÖZ) LAMBALARI",
     "code": "D22TS - H",
     "brand": "EMAS",
@@ -2377,7 +2377,7 @@
   },
   {
     "id": "D22TS_-_Y-EMAS-Göz_Lambası__Yağ_Gösterge_İşaretli",
-    "group": "AMPUL GRUBU",
+    "group": "ANAHTAR & GÖSTERGE LAMBALARI",
     "subcategory": "GÖSTERGE (GÖZ) LAMBALARI",
     "code": "D22TS - Y",
     "brand": "EMAS",
@@ -2386,7 +2386,7 @@
   },
   {
     "id": "13-001SKY-AKSA-Göz_Lambası__Sarı__Kırmızı__Yeşil",
-    "group": "AMPUL GRUBU",
+    "group": "ANAHTAR & GÖSTERGE LAMBALARI",
     "subcategory": "GÖSTERGE (GÖZ) LAMBALARI",
     "code": "13-001/S/K/Y",
     "brand": "AKSA",
@@ -2395,7 +2395,7 @@
   },
   {
     "id": "13062-AKSA-Renault_12_Fren_Müşürü__İnce_Diş",
-    "group": "AMPUL GRUBU",
+    "group": "MÜŞÜRLER",
     "subcategory": "FREN MÜŞÜRLERİ",
     "code": "13062",
     "brand": "AKSA",
@@ -2404,7 +2404,7 @@
   },
   {
     "id": "08-006-AKSA-131_Fren_Müşürü__Metal",
-    "group": "AMPUL GRUBU",
+    "group": "MÜŞÜRLER",
     "subcategory": "FREN MÜŞÜRLERİ",
     "code": "08-006",
     "brand": "AKSA",
@@ -2413,7 +2413,7 @@
   },
   {
     "id": "08-007-AKSA-131_Fren_Müşürü__Plastik",
-    "group": "AMPUL GRUBU",
+    "group": "MÜŞÜRLER",
     "subcategory": "FREN MÜŞÜRLERİ",
     "code": "08-007",
     "brand": "AKSA",
@@ -2422,7 +2422,7 @@
   },
   {
     "id": "08-003-AKSA-5000_Ford_Fren_Müşürü__Metal",
-    "group": "AMPUL GRUBU",
+    "group": "MÜŞÜRLER",
     "subcategory": "FREN MÜŞÜRLERİ",
     "code": "08-003",
     "brand": "AKSA",
@@ -2431,7 +2431,7 @@
   },
   {
     "id": "099_358-KARDEN-Karden_Yağ_Müşürü",
-    "group": "AMPUL GRUBU",
+    "group": "MÜŞÜRLER",
     "subcategory": "YAĞ, HARARET VE FAN MÜŞÜRLERİ",
     "code": "099 358",
     "brand": "KARDEN",
@@ -2440,7 +2440,7 @@
   },
   {
     "id": "KARDENKLF-22lik_Yağ_Müşürü",
-    "group": "AMPUL GRUBU",
+    "group": "MÜŞÜRLER",
     "subcategory": "YAĞ, HARARET VE FAN MÜŞÜRLERİ",
     "code": "",
     "brand": "KARDEN/KLF",
@@ -2449,7 +2449,7 @@
   },
   {
     "id": "16082-KARDEN-M131_Hararet_Müşürü",
-    "group": "AMPUL GRUBU",
+    "group": "MÜŞÜRLER",
     "subcategory": "YAĞ, HARARET VE FAN MÜŞÜRLERİ",
     "code": "16082",
     "brand": "KARDEN",
@@ -2458,7 +2458,7 @@
   },
   {
     "id": "F17013VT-TDS-Fan_Müşürü_YazlıkKışlık",
-    "group": "AMPUL GRUBU",
+    "group": "MÜŞÜRLER",
     "subcategory": "YAĞ, HARARET VE FAN MÜŞÜRLERİ",
     "code": "F17013VT",
     "brand": "TDS",
@@ -2467,7 +2467,7 @@
   },
   {
     "id": "09-003-AKSA-M131_1300_Geri_Vites_Müşürü",
-    "group": "AMPUL GRUBU",
+    "group": "MÜŞÜRLER",
     "subcategory": "GERİ VİTES MÜŞÜRLERİ",
     "code": "09-003",
     "brand": "AKSA",
@@ -2476,7 +2476,7 @@
   },
   {
     "id": "09-002-AKSA-M131_1600_Geri_Vites_Müşürü",
-    "group": "AMPUL GRUBU",
+    "group": "MÜŞÜRLER",
     "subcategory": "GERİ VİTES MÜŞÜRLERİ",
     "code": "09-002",
     "brand": "AKSA",
