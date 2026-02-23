@@ -2499,7 +2499,7 @@
     "code": "099 200",
     "brand": "KARDEN",
     "name": "MF Y.M Kontak Anahtarı",
-    "image": ""
+    "image": "099 200.jpeg"
   },
   {
     "id": "099_202-KARDEN-MF_Kontak_Tek_Anahtar_Çivili",
@@ -2508,7 +2508,7 @@
     "code": "099 202",
     "brand": "KARDEN",
     "name": "M.F Kontak Tek Anahtar (Çivili)",
-    "image": ""
+    "image": "099 202.jpeg"
   },
   {
     "id": "03-001-AKSA-Anadol_Kontak",
@@ -2517,7 +2517,7 @@
     "code": "03-001",
     "brand": "AKSA",
     "name": "Anadol Kontak",
-    "image": ""
+    "image": "03-001.jpeg"
   },
   {
     "id": "099_201-KARDEN-Fiat_Kornalı_Far_Anahtarı",
@@ -2526,7 +2526,7 @@
     "code": "099 201",
     "brand": "KARDEN",
     "name": "Fiat Kornalı Far Anahtarı",
-    "image": ""
+    "image": "099 201.jpeg"
   },
   {
     "id": "099_283-KARDEN-Kontak_Tesisatı__Komple",
@@ -2535,7 +2535,7 @@
     "code": "099 283",
     "brand": "KARDEN",
     "name": "Kontak Tesisatı – Komple",
-    "image": ""
+    "image": "099 283.jpeg"
   },
   {
     "id": "099_285-KARDEN-Römork_Tesisatı__Komple",
@@ -2544,7 +2544,7 @@
     "code": "099 285",
     "brand": "KARDEN",
     "name": "Römork Tesisatı – Komple",
-    "image": ""
+    "image": "099 285.jpeg"
   },
   {
     "id": "099_280-KARDEN-Yağmur_Tesisatı",
@@ -2553,7 +2553,7 @@
     "code": "099 280",
     "brand": "KARDEN",
     "name": "Yağmur Tesisatı",
-    "image": ""
+    "image": "099 280.jpeg"
   },
   {
     "id": "099_652-KARDEN-Yağmur_Far_Tesisatı",
@@ -2571,7 +2571,7 @@
     "code": "099 650",
     "brand": "KARDEN",
     "name": "Emirsan Tesisatı",
-    "image": ""
+    "image": "099 650.jpeg"
   },
   {
     "id": "099_651-KARDEN-Bolat_Tesisatı",
@@ -2593,61 +2593,61 @@
   },
   {
     "id": "200-22-KARDEN-10_mm_Akü_Kablosu",
-    "group": "KONTAK & TESİSAT GRUBU",
+    "group": "KABLO ve HORTUM ÇEŞİTLERİ",
     "subcategory": "AKÜ KABLOLARI",
     "code": "200-22",
     "brand": "KARDEN",
     "name": "10 mm Akü Kablosu",
-    "image": ""
+    "image": "200-22.jpeg"
   },
   {
     "id": "200-23-KARDEN-16_mm_Akü_Kablosu",
-    "group": "KONTAK & TESİSAT GRUBU",
+    "group": "KABLO ve HORTUM ÇEŞİTLERİ",
     "subcategory": "AKÜ KABLOLARI",
     "code": "200-23",
     "brand": "KARDEN",
     "name": "16 mm Akü Kablosu",
-    "image": ""
+    "image": "200-23.jpeg"
   },
   {
     "id": "200-24-KARDEN-25_mm_Akü_Kablosu",
-    "group": "KONTAK & TESİSAT GRUBU",
+    "group": "KABLO ve HORTUM ÇEŞİTLERİ",
     "subcategory": "AKÜ KABLOLARI",
     "code": "200-24",
     "brand": "KARDEN",
     "name": "25 mm Akü Kablosu",
-    "image": ""
+    "image": "200-24.jpeg"
   },
   {
     "id": "200-25-KARDEN-35_mm_Akü_Kablosu",
-    "group": "KONTAK & TESİSAT GRUBU",
+    "group": "KABLO ve HORTUM ÇEŞİTLERİ",
     "subcategory": "AKÜ KABLOLARI",
     "code": "200-25",
     "brand": "KARDEN",
     "name": "35 mm Akü Kablosu",
-    "image": ""
+    "image": "200-25.jpeg"
   },
   {
     "id": "200-26-KARDEN-50_mm_Akü_Kablosu",
-    "group": "KONTAK & TESİSAT GRUBU",
+    "group": "KABLO ve HORTUM ÇEŞİTLERİ",
     "subcategory": "AKÜ KABLOLARI",
     "code": "200-26",
     "brand": "KARDEN",
     "name": "50 mm Akü Kablosu",
-    "image": ""
+    "image": "200-26.jpeg"
   },
   {
     "id": "200-27-KARDEN-70_mm_Akü_Kablosu",
-    "group": "KONTAK & TESİSAT GRUBU",
+    "group": "KABLO ve HORTUM ÇEŞİTLERİ",
     "subcategory": "AKÜ KABLOLARI",
     "code": "200-27",
     "brand": "KARDEN",
     "name": "70 mm Akü Kablosu",
-    "image": ""
+    "image": "200-27.jpeg"
   },
   {
     "id": "200-37-KARDEN-2075_mm_TTR_Kablo",
-    "group": "KONTAK & TESİSAT GRUBU",
+    "group": "KABLO ve HORTUM ÇEŞİTLERİ",
     "subcategory": "TTR KABLOLARI",
     "code": "200-37",
     "brand": "KARDEN",
@@ -2656,7 +2656,7 @@
   },
   {
     "id": "200-39-KARDEN-3075_mm_TTR_Kablo",
-    "group": "KONTAK & TESİSAT GRUBU",
+    "group": "KABLO ve HORTUM ÇEŞİTLERİ",
     "subcategory": "TTR KABLOLARI",
     "code": "200-39",
     "brand": "KARDEN",
@@ -2665,7 +2665,7 @@
   },
   {
     "id": "200-40-KARDEN-4075_mm_TTR_Kablo",
-    "group": "KONTAK & TESİSAT GRUBU",
+    "group": "KABLO ve HORTUM ÇEŞİTLERİ",
     "subcategory": "TTR KABLOLARI",
     "code": "200-40",
     "brand": "KARDEN",
@@ -2674,7 +2674,7 @@
   },
   {
     "id": "200-41-KARDEN-5075_mm_TTR_Kablo",
-    "group": "KONTAK & TESİSAT GRUBU",
+    "group": "KABLO ve HORTUM ÇEŞİTLERİ",
     "subcategory": "TTR KABLOLARI",
     "code": "200-41",
     "brand": "KARDEN",
@@ -2683,7 +2683,7 @@
   },
   {
     "id": "200-43-KARDEN-210_mm_TTR_Kablo",
-    "group": "KONTAK & TESİSAT GRUBU",
+    "group": "KABLO ve HORTUM ÇEŞİTLERİ",
     "subcategory": "TTR KABLOLARI",
     "code": "200-43",
     "brand": "KARDEN",
@@ -2692,7 +2692,7 @@
   },
   {
     "id": "200-45-KARDEN-310_mm_TTR_Kablo",
-    "group": "KONTAK & TESİSAT GRUBU",
+    "group": "KABLO ve HORTUM ÇEŞİTLERİ",
     "subcategory": "TTR KABLOLARI",
     "code": "200-45",
     "brand": "KARDEN",
@@ -2701,7 +2701,7 @@
   },
   {
     "id": "200-46-KARDEN-410_mm_TTR_Kablo",
-    "group": "KONTAK & TESİSAT GRUBU",
+    "group": "KABLO ve HORTUM ÇEŞİTLERİ",
     "subcategory": "TTR KABLOLARI",
     "code": "200-46",
     "brand": "KARDEN",
@@ -2710,7 +2710,7 @@
   },
   {
     "id": "200-47-KARDEN-510_mm_TTR_Kablo",
-    "group": "KONTAK & TESİSAT GRUBU",
+    "group": "KABLO ve HORTUM ÇEŞİTLERİ",
     "subcategory": "TTR KABLOLARI",
     "code": "200-47",
     "brand": "KARDEN",
@@ -2719,7 +2719,7 @@
   },
   {
     "id": "200-48-KARDEN-710_mm_TTR_Kablo",
-    "group": "KONTAK & TESİSAT GRUBU",
+    "group": "KABLO ve HORTUM ÇEŞİTLERİ",
     "subcategory": "TTR KABLOLARI",
     "code": "200-48",
     "brand": "KARDEN",
@@ -2728,7 +2728,7 @@
   },
   {
     "id": "200-49-KARDEN-215_mm_TTR_Kablo",
-    "group": "KONTAK & TESİSAT GRUBU",
+    "group": "KABLO ve HORTUM ÇEŞİTLERİ",
     "subcategory": "TTR KABLOLARI",
     "code": "200-49",
     "brand": "KARDEN",
@@ -2737,7 +2737,7 @@
   },
   {
     "id": "200-50-KARDEN-315_mm_TTR_Kablo",
-    "group": "KONTAK & TESİSAT GRUBU",
+    "group": "KABLO ve HORTUM ÇEŞİTLERİ",
     "subcategory": "TTR KABLOLARI",
     "code": "200-50",
     "brand": "KARDEN",
@@ -2746,7 +2746,7 @@
   },
   {
     "id": "200-51-KARDEN-415_mm_TTR_Kablo",
-    "group": "KONTAK & TESİSAT GRUBU",
+    "group": "KABLO ve HORTUM ÇEŞİTLERİ",
     "subcategory": "TTR KABLOLARI",
     "code": "200-51",
     "brand": "KARDEN",
@@ -2755,7 +2755,7 @@
   },
   {
     "id": "200-52-KARDEN-515_mm_TTR_Kablo",
-    "group": "KONTAK & TESİSAT GRUBU",
+    "group": "KABLO ve HORTUM ÇEŞİTLERİ",
     "subcategory": "TTR KABLOLARI",
     "code": "200-52",
     "brand": "KARDEN",
@@ -2764,7 +2764,7 @@
   },
   {
     "id": "200-53-KARDEN-715_mm_TTR_Kablo",
-    "group": "KONTAK & TESİSAT GRUBU",
+    "group": "KABLO ve HORTUM ÇEŞİTLERİ",
     "subcategory": "TTR KABLOLARI",
     "code": "200-53",
     "brand": "KARDEN",
@@ -2773,7 +2773,7 @@
   },
   {
     "id": "10_1075-SEVTEL-075_mm_Kalaylı_Kablo",
-    "group": "KONTAK & TESİSAT GRUBU",
+    "group": "KABLO ve HORTUM ÇEŞİTLERİ",
     "subcategory": "KALAYLI ELEKTRİK KABLOLARI",
     "code": "10 1075",
     "brand": "SEVTEL",
@@ -2782,7 +2782,7 @@
   },
   {
     "id": "10_1100-SEVTEL-10_mm_Kalaylı_Kablo",
-    "group": "KONTAK & TESİSAT GRUBU",
+    "group": "KABLO ve HORTUM ÇEŞİTLERİ",
     "subcategory": "KALAYLI ELEKTRİK KABLOLARI",
     "code": "10 1100",
     "brand": "SEVTEL",
@@ -2791,7 +2791,7 @@
   },
   {
     "id": "10_1150-SEVTEL-15_mm_Kalaylı_Kablo",
-    "group": "KONTAK & TESİSAT GRUBU",
+    "group": "KABLO ve HORTUM ÇEŞİTLERİ",
     "subcategory": "KALAYLI ELEKTRİK KABLOLARI",
     "code": "10 1150",
     "brand": "SEVTEL",
@@ -2800,7 +2800,7 @@
   },
   {
     "id": "10_1200-SEVTEL-20_mm_Kalaylı_Kablo",
-    "group": "KONTAK & TESİSAT GRUBU",
+    "group": "KABLO ve HORTUM ÇEŞİTLERİ",
     "subcategory": "KALAYLI ELEKTRİK KABLOLARI",
     "code": "10 1200",
     "brand": "SEVTEL",
@@ -2809,7 +2809,7 @@
   },
   {
     "id": "10_1250-SEVTEL-25_mm_Kalaylı_Kablo",
-    "group": "KONTAK & TESİSAT GRUBU",
+    "group": "KABLO ve HORTUM ÇEŞİTLERİ",
     "subcategory": "KALAYLI ELEKTRİK KABLOLARI",
     "code": "10 1250",
     "brand": "SEVTEL",
@@ -2818,7 +2818,7 @@
   },
   {
     "id": "10_1300-SEVTEL-30_mm_Kalaylı_Kablo",
-    "group": "KONTAK & TESİSAT GRUBU",
+    "group": "KABLO ve HORTUM ÇEŞİTLERİ",
     "subcategory": "KALAYLI ELEKTRİK KABLOLARI",
     "code": "10 1300",
     "brand": "SEVTEL",
@@ -2827,7 +2827,7 @@
   },
   {
     "id": "10_1400-SEVTEL-40_mm_Kalaylı_Kablo",
-    "group": "KONTAK & TESİSAT GRUBU",
+    "group": "KABLO ve HORTUM ÇEŞİTLERİ",
     "subcategory": "KALAYLI ELEKTRİK KABLOLARI",
     "code": "10 1400",
     "brand": "SEVTEL",
@@ -2836,7 +2836,7 @@
   },
   {
     "id": "10_1500-SEVTEL-50_mm_Kalaylı_Kablo",
-    "group": "KONTAK & TESİSAT GRUBU",
+    "group": "KABLO ve HORTUM ÇEŞİTLERİ",
     "subcategory": "KALAYLI ELEKTRİK KABLOLARI",
     "code": "10 1500",
     "brand": "SEVTEL",
@@ -2845,7 +2845,7 @@
   },
   {
     "id": "10_1600-SEVTEL-60_mm_Kalaylı_Kablo",
-    "group": "KONTAK & TESİSAT GRUBU",
+    "group": "KABLO ve HORTUM ÇEŞİTLERİ",
     "subcategory": "KALAYLI ELEKTRİK KABLOLARI",
     "code": "10 1600",
     "brand": "SEVTEL",
@@ -2854,7 +2854,7 @@
   },
   {
     "id": "2460_SP01-MURAT-6_mm_Spiral_Hortum",
-    "group": "KONTAK & TESİSAT GRUBU",
+    "group": "KABLO ve HORTUM ÇEŞİTLERİ",
     "subcategory": "SPİRAL HORTUMLAR",
     "code": "2460 SP01",
     "brand": "MURAT",
@@ -2863,7 +2863,7 @@
   },
   {
     "id": "2460_SP02-MURAT-9_mm_Spiral_Hortum",
-    "group": "KONTAK & TESİSAT GRUBU",
+    "group": "KABLO ve HORTUM ÇEŞİTLERİ",
     "subcategory": "SPİRAL HORTUMLAR",
     "code": "2460 SP02",
     "brand": "MURAT",
@@ -2872,7 +2872,7 @@
   },
   {
     "id": "2460_SP03-MURAT-11_mm_Spiral_Hortum",
-    "group": "KONTAK & TESİSAT GRUBU",
+    "group": "KABLO ve HORTUM ÇEŞİTLERİ",
     "subcategory": "SPİRAL HORTUMLAR",
     "code": "2460 SP03",
     "brand": "MURAT",
@@ -2881,7 +2881,7 @@
   },
   {
     "id": "2460_SP04-MURAT-13_mm_Spiral_Hortum",
-    "group": "KONTAK & TESİSAT GRUBU",
+    "group": "KABLO ve HORTUM ÇEŞİTLERİ",
     "subcategory": "SPİRAL HORTUMLAR",
     "code": "2460 SP04",
     "brand": "MURAT",
@@ -2890,7 +2890,7 @@
   },
   {
     "id": "2460_SP05-MURAT-16_mm_Spiral_Hortum",
-    "group": "KONTAK & TESİSAT GRUBU",
+    "group": "KABLO ve HORTUM ÇEŞİTLERİ",
     "subcategory": "SPİRAL HORTUMLAR",
     "code": "2460 SP05",
     "brand": "MURAT",
@@ -2899,7 +2899,7 @@
   },
   {
     "id": "2460_SP06-MURAT-19_mm_Spiral_Hortum",
-    "group": "KONTAK & TESİSAT GRUBU",
+    "group": "KABLO ve HORTUM ÇEŞİTLERİ",
     "subcategory": "SPİRAL HORTUMLAR",
     "code": "2460 SP06",
     "brand": "MURAT",
@@ -2908,7 +2908,7 @@
   },
   {
     "id": "2460_SP07-MURAT-23_mm_Spiral_Hortum",
-    "group": "KONTAK & TESİSAT GRUBU",
+    "group": "KABLO ve HORTUM ÇEŞİTLERİ",
     "subcategory": "SPİRAL HORTUMLAR",
     "code": "2460 SP07",
     "brand": "MURAT",
@@ -2917,7 +2917,7 @@
   },
   {
     "id": "2460_SP08-MURAT-26_mm_Spiral_Hortum",
-    "group": "KONTAK & TESİSAT GRUBU",
+    "group": "KABLO ve HORTUM ÇEŞİTLERİ",
     "subcategory": "SPİRAL HORTUMLAR",
     "code": "2460 SP08",
     "brand": "MURAT",
@@ -2926,7 +2926,7 @@
   },
   {
     "id": "2460_SP09-MURAT-32_mm_Spiral_Hortum",
-    "group": "KONTAK & TESİSAT GRUBU",
+    "group": "KABLO ve HORTUM ÇEŞİTLERİ",
     "subcategory": "SPİRAL HORTUMLAR",
     "code": "2460 SP09",
     "brand": "MURAT",
@@ -2935,7 +2935,7 @@
   },
   {
     "id": "SF_0020005-ERİMTİ-4_mm_Isı_ile_Daralan_Makaron",
-    "group": "KONTAK & TESİSAT GRUBU",
+    "group": "KABLO ve HORTUM ÇEŞİTLERİ",
     "subcategory": "ISI İLE DARALAN MAKARONLAR",
     "code": "SF 0020005",
     "brand": "ERİMTİ",
@@ -2944,7 +2944,7 @@
   },
   {
     "id": "SF_0020004-ERİMTİ-5_mm_Isı_ile_Daralan_Makaron",
-    "group": "KONTAK & TESİSAT GRUBU",
+    "group": "KABLO ve HORTUM ÇEŞİTLERİ",
     "subcategory": "ISI İLE DARALAN MAKARONLAR",
     "code": "SF 0020004",
     "brand": "ERİMTİ",
@@ -2953,7 +2953,7 @@
   },
   {
     "id": "SF_0020011-ERİMTİ-6_mm_Isı_ile_Daralan_Makaron",
-    "group": "KONTAK & TESİSAT GRUBU",
+    "group": "KABLO ve HORTUM ÇEŞİTLERİ",
     "subcategory": "ISI İLE DARALAN MAKARONLAR",
     "code": "SF 0020011",
     "brand": "ERİMTİ",
@@ -2962,7 +2962,7 @@
   },
   {
     "id": "SF_0020011-1-ERİMTİ-7_mm_Isı_ile_Daralan_Makaron",
-    "group": "KONTAK & TESİSAT GRUBU",
+    "group": "KABLO ve HORTUM ÇEŞİTLERİ",
     "subcategory": "ISI İLE DARALAN MAKARONLAR",
     "code": "SF 0020011-1",
     "brand": "ERİMTİ",
@@ -2971,7 +2971,7 @@
   },
   {
     "id": "SF_0020013-ERİMTİ-8_mm_Isı_ile_Daralan_Makaron",
-    "group": "KONTAK & TESİSAT GRUBU",
+    "group": "KABLO ve HORTUM ÇEŞİTLERİ",
     "subcategory": "ISI İLE DARALAN MAKARONLAR",
     "code": "SF 0020013",
     "brand": "ERİMTİ",
@@ -2980,7 +2980,7 @@
   },
   {
     "id": "SF_0020014-ERİMTİ-95_mm_Isı_ile_Daralan_Makaron",
-    "group": "KONTAK & TESİSAT GRUBU",
+    "group": "KABLO ve HORTUM ÇEŞİTLERİ",
     "subcategory": "ISI İLE DARALAN MAKARONLAR",
     "code": "SF 0020014",
     "brand": "ERİMTİ",
@@ -2989,7 +2989,7 @@
   },
   {
     "id": "ERİMTİ-10_mm_Isı_ile_Daralan_Makaron",
-    "group": "KONTAK & TESİSAT GRUBU",
+    "group": "KABLO ve HORTUM ÇEŞİTLERİ",
     "subcategory": "ISI İLE DARALAN MAKARONLAR",
     "code": "",
     "brand": "ERİMTİ",
@@ -2998,7 +2998,7 @@
   },
   {
     "id": "SF_0020015-ERİMTİ-13_mm_Isı_ile_Daralan_Makaron",
-    "group": "KONTAK & TESİSAT GRUBU",
+    "group": "KABLO ve HORTUM ÇEŞİTLERİ",
     "subcategory": "ISI İLE DARALAN MAKARONLAR",
     "code": "SF 0020015",
     "brand": "ERİMTİ",
@@ -3007,7 +3007,7 @@
   },
   {
     "id": "SF_0020016-ERİMTİ-16_mm_Isı_ile_Daralan_Makaron",
-    "group": "KONTAK & TESİSAT GRUBU",
+    "group": "KABLO ve HORTUM ÇEŞİTLERİ",
     "subcategory": "ISI İLE DARALAN MAKARONLAR",
     "code": "SF 0020016",
     "brand": "ERİMTİ",
@@ -3016,7 +3016,7 @@
   },
   {
     "id": "SF_0020017-ERİMTİ-19_mm_Isı_ile_Daralan_Makaron",
-    "group": "KONTAK & TESİSAT GRUBU",
+    "group": "KKABLO ve HORTUM ÇEŞİTLERİ",
     "subcategory": "ISI İLE DARALAN MAKARONLAR",
     "code": "SF 0020017",
     "brand": "ERİMTİ",
@@ -3025,7 +3025,7 @@
   },
   {
     "id": "ERİMTİ-20_mm_Isı_ile_Daralan_Makaron",
-    "group": "KONTAK & TESİSAT GRUBU",
+    "group": "KABLO ve HORTUM ÇEŞİTLERİ",
     "subcategory": "ISI İLE DARALAN MAKARONLAR",
     "code": "",
     "brand": "ERİMTİ",
@@ -3034,7 +3034,7 @@
   },
   {
     "id": "ERİMTİ-22_mm_Isı_ile_Daralan_Makaron",
-    "group": "KONTAK & TESİSAT GRUBU",
+    "group": "KABLO ve HORTUM ÇEŞİTLERİ",
     "subcategory": "ISI İLE DARALAN MAKARONLAR",
     "code": "",
     "brand": "ERİMTİ",
@@ -3043,7 +3043,7 @@
   },
   {
     "id": "SF_0020021-ERİMTİ-25_mm_Isı_ile_Daralan_Makaron",
-    "group": "KONTAK & TESİSAT GRUBU",
+    "group": "KABLO ve HORTUM ÇEŞİTLERİ",
     "subcategory": "ISI İLE DARALAN MAKARONLAR",
     "code": "SF 0020021",
     "brand": "ERİMTİ",
@@ -3052,7 +3052,7 @@
   },
   {
     "id": "SF_0020022-ERİMTİ-30_mm_Isı_ile_Daralan_Makaron",
-    "group": "KONTAK & TESİSAT GRUBU",
+    "group": "KABLO ve HORTUM ÇEŞİTLERİ",
     "subcategory": "ISI İLE DARALAN MAKARONLAR",
     "code": "SF 0020022",
     "brand": "ERİMTİ",
