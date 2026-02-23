@@ -5100,7 +5100,7 @@
     "code": "099 1100",
     "brand": "YAĞMUR",
     "name": "Debriyaj Teli – İç & Dış",
-    "image": ""
+    "image": "099 1100.png"
   },
   {
     "id": "099_1110-YAĞMUR-Debriyaj_İç_Teli",
@@ -5109,7 +5109,7 @@
     "code": "099 1110",
     "brand": "YAĞMUR",
     "name": "Debriyaj İç Teli",
-    "image": ""
+    "image": "099 1110.png"
   },
   {
     "id": "099_1112-YAĞMUR-Debriyaj_Dış_Kablosu",
@@ -5118,7 +5118,7 @@
     "code": "099 1112",
     "brand": "YAĞMUR",
     "name": "Debriyaj Dış Kablosu",
-    "image": ""
+    "image": "099 1112.png"
   },
   {
     "id": "099_1111-YAĞMUR-Debriyaj_Teli_T-Baş__İç__Dış_-_YM",
@@ -5127,7 +5127,7 @@
     "code": "099 1111",
     "brand": "YAĞMUR",
     "name": "Debriyaj Teli, T-Baş – İç & Dış - Y.M",
-    "image": ""
+    "image": "099 1111.png"
   },
   {
     "id": "099_1113-YAĞMUR-Debriyaj_İç_Teli_YM_T-Baş",
@@ -5136,7 +5136,7 @@
     "code": "099 1113",
     "brand": "YAĞMUR",
     "name": "Debriyaj İç Teli Y.M T-Baş",
-    "image": ""
+    "image": "099 1113.png"
   },
   {
     "id": "099_1100B-YAĞMUR-Debriyaj_Teli_Çekiç_Baş__İç__Dış_-_YM",
@@ -5145,7 +5145,7 @@
     "code": "099 1100B",
     "brand": "YAĞMUR",
     "name": "Debriyaj Teli Çekiç Baş – İç & Dış - Y.M",
-    "image": ""
+    "image": "099 1100b.png"
   },
   {
     "id": "099_1115-YAĞMUR-Gaz_Teli__İç__Dış",
@@ -5154,7 +5154,7 @@
     "code": "099 1115",
     "brand": "YAĞMUR",
     "name": "Gaz Teli – İç & Dış",
-    "image": ""
+    "image": "099 1115.png"
   },
   {
     "id": "099_1117-YAĞMUR-Gaz_İç_Teli",
@@ -5163,7 +5163,7 @@
     "code": "099 1117",
     "brand": "YAĞMUR",
     "name": "Gaz İç Teli",
-    "image": ""
+    "image": "099 1117.png"
   },
   {
     "id": "099_1119-YAĞMUR-Gaz_Dış_Kablosu",
@@ -5172,7 +5172,7 @@
     "code": "099 1119",
     "brand": "YAĞMUR",
     "name": "Gaz Dış Kablosu",
-    "image": ""
+    "image": "099 1119.png"
   },
   {
     "id": "099_1125-YAĞMUR-Kaput_Teli",
@@ -5184,13 +5184,13 @@
     "image": ""
   },
   {
-    "id": "YAĞMUR-Stop_Teli",
+    "id": "099_1120-YAĞMUR-Stop_Teli",
     "group": "YAĞMUR GRUBU",
     "subcategory": "",
-    "code": "",
+    "code": "099 1120",
     "brand": "YAĞMUR",
     "name": "Stop Teli",
-    "image": ""
+    "image": "099 1120"
   },
   {
     "id": "099_0600-RÖMORK-Kancalı_Debriyaj_Teli__İç__Dış",
