@@ -3061,25 +3061,25 @@
   },
   {
     "id": "003_TD_2114-MESA-TDF_Tırnaklı_Dişi_Fiş_300_adet",
-    "group": "KONTAK & TESİSAT GRUBU",
+    "group": "KABLO UÇLARI & KONNEKTÖRLER",
     "subcategory": "FİŞLER",
     "code": "003 TD 2114",
     "brand": "MESA",
     "name": "TDF Tırnaklı Dişi Fiş (300 adet)",
-    "image": ""
+    "image": "td 2114.jpeg"
   },
   {
     "id": "003_TD_2107-MESA-MDF_Mini_Dişi_Fiş_400_adet",
-    "group": "KONTAK & TESİSAT GRUBU",
+    "group": "KABLO UÇLARI & KONNEKTÖRLER",
     "subcategory": "FİŞLER",
     "code": "003 TD 2107",
     "brand": "MESA",
     "name": "MDF Mini Dişi Fiş (400 adet)",
-    "image": ""
+    "image": "td 2107.jpeg"
   },
   {
     "id": "003_TD_2127-MESA-BDF_Büyük_Dişi_Fiş_100_adet",
-    "group": "KONTAK & TESİSAT GRUBU",
+    "group": "KABLO UÇLARI & KONNEKTÖRLER",
     "subcategory": "FİŞLER",
     "code": "003 TD 2127",
     "brand": "MESA",
@@ -3088,16 +3088,16 @@
   },
   {
     "id": "003_TE_2308-MESA-UEF_Uzun_Erkek_Fiş_300_adet",
-    "group": "KONTAK & TESİSAT GRUBU",
+    "group": "KABLO UÇLARI & KONNEKTÖRLER",
     "subcategory": "FİŞLER",
     "code": "003 TE 2308",
     "brand": "MESA",
     "name": "UEF Uzun Erkek Fiş (300 adet)",
-    "image": ""
+    "image": "te 2308.jpeg"
   },
   {
     "id": "015_TS_241650-MESA-SKN_25_No_Kablo_Ucu_400_adet",
-    "group": "KONTAK & TESİSAT GRUBU",
+    "group": "KABLO UÇLARI & KONNEKTÖRLER",
     "subcategory": "SKN KABLO UÇLARI",
     "code": "015 TS 2416.50",
     "brand": "MESA",
@@ -3106,273 +3106,273 @@
   },
   {
     "id": "017_TS_2424-MESA-SKN_4_No_Kablo_Ucu_250_adet",
-    "group": "KONTAK & TESİSAT GRUBU",
+    "group": "KABLO UÇLARI & KONNEKTÖRLER",
     "subcategory": "SKN KABLO UÇLARI",
     "code": "017 TS 2424",
     "brand": "MESA",
     "name": "SKN 4 No Kablo Ucu (250 adet)",
-    "image": ""
+    "image": "ts 2424.jpeg"
   },
   {
     "id": "017_TS_2426-MESA-SKN_6_No_Kablo_Ucu_150_adet",
-    "group": "KONTAK & TESİSAT GRUBU",
+    "group": "KABLO UÇLARI & KONNEKTÖRLER",
     "subcategory": "SKN KABLO UÇLARI",
     "code": "017 TS 2426",
     "brand": "MESA",
     "name": "SKN 6 No Kablo Ucu (150 adet)",
-    "image": ""
+    "image": "ts 2426.jpeg"
   },
   {
     "id": "017_TS_2427-MESA-SKN_8_No_Kablo_Ucu_150_adet",
-    "group": "KONTAK & TESİSAT GRUBU",
+    "group": "KABLO UÇLARI & KONNEKTÖRLER",
     "subcategory": "SKN KABLO UÇLARI",
     "code": "017 TS 2427",
     "brand": "MESA",
     "name": "SKN 8 No Kablo Ucu (150 adet)",
-    "image": ""
+    "image": "ts 2427.jpeg"
   },
   {
     "id": "017_TS_2428-MESA-SKN_10_No_Kablo_Ucu_100_adet",
-    "group": "KONTAK & TESİSAT GRUBU",
+    "group": "KABLO UÇLARI & KONNEKTÖRLER",
     "subcategory": "SKN KABLO UÇLARI",
     "code": "017 TS 2428",
     "brand": "MESA",
     "name": "SKN 10 No Kablo Ucu (100 adet)",
-    "image": ""
+    "image": "ts 2428.jpeg"
   },
   {
     "id": "111_TBA_2904-MESA-BA_16_No_Bakır_Başlık__Tane",
-    "group": "KONTAK & TESİSAT GRUBU",
+    "group": "KABLO UÇLARI & KONNEKTÖRLER",
     "subcategory": "BAKIR BAŞLIKLAR",
     "code": "111 TBA 2904",
     "brand": "MESA",
     "name": "BA 16 No Bakır Başlık – Tane",
-    "image": ""
+    "image": "mesa 16.jpeg"
   },
   {
     "id": "111_TBA_2906-MESA-BA_25_No_Bakır_Başlık__Tane",
-    "group": "KONTAK & TESİSAT GRUBU",
+    "group": "KABLO UÇLARI & KONNEKTÖRLER",
     "subcategory": "BAKIR BAŞLIKLAR",
     "code": "111 TBA 2906",
     "brand": "MESA",
     "name": "BA 25 No Bakır Başlık – Tane",
-    "image": ""
+    "image": "mesa 25.jpeg"
   },
   {
     "id": "111_TBA_2908-MESA-BA_35_No_Bakır_Başlık__Tane",
-    "group": "KONTAK & TESİSAT GRUBU",
+    "group": "KABLO UÇLARI & KONNEKTÖRLER",
     "subcategory": "BAKIR BAŞLIKLAR",
     "code": "111 TBA 2908",
     "brand": "MESA",
     "name": "BA 35 No Bakır Başlık – Tane",
-    "image": ""
+    "image": "mesa 35.jpeg"
   },
   {
     "id": "111_TBA_2912-MESA-BA_50_No_Bakır_Başlık__Tane",
-    "group": "KONTAK & TESİSAT GRUBU",
+    "group": "KABLO UÇLARI & KONNEKTÖRLER",
     "subcategory": "BAKIR BAŞLIKLAR",
     "code": "111 TBA 2912",
     "brand": "MESA",
     "name": "BA 50 No Bakır Başlık – Tane",
-    "image": ""
+    "image": "mesa 50.jpeg"
   },
   {
     "id": "025_KE_3201-MESA-101_1li_Erkek_Konnektör",
-    "group": "KONTAK & TESİSAT GRUBU",
+    "group": "KABLO UÇLARI & KONNEKTÖRLER",
     "subcategory": "KONNEKTÖRLER",
     "code": "025 KE 3201",
     "brand": "MESA",
     "name": "101 1’li Erkek Konnektör",
-    "image": ""
+    "image": "1li erkek.jpeg"
   },
   {
     "id": "029_KD_3101-MESA-102_1li_Dişi_Konnektör",
-    "group": "KONTAK & TESİSAT GRUBU",
+    "group": "KABLO UÇLARI & KONNEKTÖRLER",
     "subcategory": "KONNEKTÖRLER",
     "code": "029 KD 3101",
     "brand": "MESA",
     "name": "102 1’li Dişi Konnektör",
-    "image": ""
+    "image": "1li dişi.jpeg"
   },
   {
     "id": "025_KE_3202-MESA-201_2li_Erkek_Konnektör",
-    "group": "KONTAK & TESİSAT GRUBU",
+    "group": "KABLO UÇLARI & KONNEKTÖRLER",
     "subcategory": "KONNEKTÖRLER",
     "code": "025 KE 3202",
     "brand": "MESA",
     "name": "201 2’li Erkek Konnektör",
-    "image": ""
+    "image": "2li erkek.jpeg"
   },
   {
     "id": "029_KD_3102-MESA-202_2li_Dişi_Konnektör",
-    "group": "KONTAK & TESİSAT GRUBU",
+    "group": "KABLO UÇLARI & KONNEKTÖRLER",
     "subcategory": "KONNEKTÖRLER",
     "code": "029 KD 3102",
     "brand": "MESA",
     "name": "202 2’li Dişi Konnektör",
-    "image": ""
+    "image": "1li dişi.jpeg"
   },
   {
     "id": "025_KE_3207-MESA-301_3lü_Erkek_Konnektör",
-    "group": "KONTAK & TESİSAT GRUBU",
+    "group": "KABLO UÇLARI & KONNEKTÖRLER",
     "subcategory": "KONNEKTÖRLER",
     "code": "025 KE 3207",
     "brand": "MESA",
     "name": "301 3’lü Erkek Konnektör",
-    "image": ""
+    "image": "3lü erkek.jpeg"
   },
   {
     "id": "029_KD_3105-MESA-302_3lü_Dişi_Konnektör",
-    "group": "KONTAK & TESİSAT GRUBU",
+    "group": "KABLO UÇLARI & KONNEKTÖRLER",
     "subcategory": "KONNEKTÖRLER",
     "code": "029 KD 3105",
     "brand": "MESA",
     "name": "302 3’lü Dişi Konnektör",
-    "image": ""
+    "image": "3lü dişi.jpeg"
   },
   {
     "id": "025_KE_3208-MESA-401_4lü_Erkek_Konnektör",
-    "group": "KONTAK & TESİSAT GRUBU",
+    "group": "KABLO UÇLARI & KONNEKTÖRLER",
     "subcategory": "KONNEKTÖRLER",
     "code": "025 KE 3208",
     "brand": "MESA",
     "name": "401 4’lü Erkek Konnektör",
-    "image": ""
+    "image": "4lü erkek.jpeg"
   },
   {
     "id": "029_KE_3106-MESA-402_4lü_Dişi_Konnektör",
-    "group": "KONTAK & TESİSAT GRUBU",
+    "group": "KABLO UÇLARI & KONNEKTÖRLER",
     "subcategory": "KONNEKTÖRLER",
     "code": "029 KE 3106",
     "brand": "MESA",
     "name": "402 4’lü Dişi Konnektör",
-    "image": ""
+    "image": "4lü dişi.jpeg"
   },
   {
     "id": "025_KE_3212-MESA-601_6lı_Erkek_Konnektör",
-    "group": "KONTAK & TESİSAT GRUBU",
+    "group": "KABLO UÇLARI & KONNEKTÖRLER",
     "subcategory": "KONNEKTÖRLER",
     "code": "025 KE 3212",
     "brand": "MESA",
     "name": "601 6’lı Erkek Konnektör",
-    "image": ""
+    "image": "6lı erkek.jpeg"
   },
   {
     "id": "029_KD_3107-MESA-602_6lı_Dişi_Konnektör",
-    "group": "KONTAK & TESİSAT GRUBU",
+    "group": "KABLO UÇLARI & KONNEKTÖRLER",
     "subcategory": "KONNEKTÖRLER",
     "code": "029 KD 3107",
     "brand": "MESA",
     "name": "602 6’lı Dişi Konnektör",
-    "image": ""
+    "image": "6lı dişi.jpeg"
   },
   {
     "id": "025_KE_3210-MESA-801_8li_Erkek_Konnektör",
-    "group": "KONTAK & TESİSAT GRUBU",
+    "group": "KABLO UÇLARI & KONNEKTÖRLER",
     "subcategory": "KONNEKTÖRLER",
     "code": "025 KE 3210",
     "brand": "MESA",
     "name": "801 8’li Erkek Konnektör",
-    "image": ""
+    "image": "8li erkek.jpeg"
   },
   {
     "id": "029_KD_3108-MESA-802_8li_Dişi_Konnektör",
-    "group": "KONTAK & TESİSAT GRUBU",
+    "group": "KABLO UÇLARI & KONNEKTÖRLER",
     "subcategory": "KONNEKTÖRLER",
     "code": "029 KD 3108",
     "brand": "MESA",
     "name": "802 8’li Dişi Konnektör",
-    "image": ""
+    "image": "8li dişi.jpeg"
   },
   {
     "id": "10-KARDEN-25__100_MM_PLS_Kelepçe_Siyah",
-    "group": "KONTAK & TESİSAT GRUBU",
+    "group": "KABLO BAĞLARI",
     "subcategory": "KABLO BAĞLARI (PLS KELEPÇE)",
     "code": "10",
     "brand": "KARDEN",
     "name": "2.5 × 100 MM PLS Kelepçe Siyah",
-    "image": ""
+    "image": "10.jpeg"
   },
   {
     "id": "11-KARDEN-25__100_MM_PLS_Kelepçe_Beyaz",
-    "group": "KONTAK & TESİSAT GRUBU",
+    "group": "KABLO BAĞLARI",
     "subcategory": "KABLO BAĞLARI (PLS KELEPÇE)",
     "code": "11",
     "brand": "KARDEN",
     "name": "2.5 × 100 MM PLS Kelepçe Beyaz",
-    "image": ""
+    "image": "11.jpeg"
   },
   {
     "id": "20-KARDEN-48__200_MM_PLS_Kelepçe_Siyah",
-    "group": "KONTAK & TESİSAT GRUBU",
+    "group": "KABLO BAĞLARI",
     "subcategory": "KABLO BAĞLARI (PLS KELEPÇE)",
     "code": "20",
     "brand": "KARDEN",
     "name": "4.8 × 200 MM PLS Kelepçe Siyah",
-    "image": ""
+    "image": "20.jpeg"
   },
   {
     "id": "21-KARDEN-48__200_MM_PLS_Kelepçe_Beyaz",
-    "group": "KONTAK & TESİSAT GRUBU",
+    "group": "KABLO BAĞLARI",
     "subcategory": "KABLO BAĞLARI (PLS KELEPÇE)",
     "code": ".21",
     "brand": "KARDEN",
     "name": "4.8 × 200 MM PLS Kelepçe Beyaz",
-    "image": ""
+    "image": "21.jpeg"
   },
   {
     "id": "22-KARDEN-48__300_MM_PLS_Kelepçe_Siyah",
-    "group": "KONTAK & TESİSAT GRUBU",
+    "group": "KABLO BAĞLARI",
     "subcategory": "KABLO BAĞLARI (PLS KELEPÇE)",
     "code": "22",
     "brand": "KARDEN",
     "name": "4.8 × 300 MM PLS Kelepçe Siyah",
-    "image": ""
+    "image": "22.jpeg"
   },
   {
     "id": "23-KARDEN-48__300_MM_PLS_Kelepçe_Beyaz",
-    "group": "KONTAK & TESİSAT GRUBU",
+    "group": "KABLO BAĞLARI",
     "subcategory": "KABLO BAĞLARI (PLS KELEPÇE)",
     "code": "23",
     "brand": "KARDEN",
     "name": "4.8 × 300 MM PLS Kelepçe Beyaz",
-    "image": ""
+    "image": "23.jpeg"
   },
   {
     "id": "24-KARDEN-48__380_MM_PLS_Kelepçe_Siyah",
-    "group": "KONTAK & TESİSAT GRUBU",
+    "group": "KABLO BAĞLARI",
     "subcategory": "KABLO BAĞLARI (PLS KELEPÇE)",
     "code": "24",
     "brand": "KARDEN",
     "name": "4.8 × 380 MM PLS Kelepçe Siyah",
-    "image": ""
+    "image": "24.jpeg"
   },
   {
     "id": "25-KARDEN-48__380_MM_PLS_Kelepçe_Beyaz",
-    "group": "KONTAK & TESİSAT GRUBU",
-    "subcategory": "KABLO BAĞLARI (PLS KELEPÇE)",
+    "group": "KABLO BAĞLARI",
+    "subcategory": "KABLO BAĞLARI (PLS KELEPÇEs)",
     "code": "25",
     "brand": "KARDEN",
     "name": "4.8 × 380 MM PLS Kelepçe Beyaz",
-    "image": ""
+    "image": "25.jpeg"
   },
   {
     "id": "26-KARDEN-80__380_MM_PLS_Kelepçe_Siyah",
-    "group": "KONTAK & TESİSAT GRUBU",
+    "group": "KABLO BAĞLARI",
     "subcategory": "KABLO BAĞLARI (PLS KELEPÇE)",
     "code": "26",
     "brand": "KARDEN",
     "name": "8.0 × 380 MM PLS Kelepçe Siyah",
-    "image": ""
+    "image": "26.jpeg"
   },
   {
     "id": "27-KARDEN-80__380_MM_PLS_Kelepçe_Beyaz",
-    "group": "KONTAK & TESİSAT GRUBU",
+    "group": "KABLO BAĞLARI",
     "subcategory": "KABLO BAĞLARI (PLS KELEPÇE)",
     "code": "27",
     "brand": "KARDEN",
     "name": "8.0 × 380 MM PLS Kelepçe Beyaz",
-    "image": ""
+    "image": "27.jpeg"
   },
   {
     "id": "50FI1200002-SEGER-Korna_Didit_Sıvı_İnce_Ses_12V",
