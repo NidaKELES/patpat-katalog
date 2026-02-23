@@ -3376,79 +3376,79 @@
   },
   {
     "id": "50FI1200002-SEGER-Korna_Didit_Sıvı_İnce_Ses_12V",
-    "group": "KONTAK & TESİSAT GRUBU",
+    "group": "KORNA GRUBU",
     "subcategory": "KORNA ÇEŞİTLERİ",
     "code": "50FI1200002",
     "brand": "SEGER",
     "name": "Korna Didit Sıvı İnce Ses 12V",
-    "image": ""
+    "image": "50FI1200002.png"
   },
   {
     "id": "50FK1200002-SEGER-Korna_Didit_Sıvı_Kalın_Ses_12V",
-    "group": "KONTAK & TESİSAT GRUBU",
+    "group": "KORNA GRUBU",
     "subcategory": "KORNA ÇEŞİTLERİ",
     "code": "50FK1200002",
     "brand": "SEGER",
     "name": "Korna Didit Sıvı Kalın Ses 12V",
-    "image": ""
+    "image": "50FK1200002.png"
   },
   {
     "id": "60BO1200002-SEGER-Korna_Dadat_Çiftli_12V",
-    "group": "KONTAK & TESİSAT GRUBU",
+    "group": "KORNA GRUBU",
     "subcategory": "KORNA ÇEŞİTLERİ",
     "code": "60BO1200002",
     "brand": "SEGER",
     "name": "Korna Dadat Çiftli 12V",
-    "image": ""
+    "image": "60BO1200002.jpg"
   },
   {
     "id": "60BO1292601K-SEGER-Korsa_Dadat",
-    "group": "KONTAK & TESİSAT GRUBU",
+    "group": "KORNA GRUBU",
     "subcategory": "KORNA ÇEŞİTLERİ",
     "code": "60BO12.926.01K",
     "brand": "SEGER",
     "name": "Korsa Dadat",
-    "image": ""
+    "image": "60BO12.926.01K.JPG"
   },
   {
     "id": "HS_204_V1-ÜSTÜN-Üstün_Dadat_Korna",
-    "group": "KONTAK & TESİSAT GRUBU",
+    "group": "KORNA GRUBU",
     "subcategory": "KORNA ÇEŞİTLERİ",
     "code": "HS 204 V1",
     "brand": "ÜSTÜN",
     "name": "Üstün Dadat Korna",
-    "image": ""
+    "image": "HS 204 V1.JPG"
   },
   {
     "id": "60BO1292602K-SEGER-Korsa_Çift_Fişli_Dadat",
-    "group": "KONTAK & TESİSAT GRUBU",
+    "group": "KORNA GRUBU",
     "subcategory": "KORNA ÇEŞİTLERİ",
     "code": "60BO12.926.02K",
     "brand": "SEGER",
     "name": "Korsa Çift Fişli Dadat",
-    "image": ""
+    "image": "60BO12.926.02K.png"
   },
   {
     "id": "82EH1200003-SEGER-12V_Dali_Dali_Korna",
-    "group": "KONTAK & TESİSAT GRUBU",
+    "group": "KORNA GRUBU",
     "subcategory": "KORNA ÇEŞİTLERİ",
     "code": "82EH1200003",
     "brand": "SEGER",
     "name": "12V Dali Dali Korna",
-    "image": ""
+    "image": "82EH1200003.jpg"
   },
   {
     "id": "HD520B-HİDO-12V_Arap_Dali_Dali_Korna",
-    "group": "KONTAK & TESİSAT GRUBU",
+    "group": "KORNA GRUBU",
     "subcategory": "KORNA ÇEŞİTLERİ",
     "code": "HD520B",
     "brand": "HİDO",
     "name": "12V Arap Dali Dali Korna",
-    "image": ""
+    "image": "HD520B.jpg"
   },
   {
     "id": "1292_001-KARDEN-İthal_Marin_Korna_Uzun",
-    "group": "KONTAK & TESİSAT GRUBU",
+    "group": "KORNA GRUBU",
     "subcategory": "KORNA ÇEŞİTLERİ",
     "code": "1292 001",
     "brand": "KARDEN",
@@ -3457,7 +3457,7 @@
   },
   {
     "id": "1281_001-KARDEN-İthal_Marin_Korna_Kısa",
-    "group": "KONTAK & TESİSAT GRUBU",
+    "group": "KORNA GRUBU",
     "subcategory": "KORNA ÇEŞİTLERİ",
     "code": "1281 001",
     "brand": "KARDEN",
@@ -3466,25 +3466,25 @@
   },
   {
     "id": "82MH1200001-SEGER-Marin_Korna_Büyük",
-    "group": "KONTAK & TESİSAT GRUBU",
+    "group": "KORNA GRUBU",
     "subcategory": "KORNA ÇEŞİTLERİ",
     "code": "82MH1200001",
     "brand": "SEGER",
     "name": "Marin Korna Büyük",
-    "image": ""
+    "image": "82MH1200001.jpg"
   },
   {
     "id": "83KM1200001-SEGER-Marin_Korna_Küçük",
-    "group": "KONTAK & TESİSAT GRUBU",
+    "group": "KORNA GRUBU",
     "subcategory": "KORNA ÇEŞİTLERİ",
     "code": "83KM1200001",
     "brand": "SEGER",
     "name": "Marin Korna Küçük",
-    "image": ""
+    "image": "83KM1200001.jpg"
   },
   {
     "id": "SEGER-12V_İnce__Kalın",
-    "group": "KONTAK & TESİSAT GRUBU",
+    "group": "KORNA GRUBU",
     "subcategory": "KORNA ÇEŞİTLERİ",
     "code": "",
     "brand": "SEGER",
@@ -3493,268 +3493,268 @@
   },
   {
     "id": "85KH1200002-SEGER-12V_2li_Fala_Fala_Korna",
-    "group": "KONTAK & TESİSAT GRUBU",
+    "group": "KORNA GRUBU",
     "subcategory": "KORNA ÇEŞİTLERİ",
     "code": "85KH1200002",
     "brand": "SEGER",
     "name": "12V 2’li Fala Fala Korna",
-    "image": ""
+    "image": "85KH1200002.JPG"
   },
   {
     "id": "004_811_042-HELLA-Hella_Süperton_Korna",
-    "group": "KONTAK & TESİSAT GRUBU",
+    "group": "KORNA GRUBU",
     "subcategory": "KORNA ÇEŞİTLERİ",
     "code": "004 811 042",
     "brand": "HELLA",
     "name": "Hella Süperton Korna",
-    "image": ""
+    "image": "004 811 042.jpg"
   },
   {
     "id": "0986AH0203-BOSCH-Bosch_Süperton_Nikelajlı_Korna",
-    "group": "KONTAK & TESİSAT GRUBU",
+    "group": "KORNA GRUBU",
     "subcategory": "KORNA ÇEŞİTLERİ",
     "code": "0986AH0203",
     "brand": "BOSCH",
     "name": "Bosch Süperton Nikelajlı Korna",
-    "image": ""
+    "image": "0986AH0203.png"
   },
   {
     "id": "50FI1292602K-SEGER-Korsa_12V_İnce__Kalın",
-    "group": "KONTAK & TESİSAT GRUBU",
+    "group": "KORNA GRUBU",
     "subcategory": "KORNA ÇEŞİTLERİ",
     "code": "50FI12.926.02K",
     "brand": "SEGER",
     "name": "Korsa 12V İnce – Kalın",
-    "image": ""
+    "image": "50FI12.926.02K.png"
   },
   {
     "id": "1110-KARDEN-5_Amper_Bıçak_Sigorta",
-    "group": "KONTAK & TESİSAT GRUBU",
+    "group": "BIÇAK SİGORTALAR",
     "subcategory": "STANDART BIÇAK SİGORTA",
     "code": "1110",
     "brand": "KARDEN",
     "name": "5 Amper Bıçak Sigorta",
-    "image": ""
+    "image": "5A.jpg"
   },
   {
     "id": "1110-KARDEN-75_Amper_Bıçak_Sigorta",
-    "group": "KONTAK & TESİSAT GRUBU",
+    "group": "BIÇAK SİGORTALAR",
     "subcategory": "STANDART BIÇAK SİGORTA",
     "code": "1110",
     "brand": "KARDEN",
     "name": "7,5 Amper Bıçak Sigorta",
-    "image": ""
+    "image": "7,5A.jpg"
   },
   {
     "id": "1110-KARDEN-10_Amper_Bıçak_Sigorta",
-    "group": "KONTAK & TESİSAT GRUBU",
+    "group": "BIÇAK SİGORTALAR",
     "subcategory": "STANDART BIÇAK SİGORTA",
     "code": "1110",
     "brand": "KARDEN",
     "name": "10 Amper Bıçak Sigorta",
-    "image": ""
+    "image": "10A.jpg"
   },
   {
     "id": "1110-KARDEN-15_Amper_Bıçak_Sigorta",
-    "group": "KONTAK & TESİSAT GRUBU",
+    "group": "BIÇAK SİGORTALAR",
     "subcategory": "STANDART BIÇAK SİGORTA",
     "code": "1110",
     "brand": "KARDEN",
     "name": "15 Amper Bıçak Sigorta",
-    "image": ""
+    "image": "15A.jpg"
   },
   {
     "id": "1110-KARDEN-20_Amper_Bıçak_Sigorta",
-    "group": "KONTAK & TESİSAT GRUBU",
+    "group": "BIÇAK SİGORTALAR",
     "subcategory": "STANDART BIÇAK SİGORTA",
     "code": "1110",
     "brand": "KARDEN",
     "name": "20 Amper Bıçak Sigorta",
-    "image": ""
+    "image": "20A.jpg"
   },
   {
     "id": "1110-KARDEN-25_Amper_Bıçak_Sigorta",
-    "group": "KONTAK & TESİSAT GRUBU",
+    "group": "BIÇAK SİGORTALAR",
     "subcategory": "STANDART BIÇAK SİGORTA",
     "code": "1110",
     "brand": "KARDEN",
     "name": "25 Amper Bıçak Sigorta",
-    "image": ""
+    "image": "25A.jpg"
   },
   {
     "id": "1110-KARDEN-30_Amper_Bıçak_Sigorta",
-    "group": "KONTAK & TESİSAT GRUBU",
+    "group": "BIÇAK SİGORTALAR",
     "subcategory": "STANDART BIÇAK SİGORTA",
     "code": "1110",
     "brand": "KARDEN",
     "name": "30 Amper Bıçak Sigorta",
-    "image": ""
+    "image": "30A.jpg"
   },
   {
     "id": "1109-KARDEN-5_Amper_Mini_Bıçak_Sigorta",
-    "group": "KONTAK & TESİSAT GRUBU",
+    "group": "BIÇAK SİGORTALAR",
     "subcategory": "MİNİ BIÇAK SİGORTA",
     "code": "1109",
     "brand": "KARDEN",
     "name": "5 Amper Mini Bıçak Sigorta",
-    "image": ""
+    "image": "5M.jpg"
   },
   {
     "id": "1109-KARDEN-75_Amper_Mini_Bıçak_Sigorta",
-    "group": "KONTAK & TESİSAT GRUBU",
+    "group": "BIÇAK SİGORTALAR",
     "subcategory": "MİNİ BIÇAK SİGORTA",
     "code": "1109",
     "brand": "KARDEN",
     "name": "7,5 Amper Mini Bıçak Sigorta",
-    "image": ""
+    "image": "7,5M.jpg"
   },
   {
     "id": "1109-KARDEN-10_Amper_Mini_Bıçak_Sigorta",
-    "group": "KONTAK & TESİSAT GRUBU",
+    "group": "BIÇAK SİGORTALAR",
     "subcategory": "MİNİ BIÇAK SİGORTA",
     "code": "1109",
     "brand": "KARDEN",
     "name": "10 Amper Mini Bıçak Sigorta",
-    "image": ""
+    "image": "10M.jpg"
   },
   {
     "id": "1109-KARDEN-15_Amper_Mini_Bıçak_Sigorta",
-    "group": "KONTAK & TESİSAT GRUBU",
+    "group": "BIÇAK SİGORTALAR",
     "subcategory": "MİNİ BIÇAK SİGORTA",
     "code": "1109",
     "brand": "KARDEN",
     "name": "15 Amper Mini Bıçak Sigorta",
-    "image": ""
+    "image": "15M.jpg"
   },
   {
     "id": "1109-KARDEN-20_Amper_Mini_Bıçak_Sigorta",
-    "group": "KONTAK & TESİSAT GRUBU",
+    "group": "BIÇAK SİGORTALAR",
     "subcategory": "MİNİ BIÇAK SİGORTA",
     "code": "1109",
     "brand": "KARDEN",
     "name": "20 Amper Mini Bıçak Sigorta",
-    "image": ""
+    "image": "20M.jpg"
   },
   {
     "id": "1109-KARDEN-25_Amper_Mini_Bıçak_Sigorta",
-    "group": "KONTAK & TESİSAT GRUBU",
+    "group": "BIÇAK SİGORTALAR",
     "subcategory": "MİNİ BIÇAK SİGORTA",
     "code": "1109",
     "brand": "KARDEN",
     "name": "25 Amper Mini Bıçak Sigorta",
-    "image": ""
+    "image": "25M.jpg"
   },
   {
     "id": "1109-KARDEN-30_Amper_Mini_Bıçak_Sigorta",
-    "group": "KONTAK & TESİSAT GRUBU",
+    "group": "BIÇAK SİGORTALAR",
     "subcategory": "MİNİ BIÇAK SİGORTA",
     "code": "1109",
     "brand": "KARDEN",
     "name": "30 Amper Mini Bıçak Sigorta",
-    "image": ""
+    "image": "30M.jpg"
   },
   {
     "id": "594036-KARDEN-Hızlı_Yapıştırıcı",
-    "group": "KONTAK & TESİSAT GRUBU",
+    "group": "YAPIŞTIRICILAR",
     "subcategory": "YAPIŞTIRICILAR",
     "code": "594036",
     "brand": "KARDEN",
     "name": "Hızlı Yapıştırıcı",
-    "image": ""
+    "image": "594036.png"
   },
   {
     "id": "502-KARDEN-Japon_Yapıştırıcı",
-    "group": "KONTAK & TESİSAT GRUBU",
+    "group": "YAPIŞTIRICILAR",
     "subcategory": "YAPIŞTIRICILAR",
     "code": "502",
     "brand": "KARDEN",
     "name": "Japon Yapıştırıcı",
-    "image": ""
+    "image": "502.png"
   },
   {
     "id": "1000-KARDEN-Bali_Yapıştırıcı__Küçük_Tüp_50_gr",
-    "group": "KONTAK & TESİSAT GRUBU",
+    "group": "YAPIŞTIRICILAR",
     "subcategory": "YAPIŞTIRICILAR",
     "code": "1000",
     "brand": "KARDEN",
     "name": "Bali Yapıştırıcı – Küçük Tüp (50 gr)",
-    "image": ""
+    "image": "1000.jpg"
   },
   {
     "id": "17_2-KARDEN-Bant",
-    "group": "KONTAK & TESİSAT GRUBU",
+    "group": "YAPIŞTIRICILAR",
     "subcategory": "YAPIŞTIRICILAR",
     "code": "17 2",
     "brand": "KARDEN",
     "name": "Bant",
-    "image": ""
+    "image": "17 2.jpg"
   },
   {
     "id": "28_1-KARDEN-Teflon_Bant",
-    "group": "KONTAK & TESİSAT GRUBU",
+    "group": "YAPIŞTIRICILAR",
     "subcategory": "YAPIŞTIRICILAR",
     "code": "28 1",
     "brand": "KARDEN",
     "name": "Teflon Bant",
-    "image": ""
+    "image": "28 1.jpg"
   },
   {
     "id": "19_1-KARDEN-Bez_Bant_Tüylü",
-    "group": "KONTAK & TESİSAT GRUBU",
+    "group": "YAPIŞTIRICILAR",
     "subcategory": "YAPIŞTIRICILAR",
     "code": "19 1",
     "brand": "KARDEN",
     "name": "Bez Bant Tüylü",
-    "image": ""
+    "image": "19 1.png"
   },
   {
     "id": "19_2-KARDEN-Bez_Bant_Tüysüz",
-    "group": "KONTAK & TESİSAT GRUBU",
+    "group": "YAPIŞTIRICILAR",
     "subcategory": "YAPIŞTIRICILAR",
     "code": "19 2",
     "brand": "KARDEN",
     "name": "Bez Bant Tüysüz",
-    "image": ""
+    "image": "19 2.png"
   },
   {
     "id": "307-01-KARDEN-Pas_Sökücü_MoS₂_Katkılı",
-    "group": "KONTAK & TESİSAT GRUBU",
+    "group": "YAPIŞTIRICILAR",
     "subcategory": "YAPIŞTIRICILAR",
     "code": "307-01",
     "brand": "KARDEN",
     "name": "Pas Sökücü (MoS₂ Katkılı)",
-    "image": ""
+    "image": "307-01.png"
   },
   {
     "id": "317-02-KARDEN-Balata_Temizleyici",
-    "group": "KONTAK & TESİSAT GRUBU",
+    "group": "YAPIŞTIRICILAR",
     "subcategory": "YAPIŞTIRICILAR",
     "code": "317-02",
     "brand": "KARDEN",
     "name": "Balata Temizleyici",
-    "image": ""
+    "image": "317-02.png"
   },
   {
     "id": "310-01-KARDEN-Eter",
-    "group": "KONTAK & TESİSAT GRUBU",
+    "group": "YAPIŞTIRICILAR",
     "subcategory": "YAPIŞTIRICILAR",
     "code": "310-01",
     "brand": "KARDEN",
     "name": "Eter",
-    "image": ""
+    "image": "310-01.png"
   },
   {
     "id": "530002-KARDEN-Sıvı_Conta_Kırmızı__45_gr",
-    "group": "KONTAK & TESİSAT GRUBU",
+    "group": "YAPIŞTIRICILAR",
     "subcategory": "YAPIŞTIRICILAR",
     "code": "530002",
     "brand": "KARDEN",
     "name": "Sıvı Conta Kırmızı – 45 gr",
-    "image": ""
+    "image": "530002.jpg"
   },
   {
     "id": "KARDEN-380_mm_Silecek_Süpürgesi_Telli__Takım",
-    "group": "KONTAK & TESİSAT GRUBU",
+    "group": "SİLECEK SÜPÜRGE VE KOL ÇEŞİTLERİ",
     "subcategory": "SİLECEK SÜPÜRGELERİ – TELLİ (KLASİK)",
     "code": "",
     "brand": "KARDEN",
@@ -3763,7 +3763,7 @@
   },
   {
     "id": "KARDEN-Tofaş_SLX_Silecek_Süpürgesi__Takım",
-    "group": "KONTAK & TESİSAT GRUBU",
+    "group": "SİLECEK SÜPÜRGE VE KOL ÇEŞİTLERİ",
     "subcategory": "SİLECEK SÜPÜRGELERİ – TELLİ (KLASİK)",
     "code": "",
     "brand": "KARDEN",
@@ -3772,88 +3772,88 @@
   },
   {
     "id": "017_001-INWELLS-380_mm_Telli_Grafitli_Silecek_Süpürgesi",
-    "group": "KONTAK & TESİSAT GRUBU",
+    "group": "SİLECEK SÜPÜRGE VE KOL ÇEŞİTLERİ",
     "subcategory": "SİLECEK SÜPÜRGELERİ – TELLİ (KLASİK)",
     "code": "017 001",
     "brand": "INWELLS",
     "name": "380 mm Telli Grafitli Silecek Süpürgesi",
-    "image": ""
+    "image": "017 001.jpg"
   },
   {
     "id": "017_002-INWELLS-400_mm_Telli_Grafitli_Silecek_Süpürgesi",
-    "group": "KONTAK & TESİSAT GRUBU",
+    "group": "SİLECEK SÜPÜRGE VE KOL ÇEŞİTLERİ",
     "subcategory": "SİLECEK SÜPÜRGELERİ – TELLİ (KLASİK)",
     "code": "017 002",
     "brand": "INWELLS",
     "name": "400 mm Telli Grafitli Silecek Süpürgesi",
-    "image": ""
+    "image": "017 001.jpg"
   },
   {
     "id": "017_003-INWELLS-430_mm_Telli_R9_Silecek_Süpürgesi",
-    "group": "KONTAK & TESİSAT GRUBU",
+    "group": "SİLECEK SÜPÜRGE VE KOL ÇEŞİTLERİ",
     "subcategory": "SİLECEK SÜPÜRGELERİ – TELLİ (KLASİK)",
     "code": "017 003",
     "brand": "INWELLS",
     "name": "430 mm Telli R9 Silecek Süpürgesi",
-    "image": ""
+    "image": "017 001.jpg"
   },
   {
     "id": "017_004-INWELLS-450_mm_Telli_Grafitli_Silecek_Süpürgesi",
-    "group": "KONTAK & TESİSAT GRUBU",
+    "group": "SİLECEK SÜPÜRGE VE KOL ÇEŞİTLERİ",
     "subcategory": "SİLECEK SÜPÜRGELERİ – TELLİ (KLASİK)",
     "code": "017 004",
     "brand": "INWELLS",
     "name": "450 mm Telli Grafitli Silecek Süpürgesi",
-    "image": ""
+    "image": "017 001.jpg"
   },
   {
     "id": "017_005-INWELLS-480_mm_Telli_Grafitli_Silecek_Süpürgesi",
-    "group": "KONTAK & TESİSAT GRUBU",
+    "group": "SİLECEK SÜPÜRGE VE KOL ÇEŞİTLERİ",
     "subcategory": "SİLECEK SÜPÜRGELERİ – TELLİ (KLASİK)",
     "code": "017 005",
     "brand": "INWELLS",
     "name": "480 mm Telli Grafitli Silecek Süpürgesi",
-    "image": ""
+    "image": "017 001.jpg"
   },
   {
     "id": "017_006-INWELLS-500_mm_Telli_Grafitli_Silecek_Süpürgesi",
-    "group": "KONTAK & TESİSAT GRUBU",
+    "group": "SİLECEK SÜPÜRGE VE KOL ÇEŞİTLERİ",
     "subcategory": "SİLECEK SÜPÜRGELERİ – TELLİ (KLASİK)",
     "code": "017 006",
     "brand": "INWELLS",
     "name": "500 mm Telli Grafitli Silecek Süpürgesi",
-    "image": ""
+    "image": "017 001.jpg"
   },
   {
     "id": "017_007-INWELLS-550_mm_Telli_Grafitli_Silecek_Süpürgesi",
-    "group": "KONTAK & TESİSAT GRUBU",
+    "group": "SİLECEK SÜPÜRGE VE KOL ÇEŞİTLERİ",
     "subcategory": "SİLECEK SÜPÜRGELERİ – TELLİ (KLASİK)",
     "code": "017 007",
     "brand": "INWELLS",
     "name": "550 mm Telli Grafitli Silecek Süpürgesi",
-    "image": ""
+    "image": "017 001.jpg"
   },
   {
     "id": "017_008-INWELLS-600_mm_Telli_Grafitli_Silecek_Süpürgesi",
-    "group": "KONTAK & TESİSAT GRUBU",
+    "group": "SİLECEK SÜPÜRGE VE KOL ÇEŞİTLERİ",
     "subcategory": "SİLECEK SÜPÜRGELERİ – TELLİ (KLASİK)",
     "code": "017 008",
     "brand": "INWELLS",
     "name": "600 mm Telli Grafitli Silecek Süpürgesi",
-    "image": ""
+    "image": "017 001.jpg"
   },
   {
     "id": "017_009-INWELLS-650_mm_Telli_Grafitli_Silecek_Süpürgesi",
-    "group": "KONTAK & TESİSAT GRUBU",
+    "group": "SİLECEK SÜPÜRGE VE KOL ÇEŞİTLERİ",
     "subcategory": "SİLECEK SÜPÜRGELERİ – TELLİ (KLASİK)",
     "code": "017 009",
     "brand": "INWELLS",
     "name": "650 mm Telli Grafitli Silecek Süpürgesi",
-    "image": ""
+    "image": "017 001.jpg"
   },
   {
     "id": "KARDEN-380_mm_Universal_Muz_Tip_Silecek_Süpürgesi",
-    "group": "KONTAK & TESİSAT GRUBU",
+    "group": "SİLECEK SÜPÜRGE VE KOL ÇEŞİTLERİ",
     "subcategory": "SİLECEK SÜPÜRGELERİ – MUZ (TELSİZ)",
     "code": "",
     "brand": "KARDEN",
@@ -3862,394 +3862,394 @@
   },
   {
     "id": "018_001-INWELLS-350_mm_Universal_Muz_Tip_Silecek_Süpürgesi",
-    "group": "KONTAK & TESİSAT GRUBU",
+    "group": "SİLECEK SÜPÜRGE VE KOL ÇEŞİTLERİ",
     "subcategory": "SİLECEK SÜPÜRGELERİ – MUZ (TELSİZ)",
     "code": "018 001",
     "brand": "INWELLS",
     "name": "350 mm Universal Muz Tip Silecek Süpürgesi",
-    "image": ""
+    "image": "018 001.jpg"
   },
   {
     "id": "018_002-INWELLS-380_mm_Universal_Muz_Tip_Silecek_Süpürgesi",
-    "group": "KONTAK & TESİSAT GRUBU",
+    "group": "SİLECEK SÜPÜRGE VE KOL ÇEŞİTLERİ",
     "subcategory": "SİLECEK SÜPÜRGELERİ – MUZ (TELSİZ)",
     "code": "018 002",
     "brand": "INWELLS",
     "name": "380 mm Universal Muz Tip Silecek Süpürgesi",
-    "image": ""
+    "image": "018 001.jpg"
   },
   {
     "id": "018_003-INWELLS-400_mm_Universal_Muz_Tip_Silecek_Süpürgesi",
-    "group": "KONTAK & TESİSAT GRUBU",
+    "group": "SİLECEK SÜPÜRGE VE KOL ÇEŞİTLERİ",
     "subcategory": "SİLECEK SÜPÜRGELERİ – MUZ (TELSİZ)",
     "code": "018 003",
     "brand": "INWELLS",
     "name": "400 mm Universal Muz Tip Silecek Süpürgesi",
-    "image": ""
+    "image": "018 001.jpg"
   },
   {
     "id": "018_004-INWELLS-430_mm_Universal_Muz_Tip_Silecek_Süpürgesi",
-    "group": "KONTAK & TESİSAT GRUBU",
+    "group": "SİLECEK SÜPÜRGE VE KOL ÇEŞİTLERİ",
     "subcategory": "SİLECEK SÜPÜRGELERİ – MUZ (TELSİZ)",
     "code": "018 004",
     "brand": "INWELLS",
     "name": "430 mm Universal Muz Tip Silecek Süpürgesi",
-    "image": ""
+    "image": "018 001.jpg"
   },
   {
     "id": "018_005-INWELLS-450_mm_Universal_Muz_Tip_Silecek_Süpürgesi",
-    "group": "KONTAK & TESİSAT GRUBU",
+    "group": "KSİLECEK SÜPÜRGE VE KOL ÇEŞİTLERİ",
     "subcategory": "SİLECEK SÜPÜRGELERİ – MUZ (TELSİZ)",
     "code": "018 005",
     "brand": "INWELLS",
     "name": "450 mm Universal Muz Tip Silecek Süpürgesi",
-    "image": ""
+    "image": "018 001.jpg"
   },
   {
     "id": "018_006-INWELLS-480_mm_Universal_Muz_Tip_Silecek_Süpürgesi",
-    "group": "KONTAK & TESİSAT GRUBU",
+    "group": "SİLECEK SÜPÜRGE VE KOL ÇEŞİTLERİ",
     "subcategory": "SİLECEK SÜPÜRGELERİ – MUZ (TELSİZ)",
     "code": "018 006",
     "brand": "INWELLS",
     "name": "480 mm Universal Muz Tip Silecek Süpürgesi",
-    "image": ""
+    "image": "018 001.jpg"
   },
   {
     "id": "018_007-INWELLS-500_mm_Universal_Muz_Tip_Silecek_Süpürgesi",
-    "group": "KONTAK & TESİSAT GRUBU",
+    "group": "SİLECEK SÜPÜRGE VE KOL ÇEŞİTLERİ",
     "subcategory": "SİLECEK SÜPÜRGELERİ – MUZ (TELSİZ)",
     "code": "018 007",
     "brand": "INWELLS",
     "name": "500 mm Universal Muz Tip Silecek Süpürgesi",
-    "image": ""
+    "image": "018 001.jpg"
   },
   {
     "id": "018_008-INWELLS-530_mm_Universal_Muz_Tip_Silecek_Süpürgesi",
-    "group": "KONTAK & TESİSAT GRUBU",
+    "group": "SİLECEK SÜPÜRGE VE KOL ÇEŞİTLERİ",
     "subcategory": "SİLECEK SÜPÜRGELERİ – MUZ (TELSİZ)",
     "code": "018 008",
     "brand": "INWELLS",
     "name": "530 mm Universal Muz Tip Silecek Süpürgesi",
-    "image": ""
+    "image": "018 001.jpg"
   },
   {
     "id": "018_009-INWELLS-550_mm_Universal_Muz_Tip_Silecek_Süpürgesi",
-    "group": "KONTAK & TESİSAT GRUBU",
+    "group": "SİLECEK SÜPÜRGE VE KOL ÇEŞİTLERİ",
     "subcategory": "SİLECEK SÜPÜRGELERİ – MUZ (TELSİZ)",
     "code": "018 009",
     "brand": "INWELLS",
     "name": "550 mm Universal Muz Tip Silecek Süpürgesi",
-    "image": ""
+    "image": "018 001.jpg"
   },
   {
     "id": "018_010-INWELLS-600_mm_Universal_Muz_Tip_Silecek_Süpürgesi",
-    "group": "KONTAK & TESİSAT GRUBU",
+    "group": "SİLECEK SÜPÜRGE VE KOL ÇEŞİTLERİ",
     "subcategory": "SİLECEK SÜPÜRGELERİ – MUZ (TELSİZ)",
     "code": "018 010",
     "brand": "INWELLS",
     "name": "600 mm Universal Muz Tip Silecek Süpürgesi",
-    "image": ""
+    "image": "018 001.jpg"
   },
   {
     "id": "018_011-INWELLS-650_mm_Universal_Muz_Tip_Silecek_Süpürgesi",
-    "group": "KONTAK & TESİSAT GRUBU",
+    "group": "SİLECEK SÜPÜRGE VE KOL ÇEŞİTLERİ",
     "subcategory": "SİLECEK SÜPÜRGELERİ – MUZ (TELSİZ)",
     "code": "018 011",
     "brand": "INWELLS",
     "name": "650 mm Universal Muz Tip Silecek Süpürgesi",
-    "image": ""
+    "image": "018 001.jpg"
   },
   {
     "id": "018_012-INWELLS-700_mm_Universal_Muz_Tip_Silecek_Süpürgesi",
-    "group": "KONTAK & TESİSAT GRUBU",
+    "group": "SİLECEK SÜPÜRGE VE KOL ÇEŞİTLERİ",
     "subcategory": "SİLECEK SÜPÜRGELERİ – MUZ (TELSİZ)",
     "code": "018 012",
     "brand": "INWELLS",
     "name": "700 mm Universal Muz Tip Silecek Süpürgesi",
-    "image": ""
+    "image": "018 001.jpg"
   },
   {
     "id": "017_093-INWELLS-380_mm_Telsiz_Lastik",
-    "group": "KONTAK & TESİSAT GRUBU",
+    "group": "SİLECEK SÜPÜRGE VE KOL ÇEŞİTLERİ",
     "subcategory": "SİLECEK LASTİKLERİ (TELSİZ)",
     "code": "017 093",
     "brand": "INWELLS",
     "name": "380 mm Telsiz Lastik",
-    "image": ""
+    "image": "017 093.jpg"
   },
   {
     "id": "017_095-INWELLS-600_mm_Telsiz_Lastik",
-    "group": "KONTAK & TESİSAT GRUBU",
+    "group": "SİLECEK SÜPÜRGE VE KOL ÇEŞİTLERİ",
     "subcategory": "SİLECEK LASTİKLERİ (TELSİZ)",
     "code": "017 095",
     "brand": "INWELLS",
     "name": "600 mm Telsiz Lastik",
-    "image": ""
+    "image": "017 093.jpg"
   },
   {
     "id": "017_096-INWELLS-700_mm_Telsiz_Lastik",
-    "group": "KONTAK & TESİSAT GRUBU",
+    "group": "SİLECEK SÜPÜRGE VE KOL ÇEŞİTLERİ",
     "subcategory": "SİLECEK LASTİKLERİ (TELSİZ)",
     "code": "017 096",
     "brand": "INWELLS",
     "name": "700 mm Telsiz Lastik",
-    "image": ""
+    "image": "017 093.jpg"
   },
   {
     "id": "017_097-INWELLS-700_mm_Telsiz_Lastik__İnce_Sırt",
-    "group": "KONTAK & TESİSAT GRUBU",
+    "group": "SİLECEK SÜPÜRGE VE KOL ÇEŞİTLERİ",
     "subcategory": "SİLECEK LASTİKLERİ (TELSİZ)",
     "code": "017 097",
     "brand": "INWELLS",
     "name": "700 mm Telsiz Lastik – İnce Sırt",
-    "image": ""
+    "image": "017 097.jpg"
   },
   {
     "id": "SK13-SİLBAK-380_mm_Silgi_Kolu",
-    "group": "KONTAK & TESİSAT GRUBU",
+    "group": "SİLECEK SÜPÜRGE VE KOL ÇEŞİTLERİ",
     "subcategory": "SİLECEK KOLLARI VE MEKANİZMA",
     "code": "SK13",
     "brand": "SİLBAK",
     "name": "380 mm Silgi Kolu",
-    "image": ""
+    "image": "SK13.JPG"
   },
   {
     "id": "099_279-KARDEN-Kabin_Silgi_Motoru",
-    "group": "KONTAK & TESİSAT GRUBU",
+    "group": "SİLECEK SÜPÜRGE VE KOL ÇEŞİTLERİ",
     "subcategory": "SİLECEK KOLLARI VE MEKANİZMA",
     "code": "099 279",
     "brand": "KARDEN",
     "name": "Kabin Silgi Motoru",
-    "image": ""
+    "image": "099 279.png"
   },
   {
     "id": "S122-NUREL-Stayr_Sinyal_Kolu",
-    "group": "KONTAK & TESİSAT GRUBU",
+    "group": "SİLECEK SÜPÜRGE VE KOL ÇEŞİTLERİ",
     "subcategory": "SİLECEK KOLLARI VE MEKANİZMA",
     "code": "S122",
     "brand": "NUREL",
     "name": "Stayr Sinyal Kolu",
-    "image": ""
+    "image": "S122.jpg"
   },
   {
     "id": "6201-ORS-6201_ZZ_Rulman",
-    "group": "KONTAK & TESİSAT GRUBU",
+    "group": "ORS RULMAN",
     "subcategory": "ORS – ZZ TİPİ (METAL KAPAKLI)",
     "code": "6201",
     "brand": "ORS",
     "name": "6201 ZZ Rulman",
-    "image": ""
+    "image": "ORS ZZ.jpg"
   },
   {
     "id": "6202-ORS-6202_ZZ_Rulman",
-    "group": "KONTAK & TESİSAT GRUBU",
+    "group": "ORS RULMAN",
     "subcategory": "ORS – ZZ TİPİ (METAL KAPAKLI)",
     "code": "6202",
     "brand": "ORS",
     "name": "6202 ZZ Rulman",
-    "image": ""
+    "image": "ORS ZZ.jpg"
   },
   {
     "id": "6203-ORS-6203_ZZ_Rulman",
-    "group": "KONTAK & TESİSAT GRUBU",
+    "group": "ORS RULMAN",
     "subcategory": "ORS – ZZ TİPİ (METAL KAPAKLI)",
     "code": "6203",
     "brand": "ORS",
     "name": "6203 ZZ Rulman",
-    "image": ""
+    "image": "ORS ZZ.jpg"
   },
   {
     "id": "6204-ORS-6204_ZZ_Rulman",
-    "group": "KONTAK & TESİSAT GRUBU",
+    "group": "ORS RULMAN",
     "subcategory": "ORS – ZZ TİPİ (METAL KAPAKLI)",
     "code": "6204",
     "brand": "ORS",
     "name": "6204 ZZ Rulman",
-    "image": ""
+    "image": "ORS ZZ.jpg"
   },
   {
     "id": "6205-ORS-6205_ZZ_Rulman",
-    "group": "KONTAK & TESİSAT GRUBU",
+    "group": "ORS RULMAN",
     "subcategory": "ORS – ZZ TİPİ (METAL KAPAKLI)",
     "code": "6205",
     "brand": "ORS",
     "name": "6205 ZZ Rulman",
-    "image": ""
+    "image": "ORS ZZ.jpg"
   },
   {
     "id": "6207-ORS-6207_ZZ_Rulman",
-    "group": "KONTAK & TESİSAT GRUBU",
+    "group": "ORS RULMAN",
     "subcategory": "ORS – ZZ TİPİ (METAL KAPAKLI)",
     "code": "6207",
     "brand": "ORS",
     "name": "6207 ZZ Rulman",
-    "image": ""
+    "image": "ORS ZZ.jpg"
   },
   {
     "id": "6208-ORS-6208_ZZ_Rulman",
-    "group": "KONTAK & TESİSAT GRUBU",
+    "group": "ORS RULMAN",
     "subcategory": "ORS – ZZ TİPİ (METAL KAPAKLI)",
     "code": "6208",
     "brand": "ORS",
     "name": "6208 ZZ Rulman",
-    "image": ""
+    "image": "ORS ZZ.jpg"
   },
   {
     "id": "6004-ORS-6004_ZZ_Rulman",
-    "group": "KONTAK & TESİSAT GRUBU",
+    "group": "ORS RULMAN",
     "subcategory": "ORS – ZZ TİPİ (METAL KAPAKLI)",
     "code": "6004",
     "brand": "ORS",
     "name": "6004 ZZ Rulman",
-    "image": ""
+    "image": "ORS ZZ.jpg"
   },
   {
     "id": "6007-ORS-6007_ZZ_Rulman",
-    "group": "KONTAK & TESİSAT GRUBU",
+    "group": "ORS RULMAN",
     "subcategory": "ORS – ZZ TİPİ (METAL KAPAKLI)",
     "code": "6007",
     "brand": "ORS",
     "name": "6007 ZZ Rulman",
-    "image": ""
+    "image": "ORS ZZ.jpg"
   },
   {
     "id": "6201-ORS-6201_2RS_Rulman",
-    "group": "KONTAK & TESİSAT GRUBU",
+    "group": "ORS RULMAN",
     "subcategory": "ORS – 2RS TİPİ (KEÇELİ)",
     "code": "6201",
     "brand": "ORS",
     "name": "6201 2RS Rulman",
-    "image": ""
+    "image": "ORS 2RS.jpg"
   },
   {
     "id": "6202-ORS-6202_2RS_Rulman",
-    "group": "KONTAK & TESİSAT GRUBU",
+    "group": "ORS RULMAN",
     "subcategory": "ORS – 2RS TİPİ (KEÇELİ)",
     "code": "6202",
     "brand": "ORS",
     "name": "6202 2RS Rulman",
-    "image": ""
+    "image": "ORS 2RS.jpg"
   },
   {
     "id": "6203-ORS-6203_2RS_Rulman",
-    "group": "KONTAK & TESİSAT GRUBU",
+    "group": "ORS RULMAN",
     "subcategory": "ORS – 2RS TİPİ (KEÇELİ)",
     "code": "6203",
     "brand": "ORS",
     "name": "6203 2RS Rulman",
-    "image": ""
+    "image": "ORS 2RS.jpg"
   },
   {
     "id": "6204-ORS-6204_2RS_Rulman",
-    "group": "KONTAK & TESİSAT GRUBU",
+    "group": "ORS RULMAN",
     "subcategory": "ORS – 2RS TİPİ (KEÇELİ)",
     "code": "6204",
     "brand": "ORS",
     "name": "6204 2RS Rulman",
-    "image": ""
+    "image": "ORS 2RS.jpg"
   },
   {
     "id": "6205-ORS-6205_2RS_Rulman",
-    "group": "KONTAK & TESİSAT GRUBU",
+    "group": "ORS RULMAN",
     "subcategory": "ORS – 2RS TİPİ (KEÇELİ)",
     "code": "6205",
     "brand": "ORS",
     "name": "6205 2RS Rulman",
-    "image": ""
+    "image": "ORS 2RS.jpg"
   },
   {
     "id": "6206-ORS-6206_2RS_Rulman",
-    "group": "KONTAK & TESİSAT GRUBU",
+    "group": "ORS RULMAN",
     "subcategory": "ORS – 2RS TİPİ (KEÇELİ)",
     "code": "6206",
     "brand": "ORS",
     "name": "6206 2RS Rulman",
-    "image": ""
+    "image": "ORS 2RS.jpg"
   },
   {
     "id": "6207-ORS-6207_2RS_Rulman",
-    "group": "KONTAK & TESİSAT GRUBU",
+    "group": "ORS RULMAN",
     "subcategory": "ORS – 2RS TİPİ (KEÇELİ)",
     "code": "6207",
     "brand": "ORS",
     "name": "6207 2RS Rulman",
-    "image": ""
+    "image": "ORS 2RS.jpg"
   },
   {
     "id": "6208-ORS-6208_2RS_Rulman",
-    "group": "KONTAK & TESİSAT GRUBU",
+    "group": "ORS RULMAN",
     "subcategory": "ORS – 2RS TİPİ (KEÇELİ)",
     "code": "6208",
     "brand": "ORS",
     "name": "6208 2RS Rulman",
-    "image": ""
+    "image": "ORS 2RS.jpg"
   },
   {
     "id": "6004-ORS-6004_2RS_Rulman",
-    "group": "KONTAK & TESİSAT GRUBU",
+    "group": "ORS RULMAN",
     "subcategory": "ORS – 2RS TİPİ (KEÇELİ)",
     "code": "6004",
     "brand": "ORS",
     "name": "6004 2RS Rulman",
-    "image": ""
+    "image": "ORS 2RS.jpg"
   },
   {
     "id": "6005-ORS-6005_2RS_Rulman",
-    "group": "KONTAK & TESİSAT GRUBU",
+    "group": "ORS RULMAN",
     "subcategory": "ORS – 2RS TİPİ (KEÇELİ)",
     "code": "6005",
     "brand": "ORS",
     "name": "6005 2RS Rulman",
-    "image": ""
+    "image": "ORS 2RS.jpg"
   },
   {
     "id": "6006-ORS-6006_2RS_Rulman",
-    "group": "KONTAK & TESİSAT GRUBU",
+    "group": "ORS RULMAN",
     "subcategory": "ORS – 2RS TİPİ (KEÇELİ)",
     "code": "6006",
     "brand": "ORS",
     "name": "6006 2RS Rulman",
-    "image": ""
+    "image": "ORS 2RS.jpg"
   },
   {
     "id": "6007-ORS-6007_2RS_Rulman",
-    "group": "KONTAK & TESİSAT GRUBU",
+    "group": "ORS RULMAN",
     "subcategory": "ORS – 2RS TİPİ (KEÇELİ)",
     "code": "6007",
     "brand": "ORS",
     "name": "6007 2RS Rulman",
-    "image": ""
+    "image": "ORS 2RS.jpg"
   },
   {
     "id": "6008-ORS-6008_2RS_Rulman",
-    "group": "KONTAK & TESİSAT GRUBU",
+    "group": "ORS RULMAN",
     "subcategory": "ORS – 2RS TİPİ (KEÇELİ)",
     "code": "6008",
     "brand": "ORS",
     "name": "6008 2RS Rulman",
-    "image": ""
+    "image": "ORS 2RS.jpg"
   },
   {
     "id": "630106-ORS-630106_Prizdirek_Rulman",
-    "group": "KONTAK & TESİSAT GRUBU",
+    "group": "ORS RULMAN",
     "subcategory": "ORS – PRİZDİREK / AKS / KONİK",
     "code": "630106",
     "brand": "ORS",
     "name": "630106 Prizdirek Rulman",
-    "image": ""
+    "image": "630106.png"
   },
   {
     "id": "6306-ORS-6306_ZNR_Prizdirek_Rulman",
-    "group": "KONTAK & TESİSAT GRUBU",
+    "group": "ORS RULMAN",
     "subcategory": "ORS – PRİZDİREK / AKS / KONİK",
     "code": "6306",
     "brand": "ORS",
     "name": "6306 ZNR Prizdirek Rulman",
-    "image": ""
+    "image": "6303 ZNR.png"
   },
   {
     "id": "630374-ORS-630374_Aks_Rulman",
-    "group": "KONTAK & TESİSAT GRUBU",
+    "group": "ORS RULMAN",
     "subcategory": "ORS – PRİZDİREK / AKS / KONİK",
     "code": "630374",
     "brand": "ORS",
@@ -4258,223 +4258,223 @@
   },
   {
     "id": "30205-ORS-30205_Rulman",
-    "group": "KONTAK & TESİSAT GRUBU",
+    "group": "ORS RULMAN",
     "subcategory": "ORS – PRİZDİREK / AKS / KONİK",
     "code": "30205",
     "brand": "ORS",
     "name": "30205 Rulman",
-    "image": ""
+    "image": "30205.jpg"
   },
   {
     "id": "6201-KWC-6201_ZZ_Rulman",
-    "group": "KONTAK & TESİSAT GRUBU",
+    "group": "KWC RULMAN",
     "subcategory": "KWC – ZZ TİPİ (METAL KAPAKLI)",
     "code": "6201",
     "brand": "KWC",
     "name": "6201 ZZ Rulman",
-    "image": ""
+    "image": "KWC ZZ.JPG"
   },
   {
     "id": "6202-KWC-6202_ZZ_Rulman",
-    "group": "KONTAK & TESİSAT GRUBU",
+    "group": "KWC RULMAN",
     "subcategory": "KWC – ZZ TİPİ (METAL KAPAKLI)",
     "code": "6202",
     "brand": "KWC",
     "name": "6202 ZZ Rulman",
-    "image": ""
+    "image": "KWC ZZ.JPG"
   },
   {
     "id": "6203-KWC-6203_ZZ_Rulman",
-    "group": "KONTAK & TESİSAT GRUBU",
+    "group": "KWC RULMAN",
     "subcategory": "KWC – ZZ TİPİ (METAL KAPAKLI)",
     "code": "6203",
     "brand": "KWC",
     "name": "6203 ZZ Rulman",
-    "image": ""
+    "image": "KWC ZZ.JPG"
   },
   {
     "id": "6204-KWC-6204_ZZ_Rulman",
-    "group": "KONTAK & TESİSAT GRUBU",
+    "group": "KWC RULMAN",
     "subcategory": "KWC – ZZ TİPİ (METAL KAPAKLI)",
     "code": "6204",
     "brand": "KWC",
     "name": "6204 ZZ Rulman",
-    "image": ""
+    "image": "KWC ZZ.JPG"
   },
   {
     "id": "6205-KWC-6205_ZZ_Rulman",
-    "group": "KONTAK & TESİSAT GRUBU",
+    "group": "KWC RULMAN",
     "subcategory": "KWC – ZZ TİPİ (METAL KAPAKLI)",
     "code": "6205",
     "brand": "KWC",
     "name": "6205 ZZ Rulman",
-    "image": ""
+    "image": "KWC ZZ.JPG"
   },
   {
     "id": "6207-KWC-6207_ZZ_Rulman",
-    "group": "KONTAK & TESİSAT GRUBU",
+    "group": "KWC RULMAN",
     "subcategory": "KWC – ZZ TİPİ (METAL KAPAKLI)",
     "code": "6207",
     "brand": "KWC",
     "name": "6207 ZZ Rulman",
-    "image": ""
+    "image": "KWC ZZ.JPG"
   },
   {
     "id": "6208-KWC-6208_ZZ_Rulman",
-    "group": "KONTAK & TESİSAT GRUBU",
+    "group": "KWC RULMAN",
     "subcategory": "KWC – ZZ TİPİ (METAL KAPAKLI)",
     "code": "6208",
     "brand": "KWC",
     "name": "6208 ZZ Rulman",
-    "image": ""
+    "image": "KWC ZZ.JPG"
   },
   {
     "id": "6004-KWC-6004_ZZ_Rulman",
-    "group": "KONTAK & TESİSAT GRUBU",
+    "group": "KWC RULMAN",
     "subcategory": "KWC – ZZ TİPİ (METAL KAPAKLI)",
     "code": "6004",
     "brand": "KWC",
     "name": "6004 ZZ Rulman",
-    "image": ""
+    "image": "KWC ZZ.JPG"
   },
   {
     "id": "6007-KWC-6007_ZZ_Rulman",
-    "group": "KONTAK & TESİSAT GRUBU",
+    "group": "KWC RULMAN",
     "subcategory": "KWC – ZZ TİPİ (METAL KAPAKLI)",
     "code": "6007",
     "brand": "KWC",
     "name": "6007 ZZ Rulman",
-    "image": ""
+    "image": "KWC ZZ.JPG"
   },
   {
     "id": "6201-KWC-6201_2RS_Rulman",
-    "group": "KONTAK & TESİSAT GRUBU",
+    "group": "KWC RULMAN",
     "subcategory": "KWC – 2RS TİPİ (KEÇELİ)",
     "code": "6201",
     "brand": "KWC",
     "name": "6201 2RS Rulman",
-    "image": ""
+    "image": "KWC 2RS.jpg"
   },
   {
     "id": "6202-KWC-6202_2RS_Rulman",
-    "group": "KONTAK & TESİSAT GRUBU",
+    "group": "KWC RULMAN",
     "subcategory": "KWC – 2RS TİPİ (KEÇELİ)",
     "code": "6202",
     "brand": "KWC",
     "name": "6202 2RS Rulman",
-    "image": ""
+    "image": "KWC 2RS.jpg"
   },
   {
     "id": "6203-KWC-6203_2RS_Rulman",
-    "group": "KONTAK & TESİSAT GRUBU",
+    "group": "KWC RULMAN",
     "subcategory": "KWC – 2RS TİPİ (KEÇELİ)",
     "code": "6203",
     "brand": "KWC",
     "name": "6203 2RS Rulman",
-    "image": ""
+    "image": "KWC 2RS.jpg"
   },
   {
     "id": "6204-KWC-6204_2RS_Rulman",
-    "group": "KONTAK & TESİSAT GRUBU",
+    "group": "KWC RULMAN",
     "subcategory": "KWC – 2RS TİPİ (KEÇELİ)",
     "code": "6204",
     "brand": "KWC",
     "name": "6204 2RS Rulman",
-    "image": ""
+    "image": "KWC 2RS.jpg"
   },
   {
     "id": "6205-KWC-6205_2RS_Rulman",
-    "group": "KONTAK & TESİSAT GRUBU",
+    "group": "KWC RULMAN",
     "subcategory": "KWC – 2RS TİPİ (KEÇELİ)",
     "code": "6205",
     "brand": "KWC",
     "name": "6205 2RS Rulman",
-    "image": ""
+    "image": "KWC 2RS.jpg"
   },
   {
     "id": "6206-KWC-6206_2RS_Rulman",
-    "group": "KONTAK & TESİSAT GRUBU",
+    "group": "KWC RULMAN",
     "subcategory": "KWC – 2RS TİPİ (KEÇELİ)",
     "code": "6206",
     "brand": "KWC",
     "name": "6206 2RS Rulman",
-    "image": ""
+    "image": "KWC 2RS.jpg"
   },
   {
     "id": "6207-KWC-6207_2RS_Rulman",
-    "group": "KONTAK & TESİSAT GRUBU",
+    "group": "KWC RULMAN",
     "subcategory": "KWC – 2RS TİPİ (KEÇELİ)",
     "code": "6207",
     "brand": "KWC",
     "name": "6207 2RS Rulman",
-    "image": ""
+    "image": "KWC 2RS.jpg"
   },
   {
     "id": "6208-KWC-6208_2RS_Rulman",
-    "group": "KONTAK & TESİSAT GRUBU",
+    "group": "KWC RULMAN",
     "subcategory": "KWC – 2RS TİPİ (KEÇELİ)",
     "code": "6208",
     "brand": "KWC",
     "name": "6208 2RS Rulman",
-    "image": ""
+    "image": "KWC 2RS.jpg"
   },
   {
     "id": "6004-KWC-6004_2RS_Rulman",
-    "group": "KONTAK & TESİSAT GRUBU",
+    "group": "KWC RULMAN",
     "subcategory": "KWC – 2RS TİPİ (KEÇELİ)",
     "code": "6004",
     "brand": "KWC",
     "name": "6004 2RS Rulman",
-    "image": ""
+    "image": "KWC 2RS.jpg"
   },
   {
     "id": "6005-KWC-6005_2RS_Rulman",
-    "group": "KONTAK & TESİSAT GRUBU",
+    "group": "KWC RULMAN",
     "subcategory": "KWC – 2RS TİPİ (KEÇELİ)",
     "code": "6005",
     "brand": "KWC",
     "name": "6005 2RS Rulman",
-    "image": ""
+    "image": "KWC 2RS.jpg"
   },
   {
     "id": "6006-KWC-6006_2RS_Rulman",
-    "group": "KONTAK & TESİSAT GRUBU",
+    "group": "KWC RULMAN",
     "subcategory": "KWC – 2RS TİPİ (KEÇELİ)",
     "code": "6006",
     "brand": "KWC",
     "name": "6006 2RS Rulman",
-    "image": ""
+    "image": "KWC 2RS.jpg"
   },
   {
     "id": "6007-KWC-6007_2RS_Rulman",
-    "group": "KONTAK & TESİSAT GRUBU",
+    "group": "KWC RULMAN",
     "subcategory": "KWC – 2RS TİPİ (KEÇELİ)",
     "code": "6007",
     "brand": "KWC",
     "name": "6007 2RS Rulman",
-    "image": ""
+    "image": "KWC 2RS.jpg"
   },
   {
     "id": "6008-KWC-6008_2RS_Rulman",
-    "group": "KONTAK & TESİSAT GRUBU",
+    "group": "KWC RULMAN",
     "subcategory": "KWC – 2RS TİPİ (KEÇELİ)",
     "code": "6008",
     "brand": "KWC",
     "name": "6008 2RS Rulman",
-    "image": ""
+    "image": "KWC 2RS.jpg"
   },
   {
     "id": "630106-KWC-630106_Prizdirek_Rulman",
-    "group": "KONTAK & TESİSAT GRUBU",
+    "group": "KWC RULMAN",
     "subcategory": "KWC – PRİZDİREK / AKS / KONİK",
     "code": "630106",
     "brand": "KWC",
     "name": "630106 Prizdirek Rulman",
-    "image": ""
+    "image": "630106.png"
   },
   {
     "id": "6306-KWC-6306_ZNR_Prizdirek_Rulman",
-    "group": "KONTAK & TESİSAT GRUBU",
+    "group": "KWC RULMAN",
     "subcategory": "KWC – PRİZDİREK / AKS / KONİK",
     "code": "6306",
     "brand": "KWC",
@@ -4483,7 +4483,7 @@
   },
   {
     "id": "630374-KWC-630374_Aks_Rulman",
-    "group": "KONTAK & TESİSAT GRUBU",
+    "group": "KWC RULMAN",
     "subcategory": "KWC – PRİZDİREK / AKS / KONİK",
     "code": "630374",
     "brand": "KWC",
@@ -4492,16 +4492,16 @@
   },
   {
     "id": "30205-KWC-30205_Rulman",
-    "group": "KONTAK & TESİSAT GRUBU",
+    "group": "KWC RULMAN",
     "subcategory": "KWC – PRİZDİREK / AKS / KONİK",
     "code": "30205",
     "brand": "KWC",
     "name": "30205 Rulman",
-    "image": ""
+    "image": "30205.jpg"
   },
   {
     "id": "7857-KWC-Masura_Rulman_Prizdirek_İçin",
-    "group": "KONTAK & TESİSAT GRUBU",
+    "group": "KWC RULMAN",
     "subcategory": "KWC – PRİZDİREK / AKS / KONİK",
     "code": "7857",
     "brand": "KWC",
@@ -4510,7 +4510,7 @@
   },
   {
     "id": "203-KWC-KWC-203_Rulman",
-    "group": "KONTAK & TESİSAT GRUBU",
+    "group": "KWC RULMAN",
     "subcategory": "KWC – SARHOŞ & ÖZEL RULMANLAR",
     "code": "203",
     "brand": "KWC",
@@ -4519,7 +4519,7 @@
   },
   {
     "id": "204-KWC-KWC-204_Sarhoş_Rulman",
-    "group": "KONTAK & TESİSAT GRUBU",
+    "group": "KWC RULMAN",
     "subcategory": "KWC – SARHOŞ & ÖZEL RULMANLAR",
     "code": "204",
     "brand": "KWC",
@@ -4528,7 +4528,7 @@
   },
   {
     "id": "205-KWC-KWC-205_Sarhoş_Rulman",
-    "group": "KONTAK & TESİSAT GRUBU",
+    "group": "KWC RULMAN",
     "subcategory": "KWC – SARHOŞ & ÖZEL RULMANLAR",
     "code": "205",
     "brand": "KWC",
@@ -4537,7 +4537,7 @@
   },
   {
     "id": "206-KWC-KWC-206_Sarhoş_Rulman",
-    "group": "KONTAK & TESİSAT GRUBU",
+    "group": "KWC RULMAN",
     "subcategory": "KWC – SARHOŞ & ÖZEL RULMANLAR",
     "code": "206",
     "brand": "KWC",
@@ -4546,7 +4546,7 @@
   },
   {
     "id": "207-KWC-Kafesli_İğne_Rulman_20__26__17",
-    "group": "KONTAK & TESİSAT GRUBU",
+    "group": "KWC RULMAN",
     "subcategory": "KWC – SARHOŞ & ÖZEL RULMANLAR",
     "code": "207",
     "brand": "KWC",
@@ -4555,7 +4555,7 @@
   },
   {
     "id": "718-YET-YET-510_Toz_Keçesi",
-    "group": "KONTAK & TESİSAT GRUBU",
+    "group": "KEÇE GRUBU",
     "subcategory": "CTF KEÇE ÇEŞİTLERİ",
     "code": "718",
     "brand": "YET",
@@ -4564,7 +4564,7 @@
   },
   {
     "id": "2170-CTF-17__40__7_Keçe",
-    "group": "KONTAK & TESİSAT GRUBU",
+    "group": "KEÇE GRUBU",
     "subcategory": "CTF KEÇE ÇEŞİTLERİ",
     "code": "2170",
     "brand": "CTF",
@@ -4573,7 +4573,7 @@
   },
   {
     "id": "4016-CTF-20__38__7_Keçe",
-    "group": "KONTAK & TESİSAT GRUBU",
+    "group": "KEÇE GRUBU",
     "subcategory": "CTF KEÇE ÇEŞİTLERİ",
     "code": "4016",
     "brand": "CTF",
@@ -4582,7 +4582,7 @@
   },
   {
     "id": "4017-CTF-20__42__7_Keçe",
-    "group": "KONTAK & TESİSAT GRUBU",
+    "group": "KEÇE GRUBU",
     "subcategory": "CTF KEÇE ÇEŞİTLERİ",
     "code": "4017",
     "brand": "CTF",
@@ -4591,7 +4591,7 @@
   },
   {
     "id": "4015-CTF-20__47__7_Keçe",
-    "group": "KONTAK & TESİSAT GRUBU",
+    "group": "KEÇE GRUBU",
     "subcategory": "CTF KEÇE ÇEŞİTLERİ",
     "code": "4015",
     "brand": "CTF",
@@ -4600,7 +4600,7 @@
   },
   {
     "id": "4607-CTF-25__47__7_Keçe",
-    "group": "KONTAK & TESİSAT GRUBU",
+    "group": "KEÇE GRUBU",
     "subcategory": "CTF KEÇE ÇEŞİTLERİ",
     "code": "4607",
     "brand": "CTF",
@@ -4609,7 +4609,7 @@
   },
   {
     "id": "CTF-28__48__68_Keçe",
-    "group": "KONTAK & TESİSAT GRUBU",
+    "group": "KEÇE GRUBU",
     "subcategory": "CTF KEÇE ÇEŞİTLERİ",
     "code": "",
     "brand": "CTF",
@@ -4618,7 +4618,7 @@
   },
   {
     "id": "4678-CTF-28__47__8_Keçe",
-    "group": "KONTAK & TESİSAT GRUBU",
+    "group": "KEÇE GRUBU",
     "subcategory": "CTF KEÇE ÇEŞİTLERİ",
     "code": "4678",
     "brand": "CTF",
@@ -4627,7 +4627,7 @@
   },
   {
     "id": "4583-CTF-30__45__8_Keçe",
-    "group": "KONTAK & TESİSAT GRUBU",
+    "group": "KEÇE GRUBU",
     "subcategory": "CTF KEÇE ÇEŞİTLERİ",
     "code": "4583",
     "brand": "CTF",
@@ -4636,7 +4636,7 @@
   },
   {
     "id": "4582-CTF-30__47__7_Keçe",
-    "group": "KONTAK & TESİSAT GRUBU",
+    "group": "KEÇE GRUBU",
     "subcategory": "CTF KEÇE ÇEŞİTLERİ",
     "code": "4582",
     "brand": "CTF",
@@ -4645,7 +4645,7 @@
   },
   {
     "id": "2195-CTF-32__56__10_Keçe",
-    "group": "KONTAK & TESİSAT GRUBU",
+    "group": "KEÇE GRUBU",
     "subcategory": "CTF KEÇE ÇEŞİTLERİ",
     "code": "2195",
     "brand": "CTF",
@@ -4654,7 +4654,7 @@
   },
   {
     "id": "4602-CTF-35__62__7_Keçe",
-    "group": "KONTAK & TESİSAT GRUBU",
+    "group": "KEÇE GRUBU",
     "subcategory": "CTF KEÇE ÇEŞİTLERİ",
     "code": "4602",
     "brand": "CTF",
@@ -4663,7 +4663,7 @@
   },
   {
     "id": "4668-CTF-35__62__10_Keçe",
-    "group": "KONTAK & TESİSAT GRUBU",
+    "group": "KEÇE GRUBU",
     "subcategory": "CTF KEÇE ÇEŞİTLERİ",
     "code": "4668",
     "brand": "CTF",
@@ -4672,7 +4672,7 @@
   },
   {
     "id": "22021-CTF-40__55__8_Keçe",
-    "group": "KONTAK & TESİSAT GRUBU",
+    "group": "KEÇE GRUBU",
     "subcategory": "CTF KEÇE ÇEŞİTLERİ",
     "code": "22021",
     "brand": "CTF",
@@ -4681,7 +4681,7 @@
   },
   {
     "id": "2201-CTF-40__60__10_Keçe",
-    "group": "KONTAK & TESİSAT GRUBU",
+    "group": "KEÇE GRUBU",
     "subcategory": "CTF KEÇE ÇEŞİTLERİ",
     "code": "2201",
     "brand": "CTF",
@@ -4690,7 +4690,7 @@
   },
   {
     "id": "22024-CTF-40__62__10_Keçe",
-    "group": "KONTAK & TESİSAT GRUBU",
+    "group": "KEÇE GRUBU",
     "subcategory": "CTF KEÇE ÇEŞİTLERİ",
     "code": "22024",
     "brand": "CTF",
@@ -4699,7 +4699,7 @@
   },
   {
     "id": "CTF-40__78__10_Keçe",
-    "group": "KONTAK & TESİSAT GRUBU",
+    "group": "KEÇE GRUBU",
     "subcategory": "CTF KEÇE ÇEŞİTLERİ",
     "code": "",
     "brand": "CTF",
@@ -4708,7 +4708,7 @@
   },
   {
     "id": "CTF-45__85__10_Keçe",
-    "group": "KONTAK & TESİSAT GRUBU",
+    "group": "KEÇE GRUBU",
     "subcategory": "CTF KEÇE ÇEŞİTLERİ",
     "code": "",
     "brand": "CTF",
@@ -4717,7 +4717,7 @@
   },
   {
     "id": "22027-CTF-30__68__10_Diferansiyel_Keçe",
-    "group": "KONTAK & TESİSAT GRUBU",
+    "group": "KEÇE GRUBU",
     "subcategory": "CTF KEÇE ÇEŞİTLERİ",
     "code": "22027",
     "brand": "CTF",
@@ -4726,7 +4726,7 @@
   },
   {
     "id": "852-CTF-46__78__10_Diferansiyel_Keçe",
-    "group": "KONTAK & TESİSAT GRUBU",
+    "group": "KEÇE GRUBU",
     "subcategory": "CTF KEÇE ÇEŞİTLERİ",
     "code": "852",
     "brand": "CTF",
@@ -4740,7 +4740,7 @@
     "code": "VF 401",
     "brand": "KARDEN",
     "name": "401 Flaşör Bobinli",
-    "image": ""
+    "image": "vf401.png"
   },
   {
     "id": "VF_301-VERTEX-301_Flaşör_Termikli_Alüminyum",
@@ -4749,7 +4749,7 @@
     "code": "VF 301",
     "brand": "VERTEX",
     "name": "301 Flaşör Termikli Alüminyum",
-    "image": ""
+    "image": "vf 301.png"
   },
   {
     "id": "011_030-INWELLS-Mikro_Röle_5li",
@@ -4758,7 +4758,7 @@
     "code": "011 030",
     "brand": "INWELLS",
     "name": "Mikro Röle 5'li",
-    "image": ""
+    "image": "011 030.png"
   },
   {
     "id": "ÜSTÜN-Mikro_Röle_4lü",
@@ -4767,7 +4767,7 @@
     "code": "",
     "brand": "ÜSTÜN",
     "name": "Mikro Röle 4'lü",
-    "image": ""
+    "image": "üstünmikro.png"
   },
   {
     "id": "011_031-INWELLS-Mini_Röle_5li",
@@ -4776,7 +4776,7 @@
     "code": "011 031",
     "brand": "INWELLS",
     "name": "Mini Röle 5’li",
-    "image": ""
+    "image": "011 031.JPG"
   },
   {
     "id": "RL600-ÜSTÜN-Far_Rölesi",
@@ -4785,7 +4785,7 @@
     "code": "RL600",
     "brand": "ÜSTÜN",
     "name": "Far Rölesi",
-    "image": ""
+    "image": "RL600.jpg"
   },
   {
     "id": "RL700-ÜSTÜN-Titretici_Korna_Rölesi",
@@ -4794,7 +4794,7 @@
     "code": "RL700",
     "brand": "ÜSTÜN",
     "name": "Titretici Korna Rölesi",
-    "image": ""
+    "image": "RL700.JPG"
   },
   {
     "id": "229_01-KARDEN-Akü_Kutupbaşı_1_Kalite",
