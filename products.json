@@ -4866,7 +4866,7 @@
     "code": "099-314",
     "brand": "KARDEN",
     "name": "6 mm Orijinal Yaylı Pim",
-    "image": ""
+    "image": "099-314.JPG"
   },
   {
     "id": "099-315-KARDEN-8_mm_Orijinal_Yaylı_Pim",
@@ -4875,7 +4875,7 @@
     "code": "099-315",
     "brand": "KARDEN",
     "name": "8 mm Orijinal Yaylı Pim",
-    "image": ""
+    "image": "099-315.JPG"
   },
   {
     "id": "099-316-KARDEN-10_mm_Orijinal_Yaylı_Pim",
@@ -4884,7 +4884,7 @@
     "code": "099-316",
     "brand": "KARDEN",
     "name": "10 mm Orijinal Yaylı Pim",
-    "image": ""
+    "image": "099-316.JPG"
   },
   {
     "id": "099-317-KARDEN-11_mm_Orijinal_Yaylı_Pim",
@@ -4893,7 +4893,7 @@
     "code": "099-317",
     "brand": "KARDEN",
     "name": "11 mm Orijinal Yaylı Pim",
-    "image": ""
+    "image": "099-317.JPG"
   },
   {
     "id": "099-318-KARDEN-6_mm_Gold_Yaylı_Pim",
@@ -4902,7 +4902,7 @@
     "code": "099-318",
     "brand": "KARDEN",
     "name": "6 mm Gold Yaylı Pim",
-    "image": ""
+    "image": "goldpim.jpg"
   },
   {
     "id": "099-319-KARDEN-8_mm_Gold_Yaylı_Pim",
@@ -4911,7 +4911,7 @@
     "code": "099-319",
     "brand": "KARDEN",
     "name": "8 mm Gold Yaylı Pim",
-    "image": ""
+    "image": "goldpim.jpg"
   },
   {
     "id": "099-320-KARDEN-10_mm_Gold_Yaylı_Pim",
@@ -4920,7 +4920,7 @@
     "code": "099-320",
     "brand": "KARDEN",
     "name": "10 mm Gold Yaylı Pim",
-    "image": ""
+    "image": "goldpim.jpg"
   },
   {
     "id": "099-321-KARDEN-12_mm_D_Yaylı_Pim",
@@ -4929,7 +4929,7 @@
     "code": "099-321",
     "brand": "KARDEN",
     "name": "12 mm D Yaylı Pim",
-    "image": ""
+    "image": "dyay.png"
   },
   {
     "id": "099-322-KARDEN-14_mm_D_Yaylı_Pim",
@@ -4938,7 +4938,7 @@
     "code": "099-322",
     "brand": "KARDEN",
     "name": "14 mm D Yaylı Pim",
-    "image": ""
+    "image": "dyay.png"
   },
   {
     "id": "099-323-KARDEN-16_mm_D_Yaylı_Pim",
@@ -4947,151 +4947,151 @@
     "code": "099-323",
     "brand": "KARDEN",
     "name": "16 mm D Yaylı Pim",
-    "image": ""
+    "image": "dyay.png"
   },
   {
     "id": "099-324-KARDEN-2_mm_R_Firkete",
-    "group": "FİRKETE GRUBU (R TİP)",
+    "group": "YAYLI PİM VE FİRKETE GRUBU",
     "subcategory": "",
     "code": "099-324",
     "brand": "KARDEN",
     "name": "2 mm R Firkete",
-    "image": ""
+    "image": "099-324.JPG"
   },
   {
     "id": "099-325-KARDEN-3_mm_R_Firkete",
-    "group": "FİRKETE GRUBU (R TİP)",
+    "group": "YAYLI PİM VE FİRKETE GRUBU",
     "subcategory": "",
     "code": "099-325",
     "brand": "KARDEN",
     "name": "3 mm R Firkete",
-    "image": ""
+    "image": "099-325.JPG"
   },
   {
     "id": "099-326-KARDEN-4_mm_R_Firkete",
-    "group": "FİRKETE GRUBU (R TİP)",
+    "group": "YAYLI PİM VE FİRKETE GRUBU",
     "subcategory": "",
     "code": "099-326",
     "brand": "KARDEN",
     "name": "4 mm R Firkete",
-    "image": ""
+    "image": "099-326.JPG"
   },
   {
     "id": "099-327-KARDEN-5_mm_R_Firkete",
-    "group": "FİRKETE GRUBU (R TİP)",
+    "group": "YAYLI PİM VE FİRKETE GRUBU",
     "subcategory": "",
     "code": "099-327",
     "brand": "KARDEN",
     "name": "5 mm R Firkete",
-    "image": ""
+    "image": "099-327.JPG"
   },
   {
     "id": "099-328-KARDEN-6_mm_R_Firkete",
-    "group": "FİRKETE GRUBU (R TİP)",
+    "group": "YAYLI PİM VE FİRKETE GRUBU",
     "subcategory": "",
     "code": "099-328",
     "brand": "KARDEN",
     "name": "6 mm R Firkete",
-    "image": ""
+    "image": "099-328.JPG"
   },
   {
     "id": "099-329-KARDEN-8_mm_R_Firkete",
-    "group": "FİRKETE GRUBU (R TİP)",
+    "group": "YAYLI PİM VE FİRKETE GRUBU",
     "subcategory": "",
     "code": "099-329",
     "brand": "KARDEN",
     "name": "8 mm R Firkete",
-    "image": ""
+    "image": "099-329.JPG"
   },
   {
     "id": "KARDEN-5_mm_Yarım_Yuvarlak_Firkete",
-    "group": "FİRKETE GRUBU (R TİP)",
+    "group": "YAYLI PİM VE FİRKETE GRUBU",
     "subcategory": "YARIM YUVARLAK FİRKETE",
     "code": "",
     "brand": "KARDEN",
     "name": "5 mm Yarım Yuvarlak Firkete",
-    "image": ""
+    "image": "yuv-fir.JPG"
   },
   {
     "id": "099-331-KARDEN-8_mm_Kısa",
-    "group": "FİRKETE GRUBU (R TİP)",
+    "group": "YAYLI PİM VE FİRKETE GRUBU",
     "subcategory": "ÇAPA MAKİNESİ PİMLERİ",
     "code": "099-331",
     "brand": "KARDEN",
     "name": "8 mm Kısa",
-    "image": ""
+    "image": "kısaçapa.jpg"
   },
   {
     "id": "099-332-KARDEN-8_mm_Uzun",
-    "group": "FİRKETE GRUBU (R TİP)",
+    "group": "YAYLI PİM VE FİRKETE GRUBU",
     "subcategory": "ÇAPA MAKİNESİ PİMLERİ",
     "code": "099-332",
     "brand": "KARDEN",
     "name": "8 mm Uzun",
-    "image": ""
+    "image": "kısaçapa.jpg"
   },
   {
     "id": "099-333-KARDEN-10_mm_Uzun",
-    "group": "FİRKETE GRUBU (R TİP)",
+    "group": "YAYLI PİM VE FİRKETE GRUBU",
     "subcategory": "ÇAPA MAKİNESİ PİMLERİ",
     "code": "099-333",
     "brand": "KARDEN",
     "name": "10 mm Uzun",
-    "image": ""
+    "image": "kısaçapa.jpg"
   },
   {
     "id": "099_0600-KARDEN-Ateşleme_Bujisi_A7TC",
-    "group": "FİRKETE GRUBU (R TİP)",
+    "group": "ATEŞLEME BUJİLERİ",
     "subcategory": "ATEŞLEME BUJİLERİ",
     "code": "099 0600",
     "brand": "KARDEN",
     "name": "Ateşleme Bujisi A7TC",
-    "image": ""
+    "image": "099 0600.png"
   },
   {
     "id": "099_0606-KARDEN-Ateşleme_Bujisi_WS7F",
-    "group": "FİRKETE GRUBU (R TİP)",
+    "group": "ATEŞLEME BUJİLERİ",
     "subcategory": "ATEŞLEME BUJİLERİ",
     "code": "099 0606",
     "brand": "KARDEN",
     "name": "Ateşleme Bujisi WS7F",
-    "image": ""
+    "image": "099 0606.png"
   },
   {
     "id": "099_0608-KARDEN-Ateşleme_Bujisi_N9YC",
-    "group": "FİRKETE GRUBU (R TİP)",
+    "group": "ATEŞLEME BUJİLERİ",
     "subcategory": "ATEŞLEME BUJİLERİ",
     "code": "099 0608",
     "brand": "KARDEN",
     "name": "Ateşleme Bujisi N9YC",
-    "image": ""
+    "image": "099 0608.png"
   },
   {
     "id": "099_003-CHAMPION-Ateşleme_Bujisi_N9YC",
-    "group": "FİRKETE GRUBU (R TİP)",
+    "group": "ATEŞLEME BUJİLERİ",
     "subcategory": "ATEŞLEME BUJİLERİ",
     "code": "099 003",
     "brand": "CHAMPION",
     "name": "Ateşleme Bujisi N9YC",
-    "image": ""
+    "image": "099 003.png"
   },
   {
     "id": "BOSCH-Ateşleme_Bujisi_WR6C",
-    "group": "FİRKETE GRUBU (R TİP)",
+    "group": "ATEŞLEME BUJİLERİ",
     "subcategory": "ATEŞLEME BUJİLERİ",
     "code": "",
     "brand": "BOSCH",
     "name": "Ateşleme Bujisi WR6C",
-    "image": ""
+    "image": "wr6c.png"
   },
   {
     "id": "BOSCH-Ateşleme_Bujisi_W7DC",
-    "group": "FİRKETE GRUBU (R TİP)",
+    "group": "ATEŞLEME BUJİLERİ",
     "subcategory": "ATEŞLEME BUJİLERİ",
     "code": "",
     "brand": "BOSCH",
     "name": "Ateşleme Bujisi W7DC",
-    "image": ""
+    "image": "w7dc.png"
   },
   {
     "id": "099_1100-YAĞMUR-Debriyaj_Teli__İç__Dış",
