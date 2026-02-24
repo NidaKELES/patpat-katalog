@@ -31,32 +31,19 @@
           Ürünler <span class="caret">▾</span>
         </button>
 
+        <!-- küçük dropdown -->
         <div id="productsMenu" class="menu" aria-hidden="true">
           <div class="menu-head">
-            <div class="menu-title">Ürünler</div>
-            <button id="menuClose" class="menu-close" type="button">✕</button>
+            <div class="menu-title">Gruplar</div>
+            <button id="menuClose" class="menu-close" type="button" aria-label="Kapat">✕</button>
           </div>
 
-          <div class="menu-panels">
-            <!-- SOL: Gruplar -->
-            <div class="panel panel-left">
-              <button class="panel-top-btn" id="showAllBtn" type="button">Tümü (Genel)</button>
-              <div class="panel-list" id="groupsList"></div>
-            </div>
-
-            <!-- SAĞ: Alt gruplar -->
-            <div class="panel panel-right">
-              <div class="panel-right-head" id="subsTitle">Alt Gruplar</div>
-              <div class="panel-list" id="subsList">
-                <div class="panel-empty">Bir grup seçin.</div>
-              </div>
-            </div>
+          <div class="menu-body" id="menuBody">
+            <!-- JS dolduracak -->
           </div>
 
           <div class="menu-foot">
-            <div class="current-filter">
-              Seçim: <span id="currentFilterText">Tümü</span>
-            </div>
+            Seçim: <span id="currentFilterText">Tümü</span>
           </div>
         </div>
       </div>

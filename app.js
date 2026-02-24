@@ -3,7 +3,7 @@ let currentGroup = "ALL";
 let currentSub = "";
 let searchText = "";
 
-// JSON yükle
+/* JSON yükle */
 fetch("products.json")
   .then(res => res.json())
   .then(data => {
@@ -47,23 +47,21 @@ if (productsBtn) {
     productsMenu.classList.contains("open") ? closeMenu() : openMenu();
   });
 }
+
 if (menuClose) menuClose.addEventListener("click", closeMenu);
 
 document.addEventListener("click", (e) => {
+  if (!productsMenu) return;
   const wrap = e.target.closest(".menu-wrap");
   if (!wrap) closeMenu();
 });
 
-/* Menü içeriği: Grup -> Alt grup (hover sağda göster) */
+/* Menü: Grup -> alt grup (altlar altta açılır) */
 function buildMenu() {
-  const groupsList = document.getElementById("groupsList");
-  const subsList = document.getElementById("subsList");
-  const subsTitle = document.getElementById("subsTitle");
-  const showAllBtn = document.getElementById("showAllBtn");
+  const menuBody = document.getElementById("menuBody");
+  if (!menuBody) return;
 
-  if (!groupsList || !subsList || !subsTitle) return;
-
-  // Grup -> Set(subcategory)
+  // group -> Set(subcategory)
   const map = new Map();
   allProducts.forEach(p => {
     const g = (p.group || "").trim();
@@ -75,7 +73,13 @@ function buildMenu() {
 
   const groups = Array.from(map.keys()).sort((a,b) => a.localeCompare(b, "tr"));
 
-  // Genel
+  menuBody.innerHTML = `
+    <div class="menu-top">
+      <button class="menu-all" id="showAllBtn" type="button">Tümü (Genel)</button>
+    </div>
+  `;
+
+  const showAllBtn = document.getElementById("showAllBtn");
   if (showAllBtn) {
     showAllBtn.addEventListener("click", () => {
       currentGroup = "ALL";
@@ -83,81 +87,62 @@ function buildMenu() {
       setCurrentFilterText("Tümü");
       applyFilters();
       closeMenu();
-      clearSubsPanel(subsList, subsTitle);
-      setActiveGroupButton(null);
     });
   }
-
-  groupsList.innerHTML = "";
 
   groups.forEach(groupName => {
-    const btn = document.createElement("button");
-    btn.className = "group-btn";
-    btn.type = "button";
-    btn.dataset.group = groupName;
-    btn.innerHTML = `<span>${escapeHtml(groupName)}</span><span class="arrow">›</span>`;
+    const subs = Array.from(map.get(groupName)).sort((a,b) => a.localeCompare(b, "tr"));
 
-    // WEB: üstüne gelince altları sağda göster
-    btn.addEventListener("mouseenter", () => {
-      populateSubsPanel(groupName, map, subsList, subsTitle);
-      setActiveGroupButton(groupName);
-    });
+    const item = document.createElement("div");
+    item.className = "group-item";
 
-    // MOBİL: hover yok -> tıklayınca sağ panel doldursun
-    btn.addEventListener("click", () => {
-      populateSubsPanel(groupName, map, subsList, subsTitle);
-      setActiveGroupButton(groupName);
-      // Eğer kullanıcı direkt grubu seçmek isterse: ikinci tıkla kapatmak yerine
-      // alt gruptan seçmesi daha iyi; o yüzden burada filtreyi hemen uygulamıyoruz.
-      // İstersen buraya "gruba tıkla direkt filtrele" de ekleriz.
-    });
+    item.innerHTML = `
+      <div class="group-row" data-role="selectGroup">
+        <div class="group-name">${escapeHtml(groupName)}</div>
+        <button class="group-toggle" type="button" data-role="toggleSubs" aria-label="Alt gruplar">▾</button>
+      </div>
+      <div class="sub-list">
+        ${subs.map(s => `<button class="sub-item" type="button" data-sub="${escapeHtmlAttr(s)}">${escapeHtml(s)}</button>`).join("")}
+      </div>
+    `;
 
-    groupsList.appendChild(btn);
-  });
+    const row = item.querySelector('[data-role="selectGroup"]');
+    const toggleBtn = item.querySelector('[data-role="toggleSubs"]');
+    const subList = item.querySelector(".sub-list");
 
-  // Sayfa ilk açılışta sağ panel boş
-  clearSubsPanel(subsList, subsTitle);
-}
+    // Grup adına tıkla = grubu seç
+    row.addEventListener("click", (e) => {
+      // toggle butona basıldıysa burada seçme yapmayalım
+      if (e.target && e.target.closest('[data-role="toggleSubs"]')) return;
 
-function populateSubsPanel(groupName, map, subsList, subsTitle) {
-  const subs = Array.from(map.get(groupName) || []).sort((a,b) => a.localeCompare(b, "tr"));
-  subsTitle.textContent = `${groupName} / Alt Gruplar`;
-
-  if (subs.length === 0) {
-    subsList.innerHTML = `<div class="panel-empty">Bu grupta alt grup yok.</div>`;
-    return;
-  }
-
-  subsList.innerHTML = "";
-  subs.forEach(sub => {
-    const b = document.createElement("button");
-    b.className = "sub-btn";
-    b.type = "button";
-    b.textContent = sub;
-
-    // Alt gruba tıklayınca filtre uygula + menüyü kapat
-    b.addEventListener("click", () => {
       currentGroup = groupName;
-      currentSub = sub;
-      setCurrentFilterText(`${groupName} > ${sub}`);
+      currentSub = "";
+      setCurrentFilterText(groupName);
       applyFilters();
       closeMenu();
     });
 
-    subsList.appendChild(b);
+    // ok butonu = altları aç/kapat (kibar)
+    toggleBtn.addEventListener("click", (e) => {
+      e.stopPropagation();
+      subList.classList.toggle("open");
+    });
+
+    // Alt gruba tıkla = alt grubu seç
+    item.querySelectorAll(".sub-item").forEach(btn => {
+      btn.addEventListener("click", (e) => {
+        e.stopPropagation();
+        const sub = btn.getAttribute("data-sub") || "";
+        currentGroup = groupName;
+        currentSub = sub;
+        setCurrentFilterText(`${groupName} > ${sub}`);
+        applyFilters();
+        closeMenu();
+      });
+    });
+
+    menuBody.appendChild(item);
   });
-}
-
-function clearSubsPanel(subsList, subsTitle) {
-  subsTitle.textContent = "Alt Gruplar";
-  subsList.innerHTML = `<div class="panel-empty">Bir grup seçin.</div>`;
-}
-
-function setActiveGroupButton(groupName) {
-  document.querySelectorAll(".group-btn").forEach(b => b.classList.remove("active"));
-  if (!groupName) return;
-  const target = document.querySelector(`.group-btn[data-group="${cssEscape(groupName)}"]`);
-  if (target) target.classList.add("active");
 }
 
 /* Filtre metni */
@@ -226,7 +211,7 @@ function renderProducts(products) {
   });
 }
 
-/* helpers */
+/* küçük güvenli html helpers */
 function escapeHtml(str) {
   return String(str)
     .replaceAll("&","&amp;")
@@ -235,7 +220,6 @@ function escapeHtml(str) {
     .replaceAll('"',"&quot;")
     .replaceAll("'","&#039;");
 }
-
-function cssEscape(str) {
-  return String(str).replace(/"/g, '\\"');
+function escapeHtmlAttr(str) {
+  return escapeHtml(str).replaceAll('"', "&quot;");
 }

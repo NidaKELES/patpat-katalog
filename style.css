@@ -39,8 +39,7 @@ h1 {
   gap: 10px;
 }
 
-/* KRD biraz küçük */
-.logo-right { height: 36px; }
+.logo-right { height: 38px; } /* KRD biraz küçük */
 
 #searchInput {
   width: 100%;
@@ -51,7 +50,7 @@ h1 {
   font-size: 14px;
 }
 
-/* Ürünler menüsü */
+/* Ürünler dropdown */
 .menu-wrap { position: relative; }
 
 .menu-btn {
@@ -71,15 +70,15 @@ h1 {
   position: absolute;
   right: 0;
   top: calc(100% + 10px);
-  width: 760px;
-  max-width: min(92vw, 760px);
+  width: 320px;                 /* küçük */
+  max-height: 60vh;             /* kibar */
+  overflow: hidden;
   background: #ffffff;
   color: #111;
   border-radius: 12px;
-  box-shadow: 0 16px 40px rgba(0,0,0,0.25);
+  box-shadow: 0 16px 40px rgba(0,0,0,0.22);
   border: 1px solid rgba(0,0,0,0.08);
   display: none;
-  overflow: hidden;
 }
 
 .menu.open { display: block; }
@@ -88,11 +87,11 @@ h1 {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 12px 12px;
+  padding: 10px 12px;
   border-bottom: 1px solid #eef1f4;
 }
-.menu-title { font-weight: 800; }
 
+.menu-title { font-weight: 800; }
 .menu-close {
   border: none;
   background: transparent;
@@ -100,108 +99,95 @@ h1 {
   font-size: 18px;
 }
 
-.menu-panels {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  min-height: 420px;
-}
-
-.panel {
-  display: flex;
-  flex-direction: column;
-  min-height: 420px;
-}
-
-.panel-left { border-right: 1px solid #eef1f4; }
-
-.panel-top-btn {
-  margin: 10px;
-  border: none;
-  background: #e0e3e7;
-  color: #111;
-  cursor: pointer;
-  border-radius: 10px;
-  padding: 10px 12px;
-  font-size: 13px;
-  font-weight: 800;
-}
-
-.panel-right-head {
-  padding: 12px 12px;
-  font-weight: 900;
-  background: #f7f9fc;
-  border-bottom: 1px solid #eef1f4;
-}
-
-.panel-list {
+.menu-body {
   padding: 10px;
   overflow: auto;
-  max-height: 460px;
+  max-height: calc(60vh - 88px);
 }
 
-/* Grup item (tek satır, butonsuz) */
-.group-btn {
-  width: 100%;
-  text-align: left;
-  border: 1px solid #eef1f4;
-  background: #ffffff;
-  cursor: pointer;
-  border-radius: 12px;
-  padding: 12px 12px;
-  font-size: 13px;
-  font-weight: 800;
-  margin-bottom: 10px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 10px;
-}
-
-.group-btn:hover { background: #f7f9fc; }
-
-.group-btn.active {
-  background: #1f2d3d;
-  color: white;
-  border-color: #1f2d3d;
-}
-
-.group-btn .arrow { opacity: .7; }
-
-/* Sub item */
-.sub-btn {
-  width: 100%;
-  text-align: left;
-  border: 1px solid #eef1f4;
-  background: #ffffff;
-  cursor: pointer;
-  border-radius: 12px;
-  padding: 12px 12px;
-  font-size: 13px;
-  font-weight: 700;
-  margin-bottom: 10px;
-}
-
-.sub-btn:hover { background: #f7f9fc; }
-
-.panel-empty {
-  padding: 14px;
-  border: 1px dashed #cfd6de;
-  border-radius: 12px;
-  color: #666;
-  font-size: 13px;
-}
-
-/* Menü alt */
 .menu-foot {
   padding: 10px 12px;
   border-top: 1px solid #eef1f4;
   font-size: 13px;
   color: #444;
 }
-.current-filter span {
-  font-weight: 900;
-  color: #111;
+
+#currentFilterText { font-weight: 800; color: #111; }
+
+/* üstte "Tümü" */
+.menu-top {
+  margin-bottom: 10px;
 }
+.menu-all {
+  width: 100%;
+  border: 1px solid #eef1f4;
+  background: #f7f9fc;
+  color: #111;
+  border-radius: 10px;
+  padding: 10px 10px;
+  cursor: pointer;
+  font-weight: 800;
+}
+
+/* Grup satırı */
+.group-item {
+  border: 1px solid #eef1f4;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-bottom: 10px;
+  background: #fff;
+}
+
+.group-row {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 10px;
+  background: #ffffff;
+  cursor: pointer;
+}
+
+.group-row:hover { background: #f7f9fc; }
+
+.group-name {
+  font-weight: 800;
+  font-size: 13px;
+}
+
+.group-toggle {
+  border: none;
+  background: #eef1f4;
+  color: #111;
+  cursor: pointer;
+  border-radius: 8px;
+  padding: 6px 8px;
+  font-size: 12px;
+  font-weight: 800;
+}
+
+/* Alt grup listesi (sağda değil, altta) */
+.sub-list {
+  display: none;
+  padding: 10px;
+  background: #f7f9fc;
+  border-top: 1px solid #eef1f4;
+}
+.sub-list.open { display: block; }
+
+.sub-item {
+  width: 100%;
+  text-align: left;
+  border: 1px solid #e8edf3;
+  background: #ffffff;
+  cursor: pointer;
+  border-radius: 10px;
+  padding: 10px 10px;
+  font-size: 13px;
+  margin-bottom: 8px;
+}
+
+.sub-item:hover { background: #f1f5fb; }
 
 /* GRID */
 .grid {
@@ -220,6 +206,7 @@ h1 {
   transition: 0.15s;
   box-shadow: 0 4px 12px rgba(0,0,0,0.08);
 }
+
 .card:hover { transform: translateY(-2px); }
 
 .card img {
@@ -244,18 +231,36 @@ h1 {
   .right-area { grid-template-columns: auto 200px auto; }
   .grid { grid-template-columns: repeat(3, 1fr); }
   h1 { font-size: 18px; }
-  .menu { width: min(92vw, 760px); }
+  .logo-right { height: 34px; }
 }
 
-/* Mobil: menü 2 panel kalsın ama daralınca altlar aşağıya da düşebilir */
-@media (max-width: 650px) {
-  .header-row { grid-template-columns: 1fr; gap: 10px; }
+/* Mobil: 3 kolon (çok dar ise 2) */
+@media (max-width: 560px) {
+  .header-row {
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+
   h1 { text-align: left; }
 
-  .right-area { grid-template-columns: auto 1fr auto; }
+  /* KRD yukarıda gibi hissettirsin: logoyu biraz küçülttük zaten */
+  .right-area {
+    grid-template-columns: auto 1fr auto;
+    align-items: center;
+  }
+
   #searchInput { font-size: 13px; padding: 9px 10px; }
 
-  .grid { grid-template-columns: repeat(2, 1fr); gap: 12px; padding: 14px; }
+  .menu {
+    width: min(92vw, 340px);
+  }
+
+  .grid {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 12px;
+    padding: 14px;
+  }
+
   .card { padding: 10px; }
   .card img { height: 110px; }
   .name { font-size: 12px; }
@@ -264,34 +269,4 @@ h1 {
 
 @media (max-width: 420px) {
   .grid { grid-template-columns: repeat(2, 1fr); }
-}
-
-/* ÜRÜN DETAY */
-.product-detail {
-  max-width: 1000px;
-  margin: 50px auto;
-  display: flex;
-  gap: 30px;
-  background: white;
-  padding: 28px;
-  border-radius: 14px;
-  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
-}
-
-.product-image img {
-  width: 420px;
-  max-width: 100%;
-  object-fit: contain;
-  background: #f3f3f3;
-  border-radius: 14px;
-}
-
-.product-info { flex: 1; }
-.product-info h2 { margin-top: 0; }
-
-@media (max-width: 820px) {
-  .product-detail {
-    margin: 18px;
-    flex-direction: column;
-  }
 }
