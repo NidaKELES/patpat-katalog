@@ -319,3 +319,16 @@ h1 {
     height: 54px;
   }
 }
+
+/* Logo büyütme */
+.brand-logo{
+  height: 54px;         /* burayı 50-70 arası deneyebilirsin */
+  width: auto;
+  display: block;
+  object-fit: contain;
+}
+
+/* Mobilde çok taşmasın */
+@media (max-width: 560px){
+  .brand-logo{ height: 46px; }
+}
