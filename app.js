@@ -3,26 +3,77 @@ let currentGroup = "ALL";
 let currentSub = "";
 let searchText = "";
 
-/* JSON yükle */
+/* ---------- URL / HISTORY HELPERS ---------- */
+function setUrlFromState(push = true) {
+  const url = new URL(window.location.href);
+
+  if (currentGroup && currentGroup !== "ALL") url.searchParams.set("group", currentGroup);
+  else url.searchParams.delete("group");
+
+  if (currentSub) url.searchParams.set("sub", currentSub);
+  else url.searchParams.delete("sub");
+
+  if (searchText) url.searchParams.set("q", searchText);
+  else url.searchParams.delete("q");
+
+  const state = { group: currentGroup, sub: currentSub, q: searchText };
+
+  if (push) history.pushState(state, "", url.toString());
+  else history.replaceState(state, "", url.toString());
+}
+
+function readStateFromUrl() {
+  const url = new URL(window.location.href);
+  const g = (url.searchParams.get("group") || "").trim();
+  const s = (url.searchParams.get("sub") || "").trim();
+  const q = (url.searchParams.get("q") || "").trim();
+
+  currentGroup = g ? g : "ALL";
+  currentSub = s ? s : "";
+  searchText = q ? q.toLowerCase() : "";
+
+  const input = document.getElementById("searchInput");
+  if (input) input.value = q || "";
+
+  setCurrentFilterText(
+    currentGroup === "ALL"
+      ? "Tümü"
+      : (currentSub ? `${currentGroup} > ${currentSub}` : currentGroup)
+  );
+
+  applyFilters(false); // push yapma
+}
+
+/* Geri/ileri tuşu */
+window.addEventListener("popstate", () => {
+  readStateFromUrl();
+});
+
+/* ---------- JSON yükle ---------- */
 fetch("products.json")
   .then(res => res.json())
   .then(data => {
     allProducts = Array.isArray(data) ? data : [];
     buildMenu();
-    applyFilters();
+
+    // İlk açılışta URL'den oku
+    readStateFromUrl();
+
+    // İlk state'i history'ye yaz (geri tuşu düzgün olsun)
+    setUrlFromState(false);
   })
   .catch(err => console.error("products.json okunamadı:", err));
 
-/* Arama */
+/* ---------- Arama ---------- */
 const searchInput = document.getElementById("searchInput");
 if (searchInput) {
   searchInput.addEventListener("input", function () {
     searchText = this.value.toLowerCase().trim();
-    applyFilters();
+    applyFilters(true); // history ekle
   });
 }
 
-/* Menü aç/kapat */
+/* ---------- Menü aç/kapat ---------- */
 const productsBtn = document.getElementById("productsBtn");
 const productsMenu = document.getElementById("productsMenu");
 const menuClose = document.getElementById("menuClose");
@@ -47,7 +98,6 @@ if (productsBtn) {
     productsMenu.classList.contains("open") ? closeMenu() : openMenu();
   });
 }
-
 if (menuClose) menuClose.addEventListener("click", closeMenu);
 
 document.addEventListener("click", (e) => {
@@ -56,12 +106,11 @@ document.addEventListener("click", (e) => {
   if (!wrap) closeMenu();
 });
 
-/* Menü: Grup -> alt grup (altlar altta açılır) */
+/* ---------- Menü: Grup -> alt grup ---------- */
 function buildMenu() {
   const menuBody = document.getElementById("menuBody");
   if (!menuBody) return;
 
-  // group -> Set(subcategory)
   const map = new Map();
   allProducts.forEach(p => {
     const g = (p.group || "").trim();
@@ -85,7 +134,7 @@ function buildMenu() {
       currentGroup = "ALL";
       currentSub = "";
       setCurrentFilterText("Tümü");
-      applyFilters();
+      applyFilters(true);      // history ekle
       closeMenu();
     });
   }
@@ -110,25 +159,24 @@ function buildMenu() {
     const toggleBtn = item.querySelector('[data-role="toggleSubs"]');
     const subList = item.querySelector(".sub-list");
 
-    // Grup adına tıkla = grubu seç
+    // Grup seç
     row.addEventListener("click", (e) => {
-      // toggle butona basıldıysa burada seçme yapmayalım
       if (e.target && e.target.closest('[data-role="toggleSubs"]')) return;
 
       currentGroup = groupName;
       currentSub = "";
       setCurrentFilterText(groupName);
-      applyFilters();
+      applyFilters(true);   // history ekle
       closeMenu();
     });
 
-    // ok butonu = altları aç/kapat (kibar)
+    // Altları aç/kapat
     toggleBtn.addEventListener("click", (e) => {
       e.stopPropagation();
       subList.classList.toggle("open");
     });
 
-    // Alt gruba tıkla = alt grubu seç
+    // Alt grup seç
     item.querySelectorAll(".sub-item").forEach(btn => {
       btn.addEventListener("click", (e) => {
         e.stopPropagation();
@@ -136,7 +184,7 @@ function buildMenu() {
         currentGroup = groupName;
         currentSub = sub;
         setCurrentFilterText(`${groupName} > ${sub}`);
-        applyFilters();
+        applyFilters(true);  // history ekle
         closeMenu();
       });
     });
@@ -145,14 +193,14 @@ function buildMenu() {
   });
 }
 
-/* Filtre metni */
+/* ---------- Filtre metni ---------- */
 function setCurrentFilterText(text) {
   const el = document.getElementById("currentFilterText");
   if (el) el.textContent = text || "Tümü";
 }
 
-/* Filtre uygula */
-function applyFilters() {
+/* ---------- Filtre uygula ---------- */
+function applyFilters(pushHistory = true) {
   let filtered = allProducts;
 
   if (currentGroup !== "ALL") {
@@ -181,9 +229,12 @@ function applyFilters() {
   }
 
   renderProducts(filtered);
+
+  // URL + history
+  if (pushHistory) setUrlFromState(true);
 }
 
-/* Ürünleri bas */
+/* ---------- Ürünleri bas ---------- */
 function renderProducts(products) {
   const grid = document.getElementById("productGrid");
   if (!grid) return;
@@ -211,7 +262,7 @@ function renderProducts(products) {
   });
 }
 
-/* küçük güvenli html helpers */
+/* ---------- helpers ---------- */
 function escapeHtml(str) {
   return String(str)
     .replaceAll("&","&amp;")
