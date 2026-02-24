@@ -322,7 +322,7 @@ h1 {
 
 /* Logo büyütme */
 .brand-logo{
-  height: 54px;         /* burayı 50-70 arası deneyebilirsin */
+  height: 70px;         /* burayı 50-70 arası deneyebilirsin */
   width: auto;
   display: block;
   object-fit: contain;
