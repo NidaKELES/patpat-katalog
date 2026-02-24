@@ -41,7 +41,7 @@ function readStateFromUrl() {
       : (currentSub ? `${currentGroup} > ${currentSub}` : currentGroup)
   );
 
-  applyFilters(false); // popstate sırasında push yapma
+  applyFilters(false); // push yapma
 }
 
 /* Geri/ileri tuşu */
@@ -56,10 +56,7 @@ fetch("products.json")
     allProducts = Array.isArray(data) ? data : [];
     buildMenu();
 
-    // İlk açılışta URL'den oku
     readStateFromUrl();
-
-    // İlk state'i history'ye yaz
     setUrlFromState(false);
   })
   .catch(err => console.error("products.json okunamadı:", err));
@@ -69,7 +66,7 @@ const searchInput = document.getElementById("searchInput");
 if (searchInput) {
   searchInput.addEventListener("input", function () {
     searchText = this.value.toLowerCase().trim();
-    applyFilters(true); // history ekle
+    applyFilters(true);
   });
 }
 
@@ -159,10 +156,8 @@ function buildMenu() {
     const toggleBtn = item.querySelector('[data-role="toggleSubs"]');
     const subList = item.querySelector(".sub-list");
 
-    // Grup seç
     row.addEventListener("click", (e) => {
       if (e.target && e.target.closest('[data-role="toggleSubs"]')) return;
-
       currentGroup = groupName;
       currentSub = "";
       setCurrentFilterText(groupName);
@@ -170,13 +165,11 @@ function buildMenu() {
       closeMenu();
     });
 
-    // Altları aç/kapat
     toggleBtn.addEventListener("click", (e) => {
       e.stopPropagation();
       subList.classList.toggle("open");
     });
 
-    // Alt grup seç
     item.querySelectorAll(".sub-item").forEach(btn => {
       btn.addEventListener("click", (e) => {
         e.stopPropagation();
@@ -240,8 +233,6 @@ function renderProducts(products) {
 
   grid.innerHTML = "";
 
-  const fromUrl = encodeURIComponent(window.location.href);
-
   products.forEach(p => {
     const card = document.createElement("div");
     card.className = "card";
@@ -256,8 +247,8 @@ function renderProducts(products) {
     `;
 
     card.addEventListener("click", () => {
-      // from parametresi: detaydan geri dönerken aynı filtre/arama kalsın
-      window.location.href = `product.html?id=${encodeURIComponent(p.id)}&from=${fromUrl}`;
+      const ref = encodeURIComponent(window.location.pathname + window.location.search);
+      window.location.href = `product.html?id=${encodeURIComponent(p.id)}&ref=${ref}`;
     });
 
     grid.appendChild(card);

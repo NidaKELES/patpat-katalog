@@ -1,17 +1,15 @@
 const params = new URLSearchParams(window.location.search);
 const productId = params.get("id");
-const from = params.get("from"); // index'ten geldiğimiz sayfa (filtre/arama ile)
+const ref = params.get("ref"); // index'ten gelen dönüş yolu
 
+// Geri linkini ayarla
 const backLink = document.getElementById("backLink");
 if (backLink) {
-  backLink.href = from ? decodeURIComponent(from) : "index.html";
-  backLink.addEventListener("click", (e) => {
-    // Eğer kullanıcı tarayıcı geçmişi ile geldiyse daha doğal dönüş:
-    if (window.history.length > 1) {
-      e.preventDefault();
-      window.history.back();
-    }
-  });
+  if (ref) {
+    backLink.href = decodeURIComponent(ref);
+  } else {
+    backLink.href = "index.html";
+  }
 }
 
 fetch("products.json")
@@ -30,8 +28,6 @@ fetch("products.json")
     if (product.image) {
       img.src = `images/${product.image}`;
       img.onerror = () => { img.src = "images/placeholder.png"; };
-    } else {
-      img.src = "images/placeholder.png";
     }
   })
   .catch(err => console.error(err));
