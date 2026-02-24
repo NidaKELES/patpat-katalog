@@ -5622,7 +5622,7 @@
     "code": "099 0950",
     "brand": "FM-BEYBOLAT",
     "name": "Debriyaj Teli - Eski Model",
-    "image": ""
+    "image": "099 0950.png"
   },
   {
     "id": "FM-BEYBOLAT-Debriyaj_Teli_-_Yeni_Model",
@@ -5631,7 +5631,7 @@
     "code": "",
     "brand": "FM-BEYBOLAT",
     "name": "Debriyaj Teli - Yeni Model",
-    "image": ""
+    "image": "beybolatym.png"
   },
   {
     "id": "099_0953-FM-BEYBOLAT-Gaz_Teli",
@@ -5640,7 +5640,7 @@
     "code": "099 0953",
     "brand": "FM-BEYBOLAT",
     "name": "Gaz Teli",
-    "image": ""
+    "image": "099 0953.jpeg"
   },
   {
     "id": "099_1170-EMİRSAN-Debriyaj_Teli_Kısa__Eski_Model",
@@ -5649,7 +5649,7 @@
     "code": "099 1170",
     "brand": "EMİRSAN",
     "name": "Debriyaj Teli Kısa – Eski Model",
-    "image": ""
+    "image": "099 1170.png"
   },
   {
     "id": "099_1173-EMİRSAN-Debriyaj_Teli_Uzun__Eski_Model",
@@ -5658,7 +5658,7 @@
     "code": "099 1173",
     "brand": "EMİRSAN",
     "name": "Debriyaj Teli Uzun – Eski Model",
-    "image": ""
+    "image": "099 1173.png"
   },
   {
     "id": "099_1170A-EMİRSAN-Debriyaj_Teli_Kısa__Yeni_Model",
@@ -5667,7 +5667,7 @@
     "code": "099 1170A",
     "brand": "EMİRSAN",
     "name": "Debriyaj Teli Kısa – Yeni Model",
-    "image": ""
+    "image": "099 1170a.png"
   },
   {
     "id": "099_1173A-EMİRSAN-Debriyaj_Teli_Uzun__Yeni_Model",
@@ -5676,7 +5676,7 @@
     "code": "099 1173A",
     "brand": "EMİRSAN",
     "name": "Debriyaj Teli Uzun – Yeni Model",
-    "image": ""
+    "image": "099 1173a.png"
   },
   {
     "id": "099_1176-EMİRSAN-Gaz_Teli_Kısa",
