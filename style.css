@@ -17,30 +17,22 @@ body {
 .header-row {
   display: flex;
   align-items: center;
+  justify-content: space-between;
   gap: 16px;
 }
 
-/* Ortadaki başlık ortalansın */
-.header-row h1 {
-  flex: 1;
-  text-align: center;
+h1 {
   margin: 0;
   font-size: 22px;
   font-weight: 700;
 }
 
-.logo img {
-  height: 46px;
-}
+.logo img { height: 46px; }
+.logo-right { height: 46px; margin-right: 12px; }
 
 .right-area {
   display: flex;
   align-items: center;
-  gap: 12px;
-}
-
-.logo-right {
-  height: 46px;
 }
 
 #searchInput {
@@ -49,23 +41,18 @@ body {
   border: none;
   outline: none;
   font-size: 14px;
-  width: 260px;
+  width: 240px;
 }
 
-/* FİLTRE BAR: TEK SATIR, YATAY KAYDIR */
+/* FİLTRE BAR */
 .filter-bar {
   margin-top: 14px;
   display: flex;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   gap: 8px;
-  overflow-x: auto;
-  padding-bottom: 8px;
-  -webkit-overflow-scrolling: touch;
 }
 
 .filter-bar button {
-  flex: 0 0 auto;
-  white-space: nowrap;
   padding: 7px 12px;
   border-radius: 7px;
   border: none;
@@ -79,12 +66,17 @@ body {
   font-weight: bold;
 }
 
-/* GRID: HER ZAMAN 4 KOLON */
+/* GRID: varsayılan 3 kolon (mobilde de web gibi görünür) */
 .grid {
   display: grid;
-  grid-template-columns: repeat(4, minmax(0, 1fr));
+  grid-template-columns: repeat(3, 1fr);
   gap: 18px;
   padding: 24px;
+}
+
+/* Çok geniş ekranda 4 kolon */
+@media (min-width: 1300px) {
+  .grid { grid-template-columns: repeat(4, 1fr); }
 }
 
 /* KART */
@@ -97,9 +89,7 @@ body {
   box-shadow: 0 4px 12px rgba(0,0,0,0.08);
 }
 
-.card:hover {
-  transform: translateY(-2px);
-}
+.card:hover { transform: translateY(-2px); }
 
 .card img {
   width: 100%;
@@ -110,23 +100,11 @@ body {
   margin-bottom: 10px;
 }
 
-.code {
-  font-size: 12px;
-  color: #7b7b7b;
-}
+.code { font-size: 12px; color: #7b7b7b; }
+.name { font-size: 14px; font-weight: 700; margin: 6px 0; }
+.brand { font-size: 12px; color: #555; }
 
-.name {
-  font-size: 14px;
-  font-weight: 700;
-  margin: 6px 0;
-}
-
-.brand {
-  font-size: 12px;
-  color: #555;
-}
-
-/* ÜRÜN DETAY */
+/* DETAY SAYFASI */
 .product-detail {
   max-width: 1000px;
   margin: 80px auto;
@@ -139,28 +117,9 @@ body {
 }
 
 .product-image img {
-  width: 420px;
-  height: 320px;
+  width: 400px;
   object-fit: contain;
-  background: #f3f3f3;
-  border-radius: 12px;
 }
 
-.product-info {
-  flex: 1;
-}
-
-.product-info h2 {
-  margin-top: 0;
-}
-
-.back-link{
-  display: inline-block;
-  margin-top: 18px;
-  color: #1f2d3d;
-  text-decoration: none;
-  font-weight: 700;
-}
-.back-link:hover{
-  text-decoration: underline;
-}
+.product-info { flex: 1; }
+.product-info h2 { margin-top: 0; }

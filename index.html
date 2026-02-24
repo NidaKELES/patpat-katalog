@@ -2,8 +2,9 @@
 <html lang="tr">
 <head>
   <meta charset="UTF-8" />
-  <!-- MOBİLDE DESKTOP GİBİ GÖRÜNÜM -->
-  <meta name="viewport" content="width=1200, initial-scale=1" />
+
+  <!-- ÖNEMLİ: Mobilde web gibi görünmesi için width=1200 -->
+  <meta name="viewport" content="width=1200, initial-scale=1.0" />
 
   <title>Ürün Kataloğu</title>
   <link rel="stylesheet" href="style.css" />
@@ -12,7 +13,6 @@
 
 <header class="top-bar">
   <div class="header-row">
-
     <div class="logo left">
       <img src="images/karadeniz.jpeg" alt="Karadeniz">
     </div>
@@ -21,14 +21,12 @@
 
     <div class="right-area">
       <img src="images/karden.PNG" class="logo-right" alt="Karden">
-
-      <input 
+      <input
         type="text"
         id="searchInput"
         placeholder="Ürün adı, kod, marka ile ara..."
       />
     </div>
-
   </div>
 
   <div id="filters" class="filter-bar"></div>
