@@ -5685,7 +5685,7 @@
     "code": "099 1176",
     "brand": "EMİRSAN",
     "name": "Gaz Teli Kısa",
-    "image": ""
+    "image": "099 1176.jpeg"
   },
   {
     "id": "099_1179-EMİRSAN-Gaz_Teli_Uzun",
@@ -5694,16 +5694,16 @@
     "code": "099 1179",
     "brand": "EMİRSAN",
     "name": "Gaz Teli Uzun",
-    "image": ""
+    "image": "099 1179.jpeg"
   },
   {
-    "id": "099_1169-EMİRSAN-Stop_Teli__Yeni_Model_Cıvatalı",
+    "id": "099_1169-EMİRSAN-Stop_Teli",
     "group": "FM – EMİRSAN GRUBU",
     "subcategory": "",
     "code": "099 1169",
     "brand": "EMİRSAN",
-    "name": "Stop Teli – Yeni Model (Cıvatalı)",
-    "image": ""
+    "name": "Stop Teli",
+    "image": "099 1169.png"
   },
   {
     "id": "099_8500-KARDEN-Debriyaj_Teli_Sıkma_Vidası__Anh_Kafalı",
