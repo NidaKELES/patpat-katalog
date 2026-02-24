@@ -41,7 +41,7 @@ function readStateFromUrl() {
       : (currentSub ? `${currentGroup} > ${currentSub}` : currentGroup)
   );
 
-  applyFilters(false); // push yapma
+  applyFilters(false); // popstate sırasında push yapma
 }
 
 /* Geri/ileri tuşu */
@@ -59,7 +59,7 @@ fetch("products.json")
     // İlk açılışta URL'den oku
     readStateFromUrl();
 
-    // İlk state'i history'ye yaz (geri tuşu düzgün olsun)
+    // İlk state'i history'ye yaz
     setUrlFromState(false);
   })
   .catch(err => console.error("products.json okunamadı:", err));
@@ -134,7 +134,7 @@ function buildMenu() {
       currentGroup = "ALL";
       currentSub = "";
       setCurrentFilterText("Tümü");
-      applyFilters(true);      // history ekle
+      applyFilters(true);
       closeMenu();
     });
   }
@@ -166,7 +166,7 @@ function buildMenu() {
       currentGroup = groupName;
       currentSub = "";
       setCurrentFilterText(groupName);
-      applyFilters(true);   // history ekle
+      applyFilters(true);
       closeMenu();
     });
 
@@ -184,7 +184,7 @@ function buildMenu() {
         currentGroup = groupName;
         currentSub = sub;
         setCurrentFilterText(`${groupName} > ${sub}`);
-        applyFilters(true);  // history ekle
+        applyFilters(true);
         closeMenu();
       });
     });
@@ -230,7 +230,6 @@ function applyFilters(pushHistory = true) {
 
   renderProducts(filtered);
 
-  // URL + history
   if (pushHistory) setUrlFromState(true);
 }
 
@@ -240,6 +239,8 @@ function renderProducts(products) {
   if (!grid) return;
 
   grid.innerHTML = "";
+
+  const fromUrl = encodeURIComponent(window.location.href);
 
   products.forEach(p => {
     const card = document.createElement("div");
@@ -255,7 +256,8 @@ function renderProducts(products) {
     `;
 
     card.addEventListener("click", () => {
-      window.location.href = `product.html?id=${encodeURIComponent(p.id)}`;
+      // from parametresi: detaydan geri dönerken aynı filtre/arama kalsın
+      window.location.href = `product.html?id=${encodeURIComponent(p.id)}&from=${fromUrl}`;
     });
 
     grid.appendChild(card);
