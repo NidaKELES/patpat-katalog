@@ -2,10 +2,7 @@
 <html lang="tr">
 <head>
   <meta charset="UTF-8">
-
-  <!-- ÖNEMLİ: Detay sayfası da web gibi -->
-  <meta name="viewport" content="width=1200, initial-scale=1.0" />
-
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Ürün Detay</title>
   <link rel="stylesheet" href="style.css">
 </head>
@@ -13,15 +10,19 @@
 
 <div class="product-detail">
   <div class="product-image">
-    <img id="detailImage" src="" alt="">
+    <img id="detailImage" src="images/placeholder.png" alt="">
   </div>
 
   <div class="product-info">
     <h2 id="detailName"></h2>
     <p><strong>Kod:</strong> <span id="detailCode"></span></p>
     <p><strong>Marka:</strong> <span id="detailBrand"></span></p>
-    <p id="detailDescription"></p>
-    <a href="index.html">← Geri</a>
+    <p><strong>Grup:</strong> <span id="detailGroup"></span></p>
+    <p><strong>Alt Grup:</strong> <span id="detailSub"></span></p>
+
+    <p style="margin-top:18px;">
+      <a href="index.html">← Geri</a>
+    </p>
   </div>
 </div>
 

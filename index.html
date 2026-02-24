@@ -2,10 +2,7 @@
 <html lang="tr">
 <head>
   <meta charset="UTF-8" />
-
-  <!-- ÖNEMLİ: Mobilde web gibi görünmesi için width=1200 -->
-  <meta name="viewport" content="width=1200, initial-scale=1.0" />
-
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Ürün Kataloğu</title>
   <link rel="stylesheet" href="style.css" />
 </head>
@@ -14,22 +11,45 @@
 <header class="top-bar">
   <div class="header-row">
     <div class="logo left">
-      <img src="images/karadeniz.jpeg" alt="Karadeniz">
+      <img src="images/karadeniz.jpeg" alt="Karadeniz Ticaret">
     </div>
 
     <h1>Ürün Kataloğu</h1>
 
     <div class="right-area">
-      <img src="images/karden.PNG" class="logo-right" alt="Karden">
+      <img src="images/karden.PNG" class="logo-right" alt="KRD">
       <input
         type="text"
         id="searchInput"
         placeholder="Ürün adı, kod, marka ile ara..."
+        autocomplete="off"
       />
+
+      <div class="menu-wrap">
+        <button id="productsBtn" class="menu-btn" type="button" aria-expanded="false">
+          Ürünler <span class="caret">▾</span>
+        </button>
+
+        <div id="productsMenu" class="menu" aria-hidden="true">
+          <div class="menu-head">
+            <div class="menu-title">Gruplar</div>
+            <button id="menuClose" class="menu-close" type="button">✕</button>
+          </div>
+
+          <div class="menu-body" id="menuBody">
+            <!-- JS burayı dolduracak -->
+          </div>
+
+          <div class="menu-foot">
+            <div class="current-filter">
+              Seçim: <span id="currentFilterText">Tümü</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
     </div>
   </div>
-
-  <div id="filters" class="filter-bar"></div>
 </header>
 
 <main>

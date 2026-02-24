@@ -4,7 +4,7 @@ const productId = params.get("id");
 fetch("products.json")
   .then(res => res.json())
   .then(products => {
-    const product = products.find(p => p.id === productId);
+    const product = (products || []).find(p => p.id === productId);
     if (!product) return;
 
     document.getElementById("detailName").innerText = product.name || "";
@@ -16,8 +16,7 @@ fetch("products.json")
     const img = document.getElementById("detailImage");
     if (product.image) {
       img.src = `images/${product.image}`;
-    } else {
-      img.style.display = "none";
+      img.onerror = () => { img.src = "images/placeholder.png"; };
     }
   })
-  .catch(err => console.error("products.json okunamadı:", err));
+  .catch(err => console.error(err));
