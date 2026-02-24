@@ -313,50 +313,7 @@ h1 {
     flex-direction: column;
   }
 }
-/* ===== MOBİL HEADER DÜZENLEME ===== */
-@media (max-width: 560px) {
-
-  /* header tek kolon */
-  .header-row {
-    grid-template-columns: 1fr;
-    gap: 12px;
-  }
-
-  h1 {
-    order: 2;
-    font-size: 20px;
-  }
-
-  .logo.left {
-    order: 1;
-  }
-
-  /* sağ alanı 2 satır yap */
-  .right-area {
-    order: 3;
-    display: grid;
-    grid-template-columns: auto;
-    gap: 8px;
-  }
-
-  /* KRD üstte ve küçük */
+/* KRD üstte ve küçük */
   .logo-right {
     height: 34px;
   }
-
-  /* arama + ürünler yan yana */
-  .right-area {
-    grid-template-columns: 1fr auto;
-    align-items: center;
-  }
-
-  #searchInput {
-    width: 100%;
-    font-size: 13px;
-  }
-
-  .menu-btn {
-    padding: 8px 10px;
-    font-size: 13px;
-  }
-}
