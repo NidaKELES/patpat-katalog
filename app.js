@@ -98,9 +98,9 @@ function renderProducts(products) {
       <div class="brand">${p.brand || ""}</div>
     `;
 
-   card.addEventListener("click", () => {
-  window.location.href = `product.html?id=${encodeURIComponent(p.id)}`;
-});
+    card.addEventListener("click", () => {
+      window.location.href = `product.html?id=${encodeURIComponent(p.id)}`;
+    });
 
     grid.appendChild(card);
   });
