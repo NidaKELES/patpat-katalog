@@ -18,6 +18,7 @@
 
     <div class="right-area">
       <img src="images/karden.PNG" class="logo-right" alt="KRD">
+
       <input
         type="text"
         id="searchInput"
@@ -32,12 +33,24 @@
 
         <div id="productsMenu" class="menu" aria-hidden="true">
           <div class="menu-head">
-            <div class="menu-title">Gruplar</div>
+            <div class="menu-title">Ürünler</div>
             <button id="menuClose" class="menu-close" type="button">✕</button>
           </div>
 
-          <div class="menu-body" id="menuBody">
-            <!-- JS burayı dolduracak -->
+          <div class="menu-panels">
+            <!-- SOL: Gruplar -->
+            <div class="panel panel-left">
+              <button class="panel-top-btn" id="showAllBtn" type="button">Tümü (Genel)</button>
+              <div class="panel-list" id="groupsList"></div>
+            </div>
+
+            <!-- SAĞ: Alt gruplar -->
+            <div class="panel panel-right">
+              <div class="panel-right-head" id="subsTitle">Alt Gruplar</div>
+              <div class="panel-list" id="subsList">
+                <div class="panel-empty">Bir grup seçin.</div>
+              </div>
+            </div>
           </div>
 
           <div class="menu-foot">

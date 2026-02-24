@@ -3,7 +3,7 @@ let currentGroup = "ALL";
 let currentSub = "";
 let searchText = "";
 
-/* JSON yükle */
+// JSON yükle
 fetch("products.json")
   .then(res => res.json())
   .then(data => {
@@ -44,22 +44,24 @@ function closeMenu() {
 if (productsBtn) {
   productsBtn.addEventListener("click", (e) => {
     e.stopPropagation();
-    if (productsMenu.classList.contains("open")) closeMenu();
-    else openMenu();
+    productsMenu.classList.contains("open") ? closeMenu() : openMenu();
   });
 }
 if (menuClose) menuClose.addEventListener("click", closeMenu);
 
 document.addEventListener("click", (e) => {
-  if (!productsMenu) return;
   const wrap = e.target.closest(".menu-wrap");
   if (!wrap) closeMenu();
 });
 
-/* Menü içeriği: Grup -> Alt grup */
+/* Menü içeriği: Grup -> Alt grup (hover sağda göster) */
 function buildMenu() {
-  const menuBody = document.getElementById("menuBody");
-  if (!menuBody) return;
+  const groupsList = document.getElementById("groupsList");
+  const subsList = document.getElementById("subsList");
+  const subsTitle = document.getElementById("subsTitle");
+  const showAllBtn = document.getElementById("showAllBtn");
+
+  if (!groupsList || !subsList || !subsTitle) return;
 
   // Grup -> Set(subcategory)
   const map = new Map();
@@ -73,13 +75,7 @@ function buildMenu() {
 
   const groups = Array.from(map.keys()).sort((a,b) => a.localeCompare(b, "tr"));
 
-  menuBody.innerHTML = `
-    <div class="top-actions">
-      <button class="small-btn secondary" id="showAllBtn" type="button">Tümü (Genel)</button>
-    </div>
-  `;
-
-  const showAllBtn = document.getElementById("showAllBtn");
+  // Genel
   if (showAllBtn) {
     showAllBtn.addEventListener("click", () => {
       currentGroup = "ALL";
@@ -87,63 +83,81 @@ function buildMenu() {
       setCurrentFilterText("Tümü");
       applyFilters();
       closeMenu();
+      clearSubsPanel(subsList, subsTitle);
+      setActiveGroupButton(null);
     });
   }
 
+  groupsList.innerHTML = "";
+
   groups.forEach(groupName => {
-    const subs = Array.from(map.get(groupName)).sort((a,b) => a.localeCompare(b, "tr"));
+    const btn = document.createElement("button");
+    btn.className = "group-btn";
+    btn.type = "button";
+    btn.dataset.group = groupName;
+    btn.innerHTML = `<span>${escapeHtml(groupName)}</span><span class="arrow">›</span>`;
 
-    const item = document.createElement("div");
-    item.className = "group-item";
-
-    item.innerHTML = `
-      <div class="group-row">
-        <div class="group-name">${escapeHtml(groupName)}</div>
-        <div class="group-actions">
-          <button class="small-btn" data-action="selectGroup" type="button">Seç</button>
-          <button class="small-btn secondary" data-action="toggleSubs" type="button">Alt ▾</button>
-        </div>
-      </div>
-      <div class="sub-list">
-        ${subs.map(s => `<button class="sub-item" type="button" data-sub="${escapeHtmlAttr(s)}">${escapeHtml(s)}</button>`).join("")}
-      </div>
-    `;
-
-    // Seç / Alt aç-kapa
-    const selectBtn = item.querySelector('[data-action="selectGroup"]');
-    const toggleBtn = item.querySelector('[data-action="toggleSubs"]');
-    const subList = item.querySelector(".sub-list");
-
-    if (selectBtn) {
-      selectBtn.addEventListener("click", () => {
-        currentGroup = groupName;
-        currentSub = "";
-        setCurrentFilterText(groupName);
-        applyFilters();
-        closeMenu();
-      });
-    }
-
-    if (toggleBtn) {
-      toggleBtn.addEventListener("click", () => {
-        subList.classList.toggle("open");
-      });
-    }
-
-    // Alt gruba tık
-    item.querySelectorAll(".sub-item").forEach(btn => {
-      btn.addEventListener("click", () => {
-        const sub = btn.getAttribute("data-sub") || "";
-        currentGroup = groupName;
-        currentSub = sub;
-        setCurrentFilterText(`${groupName} > ${sub}`);
-        applyFilters();
-        closeMenu();
-      });
+    // WEB: üstüne gelince altları sağda göster
+    btn.addEventListener("mouseenter", () => {
+      populateSubsPanel(groupName, map, subsList, subsTitle);
+      setActiveGroupButton(groupName);
     });
 
-    menuBody.appendChild(item);
+    // MOBİL: hover yok -> tıklayınca sağ panel doldursun
+    btn.addEventListener("click", () => {
+      populateSubsPanel(groupName, map, subsList, subsTitle);
+      setActiveGroupButton(groupName);
+      // Eğer kullanıcı direkt grubu seçmek isterse: ikinci tıkla kapatmak yerine
+      // alt gruptan seçmesi daha iyi; o yüzden burada filtreyi hemen uygulamıyoruz.
+      // İstersen buraya "gruba tıkla direkt filtrele" de ekleriz.
+    });
+
+    groupsList.appendChild(btn);
   });
+
+  // Sayfa ilk açılışta sağ panel boş
+  clearSubsPanel(subsList, subsTitle);
+}
+
+function populateSubsPanel(groupName, map, subsList, subsTitle) {
+  const subs = Array.from(map.get(groupName) || []).sort((a,b) => a.localeCompare(b, "tr"));
+  subsTitle.textContent = `${groupName} / Alt Gruplar`;
+
+  if (subs.length === 0) {
+    subsList.innerHTML = `<div class="panel-empty">Bu grupta alt grup yok.</div>`;
+    return;
+  }
+
+  subsList.innerHTML = "";
+  subs.forEach(sub => {
+    const b = document.createElement("button");
+    b.className = "sub-btn";
+    b.type = "button";
+    b.textContent = sub;
+
+    // Alt gruba tıklayınca filtre uygula + menüyü kapat
+    b.addEventListener("click", () => {
+      currentGroup = groupName;
+      currentSub = sub;
+      setCurrentFilterText(`${groupName} > ${sub}`);
+      applyFilters();
+      closeMenu();
+    });
+
+    subsList.appendChild(b);
+  });
+}
+
+function clearSubsPanel(subsList, subsTitle) {
+  subsTitle.textContent = "Alt Gruplar";
+  subsList.innerHTML = `<div class="panel-empty">Bir grup seçin.</div>`;
+}
+
+function setActiveGroupButton(groupName) {
+  document.querySelectorAll(".group-btn").forEach(b => b.classList.remove("active"));
+  if (!groupName) return;
+  const target = document.querySelector(`.group-btn[data-group="${cssEscape(groupName)}"]`);
+  if (target) target.classList.add("active");
 }
 
 /* Filtre metni */
@@ -156,17 +170,14 @@ function setCurrentFilterText(text) {
 function applyFilters() {
   let filtered = allProducts;
 
-  // Grup filtresi
   if (currentGroup !== "ALL") {
     filtered = filtered.filter(p => (p.group || "").trim() === currentGroup);
   }
 
-  // Alt grup filtresi
   if (currentSub) {
     filtered = filtered.filter(p => (p.subcategory || "").trim() === currentSub);
   }
 
-  // Arama filtresi
   if (searchText) {
     filtered = filtered.filter(p => {
       const name = (p.name || "").toLowerCase();
@@ -215,7 +226,7 @@ function renderProducts(products) {
   });
 }
 
-/* küçük güvenli html helpers */
+/* helpers */
 function escapeHtml(str) {
   return String(str)
     .replaceAll("&","&amp;")
@@ -225,6 +236,6 @@ function escapeHtml(str) {
     .replaceAll("'","&#039;");
 }
 
-function escapeHtmlAttr(str) {
-  return escapeHtml(str).replaceAll('"', "&quot;");
+function cssEscape(str) {
+  return String(str).replace(/"/g, '\\"');
 }

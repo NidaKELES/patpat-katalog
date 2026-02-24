@@ -39,9 +39,8 @@ h1 {
   gap: 10px;
 }
 
-.logo-right {
-  height: 42px;
-}
+/* KRD biraz küçük */
+.logo-right { height: 36px; }
 
 #searchInput {
   width: 100%;
@@ -66,22 +65,21 @@ h1 {
   font-weight: 700;
   white-space: nowrap;
 }
-
 .menu-btn .caret { margin-left: 6px; }
 
 .menu {
   position: absolute;
   right: 0;
   top: calc(100% + 10px);
-  width: 360px;
-  max-height: 70vh;
-  overflow: hidden;
+  width: 760px;
+  max-width: min(92vw, 760px);
   background: #ffffff;
   color: #111;
   border-radius: 12px;
   box-shadow: 0 16px 40px rgba(0,0,0,0.25);
   border: 1px solid rgba(0,0,0,0.08);
   display: none;
+  overflow: hidden;
 }
 
 .menu.open { display: block; }
@@ -93,7 +91,6 @@ h1 {
   padding: 12px 12px;
   border-bottom: 1px solid #eef1f4;
 }
-
 .menu-title { font-weight: 800; }
 
 .menu-close {
@@ -103,102 +100,107 @@ h1 {
   font-size: 18px;
 }
 
-.menu-body {
-  padding: 10px;
-  overflow: auto;
-  max-height: calc(70vh - 90px);
+.menu-panels {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  min-height: 420px;
 }
 
+.panel {
+  display: flex;
+  flex-direction: column;
+  min-height: 420px;
+}
+
+.panel-left { border-right: 1px solid #eef1f4; }
+
+.panel-top-btn {
+  margin: 10px;
+  border: none;
+  background: #e0e3e7;
+  color: #111;
+  cursor: pointer;
+  border-radius: 10px;
+  padding: 10px 12px;
+  font-size: 13px;
+  font-weight: 800;
+}
+
+.panel-right-head {
+  padding: 12px 12px;
+  font-weight: 900;
+  background: #f7f9fc;
+  border-bottom: 1px solid #eef1f4;
+}
+
+.panel-list {
+  padding: 10px;
+  overflow: auto;
+  max-height: 460px;
+}
+
+/* Grup item (tek satır, butonsuz) */
+.group-btn {
+  width: 100%;
+  text-align: left;
+  border: 1px solid #eef1f4;
+  background: #ffffff;
+  cursor: pointer;
+  border-radius: 12px;
+  padding: 12px 12px;
+  font-size: 13px;
+  font-weight: 800;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.group-btn:hover { background: #f7f9fc; }
+
+.group-btn.active {
+  background: #1f2d3d;
+  color: white;
+  border-color: #1f2d3d;
+}
+
+.group-btn .arrow { opacity: .7; }
+
+/* Sub item */
+.sub-btn {
+  width: 100%;
+  text-align: left;
+  border: 1px solid #eef1f4;
+  background: #ffffff;
+  cursor: pointer;
+  border-radius: 12px;
+  padding: 12px 12px;
+  font-size: 13px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.sub-btn:hover { background: #f7f9fc; }
+
+.panel-empty {
+  padding: 14px;
+  border: 1px dashed #cfd6de;
+  border-radius: 12px;
+  color: #666;
+  font-size: 13px;
+}
+
+/* Menü alt */
 .menu-foot {
   padding: 10px 12px;
   border-top: 1px solid #eef1f4;
   font-size: 13px;
   color: #444;
 }
-
 .current-filter span {
-  font-weight: 800;
+  font-weight: 900;
   color: #111;
-}
-
-/* Menü liste */
-.group-item {
-  border: 1px solid #eef1f4;
-  border-radius: 10px;
-  margin-bottom: 10px;
-  overflow: hidden;
-}
-
-.group-row {
-  display: grid;
-  grid-template-columns: 1fr auto auto;
-  gap: 8px;
-  align-items: center;
-  padding: 10px 10px;
-  background: #f7f9fc;
-}
-
-.group-name {
-  font-weight: 800;
-  font-size: 13px;
-}
-
-.group-actions {
-  display: flex;
-  gap: 8px;
-}
-
-.small-btn {
-  border: none;
-  background: #1f2d3d;
-  color: white;
-  cursor: pointer;
-  border-radius: 8px;
-  padding: 7px 10px;
-  font-size: 12px;
-  font-weight: 700;
-}
-
-.small-btn.secondary {
-  background: #e0e3e7;
-  color: #111;
-}
-
-.chev-btn {
-  border: none;
-  background: transparent;
-  cursor: pointer;
-  font-size: 16px;
-  padding: 4px 6px;
-}
-
-.sub-list {
-  display: none;
-  padding: 8px;
-  background: white;
-}
-
-.sub-list.open { display: block; }
-
-.sub-item {
-  width: 100%;
-  text-align: left;
-  border: 1px solid #eef1f4;
-  background: white;
-  cursor: pointer;
-  border-radius: 10px;
-  padding: 10px 10px;
-  font-size: 13px;
-  margin-bottom: 8px;
-}
-
-.sub-item:hover { background: #f7f9fc; }
-
-.top-actions {
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 8px;
-  margin-bottom: 10px;
 }
 
 /* GRID */
@@ -218,7 +220,6 @@ h1 {
   transition: 0.15s;
   box-shadow: 0 4px 12px rgba(0,0,0,0.08);
 }
-
 .card:hover { transform: translateY(-2px); }
 
 .card img {
@@ -230,23 +231,11 @@ h1 {
   margin-bottom: 10px;
 }
 
-.name {
-  font-size: 14px;
-  font-weight: 800;
-  margin: 6px 0;
-}
+.name { font-size: 14px; font-weight: 800; margin: 6px 0; }
+.code { font-size: 12px; color: #7b7b7b; }
+.brand { font-size: 12px; color: #555; }
 
-.code {
-  font-size: 12px;
-  color: #7b7b7b;
-}
-
-.brand {
-  font-size: 12px;
-  color: #555;
-}
-
-/* RESPONSIVE - hedef: mobilde de 3 kolon mümkün olduğunca */
+/* RESPONSIVE */
 @media (max-width: 1200px) {
   .grid { grid-template-columns: repeat(3, 1fr); }
 }
@@ -255,25 +244,18 @@ h1 {
   .right-area { grid-template-columns: auto 200px auto; }
   .grid { grid-template-columns: repeat(3, 1fr); }
   h1 { font-size: 18px; }
+  .menu { width: min(92vw, 760px); }
 }
 
-/* Mobil: 3 kolon (ekran çok dar ise 2 kolona düşer) */
-@media (max-width: 560px) {
-  .header-row {
-    grid-template-columns: 1fr;
-    gap: 10px;
-  }
+/* Mobil: menü 2 panel kalsın ama daralınca altlar aşağıya da düşebilir */
+@media (max-width: 650px) {
+  .header-row { grid-template-columns: 1fr; gap: 10px; }
   h1 { text-align: left; }
 
-  .right-area {
-    grid-template-columns: auto 1fr auto;
-  }
-
+  .right-area { grid-template-columns: auto 1fr auto; }
   #searchInput { font-size: 13px; padding: 9px 10px; }
 
-  .menu { width: min(92vw, 380px); }
-  .grid { grid-template-columns: repeat(3, 1fr); gap: 12px; padding: 14px; }
-
+  .grid { grid-template-columns: repeat(2, 1fr); gap: 12px; padding: 14px; }
   .card { padding: 10px; }
   .card img { height: 110px; }
   .name { font-size: 12px; }
@@ -313,7 +295,3 @@ h1 {
     flex-direction: column;
   }
 }
-/* KRD üstte ve küçük */
-  .logo-right {
-    height: 34px;
-  }
