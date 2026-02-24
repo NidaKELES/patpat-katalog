@@ -5294,7 +5294,8 @@
   {
     "id": "099_1260-TARAL-Debriyaj_Teli__Cıvatalı",
     "group": "TEL GRUBU",
-    "subcategory": "TARAL - Alt Çapa 40M – 51M",
+    "subcategory": "TARAL",
+    "subsubcategory": "Alt Çapa 40M – 51M",
     "code": "099 1260",
     "brand": "TARAL",
     "name": "Debriyaj Teli – Cıvatalı",
@@ -5303,7 +5304,8 @@
   {
     "id": "099_1262-TARAL-Debriyaj_Teli__Cıvatasız",
     "group": "TEL GRUBU",
-    "subcategory": "TARAL - Alt Çapa 40M – 51M",
+    "subcategory": "TARAL",
+    "subsubcategory": "Alt Çapa 40M – 51M",
     "code": "099 1262",
     "brand": "TARAL",
     "name": "Debriyaj Teli – Cıvatasız",
@@ -5312,7 +5314,8 @@
   {
     "id": "099_1263-TARAL-Debriyaj_İç_Teli",
     "group": "TEL GRUBU",
-    "subcategory": "TARAL - Alt Çapa 40M – 51M",
+    "subcategory": "TARAL",
+    "subsubcategory": "Alt Çapa 40M – 51M",
     "code": "099 1263",
     "brand": "TARAL",
     "name": "Debriyaj İç Teli",
@@ -5321,7 +5324,8 @@
   {
     "id": "099_1270-TARAL-Geri_Vites_Teli__Komple",
     "group": "TEL GRUBU",
-    "subcategory": "TARAL - Alt Çapa 40M – 51M",
+    "subcategory": "TARAL",
+    "subsubcategory": "Alt Çapa 40M – 51M",
     "code": "099 1270",
     "brand": "TARAL",
     "name": "Geri Vites Teli – Komple",
@@ -5330,7 +5334,8 @@
   {
     "id": "099_1273-TARAL-Gaz_Teli__İç__Dış",
     "group": "TEL GRUBU",
-    "subcategory": "TARAL - Alt Çapa 40M – 51M",
+    "subcategory": "TARAL",
+    "subsubcategory": "Alt Çapa 40M – 51M",
     "code": "099 1273",
     "brand": "TARAL",
     "name": "Gaz Teli – İç & Dış",
@@ -5339,7 +5344,8 @@
   {
     "id": "099_1277-TARAL-Stop_Teli__İç__Dış",
     "group": "TEL GRUBU",
-    "subcategory": "TARAL - Alt Çapa 40M – 51M",
+    "subcategory": "TARAL",
+    "subsubcategory": "Alt Çapa 40M – 51M",
     "code": "099 1277",
     "brand": "TARAL",
     "name": "Stop Teli – İç & Dış",
@@ -5348,7 +5354,8 @@
   {
     "id": "099_1200-TARAL-Debriyaj_Teli__Komple",
     "group": "TEL GRUBU",
-    "subcategory": "TARAL - Arka Çapa 51-S",
+    "subcategory": "TARAL",
+    "subsubcategory": "Arka Çapa 51-S",
     "code": "099 1200",
     "brand": "TARAL",
     "name": "Debriyaj Teli – Komple",
@@ -5357,7 +5364,8 @@
   {
     "id": "099_1203-TARAL-Debriyaj_İç_Teli",
     "group": "TEL GRUBU",
-    "subcategory": "TARAL - Arka Çapa 51-S",
+    "subcategory": "TARAL",
+    "subsubcategory": "Arka Çapa 51-S",
     "code": "099 1203",
     "brand": "TARAL",
     "name": "Debriyaj İç Teli",
@@ -5366,7 +5374,8 @@
   {
     "id": "099_1213-TARAL-Gaz_Teli__İç__Dış",
     "group": "TEL GRUBU",
-    "subcategory": "TARAL - Arka Çapa 51-S",
+    "subcategory": "TARAL",
+    "subsubcategory": "Arka Çapa 51-S",
     "code": "099 1213",
     "brand": "TARAL",
     "name": "Gaz Teli – İç & Dış",
@@ -5375,7 +5384,8 @@
   {
     "id": "099_1214-TARAL-Gaz_İç_Teli",
     "group": "TEL GRUBU",
-    "subcategory": "TARAL - Arka Çapa 51-S",
+    "subcategory": "TARAL",
+    "subsubcategory": "Arka Çapa 51-S",
     "code": "099 1214",
     "brand": "TARAL",
     "name": "Gaz İç Teli",
@@ -5384,7 +5394,8 @@
   {
     "id": "099_1212-TARAL-Fren_Teli__Komple",
     "group": "TEL GRUBU",
-    "subcategory": "TARAL - Arka Çapa 51-S",
+    "subcategory": "TARAL",
+    "subsubcategory": "Arka Çapa 51-S",
     "code": "099 1212",
     "brand": "TARAL",
     "name": "Fren Teli – Komple",
@@ -5393,7 +5404,8 @@
   {
     "id": "099_1211-TARAL-Direksiyon_Teli__Komple",
     "group": "TEL GRUBU",
-    "subcategory": "TARAL - Arka Çapa 51-S",
+    "subcategory": "TARAL",
+    "subsubcategory": "Arka Çapa 51-S",
     "code": "099 1211",
     "brand": "TARAL",
     "name": "Direksiyon Teli – Komple",
@@ -5402,7 +5414,8 @@
   {
     "id": "099_1217-TARAL-Stop_Teli__İç__Dış",
     "group": "TEL GRUBU",
-    "subcategory": "TARAL - Arka Çapa 51-S",
+    "subcategory": "TARAL",
+    "subsubcategory": "Arka Çapa 51-S",
     "code": "099 1217",
     "brand": "TARAL",
     "name": "Stop Teli – İç & Dış",
@@ -5411,7 +5424,8 @@
   {
     "id": "099_1315-TARAL-Debriyaj_Teli",
     "group": "TEL GRUBU",
-    "subcategory": "TARAL - Alt Çapa 32-M",
+    "subcategory": "TARAL",
+    "subsubcategory": "Alt Çapa 32-M",
     "code": "099 1315",
     "brand": "TARAL",
     "name": "Debriyaj Teli",
@@ -5420,7 +5434,8 @@
   {
     "id": "099_1319-TARAL-Geri_Vites_Teli",
     "group": "TEL GRUBU",
-    "subcategory": "TARAL - Alt Çapa 32-M",
+    "subcategory": "TARAL",
+    "subsubcategory": "Alt Çapa 32-M",
     "code": "099 1319",
     "brand": "TARAL",
     "name": "Geri Vites Teli",
@@ -5429,7 +5444,8 @@
   {
     "id": "099_1320-TARAL-Gaz_Teli",
     "group": "TEL GRUBU",
-    "subcategory": "TARAL - Alt Çapa 32-M",
+    "subcategory": "TARAL",
+    "subsubcategory": "Alt Çapa 32-M",
     "code": "099 1320",
     "brand": "TARAL",
     "name": "Gaz Teli",
@@ -5438,7 +5454,8 @@
   {
     "id": "099_1323-TARAL-Stop_Teli",
     "group": "TEL GRUBU",
-    "subcategory": "TARAL - Alt Çapa 32-M",
+    "subcategory": "TARAL",
+    "subsubcategory": "Alt Çapa 32-M",
     "code": "099 1323",
     "brand": "TARAL",
     "name": "Stop Teli",
@@ -5447,7 +5464,8 @@
   {
     "id": "099_1310-TARAL-Gaz_Teli",
     "group": "TEL GRUBU",
-    "subcategory": "TARAL - Alt Çapa 22-M (Benzinli)",
+    "subcategory": "TARAL",
+    "subsubcategory": "Alt Çapa 22-M (Benzinli)",
     "code": "099 1310",
     "brand": "TARAL",
     "name": "Gaz Teli",
@@ -5456,7 +5474,8 @@
   {
     "id": "099_1300-TARAL-Debriyaj_Teli",
     "group": "TEL GRUBU",
-    "subcategory": "TARAL - Alt Çapa 22-M (Benzinli)",
+    "subcategory": "TARAL",
+    "subsubcategory": "Alt Çapa 22-M (Benzinli)",
     "code": "099 1300",
     "brand": "TARAL",
     "name": "Debriyaj Teli",
@@ -5465,7 +5484,8 @@
   {
     "id": "099_1305-TARAL-Geri_Vites_Teli",
     "group": "TEL GRUBU",
-    "subcategory": "TARAL - Alt Çapa 22-M (Benzinli)",
+    "subcategory": "TARAL",
+    "subsubcategory": "Alt Çapa 22-M (Benzinli)",
     "code": "099 1305",
     "brand": "TARAL",
     "name": "Geri Vites Teli",
