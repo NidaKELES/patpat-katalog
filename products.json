@@ -5043,10 +5043,10 @@
     "id": "099_0600-KARDEN-Ateşleme_Bujisi_A7TC",
     "group": "ATEŞLEME BUJİLERİ",
     "subcategory": "ATEŞLEME BUJİLERİ",
-    "code": "099 0600",
+    "code": "",
     "brand": "KARDEN",
     "name": "Ateşleme Bujisi A7TC",
-    "image": "099 0600.png"
+    "image": "099 06001.png"
   },
   {
     "id": "099_0606-KARDEN-Ateşleme_Bujisi_WS7F",
@@ -5199,7 +5199,7 @@
     "code": "099 0600",
     "brand": "RÖMORK",
     "name": "Kancalı Debriyaj Teli – İç & Dış",
-    "image": ""
+    "image": "099 0600.png"
   },
   {
     "id": "099_0600A-RÖMORK-Kancalı_Debriyaj_Teli_FM_Fırtına__İç__Dış",
@@ -5208,7 +5208,7 @@
     "code": "099 0600A",
     "brand": "RÖMORK",
     "name": "Kancalı Debriyaj Teli FM Fırtına – İç & Dış",
-    "image": ""
+    "image": "099 0600a.png"
   },
   {
     "id": "099_0601-RÖMORK-Kancalı_Debriyaj_İç_Teli",
@@ -5217,7 +5217,7 @@
     "code": "099 0601",
     "brand": "RÖMORK",
     "name": "Kancalı Debriyaj İç Teli",
-    "image": ""
+    "image": "099 0601.png"
   },
   {
     "id": "099_0610-RÖMORK-Debriyaj_Teli_M10_Cıvatalı_Caner",
@@ -5226,7 +5226,7 @@
     "code": "099 0610",
     "brand": "RÖMORK",
     "name": "Debriyaj Teli M10 Cıvatalı (Caner)",
-    "image": ""
+    "image": "099 0610.png"
   },
   {
     "id": "099_0615-RÖMORK-Debriyaj_İç_Teli-_Halkalı_Caner",
@@ -5235,7 +5235,7 @@
     "code": "099 0615",
     "brand": "RÖMORK",
     "name": "Debriyaj İç Teli- Halkalı (Caner)",
-    "image": ""
+    "image": "099 0615.png"
   },
   {
     "id": "099_0620-RÖMORK-El_Fren_Teli_Uzun__Tofaş_Tipi",
@@ -5244,7 +5244,7 @@
     "code": "099 0620",
     "brand": "RÖMORK",
     "name": "El Fren Teli Uzun – Tofaş Tipi",
-    "image": ""
+    "image": "099 0620.png"
   },
   {
     "id": "099_0626-RÖMORK-El_Fren_Teli_Uzun__Renault_Tipi",
@@ -5253,7 +5253,7 @@
     "code": "099 0626",
     "brand": "RÖMORK",
     "name": "El Fren Teli Uzun – Renault Tipi",
-    "image": ""
+    "image": "099 0626.png"
   },
   {
     "id": "099_0631-RÖMORK-El_Fren_Teli_Kısa_41_cm",
@@ -5262,7 +5262,7 @@
     "code": "099 0631",
     "brand": "RÖMORK",
     "name": "El Fren Teli Kısa 41 cm",
-    "image": ""
+    "image": "099 0631.png"
   },
   {
     "id": "099_0631A-RÖMORK-El_Fren_Teli_Kısa_51_cm",
@@ -5271,7 +5271,7 @@
     "code": "099 0631A",
     "brand": "RÖMORK",
     "name": "El Fren Teli Kısa 51 cm",
-    "image": ""
+    "image": "099 0631a.png"
   },
   {
     "id": "099_0631B-RÖMORK-El_Fren_Teli_Kısa_61_cm",
@@ -5280,7 +5280,7 @@
     "code": "099 0631B",
     "brand": "RÖMORK",
     "name": "El Fren Teli Kısa 61 cm",
-    "image": ""
+    "image": "099 0631b.png"
   },
   {
     "id": "099_0631C-RÖMORK-El_Fren_Teli_Kısa_71_cm",
@@ -5289,7 +5289,7 @@
     "code": "099 0631C",
     "brand": "RÖMORK",
     "name": "El Fren Teli Kısa 71 cm",
-    "image": ""
+    "image": "099 0631c.png"
   },
   {
     "id": "099_1260-TARAL-Debriyaj_Teli__Cıvatalı",
