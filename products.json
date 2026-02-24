@@ -5528,93 +5528,92 @@
   {
     "id": "099_1513-ANTRAK-200__Debriyaj_Teli",
     "group": "ANTRAK / BERTOLİNİ / LONCİN/ ECE",
-    "subcategory": "ANTRAK / BERTOLİNİ / LONCİN / SOLAX / GRİLLO / ECE",
+    "subcategory": "ANTRAK / BERTOLİNİ / LONCİN/ ECE",
     "code": "099 1513",
     "brand": "ANTRAK",
     "name": "200 – Debriyaj Teli",
-    "image": ""
+    "image": "099 1513.png"
   },
   {
     "id": "099_1506-ANTRAK-200__Gaz_Teli",
     "group": "ANTRAK / BERTOLİNİ / LONCİN/ ECE",
-    "subcategory": "ANTRAK / BERTOLİNİ / LONCİN / SOLAX / GRİLLO / ECE",
+    "subcategory": "ANTRAK / BERTOLİNİ / LONCİN/ ECE",
     "code": "099 1506",
     "brand": "ANTRAK",
     "name": "200 – Gaz Teli",
-    "image": ""
+    "image": "099 1506.jpeg"
   },
   {
     "id": "099_1514-ANTRAK-225315_Gaz_Teli",
     "group": "ANTRAK / BERTOLİNİ / LONCİN/ ECE",
-    "subcategory": "ANTRAK / BERTOLİNİ / LONCİN / SOLAX / GRİLLO / ECE",
+    "subcategory": "ANTRAK / BERTOLİNİ / LONCİN/ ECE",
     "code": "099 1514",
     "brand": "ANTRAK",
     "name": "225.315 Gaz Teli",
-    "image": ""
+    "image": "099 1514.jpeg"
   },
   {
     "id": "099_1400-BERTOLİNİ-202_İleri_Geri_Hareket_Teli__Eski_Model",
     "group": "ANTRAK / BERTOLİNİ / LONCİN/ ECE",
-    "subcategory": "ANTRAK / BERTOLİNİ / LONCİN / SOLAX / GRİLLO / ECE",
+    "subcategory": "ANTRAK / BERTOLİNİ / LONCİN/ ECE",
     "code": "099 1400",
     "brand": "BERTOLİNİ",
     "name": "202 İleri Geri Hareket Teli – Eski Model",
-    "image": ""
+    "image": "099 1400.jpg"
   },
   {
     "id": "099_1401-BERTOLİNİ-202222_İleri_Geri_Hareket_Teli__Yeni_Model",
     "group": "ANTRAK / BERTOLİNİ / LONCİN/ ECE",
-    "subcategory": "ANTRAK / BERTOLİNİ / LONCİN / SOLAX / GRİLLO / ECE",
+    "subcategory": "ANTRAK / BERTOLİNİ / LONCİN/ ECE",
     "code": "099 1401",
     "brand": "BERTOLİNİ",
     "name": "202.222 İleri Geri Hareket Teli – Yeni Model",
-    "image": ""
+    "image": "099 1401.jpg"
   },
   {
     "id": "099_1402-BERTOLİNİ-202222_Gaz_Teli",
     "group": "ANTRAK / BERTOLİNİ / LONCİN/ ECE",
-    "subcategory": "ANTRAK / BERTOLİNİ / LONCİN / SOLAX / GRİLLO / ECE",
+    "subcategory": "ANTRAK / BERTOLİNİ / LONCİN/ ECE",
     "code": "099 1402",
     "brand": "BERTOLİNİ",
     "name": "202.222 Gaz Teli",
-    "image": ""
+    "image": "099 1402.png"
   },
   {
     "id": "099_1415-BERTOLİNİ-215_Debriyaj_Teli",
     "group": "ANTRAK / BERTOLİNİ / LONCİN/ ECE",
-    "subcategory": "ANTRAK / BERTOLİNİ / LONCİN / SOLAX / GRİLLO / ECE",
+    "subcategory": "ANTRAK / BERTOLİNİ / LONCİN/ ECE",
     "code": "099 1415",
     "brand": "BERTOLİNİ",
     "name": "215 Debriyaj Teli",
-    "image": ""
+    "image": "099 1415.JPG"
   },
-
-  {
-    "id": "099_0935-SOLAX-Debriyaj_Teli",
+ {
+    "id": "099_0925-LONCİN-Debriyaj_Teli",
     "group": "ANTRAK / BERTOLİNİ / LONCİN/ ECE",
-    "subcategory": "ANTRAK / BERTOLİNİ / LONCİN / SOLAX / GRİLLO / ECE",
-    "code": "099 0935",
-    "brand": "SOLAX",
+    "subcategory": "ANTRAK / BERTOLİNİ / LONCİN/ ECE",
+    "code": "099 0925",
+    "brand": "LONCİN",
     "name": "Debriyaj Teli",
-    "image": ""
+    "image": "099 0925.jpg"
   },
   {
     "id": "099_0914-ECE_-80-Debriyaj_Teli",
     "group": "ANTRAK / BERTOLİNİ / LONCİN/ ECE",
-    "subcategory": "ANTRAK / BERTOLİNİ / LONCİN / SOLAX / GRİLLO / ECE",
+    "subcategory": "ANTRAK / BERTOLİNİ / LONCİN/ ECE",
     "code": "099 0914",
     "brand": "ECE -80",
     "name": "Debriyaj Teli",
-    "image": ""
+    "image": "099 0914.png"
   },
   {
     "id": "099_0915-ECE_-80-Geri_Vites_Teli",
     "group": "ANTRAK / BERTOLİNİ / LONCİN/ ECE",
-    "subcategory": "ANTRAK / BERTOLİNİ / LONCİN / SOLAX / GRİLLO / ECE",
+    "subcategory": "ANTRAK / BERTOLİNİ / LONCİN/ ECE",
     "code": "099 0915",
     "brand": "ECE -80",
     "name": "Geri Vites Teli",
-    "image": ""
+    "image": "099 0915.png"
   },
   {
     "id": "099_0950-FM-BEYBOLAT-Debriyaj_Teli_-_Eski_Model",
