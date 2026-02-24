@@ -10,48 +10,45 @@
 
 <header class="top-bar">
   <div class="header-row">
-
     <div class="logo left">
-      <img src="images/karadeniz.jpeg" alt="Karadeniz">
+      <img src="images/karadeniz.jpeg" alt="Karadeniz Ticaret">
     </div>
 
     <h1>Ürün Kataloğu</h1>
 
     <div class="right-area">
-      <img src="images/karden.PNG" class="logo-right" alt="Karden">
-
+      <img src="images/karden.PNG" class="logo-right" alt="KRD">
       <input
         type="text"
         id="searchInput"
         placeholder="Ürün adı, kod, marka ile ara..."
+        autocomplete="off"
       />
 
-      <!-- ÜRÜNLER MENÜ -->
-      <div class="menu-wrap" id="menuWrap">
-        <button class="menu-btn" id="menuBtn" type="button">
-          Ürünler <span class="chev">▾</span>
+      <div class="menu-wrap">
+        <button id="productsBtn" class="menu-btn" type="button" aria-expanded="false">
+          Ürünler <span class="caret">▾</span>
         </button>
 
-        <div class="mega" id="megaMenu">
-          <div class="mega-col">
-            <div class="mega-title">Gruplar</div>
-            <ul class="mega-list" id="menuGroups"></ul>
+        <div id="productsMenu" class="menu" aria-hidden="true">
+          <div class="menu-head">
+            <div class="menu-title">Gruplar</div>
+            <button id="menuClose" class="menu-close" type="button">✕</button>
           </div>
 
-          <div class="mega-col">
-            <div class="mega-title">Alt Gruplar</div>
-            <ul class="mega-list" id="menuSubs"></ul>
+          <div class="menu-body" id="menuBody">
+            <!-- JS burayı dolduracak -->
           </div>
 
-          <div class="mega-col">
-            <div class="mega-title">Detay</div>
-            <ul class="mega-list" id="menuSubSubs"></ul>
+          <div class="menu-foot">
+            <div class="current-filter">
+              Seçim: <span id="currentFilterText">Tümü</span>
+            </div>
           </div>
         </div>
       </div>
-      <!-- /ÜRÜNLER MENÜ -->
-    </div>
 
+    </div>
   </div>
 </header>
 
