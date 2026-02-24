@@ -5478,7 +5478,7 @@
     "code": "099 0700A",
     "brand": "KAAN",
     "name": "Debriyaj Teli – Yeni Model",
-    "image": ""
+    "image": "099 0700a.png"
   },
   {
     "id": "099_0700-KAAN-Debriyaj_Teli__Eski_Model",
@@ -5487,7 +5487,7 @@
     "code": "099 0700",
     "brand": "KAAN",
     "name": "Debriyaj Teli – Eski Model",
-    "image": ""
+    "image": "099 0700.png"
   },
   {
     "id": "099_0701-KAAN-Geri_Vites_Teli__Yeni_Model",
@@ -5496,7 +5496,7 @@
     "code": "099 0701",
     "brand": "KAAN",
     "name": "Geri Vites Teli – Yeni Model",
-    "image": ""
+    "image": "099 0701.png"
   },
   {
     "id": "099_0701A-KAAN-Geri_Vites_Teli__Eski_Model",
@@ -5505,7 +5505,7 @@
     "code": "099 0701A",
     "brand": "KAAN",
     "name": "Geri Vites Teli – Eski Model",
-    "image": ""
+    "image": "099 0701a.png"
   },
   {
     "id": "099_0702-KAAN-Gaz_Teli",
@@ -5514,7 +5514,7 @@
     "code": "099 0702",
     "brand": "KAAN",
     "name": "Gaz Teli",
-    "image": ""
+    "image": "099 0702.png"
   },
   {
     "id": "099_0716-KAAN-Gaz_Teli__Gaz_Kollu",
@@ -5523,11 +5523,11 @@
     "code": "099 0716",
     "brand": "KAAN",
     "name": "Gaz Teli – Gaz Kollu",
-    "image": ""
+    "image": "099 0716.jpg"
   },
   {
     "id": "099_1513-ANTRAK-200__Debriyaj_Teli",
-    "group": "KAAN GRUBU",
+    "group": "ANTRAK / BERTOLİNİ / LONCİN/ ECE",
     "subcategory": "ANTRAK / BERTOLİNİ / LONCİN / SOLAX / GRİLLO / ECE",
     "code": "099 1513",
     "brand": "ANTRAK",
@@ -5536,7 +5536,7 @@
   },
   {
     "id": "099_1506-ANTRAK-200__Gaz_Teli",
-    "group": "KAAN GRUBU",
+    "group": "ANTRAK / BERTOLİNİ / LONCİN/ ECE",
     "subcategory": "ANTRAK / BERTOLİNİ / LONCİN / SOLAX / GRİLLO / ECE",
     "code": "099 1506",
     "brand": "ANTRAK",
@@ -5545,7 +5545,7 @@
   },
   {
     "id": "099_1514-ANTRAK-225315_Gaz_Teli",
-    "group": "KAAN GRUBU",
+    "group": "ANTRAK / BERTOLİNİ / LONCİN/ ECE",
     "subcategory": "ANTRAK / BERTOLİNİ / LONCİN / SOLAX / GRİLLO / ECE",
     "code": "099 1514",
     "brand": "ANTRAK",
@@ -5554,7 +5554,7 @@
   },
   {
     "id": "099_1400-BERTOLİNİ-202_İleri_Geri_Hareket_Teli__Eski_Model",
-    "group": "KAAN GRUBU",
+    "group": "ANTRAK / BERTOLİNİ / LONCİN/ ECE",
     "subcategory": "ANTRAK / BERTOLİNİ / LONCİN / SOLAX / GRİLLO / ECE",
     "code": "099 1400",
     "brand": "BERTOLİNİ",
@@ -5563,7 +5563,7 @@
   },
   {
     "id": "099_1401-BERTOLİNİ-202222_İleri_Geri_Hareket_Teli__Yeni_Model",
-    "group": "KAAN GRUBU",
+    "group": "ANTRAK / BERTOLİNİ / LONCİN/ ECE",
     "subcategory": "ANTRAK / BERTOLİNİ / LONCİN / SOLAX / GRİLLO / ECE",
     "code": "099 1401",
     "brand": "BERTOLİNİ",
@@ -5572,7 +5572,7 @@
   },
   {
     "id": "099_1402-BERTOLİNİ-202222_Gaz_Teli",
-    "group": "KAAN GRUBU",
+    "group": "ANTRAK / BERTOLİNİ / LONCİN/ ECE",
     "subcategory": "ANTRAK / BERTOLİNİ / LONCİN / SOLAX / GRİLLO / ECE",
     "code": "099 1402",
     "brand": "BERTOLİNİ",
@@ -5581,43 +5581,17 @@
   },
   {
     "id": "099_1415-BERTOLİNİ-215_Debriyaj_Teli",
-    "group": "KAAN GRUBU",
+    "group": "ANTRAK / BERTOLİNİ / LONCİN/ ECE",
     "subcategory": "ANTRAK / BERTOLİNİ / LONCİN / SOLAX / GRİLLO / ECE",
     "code": "099 1415",
     "brand": "BERTOLİNİ",
     "name": "215 Debriyaj Teli",
     "image": ""
   },
-  {
-    "id": "099_1409-BERTOLİNİ-403_Gaz_Teli",
-    "group": "KAAN GRUBU",
-    "subcategory": "ANTRAK / BERTOLİNİ / LONCİN / SOLAX / GRİLLO / ECE",
-    "code": "099 1409",
-    "brand": "BERTOLİNİ",
-    "name": "403 Gaz Teli",
-    "image": ""
-  },
-  {
-    "id": "099_1419-GRİLLO-Debriyaj_Teli_3500__11500__12000",
-    "group": "KAAN GRUBU",
-    "subcategory": "ANTRAK / BERTOLİNİ / LONCİN / SOLAX / GRİLLO / ECE",
-    "code": "099 1419",
-    "brand": "GRİLLO",
-    "name": "Debriyaj Teli 3500 / 11500 / 12000",
-    "image": ""
-  },
-  {
-    "id": "099_0925-LONCİN-Debriyaj_Teli",
-    "group": "KAAN GRUBU",
-    "subcategory": "ANTRAK / BERTOLİNİ / LONCİN / SOLAX / GRİLLO / ECE",
-    "code": "099 0925",
-    "brand": "LONCİN",
-    "name": "Debriyaj Teli",
-    "image": ""
-  },
+
   {
     "id": "099_0935-SOLAX-Debriyaj_Teli",
-    "group": "KAAN GRUBU",
+    "group": "ANTRAK / BERTOLİNİ / LONCİN/ ECE",
     "subcategory": "ANTRAK / BERTOLİNİ / LONCİN / SOLAX / GRİLLO / ECE",
     "code": "099 0935",
     "brand": "SOLAX",
@@ -5626,7 +5600,7 @@
   },
   {
     "id": "099_0914-ECE_-80-Debriyaj_Teli",
-    "group": "KAAN GRUBU",
+    "group": "ANTRAK / BERTOLİNİ / LONCİN/ ECE",
     "subcategory": "ANTRAK / BERTOLİNİ / LONCİN / SOLAX / GRİLLO / ECE",
     "code": "099 0914",
     "brand": "ECE -80",
@@ -5635,7 +5609,7 @@
   },
   {
     "id": "099_0915-ECE_-80-Geri_Vites_Teli",
-    "group": "KAAN GRUBU",
+    "group": "ANTRAK / BERTOLİNİ / LONCİN/ ECE",
     "subcategory": "ANTRAK / BERTOLİNİ / LONCİN / SOLAX / GRİLLO / ECE",
     "code": "099 0915",
     "brand": "ECE -80",
