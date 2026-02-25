@@ -378,12 +378,12 @@
     "image": ""
   },
   {
-    "id": "KARDEN-Marş_Burç_Takımı__Jeneratör_Numarası_Belirle",
+    "id": "KARDEN-Marş_Burç_Takımı__Jeneratör",
     "group": "MARŞ GRUBU",
     "subcategory": "JENERATÖR TİPİ MARŞ PARÇALARI",
     "code": "",
     "brand": "KARDEN",
-    "name": "Marş Burç Takımı – Jeneratör (Numarası Belirle",
+    "name": "Marş Burç Takımı – Jeneratör",
     "image": ""
   },
   {
@@ -474,7 +474,7 @@
     "code": "155 102",
     "brand": "KARDEN",
     "name": "Alternatör ALT 480",
-    "image": ""
+    "image": "ALT480.png"
   },
   {
     "id": "5003-KARDEN-Alternatör_Dış_Kasnak__Mıknatıslı",
@@ -483,7 +483,7 @@
     "code": "5003",
     "brand": "KARDEN",
     "name": "Alternatör Dış Kasnak – Mıknatıslı",
-    "image": ""
+    "image": "5003.png"
   },
   {
     "id": "KARDEN-Alternatör_Dış_Kasnak__Mıknatıslı_Graves_Tipi",
@@ -501,7 +501,7 @@
     "code": "5001",
     "brand": "KARDEN",
     "name": "Alternatör İç Sargı – Marşlı, 3 Uçlu",
-    "image": ""
+    "image": "5001.png"
   },
   {
     "id": "5002-KARDEN-Alternatör_İç_Sargı__Aydınlatma_Tek_Kablolu",
@@ -510,7 +510,7 @@
     "code": "5002",
     "brand": "KARDEN",
     "name": "Alternatör İç Sargı – Aydınlatma, Tek Kablolu",
-    "image": ""
+    "image": "5002.png"
   },
   {
     "id": "KARDEN-Alternatör_İç_Sargı__Graves_Tipi",
@@ -528,7 +528,7 @@
     "code": "099 277 - 1455",
     "brand": "KARDEN",
     "name": "Alternatör Konjektör – Marşlı, 6 Uçlu",
-    "image": ""
+    "image": "1455.png"
   },
   {
     "id": "099_276_-_1450-KARDEN-Alternatör_Konjektör__Soket_Uçlu_7_Fişli_YM",
@@ -537,17 +537,9 @@
     "code": "099 276 - 1450",
     "brand": "KARDEN",
     "name": "Alternatör Konjektör – Soket Uçlu, 7 Fişli (Y.M)",
-    "image": ""
+    "image": "1450.png"
   },
-  {
-    "id": "099_276-_1450M-KARDEN-Alternatör_Konjektör__Marşlı_7li_Yeni_Model",
-    "group": "ALTERNATÖR GRUBU",
-    "subcategory": "ALTERNATÖR KONJEKTÖRLERİ",
-    "code": "099 276- 1450M",
-    "brand": "KARDEN",
-    "name": "Alternatör Konjektör – Marşlı, 7’li (Yeni Model)",
-    "image": ""
-  },
+
   {
     "id": "099_277_-_1456-KARDEN-Alternatör_Konjektör__2li_Aydınlatma",
     "group": "ALTERNATÖR GRUBU",
@@ -555,7 +547,7 @@
     "code": "099 277 - 1456",
     "brand": "KARDEN",
     "name": "Alternatör Konjektör – 2’li, Aydınlatma",
-    "image": ""
+    "image": "1456.png"
   },
   {
     "id": "KARDEN-Alternatör_Konjektör__Graves_Tipi",
@@ -573,7 +565,7 @@
     "code": "099 276-1449",
     "brand": "KARDEN",
     "name": "Alternatör 3 Uçlu Konjektör – Pır Pır Tip",
-    "image": ""
+    "image": "1449.png"
   },
   {
     "id": "099_316-KARDEN-Konjektör_Toz_Lastiği",
@@ -582,7 +574,7 @@
     "code": "099 316",
     "brand": "KARDEN",
     "name": "Konjektör Toz Lastiği",
-    "image": ""
+    "image": "TOZLASTİĞİ.png"
   },
   {
     "id": "6K020E-KARDEN-6lı_Konjektör_Soketi",
