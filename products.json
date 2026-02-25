@@ -2644,7 +2644,7 @@
     "code": "200-37",
     "brand": "KARDEN",
     "name": "2×0.75 mm TTR Kablo",
-    "image": ""
+    "image": "2X075.png"
   },
   {
     "id": "200-39-KARDEN-3075_mm_TTR_Kablo",
@@ -2653,7 +2653,7 @@
     "code": "200-39",
     "brand": "KARDEN",
     "name": "3×0.75 mm TTR Kablo",
-    "image": ""
+    "image": "3X075.png"
   },
   {
     "id": "200-40-KARDEN-4075_mm_TTR_Kablo",
@@ -2662,7 +2662,7 @@
     "code": "200-40",
     "brand": "KARDEN",
     "name": "4×0.75 mm TTR Kablo",
-    "image": ""
+    "image": "4X075.png"
   },
   {
     "id": "200-41-KARDEN-5075_mm_TTR_Kablo",
@@ -2671,7 +2671,7 @@
     "code": "200-41",
     "brand": "KARDEN",
     "name": "5×0.75 mm TTR Kablo",
-    "image": ""
+    "image": "5X075.png"
   },
   {
     "id": "200-43-KARDEN-210_mm_TTR_Kablo",
@@ -4561,7 +4561,7 @@
     "code": "2170",
     "brand": "CTF",
     "name": "17 × 40 × 7 Keçe",
-    "image": ""
+    "image": "CTF.png"
   },
   {
     "id": "4016-CTF-20__38__7_Keçe",
@@ -4570,7 +4570,7 @@
     "code": "4016",
     "brand": "CTF",
     "name": "20 × 38 × 7 Keçe",
-    "image": ""
+    "image": "CTF.png"
   },
   {
     "id": "4017-CTF-20__42__7_Keçe",
@@ -4579,7 +4579,7 @@
     "code": "4017",
     "brand": "CTF",
     "name": "20 × 42 × 7 Keçe",
-    "image": ""
+    "image": "CTF.png"
   },
   {
     "id": "4015-CTF-20__47__7_Keçe",
@@ -4588,7 +4588,7 @@
     "code": "4015",
     "brand": "CTF",
     "name": "20 × 47 × 7 Keçe",
-    "image": ""
+    "image": "CTF.png"
   },
   {
     "id": "4607-CTF-25__47__7_Keçe",
@@ -4597,7 +4597,7 @@
     "code": "4607",
     "brand": "CTF",
     "name": "25 × 47 × 7 Keçe",
-    "image": ""
+    "image": "CTF.png"
   },
   {
     "id": "CTF-28__48__68_Keçe",
@@ -4606,7 +4606,7 @@
     "code": "",
     "brand": "CTF",
     "name": "28 × 48 × 6.8 Keçe",
-    "image": ""
+    "image": "CTF.png"
   },
   {
     "id": "4678-CTF-28__47__8_Keçe",
@@ -4615,7 +4615,7 @@
     "code": "4678",
     "brand": "CTF",
     "name": "28 × 47 × 8 Keçe",
-    "image": ""
+    "image": "CTF.png"
   },
   {
     "id": "4583-CTF-30__45__8_Keçe",
@@ -4624,7 +4624,7 @@
     "code": "4583",
     "brand": "CTF",
     "name": "30 × 45 × 8 Keçe",
-    "image": ""
+    "image": "CTF.png"
   },
   {
     "id": "4582-CTF-30__47__7_Keçe",
@@ -4633,7 +4633,7 @@
     "code": "4582",
     "brand": "CTF",
     "name": "30 × 47 × 7 Keçe",
-    "image": ""
+    "image": "CTF.png"
   },
   {
     "id": "2195-CTF-32__56__10_Keçe",
@@ -4642,7 +4642,7 @@
     "code": "2195",
     "brand": "CTF",
     "name": "32 × 56 × 10 Keçe",
-    "image": ""
+    "image": "CTF.png"
   },
   {
     "id": "4602-CTF-35__62__7_Keçe",
@@ -4651,7 +4651,7 @@
     "code": "4602",
     "brand": "CTF",
     "name": "35 × 62 × 7 Keçe",
-    "image": ""
+    "image": "CTF.png"
   },
   {
     "id": "4668-CTF-35__62__10_Keçe",
@@ -4660,7 +4660,7 @@
     "code": "4668",
     "brand": "CTF",
     "name": "35 × 62 × 10 Keçe",
-    "image": ""
+    "image": "CTF.png"
   },
   {
     "id": "22021-CTF-40__55__8_Keçe",
@@ -4669,7 +4669,7 @@
     "code": "22021",
     "brand": "CTF",
     "name": "40 × 55 × 8 Keçe",
-    "image": ""
+    "image": "CTF.png"
   },
   {
     "id": "2201-CTF-40__60__10_Keçe",
@@ -4678,7 +4678,7 @@
     "code": "2201",
     "brand": "CTF",
     "name": "40 × 60 × 10 Keçe",
-    "image": ""
+    "image": "CTF.png"
   },
   {
     "id": "22024-CTF-40__62__10_Keçe",
@@ -4687,7 +4687,7 @@
     "code": "22024",
     "brand": "CTF",
     "name": "40 × 62 × 10 Keçe",
-    "image": ""
+    "image": "CTF.png"
   },
   {
     "id": "CTF-40__78__10_Keçe",
@@ -4696,7 +4696,7 @@
     "code": "",
     "brand": "CTF",
     "name": "40 × 78 × 10 Keçe",
-    "image": ""
+    "image": "CTF.png"
   },
   {
     "id": "CTF-45__85__10_Keçe",
@@ -4705,7 +4705,7 @@
     "code": "",
     "brand": "CTF",
     "name": "45 × 85 × 10 Keçe",
-    "image": ""
+    "image": "CTF.png"
   },
   {
     "id": "22027-CTF-30__68__10_Diferansiyel_Keçe",
@@ -4714,7 +4714,7 @@
     "code": "22027",
     "brand": "CTF",
     "name": "30 × 68 × 10 Diferansiyel Keçe",
-    "image": ""
+    "image": "CTF.png"
   },
   {
     "id": "852-CTF-46__78__10_Diferansiyel_Keçe",
@@ -4723,7 +4723,7 @@
     "code": "852",
     "brand": "CTF",
     "name": "46 × 78 × 10 Diferansiyel Keçe",
-    "image": ""
+    "image": "CTF.png"
   },
   {
     "id": "VF_401-KARDEN-401_Flaşör_Bobinli",
