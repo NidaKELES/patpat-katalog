@@ -2329,7 +2329,7 @@
     "code": "099 0020",
     "brand": "KARDEN",
     "name": "Universal Damper Kaldırma & Cam Açma Anahtarı",
-    "image": ""
+    "image": "damper.png"
   },
   {
     "id": "AF134D-AFEM-Mini_LEDli_Yuvarlak_Anahtar",
@@ -2435,7 +2435,7 @@
     "group": "MÜŞÜRLER",
     "subcategory": "YAĞ, HARARET VE FAN MÜŞÜRLERİ",
     "code": "",
-    "brand": "KARDEN/KLF",
+    "brand": "KARDEN",
     "name": "22’lik Yağ Müşürü",
     "image": "22 yağ.jpeg"
   },
@@ -5743,17 +5743,8 @@
     "subcategory": "SIKMA VİDALARI",
     "code": "099 8510",
     "brand": "KARDEN",
-    "name": "Gaz Teli Sıkma Vidası – Yıldız Kafalı",
-    "image": ""
-  },
-  {
-    "id": "099_8511-KARDEN-Gaz_Teli_Sıkma_Vidası__Yıldız_Kafalı",
-    "group": "YEDEK PARÇA GRUBU",
-    "subcategory": "SIKMA VİDALARI",
-    "code": "099 8511",
-    "brand": "KARDEN",
-    "name": "Gaz Teli Sıkma Vidası – Yıldız Kafalı",
-    "image": ""
+    "name": "Gaz Teli Sıkma Vidası – Yıldız Kafalı (8*10 - 10*10)",
+    "image": "GAZSIK.png"
   },
   {
     "id": "099_8515-M8-Ayar_Civatası__Debriyaj__Geri_Vites",
@@ -5762,7 +5753,7 @@
     "code": "099 8515",
     "brand": "M8",
     "name": "Ayar Civatası – Debriyaj / Geri Vites",
-    "image": ""
+    "image": "m8.png"
   },
   {
     "id": "099_8516-M10-Ayar_Civatası__Debriyaj__Geri_Vites",
@@ -5771,7 +5762,7 @@
     "code": "099 8516",
     "brand": "M10",
     "name": "Ayar Civatası – Debriyaj / Geri Vites",
-    "image": ""
+    "image": "m8.png"
   },
   {
     "id": "099_8517-M6-Ayar_Civatası__Gaz__Stop_Teli",
@@ -5780,7 +5771,7 @@
     "code": "099 8517",
     "brand": "M6",
     "name": "Ayar Civatası – Gaz / Stop Teli",
-    "image": ""
+    "image": "m8.png"
   },
   {
     "id": "099_8524-PASO_4-Gaz_Teli_Merkezleme_Ara_Rekoru",
