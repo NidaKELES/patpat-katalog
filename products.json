@@ -5708,7 +5708,7 @@
     "code": "099 8500",
     "brand": "KARDEN",
     "name": "Debriyaj Teli Sıkma Vidası – Anh. Kafalı",
-    "image": ""
+    "image": "debsık.png"
   },
   {
     "id": "099_8501-KARDEN-Debriyaj_Teli_Sıkma_Vidası",
@@ -5726,7 +5726,7 @@
     "code": "099 8502",
     "brand": "KARDEN",
     "name": "Debriyaj Teli Sıkma Vidası – Taral",
-    "image": ""
+    "image": "debsık.png"
   },
   {
     "id": "099_8503-KARDEN-Debriyaj_Teli_Sıkma_Vidası__FM_Tipi",
@@ -5798,7 +5798,7 @@
     "code": "099 8520",
     "brand": "YAĞMUR",
     "name": "Manet Pimi – Yuvalı",
-    "image": ""
+    "image": "manetyuvalı.JPG"
   },
   {
     "id": "099_8522-TARAL-Manet_Pimi__Yarıklı",
@@ -5807,26 +5807,9 @@
     "code": "099 8522",
     "brand": "TARAL",
     "name": "Manet Pimi – Yarıklı",
-    "image": ""
+    "image": "manetyarıklı.png"
   },
-  {
-    "id": "099_8578-850-Düz_Re-Pim_Uzun_Çin_Motorları_İçin",
-    "group": "YEDEK PARÇA GRUBU",
-    "subcategory": "PİMLER",
-    "code": "099 8578",
-    "brand": "8*50",
-    "name": "Düz Re-Pim Uzun (Çin Motorları İçin)",
-    "image": ""
-  },
-  {
-    "id": "099_8578A-840-Düz_Re-Pim_Kısa_Çin_Motorları_İçin",
-    "group": "YEDEK PARÇA GRUBU",
-    "subcategory": "PİMLER",
-    "code": "099 8578A",
-    "brand": "8*40",
-    "name": "Düz Re-Pim Kısa (Çin Motorları İçin)",
-    "image": ""
-  },
+
   {
     "id": "099_8585-YAĞMUR-Gidon_Yayı_YM",
     "group": "YEDEK PARÇA GRUBU",
@@ -5834,7 +5817,7 @@
     "code": "099 8585",
     "brand": "YAĞMUR",
     "name": "Gidon Yayı Y.M",
-    "image": ""
+    "image": "gidonym.jpg"
   },
   {
     "id": "099_8586-YAĞMUR-Gidon_Yayı_EM",
@@ -5843,7 +5826,7 @@
     "code": "099 8586",
     "brand": "YAĞMUR",
     "name": "Gidon Yayı E.M",
-    "image": ""
+    "image": "gidonem.png"
   },
   {
     "id": "099_8587-YAĞMUR-Tampon_Sehpa_Yayı",
@@ -5852,7 +5835,7 @@
     "code": "099 8587",
     "brand": "YAĞMUR",
     "name": "Tampon Sehpa Yayı",
-    "image": ""
+    "image": "tampon.png"
   },
   {
     "id": "099_8588-TARAL-Tampon_Sehpa_Yayı",
@@ -5861,7 +5844,7 @@
     "code": "099 8588",
     "brand": "TARAL",
     "name": "Tampon Sehpa Yayı",
-    "image": ""
+    "image": "tampon.png"
   },
   {
     "id": "099_8589-STD-Debriyaj_Teli_Yayı",
@@ -5870,7 +5853,7 @@
     "code": "099 8589",
     "brand": "STD",
     "name": "Debriyaj Teli Yayı",
-    "image": ""
+    "image": "debtel.jpg"
   },
   {
     "id": "099_8555-KARDEN-Gidon_Bağlantı_Kelepçesi",
@@ -5906,6 +5889,6 @@
     "code": "",
     "brand": "KARDEN",
     "name": "Amortisör Takozu Takım (4+4 / 8 Parça)",
-    "image": ""
+    "image": "amortisor.png"
   }
 ]
