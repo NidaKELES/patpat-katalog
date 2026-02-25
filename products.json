@@ -24,7 +24,7 @@
     "code": "STR 3484",
     "brand": "KARDEN",
     "name": "Marş Motoru Valeo Tipi Antor, 22’lik, 8 Diş, CCW",
-    "image": "placeholder.png"
+    "image": "STR3484.png"
   },
   {
     "id": "099_275_-_0142-KARDEN-Jeneratör_Marş_Motoru_8_Diş_CCW",
@@ -111,7 +111,7 @@
     "id": "KARDEN-36_Diş_Dişli_Yuvası_Plastik__Bosch_Tipi",
     "group": "MARŞ GRUBU",
     "subcategory": "BOSCH TİPİ MARŞ PARÇALARI",
-    "code": "",
+    "code": "099 278 - 2412",
     "brand": "KARDEN",
     "name": "36 Diş Dişli Yuvası (Plastik) – Bosch Tipi",
     "image": "36_dis.png"
@@ -138,10 +138,10 @@
     "id": "KARDEN-Marş_Dişlisi__Graves_Tipi_8_Diş",
     "group": "MARŞ GRUBU",
     "subcategory": "GRAVES TİPİ MARŞ PARÇALARI",
-    "code": "",
+    "code": "8839",
     "brand": "KARDEN",
     "name": "Marş Dişlisi – Graves Tipi, 8 Diş",
-    "image": ""
+    "image": "GRAVESMARŞDİŞ.png"
   },
   {
     "id": "3166-KARDEN-Marş_Kollektörü__Graves_Tipi",
@@ -150,7 +150,7 @@
     "code": "3166",
     "brand": "KARDEN",
     "name": "Marş Kollektörü – Graves Tipi",
-    "image": ""
+    "image": "3166.png"
   },
   {
     "id": "KARDEN-Marş_Otomatiği__Bosch_Tipi_Graves_Uyumlu",
@@ -159,25 +159,25 @@
     "code": "",
     "brand": "KARDEN",
     "name": "Marş Otomatiği – Bosch Tipi (Graves Uyumlu)",
-    "image": ""
+    "image": "099_278_2208g.jpeg"
   },
   {
     "id": "KARDEN-Marş_Otomatiği__Graves_Tipi",
     "group": "MARŞ GRUBU",
     "subcategory": "GRAVES TİPİ MARŞ PARÇALARI",
-    "code": "",
+    "code": "128 101",
     "brand": "KARDEN",
     "name": "Marş Otomatiği – Graves Tipi",
-    "image": ""
+    "image": "128 101.png"
   },
   {
     "id": "KARDEN-Marş_Kömür_Yuvası__Graves_Tipi",
     "group": "MARŞ GRUBU",
     "subcategory": "GRAVES TİPİ MARŞ PARÇALARI",
-    "code": "",
+    "code": "151 102",
     "brand": "KARDEN",
     "name": "Marş Kömür Yuvası – Graves Tipi",
-    "image": ""
+    "image": "151 102.png"
   },
   {
     "id": "KARDEN-Marş_Kömür_Yuvası__Kalın_Çift_Silindir_Graves_T",
@@ -216,34 +216,34 @@
     "image": ""
   },
   {
-    "id": "KARDEN-Marş_Burç_Takımı__Graves_Tipi_Numarasına_Bakılacak",
+    "id": "KARDEN-Marş_Burç_Takımı__Graves_Tipi",
     "group": "MARŞ GRUBU",
     "subcategory": "GRAVES TİPİ MARŞ PARÇALARI",
     "code": "",
     "brand": "KARDEN",
-    "name": "Marş Burç Takımı – Graves Tipi (Numarasına Bakılacak)",
+    "name": "Marş Burç Takımı – Graves Tipi ",
     "image": ""
   },
   {
     "id": "KARDEN-Marş_Pinyon_Kapağı__Valeo_Tipi",
     "group": "MARŞ GRUBU",
     "subcategory": "VALEO TİPİ MARŞ PARÇALARI",
-    "code": "",
+    "code": "MC3484",
     "brand": "KARDEN",
     "name": "Marş Pinyon Kapağı – Valeo Tipi",
-    "image": ""
+    "image": "mc 3484.png"
   },
   {
     "id": "KARDEN-Marş_Dişlisi__Valeo_Tipi_9_Diş",
     "group": "MARŞ GRUBU",
     "subcategory": "VALEO TİPİ MARŞ PARÇALARI",
-    "code": "",
+    "code": "099 277 - 2008",
     "brand": "KARDEN",
     "name": "Marş Dişlisi – Valeo Tipi, 9 Diş",
-    "image": ""
+    "image": "JEN DİŞLİ.png"
   },
   {
-    "id": "KARDEN-Marş_Kollektörü__22lik_Valeo_Tipi",
+    "id": "KARDEN-Marş_Kollektörü__17lik_Valeo_Tipi",
     "group": "MARŞ GRUBU",
     "subcategory": "VALEO TİPİ MARŞ PARÇALARI",
     "code": "",
@@ -258,97 +258,97 @@
     "code": "099 278 - 2208",
     "brand": "KARDEN",
     "name": "Marş Otomatiği – Valeo Tipi",
-    "image": ""
+    "image": "099_278_2208.jpeg"
   },
   {
     "id": "KARDEN-Marş_Kömür_Yuvası__Valeo_Tipi",
     "group": "MARŞ GRUBU",
     "subcategory": "VALEO TİPİ MARŞ PARÇALARI",
-    "code": "",
+    "code": "150 101",
     "brand": "KARDEN",
     "name": "Marş Kömür Yuvası – Valeo Tipi",
-    "image": ""
+    "image": "150 101.png"
   },
   {
     "id": "KARDEN-Marş_Redüktör_Mili_Komple__Valeo_Tipi",
     "group": "MARŞ GRUBU",
     "subcategory": "VALEO TİPİ MARŞ PARÇALARI",
-    "code": "",
+    "code": "RT3484",
     "brand": "KARDEN",
     "name": "Marş Redüktör Mili Komple – Valeo Tipi",
-    "image": ""
+    "image": "rt3484.png"
   },
   {
     "id": "KARDEN-36_Diş_Dişli_Yuvası_Plastik__Valeo_Tipi",
     "group": "MARŞ GRUBU",
     "subcategory": "VALEO TİPİ MARŞ PARÇALARI",
-    "code": "",
+    "code": "099 278 - 2413",
     "brand": "KARDEN",
     "name": "36 Diş Dişli Yuvası (Plastik) – Valeo Tipi",
-    "image": ""
+    "image": "099 278-2413.png"
   },
   {
     "id": "KARDEN-Redüktör_Dişli_Takımı__Valeo_Tipi",
     "group": "MARŞ GRUBU",
     "subcategory": "VALEO TİPİ MARŞ PARÇALARI",
-    "code": "",
+    "code": "099 340-1",
     "brand": "KARDEN",
     "name": "Redüktör Dişli Takımı – Valeo Tipi",
-    "image": ""
+    "image": "099 340-1.png"
   },
   {
-    "id": "KARDEN-Marş_Burç_Takımı__Valeo_Tipi_Numarası_Belirle",
+    "id": "KARDEN-Marş_Burç_Takımı__Valeo_Tipi",
     "group": "MARŞ GRUBU",
     "subcategory": "VALEO TİPİ MARŞ PARÇALARI",
     "code": "",
     "brand": "KARDEN",
-    "name": "Marş Burç Takımı – Valeo Tipi (Numarası Belirle",
+    "name": "Marş Burç Takımı – Valeo Tipi",
     "image": ""
   },
   {
     "id": "099_275_-_0142-KARDEN-Marş_Pinyon_Kapağı__Jeneratör",
     "group": "MARŞ GRUBU",
     "subcategory": "JENERATÖR TİPİ MARŞ PARÇALARI",
-    "code": "099 275 - 0142",
+    "code": "",
     "brand": "KARDEN",
     "name": "Marş Pinyon Kapağı – Jeneratör",
-    "image": ""
+    "image": "PİNYONKAP.png"
   },
   {
     "id": "099_277_-_2008-KARDEN-Marş_Dişlisi__Jeneratör",
     "group": "MARŞ GRUBU",
     "subcategory": "JENERATÖR TİPİ MARŞ PARÇALARI",
-    "code": "099 277 - 2008",
+    "code": "",
     "brand": "KARDEN",
     "name": "Marş Dişlisi – Jeneratör",
-    "image": ""
+    "image": "jendiş.png"
   },
   {
     "id": "11HIT6303-KARDEN-Marş_Kollektörü__Jeneratör",
     "group": "MARŞ GRUBU",
     "subcategory": "JENERATÖR TİPİ MARŞ PARÇALARI",
-    "code": "11HIT6303",
+    "code": "6303",
     "brand": "KARDEN",
     "name": "Marş Kollektörü – Jeneratör",
-    "image": ""
+    "image": "6303.png"
   },
   {
     "id": "14HIT10801-KARDEN-Marş_Otomatiği__Jeneratör",
     "group": "MARŞ GRUBU",
     "subcategory": "JENERATÖR TİPİ MARŞ PARÇALARI",
-    "code": "14HIT10801",
+    "code": "10801",
     "brand": "KARDEN",
     "name": "Marş Otomatiği – Jeneratör",
-    "image": ""
+    "image": "10801.png"
   },
   {
     "id": "13HIT10300-KARDEN-Marş_Kömür_Yuvası__Jeneratör",
     "group": "MARŞ GRUBU",
     "subcategory": "JENERATÖR TİPİ MARŞ PARÇALARI",
-    "code": "13HIT10300",
+    "code": "10300",
     "brand": "KARDEN",
     "name": "Marş Kömür Yuvası – Jeneratör",
-    "image": ""
+    "image": "10300.png"
   },
   {
     "id": "KARDEN-Marş_Redüktör_Mili_Komple__Jeneratör",
