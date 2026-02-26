@@ -267,3 +267,19 @@ function escapeHtml(str) {
 function escapeHtmlAttr(str) {
   return escapeHtml(str).replaceAll('"', "&quot;");
 }
+/* ---------- Logo: anasayfaya dön (Tümü) ---------- */
+const homeLogoBtn = document.getElementById("homeLogoBtn");
+if (homeLogoBtn) {
+  homeLogoBtn.addEventListener("click", () => {
+    currentGroup = "ALL";
+    currentSub = "";
+    searchText = "";
+
+    const input = document.getElementById("searchInput");
+    if (input) input.value = "";
+
+    setCurrentFilterText("Tümü");
+    applyFilters(true);     // history’ye eklesin (geri tuşu da düzgün)
+    closeMenu();            // menü açıksa kapansın
+  });
+}

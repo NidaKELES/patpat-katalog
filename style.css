@@ -16,6 +16,7 @@ body {
   z-index: 50;
 }
 
+/* ✅ Yeni header yerleşimi: logo | arama | ürünler */
 .header-row {
   display: grid;
   grid-template-columns: auto 1fr auto;
@@ -23,23 +24,26 @@ body {
   gap: 14px;
 }
 
-h1 {
-  margin: 0;
-  text-align: center;
-  font-size: 20px;
-  font-weight: 800;
-}
-
-
-.right-area {
-  display: grid;
-  grid-template-columns: auto 260px auto;
+/* ✅ Logo butonu (tıklanabilir) */
+.logo-btn{
+  border: none;
+  background: transparent;
+  padding: 0;
+  cursor: pointer;
+  display: flex;
   align-items: center;
-  gap: 10px;
+}
+.logo-btn:active { transform: translateY(1px); }
+
+/* Logo büyütme */
+.brand-logo{
+  height: 60px;      /* burada büyüttün */
+  width: auto;
+  display: block;
+  object-fit: contain;
 }
 
-.logo-right { height: 38px; } /* KRD biraz küçük */
-
+/* Arama */
 #searchInput {
   width: 100%;
   padding: 10px 12px;
@@ -69,8 +73,8 @@ h1 {
   position: absolute;
   right: 0;
   top: calc(100% + 10px);
-  width: 320px;                 /* küçük */
-  max-height: 60vh;             /* kibar */
+  width: 320px;
+  max-height: 60vh;
   overflow: hidden;
   background: #ffffff;
   color: #111;
@@ -79,7 +83,6 @@ h1 {
   border: 1px solid rgba(0,0,0,0.08);
   display: none;
 }
-
 .menu.open { display: block; }
 
 .menu-head {
@@ -89,7 +92,6 @@ h1 {
   padding: 10px 12px;
   border-bottom: 1px solid #eef1f4;
 }
-
 .menu-title { font-weight: 800; }
 .menu-close {
   border: none;
@@ -110,12 +112,10 @@ h1 {
   font-size: 13px;
   color: #444;
 }
-
 #currentFilterText { font-weight: 800; color: #111; }
 
 /* üstte "Tümü" */
 .menu-top { margin-bottom: 10px; }
-
 .menu-all {
   width: 100%;
   border: 1px solid #eef1f4;
@@ -135,7 +135,6 @@ h1 {
   margin-bottom: 10px;
   background: #fff;
 }
-
 .group-row {
   display: grid;
   grid-template-columns: 1fr auto;
@@ -145,13 +144,8 @@ h1 {
   background: #ffffff;
   cursor: pointer;
 }
-
 .group-row:hover { background: #f7f9fc; }
-
-.group-name {
-  font-weight: 800;
-  font-size: 13px;
-}
+.group-name { font-weight: 800; font-size: 13px; }
 
 .group-toggle {
   border: none;
@@ -184,7 +178,6 @@ h1 {
   font-size: 13px;
   margin-bottom: 8px;
 }
-
 .sub-item:hover { background: #f1f5fb; }
 
 /* GRID */
@@ -204,9 +197,7 @@ h1 {
   transition: 0.15s;
   box-shadow: 0 4px 12px rgba(0,0,0,0.08);
 }
-
 .card:hover { transform: translateY(-2px); }
-
 .card img {
   width: 100%;
   height: 150px;
@@ -215,7 +206,6 @@ h1 {
   border-radius: 12px;
   margin-bottom: 10px;
 }
-
 .name { font-size: 14px; font-weight: 800; margin: 6px 0; }
 .code { font-size: 12px; color: #7b7b7b; }
 .brand { font-size: 12px; color: #555; }
@@ -225,20 +215,10 @@ h1 {
   .grid { grid-template-columns: repeat(3, 1fr); }
 }
 
-@media (max-width: 920px) {
-  .right-area { grid-template-columns: auto 200px auto; }
-  .grid { grid-template-columns: repeat(3, 1fr); }
-  h1 { font-size: 18px; }
-  .logo-right { height: 34px; }
-}
-
-/* Mobil: 3 kolon (çok dar ise 2) */
 @media (max-width: 560px) {
-  .header-row { grid-template-columns: 1fr; gap: 10px; }
-  h1 { text-align: left; }
-
-  .right-area { grid-template-columns: auto 1fr auto; align-items: center; }
-  #searchInput { font-size: 13px; padding: 9px 10px; }
+  /* Mobilde alt alta yerine tek satır kalsın diye bozmayalım:
+     logo küçülsün, grid ayarı devam etsin */
+  .brand-logo{ height: 46px; }
 
   .menu { width: min(92vw, 340px); }
 
@@ -253,7 +233,7 @@ h1 {
   .grid { grid-template-columns: repeat(2, 1fr); }
 }
 
-/* ✅ ÜRÜN DETAY (1. görseldeki düzen: kart + ortalı) */
+/* ✅ ÜRÜN DETAY (kart + ortalı) */
 .product-detail {
   max-width: 1000px;
   margin: 80px auto;
@@ -264,7 +244,6 @@ h1 {
   border-radius: 14px;
   box-shadow: 0 10px 30px rgba(0,0,0,0.1);
 }
-
 .product-image img {
   width: 400px;
   max-width: 100%;
@@ -272,7 +251,6 @@ h1 {
   background: #f3f3f3;
   border-radius: 14px;
 }
-
 .product-info { flex: 1; }
 .product-info h2 { margin-top: 0; }
 
@@ -301,33 +279,10 @@ h1 {
   z-index: 999;
   text-decoration: none;
 }
-
 .wa-float:hover { transform: translateY(-1px); }
 
-.wa-icon {
-  width: 30px;
-  height: 30px;
-  fill: #fff;
-}
+.wa-icon { width: 30px; height: 30px; fill: #fff; }
 
 @media (max-width: 560px) {
-  .wa-float {
-    right: 14px;
-    bottom: 14px;
-    width: 54px;
-    height: 54px;
-  }
-}
-
-/* Logo büyütme */
-.brand-logo{
-  height: 60px;         /* burayı 50-70 arası deneyebilirsin */
-  width: auto;
-  display: block;
-  object-fit: contain;
-}
-
-/* Mobilde çok taşmasın */
-@media (max-width: 560px){
-  .brand-logo{ height: 46px; }
+  .wa-float { right: 14px; bottom: 14px; width: 54px; height: 54px; }
 }
