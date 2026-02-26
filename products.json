@@ -2325,22 +2325,13 @@
     "image": "006_001.png"
   },
   {
-    "id": "EMİRSAN-Far_Ampulü__Cıvalı_Tip",
-    "group": "AMPUL GRUBU",
-    "subcategory": "FAR AMPULLERİ",
-    "code": "",
-    "brand": "EMİRSAN",
-    "name": "Far Ampulü – Cıvalı Tip",
-    "image": "placeholder.PNG"
-  },
-  {
     "id": "EMİRSAN-Far_Ampulü__Düz_Tip",
     "group": "AMPUL GRUBU",
     "subcategory": "FAR AMPULLERİ",
     "code": "",
     "brand": "EMİRSAN",
     "name": "Far Ampulü – Düz Tip",
-    "image": "placeholder.PNG"
+    "image": "emirsan.png"
   },
   {
     "id": "004_030-INWELLS-H3_55W_Sis_Ampulü__Kablolu",
