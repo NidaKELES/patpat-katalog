@@ -1810,15 +1810,7 @@
     "name": "Neon LED’li Stop Lambası – Dinamik Sinyalli",
     "image": "202-207.jpeg"
   },
-  {
-    "id": "ÇERAY-6_Fonksiyonlu_Traktör__Römork_Stop_Lambası_-_LED",
-    "group": "AYDINLATMA ÇEŞİTLERİ",
-    "subcategory": "RÖMORK & TRAKTÖR STOP LAMBALARI",
-    "code": "",
-    "brand": "ÇERAY",
-    "name": "6 Fonksiyonlu Traktör & Römork Stop Lambası - LED",
-    "image": ""
-  },
+
   {
     "id": "2009-ÇERAY-6_Fonksiyonlu_Traktör__Römork_Stop_Sinyal_Lambası",
     "group": "AYDINLATMA ÇEŞİTLERİ",
@@ -2366,7 +2358,7 @@
     "code": "006 005",
     "brand": "INWELLS",
     "name": "H3 100W Sis Ampulü – Kablolu",
-    "image": ""
+    "image": "004_030.jpeg"
   },
   {
     "id": "11-001-AKSA-SağSol_Sinyal_Anahtarı",
@@ -2537,7 +2529,7 @@
     "code": "16082",
     "brand": "KARDEN",
     "name": "M131 Hararet Müşürü",
-    "image": ""
+    "image": "hararetmüşürü.png"
   },
   {
     "id": "F17013VT-TDS-Fan_Müşürü_YazlıkKışlık",
@@ -2573,7 +2565,7 @@
     "code": "",
     "brand": "KARDEN",
     "name": "Kontak Anahtarı – Komple",
-    "image": ""
+    "image": "komplekontak.png"
   },
   {
     "id": "099_200-KARDEN-MF_YM_Kontak_Anahtarı",
@@ -3167,7 +3159,7 @@
     "code": "003 TD 2127",
     "brand": "MESA",
     "name": "BDF Büyük Dişi Fiş (100 adet)",
-    "image": ""
+    "image": "td2127.jpg"
   },
   {
     "id": "003_TE_2308-MESA-UEF_Uzun_Erkek_Fiş_300_adet",
@@ -3185,7 +3177,7 @@
     "code": "015 TS 2416.50",
     "brand": "MESA",
     "name": "SKN 2,5 No Kablo Ucu (400 adet)",
-    "image": ""
+    "image": "skn.JPG"
   },
   {
     "id": "017_TS_2424-MESA-SKN_4_No_Kablo_Ucu_250_adet",
@@ -3530,23 +3522,15 @@
     "image": "HD520B.jpg"
   },
   {
-    "id": "1292_001-KARDEN-İthal_Marin_Korna_Uzun",
+    "id": "1292_001-KARDEN-İthal_Marin_Korna",
     "group": "KORNA GRUBU",
     "subcategory": "KORNA ÇEŞİTLERİ",
     "code": "1292 001",
     "brand": "KARDEN",
-    "name": "İthal Marin Korna Uzun",
-    "image": ""
+    "name": "İthal Marin Korna",
+    "image": "83KM1200001.jpg"
   },
-  {
-    "id": "1281_001-KARDEN-İthal_Marin_Korna_Kısa",
-    "group": "KORNA GRUBU",
-    "subcategory": "KORNA ÇEŞİTLERİ",
-    "code": "1281 001",
-    "brand": "KARDEN",
-    "name": "İthal Marin Korna Kısa",
-    "image": ""
-  },
+
   {
     "id": "82MH1200001-SEGER-Marin_Korna_Büyük",
     "group": "KORNA GRUBU",
@@ -3565,15 +3549,7 @@
     "name": "Marin Korna Küçük",
     "image": "83KM1200001.jpg"
   },
-  {
-    "id": "SEGER-12V_İnce__Kalın",
-    "group": "KORNA GRUBU",
-    "subcategory": "KORNA ÇEŞİTLERİ",
-    "code": "",
-    "brand": "SEGER",
-    "name": "12V İnce – Kalın",
-    "image": ""
-  },
+
   {
     "id": "85KH1200002-SEGER-12V_2li_Fala_Fala_Korna",
     "group": "KORNA GRUBU",
@@ -3835,24 +3811,7 @@
     "name": "Sıvı Conta Kırmızı – 45 gr",
     "image": "530002.jpg"
   },
-  {
-    "id": "KARDEN-380_mm_Silecek_Süpürgesi_Telli__Takım",
-    "group": "SİLECEK SÜPÜRGE VE KOL ÇEŞİTLERİ",
-    "subcategory": "SİLECEK SÜPÜRGELERİ – TELLİ (KLASİK)",
-    "code": "",
-    "brand": "KARDEN",
-    "name": "380 mm Silecek Süpürgesi Telli – Takım",
-    "image": ""
-  },
-  {
-    "id": "KARDEN-Tofaş_SLX_Silecek_Süpürgesi__Takım",
-    "group": "SİLECEK SÜPÜRGE VE KOL ÇEŞİTLERİ",
-    "subcategory": "SİLECEK SÜPÜRGELERİ – TELLİ (KLASİK)",
-    "code": "",
-    "brand": "KARDEN",
-    "name": "Tofaş SLX Silecek Süpürgesi – Takım",
-    "image": ""
-  },
+
   {
     "id": "017_001-INWELLS-380_mm_Telli_Grafitli_Silecek_Süpürgesi",
     "group": "SİLECEK SÜPÜRGE VE KOL ÇEŞİTLERİ",
@@ -3934,15 +3893,7 @@
     "name": "650 mm Telli Grafitli Silecek Süpürgesi",
     "image": "017 001.jpg"
   },
-  {
-    "id": "KARDEN-380_mm_Universal_Muz_Tip_Silecek_Süpürgesi",
-    "group": "SİLECEK SÜPÜRGE VE KOL ÇEŞİTLERİ",
-    "subcategory": "SİLECEK SÜPÜRGELERİ – MUZ (TELSİZ)",
-    "code": "",
-    "brand": "KARDEN",
-    "name": "380 mm Universal Muz Tip Silecek Süpürgesi",
-    "image": ""
-  },
+
   {
     "id": "018_001-INWELLS-350_mm_Universal_Muz_Tip_Silecek_Süpürgesi",
     "group": "SİLECEK SÜPÜRGE VE KOL ÇEŞİTLERİ",
@@ -4643,7 +4594,7 @@
     "code": "718",
     "brand": "YET",
     "name": "YET-510 Toz Keçesi",
-    "image": ""
+    "image": "yetkeçe.png"
   },
   {
     "id": "2170-CTF-17__40__7_Keçe",
@@ -5264,7 +5215,7 @@
     "code": "099 1125",
     "brand": "YAĞMUR",
     "name": "Kaput Teli",
-    "image": ""
+    "image": "kaputteli.png"
   },
   {
     "id": "099_1120-YAĞMUR-Stop_Teli",
