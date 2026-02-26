@@ -5759,7 +5759,16 @@
     "code": "099 8501",
     "brand": "KARDEN",
     "name": "Debriyaj Teli Sıkma Vidası",
-    "image": ""
+    "image": "sıkma.png"
+  },
+    {
+    "id": "099_8501-KARDEN-Debriyaj_Teli_Sıkma_Vidası_-_2_Cıvatalı",
+    "group": "YEDEK PARÇA GRUBU",
+    "subcategory": "SIKMA VİDALARI",
+    "code": "099 8501",
+    "brand": "KARDEN",
+    "name": "Debriyaj Teli Sıkma Vidası - 2 Cıvatalı",
+    "image": "sıkma2cıv.psng"
   },
   {
     "id": "099_8502-KARDEN-Debriyaj_Teli_Sıkma_Vidası__Taral",
