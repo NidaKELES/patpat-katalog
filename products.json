@@ -666,6 +666,15 @@
     "name": "Yağmur Kaput Dayama Ayağı – E.M",
     "image": "099_299_1.jpeg"
   },
+   {
+    "id": "114_-KARDEN-U_Demiri",
+    "group": "KAPUT GRUBU",
+    "subcategory": "MENTEŞE & DAYAMA AYAKLARI",
+    "code": "114",
+    "brand": "KARDEN",
+    "name": "U Demiri",
+    "image": "udemiri.JPG"
+  },
   {
     "id": "099_304-KARDEN-510_Yağ_Filtresi",
     "group": "FİLTRE GRUBU",
@@ -872,6 +881,42 @@
     "brand": "KARDEN",
     "name": "Şaft Altı Köşe Takoz",
     "image": "altıköşeşaft.JPG"
+  },  
+  {
+    "id": "KARDEN-U_Demiri_Plastiği",
+    "group": "KAPUT TAKOZLARI, KÖRÜK VE KAUÇUK AKSAMLAR",
+    "subcategory": "KAPUT TAKOZLARI & BAĞLANTI ELEMANLARI",
+    "code": "",
+    "brand": "KARDEN",
+    "name": "U Demiri Plastiği",
+    "image": "uplastiği.JPG"
+  },
+  {
+    "id": "KARDEN-Yet_-_250_Tutucu_Plastiği",
+    "group": "KAPUT TAKOZLARI, KÖRÜK VE KAUÇUK AKSAMLAR",
+    "subcategory": "KAPUT TAKOZLARI & BAĞLANTI ELEMANLARI",
+    "code": "",
+    "brand": "KARDEN",
+    "name": "Yet-250 Tutucu Plastiği",
+    "image": "yettutucu.JPG"
+  },
+    {
+    "id": "KARDEN-Yet_-_510_Tutucu_Plastiği",
+    "group": "KAPUT TAKOZLARI, KÖRÜK VE KAUÇUK AKSAMLAR",
+    "subcategory": "KAPUT TAKOZLARI & BAĞLANTI ELEMANLARI",
+    "code": "",
+    "brand": "KARDEN",
+    "name": "Yet-510 Tutucu Plastiği",
+    "image": "yettutucu.JPG"
+  },
+    {
+    "id": "KARDEN-Taral_Tutucu_Plastiği",
+    "group": "KAPUT TAKOZLARI, KÖRÜK VE KAUÇUK AKSAMLAR",
+    "subcategory": "KAPUT TAKOZLARI & BAĞLANTI ELEMANLARI",
+    "code": "",
+    "brand": "KARDEN",
+    "name": "Taral Tutucu Plastiği",
+    "image": "yettutucu.JPG"
   },
   {
     "id": "099_501-KARDEN-Makas_Burcu",
@@ -1078,7 +1123,7 @@
     "code": "099 1125",
     "brand": "KARDEN",
     "name": "Kaput Teli",
-    "image": ""
+    "image": "kaputteli.png"
   },
   {
     "id": "778-KARDEN-Kasa_Mandalı_Römork_İçin",
@@ -1258,7 +1303,7 @@
     "code": "7882",
     "brand": "KARDEN",
     "name": "Çakma Bijon Somunu",
-    "image": ""
+    "image": "bijon.png"
   },
   {
     "id": "099_459-KARDEN-1600_Fren_Silindiri",
@@ -1330,7 +1375,7 @@
     "code": "099 361",
     "brand": "KARDEN",
     "name": "Fren Borusu – Uzun (İnce Diş / Kalın Diş)",
-    "image": ""
+    "image": "fren borusu.png"
   },
   {
     "id": "099_362-KARDEN-Fren_Borusu__Orta_İnce_Diş__Kalın_Diş",
@@ -1339,7 +1384,7 @@
     "code": "099 362",
     "brand": "KARDEN",
     "name": "Fren Borusu – Orta (İnce Diş / Kalın Diş)",
-    "image": ""
+    "image": "fren borusu.png"
   },
   {
     "id": "099_363-KARDEN-Fren_Borusu__Kısa_İnce_Diş__Kalın_Diş",
@@ -1348,7 +1393,7 @@
     "code": "099 363",
     "brand": "KARDEN",
     "name": "Fren Borusu – Kısa (İnce Diş / Kalın Diş)",
-    "image": ""
+    "image": "fren borusu.png"
   },
   {
     "id": "099_536-KARDEN-Yağmur_Debriyaj_Seti__Bilyalı_Komple",
@@ -1456,7 +1501,7 @@
     "code": "099 544",
     "brand": "KARDEN",
     "name": "Debriyaj Balata Yayı",
-    "image": ""
+    "image": "balatayay.png"
   },
   {
     "id": "KARDEN-Yağmur_Debriyaj_Balata_Saplaması",
@@ -1465,7 +1510,7 @@
     "code": "",
     "brand": "KARDEN",
     "name": "Yağmur Debriyaj Balata Saplaması",
-    "image": ""
+    "image": "saplama.png"
   },
   {
     "id": "346-KARDEN-Fren_Konik_Yay__Arka_M131__DKŞ",
@@ -1550,13 +1595,40 @@
     "image": "175.jpeg"
   },
   {
-    "id": "KARDEN-Gaz_Mandalı__Plastik",
+    "id": "101_80272-KARDEN-Gaz_Mandalı__Yuvarlak",
     "group": "ELCİK VE MANET AKSAMLARI",
     "subcategory": "GAZ & KUMANDA PARÇALARI",
-    "code": "",
+    "code": "101 80272",
     "brand": "KARDEN",
-    "name": "Gaz Mandalı – Plastik",
+    "name": "Gaz Mandalı – Yuvarlak",
     "image": "GAZ MANDALI.jpeg"
+  },
+   {
+    "id": "101_80272_1-KARDEN-Gaz_Mandalı__Kare",
+    "group": "ELCİK VE MANET AKSAMLARI",
+    "subcategory": "GAZ & KUMANDA PARÇALARI",
+    "code": "101 80272-1",
+    "brand": "KARDEN",
+    "name": "Gaz Mandalı – Kare",
+    "image": "karemandal.png"
+  },
+    {
+    "id": "101_80272_2-KARDEN-Gaz_Mandalı__Cırcırlı",
+    "group": "ELCİK VE MANET AKSAMLARI",
+    "subcategory": "GAZ & KUMANDA PARÇALARI",
+    "code": "101 80272-2",
+    "brand": "KARDEN",
+    "name": "Gaz Mandalı – Cırcırlı",
+    "image": "cırcırlıkol.png"
+  },
+  {
+    "id": "099_319-KARDEN-Plastik_Elcik",
+    "group": "ELCİK VE MANET AKSAMLARI",
+    "subcategory": "GAZ & KUMANDA PARÇALARI",
+    "code": "099 319",
+    "brand": "KARDEN",
+    "name": "Plastik Elcik",
+    "image": "elcik.png"
   },
   {
     "id": "101_80273-KARDEN-Yağmur_Manet__Sağ",
@@ -1565,7 +1637,7 @@
     "code": "101 80273",
     "brand": "KARDEN",
     "name": "Yağmur Manet – Sağ",
-    "image": ""
+    "image": "manetsağ.JPG"
   },
   {
     "id": "102_80273-KARDEN-Yağmur_Manet__Sol",
@@ -1574,7 +1646,7 @@
     "code": "102 80273",
     "brand": "KARDEN",
     "name": "Yağmur Manet – Sol",
-    "image": ""
+    "image": "manetsol.png"
   },
   {
     "id": "102_80273-KARDEN-Yağmur_Manet__Komple",
@@ -1583,25 +1655,43 @@
     "code": "102 80273",
     "brand": "KARDEN",
     "name": "Yağmur Manet – Komple",
-    "image": ""
+    "image": "yağmurmanet.png"
   },
-  {
-    "id": "KARDEN-Taral_Manet__Sağ",
+   {
+    "id": "102_80273-KARDEN-Yağmur_Manet_Kulaklı_Kol__Sol",
     "group": "ELCİK VE MANET AKSAMLARI",
     "subcategory": "GAZ & KUMANDA PARÇALARI",
-    "code": "",
+    "code": "104 80273",
+    "brand": "KARDEN",
+    "name": "Yağmur Manet Kulaklı Kol – Sol",
+    "image": "kulaksol.JPG"
+  },
+    {
+    "id": "102_80273-KARDEN-Yağmur_Manet_Kulaklı_Kol__Sağ",
+    "group": "ELCİK VE MANET AKSAMLARI",
+    "subcategory": "GAZ & KUMANDA PARÇALARI",
+    "code": "104 80273",
+    "brand": "KARDEN",
+    "name": "Yağmur Manet Kulaklı Kol – Sağ",
+    "image": "kulaksağ.JPG"
+  },
+  {
+    "id": "101_80272_1-KARDEN-Taral_Manet__Sağ",
+    "group": "ELCİK VE MANET AKSAMLARI",
+    "subcategory": "GAZ & KUMANDA PARÇALARI",
+    "code": "101 80272 - 1",
     "brand": "KARDEN",
     "name": "Taral Manet – Sağ",
-    "image": ""
+    "image": "taralmanetsağ.png"
   },
   {
-    "id": "KARDEN-Taral_Manet__Sol",
+    "id": "101_80272_2-KARDEN-Taral_Manet__Sol",
     "group": "ELCİK VE MANET AKSAMLARI",
     "subcategory": "GAZ & KUMANDA PARÇALARI",
-    "code": "",
+    "code": "101 80272 - 2",
     "brand": "KARDEN",
     "name": "Taral Manet – Sol",
-    "image": ""
+    "image": "taralmanetsol.png"
   },
   {
     "id": "101_80272-KARDEN-Taral_Manet__Komple",
@@ -1610,16 +1700,25 @@
     "code": "101 80272",
     "brand": "KARDEN",
     "name": "Taral Manet – Komple",
-    "image": ""
+    "image": "taralmanet.png"
   },
   {
-    "id": "KARDEN-Manet_Kütük",
+    "id": "KARDEN-Manet_Kütük_Sağ",
     "group": "ELCİK VE MANET AKSAMLARI",
     "subcategory": "GAZ & KUMANDA PARÇALARI",
-    "code": "",
+    "code": "099 80272",
     "brand": "KARDEN",
-    "name": "Manet Kütük",
-    "image": ""
+    "name": "Manet Kütük - Sağ",
+    "image": "manetkütük.png"
+  },
+  {
+    "id": "KARDEN-Manet_Kütük_Sol",
+    "group": "ELCİK VE MANET AKSAMLARI",
+    "subcategory": "GAZ & KUMANDA PARÇALARI",
+    "code": "099 80273",
+    "brand": "KARDEN",
+    "name": "Manet Kütük - Sol",
+    "image": "kütüksol.JPG"
   },
   {
     "id": "977-KARDEN-250_Stop_Lambası_-_YM",
