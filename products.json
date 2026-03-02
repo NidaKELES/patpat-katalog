@@ -1989,7 +1989,7 @@
   "code": "FR 0198",
   "brand": "FORMPLAS",
   "name": "3 LED'li Euro Yan İşaret Lamba",
-  "image": "fr198.JPG"
+  "image": "fr0198.JPG"
 },
 {
   "id": "FR-0199-FORMPLAS-3_LEDli_Euro_Yan_Isaret_Lamba",
@@ -1998,7 +1998,7 @@
   "code": "FR 0199",
   "brand": "FORMPLAS",
   "name": "3 LED'li Euro Yan İşaret Lamba",
-  "image": "fr199.JPG"
+  "image": "fr0199.JPG"
 },
 {
   "id": "FR-0314-FORMPLAS-21_LEDli_Oval_Yan_Isaret_Lamba",
@@ -2063,6 +2063,159 @@
     "name": "Mini Takoz Lambası",
     "image": "1371.jpeg"
   },
+  {
+  "id": "FR-0103-FORMPLAS-18_LEDli_Ultra_Mini_Egri_Lamba",
+  "group": "AYDINLATMA ÇEŞİTLERİ",
+  "subcategory": "İŞARET VE POZİSYON LAMBALAR",
+  "code": "FR 0103",
+  "brand": "FORMPLAS",
+  "name": "18 LED'li Ultra Mini Eğri Lamba",
+  "image": "fr103.jpg"
+},
+{
+  "id": "FR-0104-FORMPLAS-18_LEDli_Ultra_Mini_Duz_Lamba",
+  "group": "AYDINLATMA ÇEŞİTLERİ",
+  "subcategory": "İŞARET VE POZİSYON LAMBALAR",
+  "code": "FR 0104",
+  "brand": "FORMPLAS",
+  "name": "18 LED'li Ultra Mini Düz Lamba",
+  "image": "fr104.jpg"
+},
+{
+  "id": "FR-0106-FORMPLAS-12_LEDli_Ultra_Mini_Egri_Lamba",
+  "group": "AYDINLATMA ÇEŞİTLERİ",
+  "subcategory": "İŞARET VE POZİSYON LAMBALAR",
+  "code": "FR 0106",
+  "brand": "FORMPLAS",
+  "name": "12 LED'li Ultra Mini Eğri Lamba",
+  "image": "fr106.JPG"
+},
+{
+  "id": "FR-0107-FORMPLAS-12_LEDli_Ultra_Mini_Duz_Lamba",
+  "group": "AYDINLATMA ÇEŞİTLERİ",
+  "subcategory": "İŞARET VE POZİSYON LAMBALAR",
+  "code": "FR 0107",
+  "brand": "FORMPLAS",
+  "name": "12 LED'li Ultra Mini Düz Lamba",
+  "image": "fr107.jpg"
+},
+{
+  "id": "FR-0110-FORMPLAS-18_LEDli_Mini_Duz_Lamba",
+  "group": "AYDINLATMA ÇEŞİTLERİ",
+  "subcategory": "İŞARET VE POZİSYON LAMBALAR",
+  "code": "FR 0110",
+  "brand": "FORMPLAS",
+  "name": "18 LED'li Mini Düz Lamba",
+  "image": "fr110.jpg"
+},
+{
+  "id": "FR-0112-FORMPLAS-18_LEDli_Orta_Duz_Lamba",
+  "group": "AYDINLATMA ÇEŞİTLERİ",
+  "subcategory": "İŞARET VE POZİSYON LAMBALAR",
+  "code": "FR 0112",
+  "brand": "FORMPLAS",
+  "name": "18 LED'li Orta Düz Lamba",
+  "image": "fr112.jpg"
+},
+{
+  "id": "FR-0115-FORMPLAS-18_LEDli_Orta_Egri_Lamba",
+  "group": "AYDINLATMA ÇEŞİTLERİ",
+  "subcategory": "İŞARET VE POZİSYON LAMBALAR",
+  "code": "FR 0115",
+  "brand": "FORMPLAS",
+  "name": "18 LED'li Orta Eğri Lamba",
+  "image": "fr115.jpg"
+},
+{
+  "id": "FR-0127-FORMPLAS-14_LEDli_3_Yonlu_Boynuz_Lamba_Kisa",
+  "group": "AYDINLATMA ÇEŞİTLERİ",
+  "subcategory": "İŞARET VE POZİSYON LAMBALAR",
+  "code": "FR 0127",
+  "brand": "FORMPLAS",
+  "name": "14 LED'li 3 Yönlü Boynuz Lamba - Kısa",
+  "image": "fr127.JPG"
+},
+{
+  "id": "FR-0128-FORMPLAS-14_LEDli_3_Yonlu_Boynuz_Lamba_Orta",
+  "group": "AYDINLATMA ÇEŞİTLERİ",
+  "subcategory": "İŞARET VE POZİSYON LAMBALAR",
+  "code": "FR 0128",
+  "brand": "FORMPLAS",
+  "name": "14 LED'li 3 Yönlü Boynuz Lamba - Orta",
+  "image": "fr128.JPG"
+},
+{
+  "id": "FR-0129-FORMPLAS-14_LEDli_3_Yonlu_Boynuz_Lamba_Uzun",
+  "group": "AYDINLATMA ÇEŞİTLERİ",
+  "subcategory": "İŞARET VE POZİSYON LAMBALAR",
+  "code": "FR 0129",
+  "brand": "FORMPLAS",
+  "name": "14 LED'li 3 Yönlü Boynuz Lamba - Uzun",
+  "image": "fr129.JPG"
+},
+{
+  "id": "FR-0130-FORMPLAS-6_LEDli_3_Yonlu_Boynuz_Lamba_Kisa",
+  "group": "AYDINLATMA ÇEŞİTLERİ",
+  "subcategory": "İŞARET VE POZİSYON LAMBALAR",
+  "code": "FR 0130",
+  "brand": "FORMPLAS",
+  "name": "6 LED'li 3 Yönlü Boynuz Lamba - Kısa",
+  "image": "fr130.jpg"
+},
+{
+  "id": "FR-0131-FORMPLAS-6_LEDli_3_Yonlu_Boynuz_Lamba_Orta",
+  "group": "AYDINLATMA ÇEŞİTLERİ",
+  "subcategory": "İŞARET VE POZİSYON LAMBALAR",
+  "code": "FR 0131",
+  "brand": "FORMPLAS",
+  "name": "6 LED'li 3 Yönlü Boynuz Lamba - Orta",
+  "image": "fr131.png"
+},
+{
+  "id": "FR-0132-FORMPLAS-6_LEDli_3_Yonlu_Boynuz_Lamba_Uzun",
+  "group": "AYDINLATMA ÇEŞİTLERİ",
+  "subcategory": "İŞARET VE POZİSYON LAMBALAR",
+  "code": "FR 0132",
+  "brand": "FORMPLAS",
+  "name": "6 LED'li 3 Yönlü Boynuz Lamba - Uzun",
+  "image": "fr132.png"
+},
+{
+  "id": "FR-0117-FORMPLAS-18_LEDli_Maxi_Marker_Lamba",
+  "group": "AYDINLATMA ÇEŞİTLERİ",
+  "subcategory": "İŞARET VE POZİSYON LAMBALAR",
+  "code": "FR 0117",
+  "brand": "FORMPLAS",
+  "name": "18 LED'li Maxi Marker Lamba",
+  "image": "fr117.png"
+},
+{
+  "id": "FR-0118-FORMPLAS-18_LEDli_Maxi_Marker_Lamba",
+  "group": "AYDINLATMA ÇEŞİTLERİ",
+  "subcategory": "İŞARET VE POZİSYON LAMBALAR",
+  "code": "FR 0118",
+  "brand": "FORMPLAS",
+  "name": "18 LED'li Maxi Marker Lamba",
+  "image": "fr118.png"
+},
+{
+  "id": "FR-0212-FORMPLAS-Duylu_Kobra_Plaka_Lamba",
+  "group": "AYDINLATMA ÇEŞİTLERİ",
+  "subcategory": "İŞARET VE POZİSYON LAMBALAR",
+  "code": "FR 0212",
+  "brand": "FORMPLAS",
+  "name": "Duylu Kobra Plaka Lamba",
+  "image": "fr212.png"
+},
+{
+  "id": "FR-0213-FORMPLAS-6_LEDli_Kobra_Plaka_Lamba",
+  "group": "AYDINLATMA ÇEŞİTLERİ",
+  "subcategory": "İŞARET VE POZİSYON LAMBALAR",
+  "code": "FR 0213",
+  "brand": "FORMPLAS",
+  "name": "6 LED'li Kobra Plaka Lamba",
+  "image": "fr213.png"
+}
   {
     "id": "EMR_20-EMİRAS-Döner_Lamba_Bağlantı_Ayağı__Ayarlı",
     "group": "AYDINLATMA ÇEŞİTLERİ",
