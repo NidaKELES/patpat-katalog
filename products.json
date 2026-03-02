@@ -1931,7 +1931,7 @@
   {
     "id": "201203-K-ÇERAY-Üçgen_Reflektör",
     "group": "AYDINLATMA ÇEŞİTLERİ",
-    "subcategory": "REFLEKTÖR &MARKER LAMBALAR",
+    "subcategory": "YAN İŞARET (SİDE MARKER) LAMBALAR",
     "code": "201203-K",
     "brand": "ÇERAY",
     "name": "Üçgen Reflektör",
@@ -1940,12 +1940,111 @@
   {
     "id": "024-073-KARDEN-Side_Marker_LEDli_Lamba",
     "group": "AYDINLATMA ÇEŞİTLERİ",
-    "subcategory": "REFLEKTÖR &MARKER LAMBALAR",
+    "subcategory": "YAN İŞARET (SİDE MARKER) LAMBALAR",
     "code": "024-073",
     "brand": "KARDEN",
     "name": "Side Marker LED’li Lamba",
     "image": "024 073.jpeg"
   },
+    {
+    "id": "FR-0178-FORMPLAS-12_LEDli_Pro_Sidemarker_Lamba",
+    "group": "AYDINLATMA ÇEŞİTLERİ",
+    "subcategory": "YAN İŞARET (SİDE MARKER) LAMBALAR",
+    "code": "FR 0178",
+    "brand": "FORMPLAS",
+    "name": "12 LED'li Pro Side Marker Lamba",
+    "image": "fr178.png"
+  },
+  {
+  "id": "FR-0186-FORMPLAS-12_LEDli_Oval_Isaret_Lamba_Neon",
+  "group": "AYDINLATMA ÇEŞİTLERİ",
+  "subcategory": "YAN İŞARET (SİDE MARKER) LAMBALAR",
+  "code": "FR 0186",
+  "brand": "FORMPLAS",
+  "name": "12 LED'li Oval İşaret Lamba Neon",
+  "image": "fr186.png"
+},
+{
+  "id": "FR-0187-FORMPLAS-12_LEDli_Oval_Isaret_Lamba_Neon",
+  "group": "AYDINLATMA ÇEŞİTLERİ",
+  "subcategory": "YAN İŞARET (SİDE MARKER) LAMBALAR",
+  "code": "FR 0187",
+  "brand": "FORMPLAS",
+  "name": "12 LED'li Oval İşaret Lamba Neon",
+  "image": "fr187.png"
+},
+{
+  "id": "FR-0195-FORMPLAS-4_LEDli_Dorse_Isaret_Lamba",
+  "group": "AYDINLATMA ÇEŞİTLERİ",
+  "subcategory": "YAN İŞARET (SİDE MARKER) LAMBALAR",
+  "code": "FR 0195",
+  "brand": "FORMPLAS",
+  "name": "4 LED'li Dorse İşaret Lamba",
+  "image": "fr195.png"
+},
+{
+  "id": "FR-0198-FORMPLAS-3_LEDli_Euro_Yan_Isaret_Lamba",
+  "group": "AYDINLATMA ÇEŞİTLERİ",
+  "subcategory": "YAN İŞARET (SİDE MARKER) LAMBALAR",
+  "code": "FR 0198",
+  "brand": "FORMPLAS",
+  "name": "3 LED'li Euro Yan İşaret Lamba",
+  "image": "fr198.JPG"
+},
+{
+  "id": "FR-0199-FORMPLAS-3_LEDli_Euro_Yan_Isaret_Lamba",
+  "group": "AYDINLATMA ÇEŞİTLERİ",
+  "subcategory": "YAN İŞARET (SİDE MARKER) LAMBALAR",
+  "code": "FR 0199",
+  "brand": "FORMPLAS",
+  "name": "3 LED'li Euro Yan İşaret Lamba",
+  "image": "fr199.JPG"
+},
+{
+  "id": "FR-0314-FORMPLAS-21_LEDli_Oval_Yan_Isaret_Lamba",
+  "group": "AYDINLATMA ÇEŞİTLERİ",
+  "subcategory": "YAN İŞARET (SİDE MARKER) LAMBALAR",
+  "code": "FR 0314",
+  "brand": "FORMPLAS",
+  "name": "21 LED'li Oval Yan İşaret Lamba",
+  "image": "fr314.jpg"
+},
+{
+  "id": "FR-0185-FORMPLAS-2_LEDli_Dorse_Isaret_Lamba",
+  "group": "AYDINLATMA ÇEŞİTLERİ",
+  "subcategory": "YAN İŞARET (SİDE MARKER) LAMBALAR",
+  "code": "FR 0185",
+  "brand": "FORMPLAS",
+  "name": "2 LED'li Dorse İşaret Lamba",
+  "image": "fr185.png"
+},
+{
+  "id": "FR-0297-FORMPLAS-18_LEDli_Yan_Isaret_Lamba_Neon",
+  "group": "AYDINLATMA ÇEŞİTLERİ",
+  "subcategory": "YAN İŞARET (SİDE MARKER) LAMBALAR",
+  "code": "FR 0297",
+  "brand": "FORMPLAS",
+  "name": "18 LED'li Yan İşaret Lamba Neon",
+  "image": "fr297.png"
+},
+{
+  "id": "FR-1178-FORMPLAS-12_LEDli_Cakar_Lamba",
+  "group": "AYDINLATMA ÇEŞİTLERİ",
+  "subcategory": "YAN İŞARET (SİDE MARKER) LAMBALAR",
+  "code": "FR 1178",
+  "brand": "FORMPLAS",
+  "name": "12 LED'li Çakar Lamba",
+  "image": "FR 1178.JPG"
+},
+{
+  "id": "1361-KARDEN-6_LEDli_Parmak_Lamba",
+  "group": "AYDINLATMA ÇEŞİTLERİ",
+  "subcategory": "YAN İŞARET (SİDE MARKER) LAMBALAR",
+  "code": "1361",
+  "brand": "KARDEN",
+  "name": "6 LED’li Parmak Lamba (Sarı / Kırmızı / Mavi / Beyaz)",
+  "image": "1361.png"
+},
   {
     "id": "1292-KARDEN-Takoz_Lamba",
     "group": "AYDINLATMA ÇEŞİTLERİ",
@@ -1963,15 +2062,6 @@
     "brand": "KARDEN",
     "name": "Mini Takoz Lambası",
     "image": "1371.jpeg"
-  },
-  {
-    "id": "1361-KARDEN-6_LEDli_Parmak_Lamba_Sarı__Kırmızı__Mavi__Beyaz",
-    "group": "AYDINLATMA ÇEŞİTLERİ",
-    "subcategory": "TAKOZ & MİNİ LAMBALAR",
-    "code": "1361",
-    "brand": "KARDEN",
-    "name": "6 LED’li Parmak Lamba (Sarı / Kırmızı / Mavi / Beyaz)",
-    "image": "1361.png"
   },
   {
     "id": "EMR_20-EMİRAS-Döner_Lamba_Bağlantı_Ayağı__Ayarlı",
