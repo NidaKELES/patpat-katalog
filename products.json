@@ -6004,23 +6004,14 @@
     "name": "Debriyaj Teli Sıkma Vidası - 2 Cıvatalı",
     "image": "sıkma2cıv.png"
   },
-  {
-    "id": "099_8502-KARDEN-Debriyaj_Teli_Sıkma_Vidası__Taral",
+    {
+    "id": "099_8501-KARDEN-Debriyaj_Teli_Sıkma_Vidası",
     "group": "YEDEK PARÇA GRUBU",
     "subcategory": "SIKMA VİDALARI",
-    "code": "099 8502",
+    "code": "",
     "brand": "KARDEN",
-    "name": "Debriyaj Teli Sıkma Vidası – Taral",
-    "image": "debsık.png"
-  },
-  {
-    "id": "099_8503-KARDEN-Debriyaj_Teli_Sıkma_Vidası__FM_Tipi",
-    "group": "YEDEK PARÇA GRUBU",
-    "subcategory": "SIKMA VİDALARI",
-    "code": "099 8503",
-    "brand": "KARDEN",
-    "name": "Debriyaj Teli Sıkma Vidası – FM Tipi",
-    "image": ""
+    "name": "Debriyaj Teli Sıkma Vidası - Kare",
+    "image": "debsıkkare.png"
   },
   {
     "id": "099_8510-KARDEN-Gaz_Teli_Sıkma_Vidası__Yıldız_Kafalı",
@@ -6047,7 +6038,7 @@
     "code": "099 8516",
     "brand": "M10",
     "name": "Ayar Civatası – Debriyaj / Geri Vites",
-    "image": "m8.png"
+    "image": "M10.png"
   },
   {
     "id": "099_8517-M6-Ayar_Civatası__Gaz__Stop_Teli",
@@ -6056,7 +6047,52 @@
     "code": "099 8517",
     "brand": "M6",
     "name": "Ayar Civatası – Gaz / Stop Teli",
-    "image": "m8.png"
+    "image": "M6.png"
+  },
+  {
+    "id": "M10-Ayar_Civatası_Burçlu",
+    "group": "YEDEK PARÇA GRUBU",
+    "subcategory": "AYAR VE ARA PARÇALAR",
+    "code": "",
+    "brand": "M10",
+    "name": "Ayar Civatası – Burçlu",
+    "image": "m10m.png"
+  },
+   {
+    "id": "M12-Ayar_Civatası_Burçlu",
+    "group": "YEDEK PARÇA GRUBU",
+    "subcategory": "AYAR VE ARA PARÇALAR",
+    "code": "",
+    "brand": "M12",
+    "name": "Ayar Civatası – Burçlu",
+    "image": "m12.png"
+  },
+    {
+    "id": "KAAN-Gaz_Teli_Ayar_Civatası",
+    "group": "YEDEK PARÇA GRUBU",
+    "subcategory": "AYAR VE ARA PARÇALAR",
+    "code": "",
+    "brand": "KAAN",
+    "name": "Gaz Teli Ayar Civatası",
+    "image": "gazayar.png"
+  },
+   {
+    "id": "Kısa_El_Fren_Teli_Ayar_Civatası_Pimli",
+    "group": "YEDEK PARÇA GRUBU",
+    "subcategory": "AYAR VE ARA PARÇALAR",
+    "code": "",
+    "brand": "",
+    "name": "Kısa El Fren Teli Ayar Civatası - Pimli",
+    "image": "pimli.png"
+  },
+   {
+    "id": "Kısa_El_Fren_Teli_Ayar_Civatası_Pimli",
+    "group": "YEDEK PARÇA GRUBU",
+    "subcategory": "AYAR VE ARA PARÇALAR",
+    "code": "",
+    "brand": "",
+    "name": "Kısa El Fren Teli Ayar Civatası - Pimsiz",
+    "image": "pimsiz.png"
   },
   {
     "id": "099_8524-PASO_4-Gaz_Teli_Merkezleme_Ara_Rekoru",
@@ -6094,7 +6130,114 @@
     "name": "Manet Pimi – Yarıklı",
     "image": "manetyarıklı.png"
   },
-
+{
+  "id": "NO_CODE--Tofas_Renault_El_Fren_Teli_Burcu",
+  "group": "YEDEK PARÇA GRUBU",
+  "subcategory": "PİMLER",
+  "code": "",
+  "brand": "",
+  "name": "Tofaş Renault El Fren Teli Burcu",
+  "image": "elfrenburç.png"
+},
+{
+  "id": "NO_CODE--Yuksuk_5_7_8_Capli",
+  "group": "YEDEK PARÇA GRUBU",
+  "subcategory": "PİMLER",
+  "code": "",
+  "brand": "",
+  "name": "Yüksük (5-7-8 Çaplı)",
+  "image": "yüksük.png"
+},
+{
+  "id": "NO_CODE--9x9_Pim_3_2_2_7_Delikli",
+  "group": "YEDEK PARÇA GRUBU",
+  "subcategory": "PİMLER",
+  "code": "",
+  "brand": "",
+  "name": "9 x 9 Pim (3,2 -2,7 Delikli)",
+  "image": "9x9.png"
+},
+{
+  "id": "NO_CODE--7_5x7_5_Pim_3_2_2_7_Delikli",
+  "group": "YEDEK PARÇA GRUBU",
+  "subcategory": "PİMLER",
+  "code": "",
+  "brand": "",
+  "name": "7,5 x 7,5 Pim (3,2 -2,7 Delikli)",
+  "image": "7,5x.png"
+},
+{
+  "id": "NO_CODE--Pasolu_Yuksuk",
+  "group": "YEDEK PARÇA GRUBU",
+  "subcategory": "PİMLER",
+  "code": "",
+  "brand": "",
+  "name": "Pasolu Yüksük",
+  "image": "pasoluyüksük.png"
+},
+{
+  "id": "NO_CODE-YAGMUR-Cekic_Bas",
+  "group": "YEDEK PARÇA GRUBU",
+  "subcategory": "PİMLER",
+  "code": "",
+  "brand": "YAĞMUR",
+  "name": "Çekiç Baş",
+  "image": "çekiçbaş.png"
+},
+{
+  "id": "NO_CODE-KAAN-Armut_Tel_Bas",
+  "group": "YEDEK PARÇA GRUBU",
+  "subcategory": "PİMLER",
+  "code": "",
+  "brand": "KAAN",
+  "name": "Armut Tel Baş",
+  "image": "armuttel.png"
+},
+{
+  "id": "NO_CODE--17lik_Yarik_Halka",
+  "group": "YEDEK PARÇA GRUBU",
+  "subcategory": "PİMLER",
+  "code": "",
+  "brand": "",
+  "name": "17'lik Yarık Halka",
+  "image": "17yarık.png"
+},
+{
+  "id": "NO_CODE--14luk_Halka",
+  "group": "YEDEK PARÇA GRUBU",
+  "subcategory": "PİMLER",
+  "code": "",
+  "brand": "",
+  "name": "14'lük Halka",
+  "image": "14halka.png"
+},
+{
+  "id": "NO_CODE-ROMORK-Kanca",
+  "group": "YEDEK PARÇA GRUBU",
+  "subcategory": "PİMLER",
+  "code": "",
+  "brand": "RÖMORK",
+  "name": "Kanca",
+  "image": "kanca.png"
+},
+{
+  "id": "NO_CODE--Lada_El_Fren_Teli_Burcu",
+  "group": "YEDEK PARÇA GRUBU",
+  "subcategory": "PİMLER",
+  "code": "",
+  "brand": "",
+  "name": "Lada El Fren Teli Burcu",
+  "image": "lada.png"
+},
+{
+  "id": "NO_CODE--Cim_Bicme_Tel_Basi",
+  "group": "YEDEK PARÇA GRUBU",
+  "subcategory": "PİMLER",
+  "code": "",
+  "brand": "",
+  "name": "Çim Biçme Tel Başı",
+  "image": "çimbiçme.png"
+},
   {
     "id": "099_8585-YAĞMUR-Gidon_Yayı_YM",
     "group": "YEDEK PARÇA GRUBU",
@@ -6131,14 +6274,23 @@
     "name": "Tampon Sehpa Yayı",
     "image": "tampon.png"
   },
-  {
-    "id": "099_8589-STD-Debriyaj_Teli_Yayı",
+    {
+    "id": "no_code-KARDEN-Tofaş_Renault_El_Fren_Teli_Yayı",
     "group": "YEDEK PARÇA GRUBU",
     "subcategory": "YAYLAR",
-    "code": "099 8589",
+    "code": "",
+    "brand": "KARDEN",
+    "name": "Tofaş Renault El Fren Teli Yayı",
+    "image": "elfrenyay.png"
+  },
+  {
+    "id": "099_8589-STD-Debriyaj_Teli_Takım",
+    "group": "YEDEK PARÇA GRUBU",
+    "subcategory": "YAYLAR",
+    "code": "",
     "brand": "STD",
-    "name": "Debriyaj Teli Yayı",
-    "image": "debtel.jpg"
+    "name": "   Ecetrak Debriyaj Teli Takım(Çatal,Pim,Yay)",
+    "image": "teltakım.png"
   },
   {
     "id": "099_8555-KARDEN-Gidon_Bağlantı_Kelepçesi",
@@ -6175,5 +6327,33 @@
     "brand": "KARDEN",
     "name": "Amortisör Takozu Takım (4+4 / 8 Parça)",
     "image": "amortisor.png"
+  },
+    {
+    "id": "KARDEN-Toz_Lastiği",
+    "group": "YEDEK PARÇA GRUBU",
+    "subcategory": "DİĞER",
+    "code": "",
+    "brand": "KARDEN",
+    "name": "Toz Lastiği",
+    "image": "tozlastiği.png"
+  },
+    {
+    "id": "KARDEN-Debriyaj_Teli_Toz_Lastiği",
+    "group": "YEDEK PARÇA GRUBU",
+    "subcategory": "DİĞER",
+    "code": "",
+    "brand": "BEYBOLAT",
+    "name": "Debriyaj Teli Toz Lastiği",
+    "image": "beybolattoz.png"
+  },
+    {
+    "id": "KARDEN-Taral-250_Debriyaj_Teli_Plastiği",
+    "group": "YEDEK PARÇA GRUBU",
+    "subcategory": "DİĞER",
+    "code": "",
+    "brand": "KARDEN",
+    "name": "Taral-250 Debriyaj Teli Plastiği",
+    "image": "taralplastik.png"
   }
+
 ]
