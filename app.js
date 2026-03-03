@@ -108,16 +108,26 @@ function buildMenu() {
   const menuBody = document.getElementById("menuBody");
   if (!menuBody) return;
 
-  const map = new Map();
+  // ✅ Menüde de products.json sırasını korumak için:
+  // groupOrder ve subOrder set gibi çalışır (ilk göründüğü sıra)
+  const groupOrder = [];
+  const subOrderMap = new Map();
+
   allProducts.forEach(p => {
     const g = (p.group || "").trim();
     const s = (p.subcategory || "").trim();
     if (!g) return;
-    if (!map.has(g)) map.set(g, new Set());
-    if (s) map.get(g).add(s);
-  });
 
-  const groups = Array.from(map.keys()).sort((a,b) => a.localeCompare(b, "tr"));
+    if (!subOrderMap.has(g)) {
+      subOrderMap.set(g, []);
+      groupOrder.push(g);
+    }
+
+    if (s) {
+      const arr = subOrderMap.get(g);
+      if (!arr.includes(s)) arr.push(s);
+    }
+  });
 
   menuBody.innerHTML = `
     <div class="menu-top">
@@ -136,8 +146,8 @@ function buildMenu() {
     });
   }
 
-  groups.forEach(groupName => {
-    const subs = Array.from(map.get(groupName)).sort((a,b) => a.localeCompare(b, "tr"));
+  groupOrder.forEach(groupName => {
+    const subs = subOrderMap.get(groupName) || [];
 
     const item = document.createElement("div");
     item.className = "group-item";
@@ -221,48 +231,54 @@ function applyFilters(pushHistory = true) {
     });
   }
 
-  renderCatalog(filtered);
+  renderCatalogKeepJsonOrder(filtered);
 
   if (pushHistory) setUrlFromState(true);
 }
 
-/* ---------- ✅ Grup + Alt Grup + Kartlar ---------- */
-function renderCatalog(products) {
+/* ---------- ✅ KATALOG: products.json sırasını KORU ---------- */
+function renderCatalogKeepJsonOrder(products) {
   const root = document.getElementById("productGrid");
   if (!root) return;
 
   root.innerHTML = "";
 
-  // Map: group -> sub -> items
-  const groupMap = new Map();
+  // groupOrder: grup ilk göründüğü sırayla
+  const groupOrder = [];
+  // subOrderMap: alt gruplar ilk göründüğü sırayla
+  const subOrderMap = new Map();
+  // itemsMap: group -> sub -> items (ürünler de JSON sırasıyla push)
+  const itemsMap = new Map();
 
   products.forEach(p => {
     const g = (p.group || "GRUPSUZ").trim() || "GRUPSUZ";
     const s = (p.subcategory || "ALT GRUP YOK").trim() || "ALT GRUP YOK";
 
-    if (!groupMap.has(g)) groupMap.set(g, new Map());
-    const subMap = groupMap.get(g);
+    if (!itemsMap.has(g)) {
+      itemsMap.set(g, new Map());
+      groupOrder.push(g);
+      subOrderMap.set(g, []);
+    }
+
+    const subList = subOrderMap.get(g);
+    if (!subList.includes(s)) subList.push(s);
+
+    const subMap = itemsMap.get(g);
     if (!subMap.has(s)) subMap.set(s, []);
-    subMap.get(s).push(p);
+    subMap.get(s).push(p); // ✅ burada JSON sırası korunur
   });
 
-  const groupNames = Array.from(groupMap.keys()).sort((a,b) => a.localeCompare(b, "tr"));
-
-  groupNames.forEach(groupName => {
+  groupOrder.forEach(groupName => {
     const groupSection = document.createElement("section");
     groupSection.className = "cat-group";
+    groupSection.innerHTML = `<div class="cat-group-title">${escapeHtml(groupName)}</div>`;
 
-    groupSection.innerHTML = `
-      <div class="cat-group-title">${escapeHtml(groupName)}</div>
-    `;
+    const subs = subOrderMap.get(groupName) || [];
+    const subMap = itemsMap.get(groupName) || new Map();
 
-    const subMap = groupMap.get(groupName);
-    const subNames = Array.from(subMap.keys()).sort((a,b) => a.localeCompare(b, "tr"));
-
-    subNames.forEach(subName => {
+    subs.forEach(subName => {
       const subWrap = document.createElement("div");
       subWrap.className = "cat-sub";
-
       subWrap.innerHTML = `
         <div class="cat-sub-title">${escapeHtml(subName)}</div>
         <div class="grid"></div>
@@ -270,15 +286,6 @@ function renderCatalog(products) {
 
       const grid = subWrap.querySelector(".grid");
       const items = subMap.get(subName) || [];
-
-      // İstersen sırala: kod/isim
-      items.sort((x,y) => {
-        const cx = (x.code || "").toString();
-        const cy = (y.code || "").toString();
-        const c = cx.localeCompare(cy, "tr");
-        if (c !== 0) return c;
-        return (x.name || "").localeCompare((y.name || ""), "tr");
-      });
 
       items.forEach(p => {
         const card = document.createElement("div");
@@ -293,7 +300,6 @@ function renderCatalog(products) {
           <div class="brand">${escapeHtml(p.brand || "")}</div>
         `;
 
-        // Detaya git
         card.addEventListener("click", () => {
           const ref = encodeURIComponent(window.location.pathname + window.location.search);
           window.location.href = `product.html?id=${encodeURIComponent(p.id)}&ref=${ref}`;
