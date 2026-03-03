@@ -997,7 +997,7 @@
     "code": "099 360",
     "brand": "KARDEN",
     "name": "Geri Dönüş Flanşlı Hortum",
-    "image": ""
+    "image": "flanşlı.png"
   },
   {
     "id": "099_500-KARDEN-Depo_Kapağı",
@@ -1240,7 +1240,7 @@
     "code": "",
     "brand": "KARDEN",
     "name": "Vites Alt Kolu SLX",
-    "image": "viteskolkomple.png"
+    "image": "vitesaltkol.png"
   },
   {
     "id": "760-KARDEN-Arka_Teker_Bijonu",
