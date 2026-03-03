@@ -316,3 +316,80 @@ body {
 
   @page { margin: 10mm; }
 }
+/* =========================
+   PRINT (CTRL+P) AYARLARI
+   Boşlukları kaldır, alt alta aksın
+========================= */
+@media print {
+
+  /* Üst bar / arama / ürünler menüsü / whatsapp görünmesin */
+  .top-bar,
+  .menu-wrap,
+  #searchInput,
+  .wa-float {
+    display: none !important;
+  }
+
+  /* Sayfa arka plan / gölge / renk */
+  body {
+    background: #fff !important;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+
+  /* Kartlar ve container’lar: gölge/padding azalt */
+  .card {
+    box-shadow: none !important;
+    border: 1px solid #ddd !important;
+    page-break-inside: avoid;
+    break-inside: avoid;
+  }
+
+  /* ✅ Asıl problem burada: grid padding yüzünden boşluk oluşuyor */
+  .grid {
+    padding: 0 !important;          /* 20px’i kaldır */
+    margin: 0 !important;
+    gap: 10px !important;           /* daha sık */
+    grid-template-columns: repeat(3, 1fr) !important; /* yazdırmada 3 kolon daha stabil */
+  }
+
+  /* Grup/alt grup blokları arası boşluğu minimuma indir */
+  .cat-group {
+    margin: 0 0 12px 0 !important;
+    padding: 0 !important;
+  }
+
+  .cat-sub {
+    margin: 0 0 10px 0 !important;
+    padding: 0 !important;
+  }
+
+  .cat-group-title {
+    margin: 0 0 6px 0 !important;
+    padding: 6px 10px !important;
+    border: 1px solid #ddd !important;
+    background: #f3f3f3 !important;
+    font-weight: 800 !important;
+    page-break-after: avoid;
+    break-after: avoid;
+  }
+
+  .cat-sub-title {
+    margin: 0 0 6px 0 !important;
+    padding: 6px 10px !important;
+    border: 1px solid #e5e5e5 !important;
+    background: #fafafa !important;
+    font-weight: 700 !important;
+    page-break-after: avoid;
+    break-after: avoid;
+  }
+
+  /* Resim yüksekliğini küçült ki sayfa daha dolu olsun */
+  .card img {
+    height: 120px !important;
+  }
+
+  /* Kart içi metinleri küçült (daha çok ürün sığsın) */
+  .name { font-size: 12px !important; }
+  .code, .brand { font-size: 10px !important; }
+}
