@@ -1,15 +1,11 @@
 const params = new URLSearchParams(window.location.search);
 const productId = params.get("id");
-const ref = params.get("ref"); // index'ten gelen dönüş yolu
+const ref = params.get("ref");
 
-// Geri linkini ayarla
 const backLink = document.getElementById("backLink");
 if (backLink) {
-  if (ref) {
-    backLink.href = decodeURIComponent(ref);
-  } else {
-    backLink.href = "index.html";
-  }
+  if (ref) backLink.href = decodeURIComponent(ref);
+  else backLink.href = "index.html";
 }
 
 fetch("products.json")

@@ -41,7 +41,7 @@ function readStateFromUrl() {
       : (currentSub ? `${currentGroup} > ${currentSub}` : currentGroup)
   );
 
-  applyFilters(false); // push yapma
+  applyFilters(false);
 }
 
 /* Geri/ileri tuşu */
@@ -108,18 +108,16 @@ function buildMenu() {
   const menuBody = document.getElementById("menuBody");
   if (!menuBody) return;
 
-  // Menüde de JSON sırasını koruyalım:
-  const map = new Map(); // group -> Set(subs)
-  for (const p of allProducts) {
+  const map = new Map();
+  allProducts.forEach(p => {
     const g = (p.group || "").trim();
     const s = (p.subcategory || "").trim();
-    if (!g) continue;
-
+    if (!g) return;
     if (!map.has(g)) map.set(g, new Set());
     if (s) map.get(g).add(s);
-  }
+  });
 
-  const groups = Array.from(map.keys()); // ✅ A-Z YOK
+  const groups = Array.from(map.keys()).sort((a,b) => a.localeCompare(b, "tr"));
 
   menuBody.innerHTML = `
     <div class="menu-top">
@@ -139,7 +137,7 @@ function buildMenu() {
   }
 
   groups.forEach(groupName => {
-    const subs = Array.from(map.get(groupName)); // ✅ A-Z YOK
+    const subs = Array.from(map.get(groupName)).sort((a,b) => a.localeCompare(b, "tr"));
 
     const item = document.createElement("div");
     item.className = "group-item";
@@ -224,17 +222,15 @@ function applyFilters(pushHistory = true) {
   }
 
   renderProducts(filtered);
+  renderPrintCatalog(filtered); // ✅ Ctrl+P için hiyerarşik çıktı
 
   if (pushHistory) setUrlFromState(true);
 }
 
-/* ---------- Ürünleri bas (ekran) ---------- */
+/* ---------- Ürünleri bas (ekran grid) ---------- */
 function renderProducts(products) {
   const grid = document.getElementById("productGrid");
   if (!grid) return;
-
-  // print sınıflarını temizle
-  grid.classList.remove("print-catalog");
 
   grid.innerHTML = "";
 
@@ -260,107 +256,121 @@ function renderProducts(products) {
   });
 }
 
-/* ---------- PRINT: Gruplu katalog basımı ---------- */
-function renderPrintCatalog(productsInOrder) {
-  const grid = document.getElementById("productGrid");
-  if (!grid) return;
+/* ---------- ✅ Print Katalog (Grup > Alt Grup > Ürünler) ---------- */
+function renderPrintCatalog(products) {
+  const root = document.getElementById("printCatalog");
+  if (!root) return;
 
-  // grid yerine print-catalog
-  grid.classList.add("print-catalog");
-  grid.innerHTML = "";
+  // Print alanı sadece çıktı için; ekranda gizli, print'te görünecek.
+  root.setAttribute("aria-hidden", "false");
 
-  // ✅ JSON sırasına göre group->sub->ürünler
-  const groupOrder = [];
-  const groupMap = new Map(); // group -> { subOrder:[], subMap: Map(sub -> items[]) }
+  // Grup > Alt Grup map
+  const groupMap = new Map();
 
-  for (const p of productsInOrder) {
-    const g = (p.group || "").trim() || "DİĞER";
-    const s = (p.subcategory || "").trim() || "DİĞER";
+  products.forEach(p => {
+    const g = (p.group || "GRUPSUZ").trim() || "GRUPSUZ";
+    const s = (p.subcategory || "Alt Grup Yok").trim() || "Alt Grup Yok";
 
-    if (!groupMap.has(g)) {
-      groupMap.set(g, { subOrder: [], subMap: new Map() });
-      groupOrder.push(g);
-    }
+    if (!groupMap.has(g)) groupMap.set(g, new Map());
+    const subMap = groupMap.get(g);
+    if (!subMap.has(s)) subMap.set(s, []);
+    subMap.get(s).push(p);
+  });
 
-    const gObj = groupMap.get(g);
-    if (!gObj.subMap.has(s)) {
-      gObj.subMap.set(s, []);
-      gObj.subOrder.push(s);
-    }
+  const groupNames = Array.from(groupMap.keys()).sort((a,b) => a.localeCompare(b, "tr"));
 
-    gObj.subMap.get(s).push(p);
+  // Header bilgi
+  const now = new Date();
+  const dt = now.toLocaleString("tr-TR");
+
+  let html = `
+    <div class="print-head">
+      <div class="print-brand">
+        <img src="images/karadeniz.png" alt="Karadeniz Ticaret">
+        <div class="print-title">Ürün Kataloğu</div>
+      </div>
+      <div class="print-meta">
+        <div><strong>Seçim:</strong> ${escapeHtml(
+          currentGroup === "ALL"
+            ? "Tümü"
+            : (currentSub ? `${currentGroup} > ${currentSub}` : currentGroup)
+        )}</div>
+        ${searchText ? `<div><strong>Arama:</strong> ${escapeHtml(searchText)}</div>` : ``}
+        <div><strong>Tarih:</strong> ${escapeHtml(dt)}</div>
+        <div><strong>Toplam:</strong> ${products.length}</div>
+      </div>
+    </div>
+  `;
+
+  if (products.length === 0) {
+    root.innerHTML = html + `<div class="print-empty">Bu filtrede ürün bulunamadı.</div>`;
+    return;
   }
 
-  // DOM yaz
-  for (const g of groupOrder) {
-    const gTitle = document.createElement("div");
-    gTitle.className = "p-group-title";
-    gTitle.textContent = g;
-    grid.appendChild(gTitle);
+  groupNames.forEach(groupName => {
+    const subMap = groupMap.get(groupName);
+    const subNames = Array.from(subMap.keys()).sort((a,b) => a.localeCompare(b, "tr"));
 
-    const gObj = groupMap.get(g);
-    for (const s of gObj.subOrder) {
-      const sTitle = document.createElement("div");
-      sTitle.className = "p-sub-title";
-      sTitle.textContent = s;
-      grid.appendChild(sTitle);
+    html += `<section class="print-group">
+      <div class="print-group-title">${escapeHtml(groupName)}</div>
+    `;
 
-      const items = gObj.subMap.get(s) || [];
-      for (const p of items) {
-        const card = document.createElement("div");
-        card.className = "p-card";
+    subNames.forEach(subName => {
+      const items = subMap.get(subName) || [];
 
-        const imgSrc = p.image ? `images/${p.image}` : "images/placeholder.png";
+      // Ürün sıralama: kod sonra isim
+      items.sort((x,y) => {
+        const cx = (x.code || "").toString();
+        const cy = (y.code || "").toString();
+        const c = cx.localeCompare(cy, "tr");
+        if (c !== 0) return c;
+        return (x.name || "").localeCompare((y.name || ""), "tr");
+      });
 
-        card.innerHTML = `
-          <img src="${imgSrc}" alt="" onerror="this.src='images/placeholder.png'">
-          <div class="p-name">${escapeHtml(p.name || "")}</div>
-          <p class="p-code">${escapeHtml(p.code || "")}</p>
-          <p class="p-brand">${escapeHtml(p.brand || "")}</p>
-        `;
+      html += `
+        <div class="print-sub">
+          <div class="print-sub-title">${escapeHtml(subName)}</div>
 
-        grid.appendChild(card);
-      }
-    }
-  }
+          <table class="print-table">
+            <thead>
+              <tr>
+                <th style="width: 22%;">Kod</th>
+                <th>Ürün Adı</th>
+                <th style="width: 18%;">Marka</th>
+              </tr>
+            </thead>
+            <tbody>
+              ${items.map(p => `
+                <tr>
+                  <td>${escapeHtml(p.code || "")}</td>
+                  <td>${escapeHtml(p.name || "")}</td>
+                  <td>${escapeHtml(p.brand || "")}</td>
+                </tr>
+              `).join("")}
+            </tbody>
+          </table>
+        </div>
+      `;
+    });
+
+    html += `</section>`;
+  });
+
+  root.innerHTML = html;
 }
 
-/* Ctrl+P basınca otomatik print layout */
-window.addEventListener("beforeprint", () => {
-  // ekranda hangi filtre varsa onu bas:
-  // (istenirse sadece ALL basmak için burada kontrol koyarız)
-  let filtered = allProducts;
-
-  if (currentGroup !== "ALL") {
-    filtered = filtered.filter(p => (p.group || "").trim() === currentGroup);
-  }
-  if (currentSub) {
-    filtered = filtered.filter(p => (p.subcategory || "").trim() === currentSub);
-  }
-  if (searchText) {
-    filtered = filtered.filter(p => {
-      const name = (p.name || "").toLowerCase();
-      const code = (p.code || "").toLowerCase();
-      const brand = (p.brand || "").toLowerCase();
-      const group = (p.group || "").toLowerCase();
-      const sub = (p.subcategory || "").toLowerCase();
-      return (
-        name.includes(searchText) ||
-        code.includes(searchText) ||
-        brand.includes(searchText) ||
-        group.includes(searchText) ||
-        sub.includes(searchText)
-      );
-    });
-  }
-
-  renderPrintCatalog(filtered);
-});
-
-window.addEventListener("afterprint", () => {
-  // print sonrası normal ekrana dön
-  applyFilters(false);
-});
+/* ---------- helpers ---------- */
+function escapeHtml(str) {
+  return String(str)
+    .replaceAll("&","&amp;")
+    .replaceAll("<","&lt;")
+    .replaceAll(">","&gt;")
+    .replaceAll('"',"&quot;")
+    .replaceAll("'","&#039;");
+}
+function escapeHtmlAttr(str) {
+  return escapeHtml(str).replaceAll('"', "&quot;");
+}
 
 /* ---------- Logo: anasayfaya dön (Tümü) ---------- */
 const homeLogoBtn = document.getElementById("homeLogoBtn");
@@ -377,17 +387,4 @@ if (homeLogoBtn) {
     applyFilters(true);
     closeMenu();
   });
-}
-
-/* ---------- helpers ---------- */
-function escapeHtml(str) {
-  return String(str)
-    .replaceAll("&","&amp;")
-    .replaceAll("<","&lt;")
-    .replaceAll(">","&gt;")
-    .replaceAll('"',"&quot;")
-    .replaceAll("'","&#039;");
-}
-function escapeHtmlAttr(str) {
-  return escapeHtml(str).replaceAll('"', "&quot;");
 }
