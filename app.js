@@ -108,16 +108,26 @@ function buildMenu() {
   const menuBody = document.getElementById("menuBody");
   if (!menuBody) return;
 
-  const map = new Map();
+  // ✅ Menüde de products.json sırasını korumak için:
+  // groupOrder ve subOrder set gibi çalışır (ilk göründüğü sıra)
+  const groupOrder = [];
+  const subOrderMap = new Map();
+
   allProducts.forEach(p => {
     const g = (p.group || "").trim();
     const s = (p.subcategory || "").trim();
     if (!g) return;
-    if (!map.has(g)) map.set(g, new Set());
-    if (s) map.get(g).add(s);
-  });
 
-  const groups = Array.from(map.keys()).sort((a,b) => a.localeCompare(b, "tr"));
+    if (!subOrderMap.has(g)) {
+      subOrderMap.set(g, []);
+      groupOrder.push(g);
+    }
+
+    if (s) {
+      const arr = subOrderMap.get(g);
+      if (!arr.includes(s)) arr.push(s);
+    }
+  });
 
   menuBody.innerHTML = `
     <div class="menu-top">
@@ -136,8 +146,8 @@ function buildMenu() {
     });
   }
 
-  groups.forEach(groupName => {
-    const subs = Array.from(map.get(groupName)).sort((a,b) => a.localeCompare(b, "tr"));
+  groupOrder.forEach(groupName => {
+    const subs = subOrderMap.get(groupName) || [];
 
     const item = document.createElement("div");
     item.className = "group-item";
@@ -221,142 +231,92 @@ function applyFilters(pushHistory = true) {
     });
   }
 
-  renderProducts(filtered);
-  renderPrintCatalog(filtered); // ✅ Ctrl+P için hiyerarşik çıktı
+  renderCatalogKeepJsonOrder(filtered);
 
   if (pushHistory) setUrlFromState(true);
 }
 
-/* ---------- Ürünleri bas (ekran grid) ---------- */
-function renderProducts(products) {
-  const grid = document.getElementById("productGrid");
-  if (!grid) return;
-
-  grid.innerHTML = "";
-
-  products.forEach(p => {
-    const card = document.createElement("div");
-    card.className = "card";
-
-    const imgSrc = p.image ? `images/${p.image}` : "images/placeholder.png";
-
-    card.innerHTML = `
-      <img src="${imgSrc}" alt="" onerror="this.src='images/placeholder.png'">
-      <div class="name">${escapeHtml(p.name || "")}</div>
-      <div class="code">${escapeHtml(p.code || "")}</div>
-      <div class="brand">${escapeHtml(p.brand || "")}</div>
-    `;
-
-    card.addEventListener("click", () => {
-      const ref = encodeURIComponent(window.location.pathname + window.location.search);
-      window.location.href = `product.html?id=${encodeURIComponent(p.id)}&ref=${ref}`;
-    });
-
-    grid.appendChild(card);
-  });
-}
-
-/* ---------- ✅ Print Katalog (Grup > Alt Grup > Ürünler) ---------- */
-function renderPrintCatalog(products) {
-  const root = document.getElementById("printCatalog");
+/* ---------- ✅ KATALOG: products.json sırasını KORU ---------- */
+function renderCatalogKeepJsonOrder(products) {
+  const root = document.getElementById("productGrid");
   if (!root) return;
 
-  // Print alanı sadece çıktı için; ekranda gizli, print'te görünecek.
-  root.setAttribute("aria-hidden", "false");
+  root.innerHTML = "";
 
-  // Grup > Alt Grup map
-  const groupMap = new Map();
+  // groupOrder: grup ilk göründüğü sırayla
+  const groupOrder = [];
+  // subOrderMap: alt gruplar ilk göründüğü sırayla
+  const subOrderMap = new Map();
+  // itemsMap: group -> sub -> items (ürünler de JSON sırasıyla push)
+  const itemsMap = new Map();
 
   products.forEach(p => {
     const g = (p.group || "GRUPSUZ").trim() || "GRUPSUZ";
-    const s = (p.subcategory || "Alt Grup Yok").trim() || "Alt Grup Yok";
+    const s = (p.subcategory || "ALT GRUP YOK").trim() || "ALT GRUP YOK";
 
-    if (!groupMap.has(g)) groupMap.set(g, new Map());
-    const subMap = groupMap.get(g);
+    if (!itemsMap.has(g)) {
+      itemsMap.set(g, new Map());
+      groupOrder.push(g);
+      subOrderMap.set(g, []);
+    }
+
+    const subList = subOrderMap.get(g);
+    if (!subList.includes(s)) subList.push(s);
+
+    const subMap = itemsMap.get(g);
     if (!subMap.has(s)) subMap.set(s, []);
-    subMap.get(s).push(p);
+    subMap.get(s).push(p); // ✅ burada JSON sırası korunur
   });
 
-  const groupNames = Array.from(groupMap.keys()).sort((a,b) => a.localeCompare(b, "tr"));
+  groupOrder.forEach(groupName => {
+    const groupSection = document.createElement("section");
+    groupSection.className = "cat-group";
+    groupSection.innerHTML = `<div class="cat-group-title">${escapeHtml(groupName)}</div>`;
 
-  // Header bilgi
-  const now = new Date();
-  const dt = now.toLocaleString("tr-TR");
+    const subs = subOrderMap.get(groupName) || [];
+    const subMap = itemsMap.get(groupName) || new Map();
 
-  let html = `
-    <div class="print-head">
-      <div class="print-brand">
-        <img src="images/karadeniz.png" alt="Karadeniz Ticaret">
-        <div class="print-title">Ürün Kataloğu</div>
-      </div>
-      <div class="print-meta">
-        <div><strong>Seçim:</strong> ${escapeHtml(
-          currentGroup === "ALL"
-            ? "Tümü"
-            : (currentSub ? `${currentGroup} > ${currentSub}` : currentGroup)
-        )}</div>
-        ${searchText ? `<div><strong>Arama:</strong> ${escapeHtml(searchText)}</div>` : ``}
-        <div><strong>Tarih:</strong> ${escapeHtml(dt)}</div>
-        <div><strong>Toplam:</strong> ${products.length}</div>
-      </div>
-    </div>
-  `;
+    subs.forEach(subName => {
+      const subWrap = document.createElement("div");
+      subWrap.className = "cat-sub";
+      subWrap.innerHTML = `
+        <div class="cat-sub-title">${escapeHtml(subName)}</div>
+        <div class="grid"></div>
+      `;
 
-  if (products.length === 0) {
-    root.innerHTML = html + `<div class="print-empty">Bu filtrede ürün bulunamadı.</div>`;
-    return;
-  }
-
-  groupNames.forEach(groupName => {
-    const subMap = groupMap.get(groupName);
-    const subNames = Array.from(subMap.keys()).sort((a,b) => a.localeCompare(b, "tr"));
-
-    html += `<section class="print-group">
-      <div class="print-group-title">${escapeHtml(groupName)}</div>
-    `;
-
-    subNames.forEach(subName => {
+      const grid = subWrap.querySelector(".grid");
       const items = subMap.get(subName) || [];
 
-      // Ürün sıralama: kod sonra isim
-      items.sort((x,y) => {
-        const cx = (x.code || "").toString();
-        const cy = (y.code || "").toString();
-        const c = cx.localeCompare(cy, "tr");
-        if (c !== 0) return c;
-        return (x.name || "").localeCompare((y.name || ""), "tr");
+      items.forEach(p => {
+        const card = document.createElement("div");
+        card.className = "card";
+
+        const imgSrc = p.image ? `images/${p.image}` : "images/placeholder.png";
+
+        card.innerHTML = `
+          <img src="${imgSrc}" alt="" onerror="this.src='images/placeholder.png'">
+          <div class="name">${escapeHtml(p.name || "")}</div>
+          <div class="code">${escapeHtml(p.code || "")}</div>
+          <div class="brand">${escapeHtml(p.brand || "")}</div>
+        `;
+
+        card.addEventListener("click", () => {
+          const ref = encodeURIComponent(window.location.pathname + window.location.search);
+          window.location.href = `product.html?id=${encodeURIComponent(p.id)}&ref=${ref}`;
+        });
+
+        grid.appendChild(card);
       });
 
-      html += `
-        <div class="print-sub">
-          <div class="print-sub-title">${escapeHtml(subName)}</div>
-
-          <table class="print-table">
-            <thead>
-              <tr>
-                <th style="width: 22%;">Kod</th>
-                <th>Ürün Adı</th>
-                <th style="width: 18%;">Marka</th>
-              </tr>
-            </thead>
-            <tbody>
-              ${items.map(p => `
-                <tr>
-                  <td>${escapeHtml(p.code || "")}</td>
-                  <td>${escapeHtml(p.name || "")}</td>
-                  <td>${escapeHtml(p.brand || "")}</td>
-                </tr>
-              `).join("")}
-            </tbody>
-          </table>
-        </div>
-      `;
+      groupSection.appendChild(subWrap);
     });
 
-    html += `</section>`;
+    root.appendChild(groupSection);
   });
 
-  root.innerHTML = html;
+  if (products.length === 0) {
+    root.innerHTML = `<div style="padding:20px;color:#666;">Bu filtrede ürün bulunamadı.</div>`;
+  }
 }
 
 /* ---------- helpers ---------- */
