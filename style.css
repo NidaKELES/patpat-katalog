@@ -16,7 +16,7 @@ body {
   z-index: 50;
 }
 
-/* ✅ header yerleşimi: logo | arama | ürünler */
+/* ✅ Yeni header yerleşimi: logo | arama | ürünler */
 .header-row {
   display: grid;
   grid-template-columns: auto 1fr auto;
@@ -24,7 +24,7 @@ body {
   gap: 14px;
 }
 
-/* ✅ Logo butonu */
+/* ✅ Logo butonu (tıklanabilir) */
 .logo-btn{
   border: none;
   background: transparent;
@@ -35,9 +35,9 @@ body {
 }
 .logo-btn:active { transform: translateY(1px); }
 
-/* Logo */
+/* Logo büyütme */
 .brand-logo{
-  height: 60px;
+  height: 60px;      /* burada büyüttün */
   width: auto;
   display: block;
   object-fit: contain;
@@ -180,7 +180,7 @@ body {
 }
 .sub-item:hover { background: #f1f5fb; }
 
-/* GRID (ekran) */
+/* GRID */
 .grid {
   display: grid;
   gap: 18px;
@@ -216,7 +216,10 @@ body {
 }
 
 @media (max-width: 560px) {
+  /* Mobilde alt alta yerine tek satır kalsın diye bozmayalım:
+     logo küçülsün, grid ayarı devam etsin */
   .brand-logo{ height: 46px; }
+
   .menu { width: min(92vw, 340px); }
 
   .grid { grid-template-columns: repeat(3, 1fr); gap: 12px; padding: 14px; }
@@ -277,111 +280,9 @@ body {
   text-decoration: none;
 }
 .wa-float:hover { transform: translateY(-1px); }
+
 .wa-icon { width: 30px; height: 30px; fill: #fff; }
+
 @media (max-width: 560px) {
   .wa-float { right: 14px; bottom: 14px; width: 54px; height: 54px; }
-}
-
-/* =========================
-   ✅ PRINT KATALOĞU TASARIMI
-   ========================= */
-.print-catalog{
-  display: none; /* ekranda gizli */
-  padding: 20px;
-  max-width: 1100px;
-  margin: 0 auto;
-  color: #111;
-}
-
-.print-head{
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 12px;
-  margin-bottom: 14px;
-}
-
-.print-brand{
-  display: flex;
-  align-items: center;
-  gap: 10px;
-}
-.print-brand img{
-  height: 46px;
-  width: auto;
-  object-fit: contain;
-}
-.print-title{
-  font-size: 18px;
-  font-weight: 800;
-}
-
-.print-meta{
-  font-size: 12px;
-  color: #444;
-  text-align: right;
-}
-
-.print-group{
-  margin-top: 16px;
-  border: 1px solid #d8dde5;
-  border-radius: 10px;
-  overflow: hidden;
-}
-
-.print-group-title{
-  background: #e9eef5;
-  padding: 10px 12px;
-  font-weight: 900;
-  font-size: 14px;
-  border-bottom: 1px solid #d8dde5;
-}
-
-.print-sub{
-  padding: 10px 12px;
-  border-bottom: 1px dashed #d8dde5;
-}
-.print-sub:last-child{ border-bottom: none; }
-
-.print-sub-title{
-  font-weight: 800;
-  font-size: 13px;
-  margin: 0 0 8px 0;
-  padding: 6px 10px;
-  background: #f6f8fb;
-  border: 1px solid #e3e8f0;
-  border-radius: 8px;
-}
-
-.print-table{
-  width: 100%;
-  border-collapse: collapse;
-  font-size: 12px;
-}
-.print-table th, .print-table td{
-  border: 1px solid #e3e8f0;
-  padding: 7px 8px;
-  vertical-align: top;
-}
-.print-table th{
-  background: #f0f4fa;
-  font-weight: 800;
-}
-
-.print-empty{
-  padding: 18px;
-  color: #666;
-  font-size: 13px;
-}
-
-/* ✅ PRINT MODU */
-@media print {
-  body { background: #fff; }
-  .top-bar, .grid, .wa-float, .menu-wrap { display: none !important; }
-  .print-catalog { display: block !important; }
-  @page { margin: 12mm; }
-
-  /* sayfa kırılımı daha temiz */
-  .print-group { break-inside: avoid; page-break-inside: avoid; }
-  .print-sub { break-inside: avoid; page-break-inside: avoid; }
 }

@@ -41,7 +41,7 @@ function readStateFromUrl() {
       : (currentSub ? `${currentGroup} > ${currentSub}` : currentGroup)
   );
 
-  applyFilters(false);
+  applyFilters(false); // push yapma
 }
 
 /* Geri/ileri tuşu */
@@ -222,12 +222,11 @@ function applyFilters(pushHistory = true) {
   }
 
   renderProducts(filtered);
-  renderPrintCatalog(filtered); // ✅ Ctrl+P için hiyerarşik çıktı
 
   if (pushHistory) setUrlFromState(true);
 }
 
-/* ---------- Ürünleri bas (ekran grid) ---------- */
+/* ---------- Ürünleri bas ---------- */
 function renderProducts(products) {
   const grid = document.getElementById("productGrid");
   if (!grid) return;
@@ -256,109 +255,6 @@ function renderProducts(products) {
   });
 }
 
-/* ---------- ✅ Print Katalog (Grup > Alt Grup > Ürünler) ---------- */
-function renderPrintCatalog(products) {
-  const root = document.getElementById("printCatalog");
-  if (!root) return;
-
-  // Print alanı sadece çıktı için; ekranda gizli, print'te görünecek.
-  root.setAttribute("aria-hidden", "false");
-
-  // Grup > Alt Grup map
-  const groupMap = new Map();
-
-  products.forEach(p => {
-    const g = (p.group || "GRUPSUZ").trim() || "GRUPSUZ";
-    const s = (p.subcategory || "Alt Grup Yok").trim() || "Alt Grup Yok";
-
-    if (!groupMap.has(g)) groupMap.set(g, new Map());
-    const subMap = groupMap.get(g);
-    if (!subMap.has(s)) subMap.set(s, []);
-    subMap.get(s).push(p);
-  });
-
-  const groupNames = Array.from(groupMap.keys()).sort((a,b) => a.localeCompare(b, "tr"));
-
-  // Header bilgi
-  const now = new Date();
-  const dt = now.toLocaleString("tr-TR");
-
-  let html = `
-    <div class="print-head">
-      <div class="print-brand">
-        <img src="images/karadeniz.png" alt="Karadeniz Ticaret">
-        <div class="print-title">Ürün Kataloğu</div>
-      </div>
-      <div class="print-meta">
-        <div><strong>Seçim:</strong> ${escapeHtml(
-          currentGroup === "ALL"
-            ? "Tümü"
-            : (currentSub ? `${currentGroup} > ${currentSub}` : currentGroup)
-        )}</div>
-        ${searchText ? `<div><strong>Arama:</strong> ${escapeHtml(searchText)}</div>` : ``}
-        <div><strong>Tarih:</strong> ${escapeHtml(dt)}</div>
-        <div><strong>Toplam:</strong> ${products.length}</div>
-      </div>
-    </div>
-  `;
-
-  if (products.length === 0) {
-    root.innerHTML = html + `<div class="print-empty">Bu filtrede ürün bulunamadı.</div>`;
-    return;
-  }
-
-  groupNames.forEach(groupName => {
-    const subMap = groupMap.get(groupName);
-    const subNames = Array.from(subMap.keys()).sort((a,b) => a.localeCompare(b, "tr"));
-
-    html += `<section class="print-group">
-      <div class="print-group-title">${escapeHtml(groupName)}</div>
-    `;
-
-    subNames.forEach(subName => {
-      const items = subMap.get(subName) || [];
-
-      // Ürün sıralama: kod sonra isim
-      items.sort((x,y) => {
-        const cx = (x.code || "").toString();
-        const cy = (y.code || "").toString();
-        const c = cx.localeCompare(cy, "tr");
-        if (c !== 0) return c;
-        return (x.name || "").localeCompare((y.name || ""), "tr");
-      });
-
-      html += `
-        <div class="print-sub">
-          <div class="print-sub-title">${escapeHtml(subName)}</div>
-
-          <table class="print-table">
-            <thead>
-              <tr>
-                <th style="width: 22%;">Kod</th>
-                <th>Ürün Adı</th>
-                <th style="width: 18%;">Marka</th>
-              </tr>
-            </thead>
-            <tbody>
-              ${items.map(p => `
-                <tr>
-                  <td>${escapeHtml(p.code || "")}</td>
-                  <td>${escapeHtml(p.name || "")}</td>
-                  <td>${escapeHtml(p.brand || "")}</td>
-                </tr>
-              `).join("")}
-            </tbody>
-          </table>
-        </div>
-      `;
-    });
-
-    html += `</section>`;
-  });
-
-  root.innerHTML = html;
-}
-
 /* ---------- helpers ---------- */
 function escapeHtml(str) {
   return String(str)
@@ -371,7 +267,6 @@ function escapeHtml(str) {
 function escapeHtmlAttr(str) {
   return escapeHtml(str).replaceAll('"', "&quot;");
 }
-
 /* ---------- Logo: anasayfaya dön (Tümü) ---------- */
 const homeLogoBtn = document.getElementById("homeLogoBtn");
 if (homeLogoBtn) {
@@ -384,7 +279,8 @@ if (homeLogoBtn) {
     if (input) input.value = "";
 
     setCurrentFilterText("Tümü");
-    applyFilters(true);
-    closeMenu();
+    applyFilters(true);     // history’ye eklesin (geri tuşu da düzgün)
+    closeMenu();            // menü açıksa kapansın
   });
 }
+
