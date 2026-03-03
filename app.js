@@ -41,7 +41,7 @@ function readStateFromUrl() {
       : (currentSub ? `${currentGroup} > ${currentSub}` : currentGroup)
   );
 
-  applyFilters(false); // push yapma
+  applyFilters(false);
 }
 
 /* Geri/ileri tuşu */
@@ -221,38 +221,96 @@ function applyFilters(pushHistory = true) {
     });
   }
 
-  renderProducts(filtered);
+  renderCatalog(filtered);
 
   if (pushHistory) setUrlFromState(true);
 }
 
-/* ---------- Ürünleri bas ---------- */
-function renderProducts(products) {
-  const grid = document.getElementById("productGrid");
-  if (!grid) return;
+/* ---------- ✅ Grup + Alt Grup + Kartlar ---------- */
+function renderCatalog(products) {
+  const root = document.getElementById("productGrid");
+  if (!root) return;
 
-  grid.innerHTML = "";
+  root.innerHTML = "";
+
+  // Map: group -> sub -> items
+  const groupMap = new Map();
 
   products.forEach(p => {
-    const card = document.createElement("div");
-    card.className = "card";
+    const g = (p.group || "GRUPSUZ").trim() || "GRUPSUZ";
+    const s = (p.subcategory || "ALT GRUP YOK").trim() || "ALT GRUP YOK";
 
-    const imgSrc = p.image ? `images/${p.image}` : "images/placeholder.png";
+    if (!groupMap.has(g)) groupMap.set(g, new Map());
+    const subMap = groupMap.get(g);
+    if (!subMap.has(s)) subMap.set(s, []);
+    subMap.get(s).push(p);
+  });
 
-    card.innerHTML = `
-      <img src="${imgSrc}" alt="" onerror="this.src='images/placeholder.png'">
-      <div class="name">${escapeHtml(p.name || "")}</div>
-      <div class="code">${escapeHtml(p.code || "")}</div>
-      <div class="brand">${escapeHtml(p.brand || "")}</div>
+  const groupNames = Array.from(groupMap.keys()).sort((a,b) => a.localeCompare(b, "tr"));
+
+  groupNames.forEach(groupName => {
+    const groupSection = document.createElement("section");
+    groupSection.className = "cat-group";
+
+    groupSection.innerHTML = `
+      <div class="cat-group-title">${escapeHtml(groupName)}</div>
     `;
 
-    card.addEventListener("click", () => {
-      const ref = encodeURIComponent(window.location.pathname + window.location.search);
-      window.location.href = `product.html?id=${encodeURIComponent(p.id)}&ref=${ref}`;
+    const subMap = groupMap.get(groupName);
+    const subNames = Array.from(subMap.keys()).sort((a,b) => a.localeCompare(b, "tr"));
+
+    subNames.forEach(subName => {
+      const subWrap = document.createElement("div");
+      subWrap.className = "cat-sub";
+
+      subWrap.innerHTML = `
+        <div class="cat-sub-title">${escapeHtml(subName)}</div>
+        <div class="grid"></div>
+      `;
+
+      const grid = subWrap.querySelector(".grid");
+      const items = subMap.get(subName) || [];
+
+      // İstersen sırala: kod/isim
+      items.sort((x,y) => {
+        const cx = (x.code || "").toString();
+        const cy = (y.code || "").toString();
+        const c = cx.localeCompare(cy, "tr");
+        if (c !== 0) return c;
+        return (x.name || "").localeCompare((y.name || ""), "tr");
+      });
+
+      items.forEach(p => {
+        const card = document.createElement("div");
+        card.className = "card";
+
+        const imgSrc = p.image ? `images/${p.image}` : "images/placeholder.png";
+
+        card.innerHTML = `
+          <img src="${imgSrc}" alt="" onerror="this.src='images/placeholder.png'">
+          <div class="name">${escapeHtml(p.name || "")}</div>
+          <div class="code">${escapeHtml(p.code || "")}</div>
+          <div class="brand">${escapeHtml(p.brand || "")}</div>
+        `;
+
+        // Detaya git
+        card.addEventListener("click", () => {
+          const ref = encodeURIComponent(window.location.pathname + window.location.search);
+          window.location.href = `product.html?id=${encodeURIComponent(p.id)}&ref=${ref}`;
+        });
+
+        grid.appendChild(card);
+      });
+
+      groupSection.appendChild(subWrap);
     });
 
-    grid.appendChild(card);
+    root.appendChild(groupSection);
   });
+
+  if (products.length === 0) {
+    root.innerHTML = `<div style="padding:20px;color:#666;">Bu filtrede ürün bulunamadı.</div>`;
+  }
 }
 
 /* ---------- helpers ---------- */
@@ -267,6 +325,7 @@ function escapeHtml(str) {
 function escapeHtmlAttr(str) {
   return escapeHtml(str).replaceAll('"', "&quot;");
 }
+
 /* ---------- Logo: anasayfaya dön (Tümü) ---------- */
 const homeLogoBtn = document.getElementById("homeLogoBtn");
 if (homeLogoBtn) {
@@ -279,8 +338,7 @@ if (homeLogoBtn) {
     if (input) input.value = "";
 
     setCurrentFilterText("Tümü");
-    applyFilters(true);     // history’ye eklesin (geri tuşu da düzgün)
-    closeMenu();            // menü açıksa kapansın
+    applyFilters(true);
+    closeMenu();
   });
 }
-
