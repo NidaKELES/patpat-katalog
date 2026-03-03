@@ -666,15 +666,6 @@
     "name": "Yağmur Kaput Dayama Ayağı – E.M",
     "image": "099_299_1.jpeg"
   },
-   {
-    "id": "114_-KARDEN-U_Demiri",
-    "group": "KAPUT GRUBU",
-    "subcategory": "MENTEŞE & DAYAMA AYAKLARI",
-    "code": "114",
-    "brand": "KARDEN",
-    "name": "U Demiri",
-    "image": "udemiri.JPG"
-  },
   {
     "id": "099_304-KARDEN-510_Yağ_Filtresi",
     "group": "FİLTRE GRUBU",
@@ -883,15 +874,6 @@
     "image": "altıköşeşaft.JPG"
   },  
   {
-    "id": "KARDEN-U_Demiri_Plastiği",
-    "group": "KAPUT TAKOZLARI, KÖRÜK VE KAUÇUK AKSAMLAR",
-    "subcategory": "KAPUT TAKOZLARI & BAĞLANTI ELEMANLARI",
-    "code": "",
-    "brand": "KARDEN",
-    "name": "U Demiri Plastiği",
-    "image": "uplastiği.JPG"
-  },
-  {
     "id": "KARDEN-Yet_-_250_Tutucu_Plastiği",
     "group": "KAPUT TAKOZLARI, KÖRÜK VE KAUÇUK AKSAMLAR",
     "subcategory": "KAPUT TAKOZLARI & BAĞLANTI ELEMANLARI",
@@ -982,15 +964,6 @@
     "image": "eksoztakozu.JPG"
   },
   {
-    "id": "766-KARDEN-Akü_Sehpa_Takozu",
-    "group": "KAPUT TAKOZLARI, KÖRÜK VE KAUÇUK AKSAMLAR",
-    "subcategory": "AKÜ & ELEKTRİK AKSAMLARI",
-    "code": "766",
-    "brand": "KARDEN",
-    "name": "Akü Sehpa Takozu",
-    "image": ""
-  },
-  {
     "id": "099_800-KARDEN-Akü_Ayırıcı_Jak_2535",
     "group": "KAPUT TAKOZLARI, KÖRÜK VE KAUÇUK AKSAMLAR",
     "subcategory": "AKÜ & ELEKTRİK AKSAMLARI",
@@ -1009,24 +982,6 @@
     "image": "JAK35.jpeg"
   },
   {
-    "id": "099_373-KARDEN-Vites_Körüğü",
-    "group": "KAPUT TAKOZLARI, KÖRÜK VE KAUÇUK AKSAMLAR",
-    "subcategory": "KÖRÜK, HORTUM &FLANŞLAR",
-    "code": "099 373",
-    "brand": "KARDEN",
-    "name": "Vites Körüğü",
-    "image": ""
-  },
-  {
-    "id": "099_373_-_1-KARDEN-Vites_Körüğü__Uzun_Tip",
-    "group": "KAPUT TAKOZLARI, KÖRÜK VE KAUÇUK AKSAMLAR",
-    "subcategory": "KÖRÜK, HORTUM &FLANŞLAR",
-    "code": "099 373 - 1",
-    "brand": "KARDEN",
-    "name": "Vites Körüğü – Uzun Tip",
-    "image": ""
-  },
-  {
     "id": "4215-KARDEN-Yağ_Geri_Dönüş_Tahliye_Hortumu",
     "group": "KAPUT TAKOZLARI, KÖRÜK VE KAUÇUK AKSAMLAR",
     "subcategory": "KÖRÜK, HORTUM &FLANŞLAR",
@@ -1042,15 +997,6 @@
     "code": "099 360",
     "brand": "KARDEN",
     "name": "Geri Dönüş Flanşlı Hortum",
-    "image": ""
-  },
-  {
-    "id": "099_360-1-KARDEN-Alüminyum_Geri_Dönüş_Flanşı",
-    "group": "KAPUT TAKOZLARI, KÖRÜK VE KAUÇUK AKSAMLAR",
-    "subcategory": "KÖRÜK, HORTUM &FLANŞLAR",
-    "code": "099 360-1",
-    "brand": "KARDEN",
-    "name": "Alüminyum Geri Dönüş Flanşı",
     "image": ""
   },
   {
@@ -1078,7 +1024,7 @@
     "code": "099 367 - 1",
     "brand": "KARDEN",
     "name": "Çalıştırma İpi – Komple",
-    "image": "çalıştırmaipi.JPG"
+    "image": "çalıştırmaipi.png"
   },
   {
     "id": "099_367_-_2-KARDEN-Çalıştırma_İpi",
@@ -1087,7 +1033,7 @@
     "code": "099 367 - 2",
     "brand": "KARDEN",
     "name": "Çalıştırma İpi",
-    "image": ""
+    "image": "ipplastiği.png"
   },
   {
     "id": "099_367-KARDEN-Çalıştırma_İpi_Plastiği",
@@ -1132,7 +1078,7 @@
     "code": "778",
     "brand": "KARDEN",
     "name": "Kasa Mandalı (Römork İçin)",
-    "image": ""
+    "image": "kasamandalı.png"
   },
   {
     "id": "099_349-KARDEN-Eksoz",
@@ -1195,7 +1141,7 @@
     "code": "8560",
     "brand": "KARDEN",
     "name": "1600 Aks – Rulmanlı",
-    "image": ""
+    "image": "1600aksrulmanlı.png"
   },
   {
     "id": "3102-KARDEN-1600_Direksiyon_Kutusu",
@@ -1231,25 +1177,16 @@
     "code": "308",
     "brand": "KARDEN",
     "name": "Vites Alt Kolu – Komple",
-    "image": ""
+    "image": "altkolkomple.png"
   },
   {
-    "id": "342-KARDEN-Vites_Alt_Kolu__Yaylı",
+    "id": "342-KARDEN-Vites_Alt_Kolu_Yayı",
     "group": "ŞAFT & AKS MALZEMELERİ",
     "subcategory": "VİTES AKSAMLARI",
     "code": "342",
     "brand": "KARDEN",
-    "name": "Vites Alt Kolu – Yaylı",
-    "image": ""
-  },
-  {
-    "id": "7756-KARDEN-1300_Vites_Kolu_Tamir_Takımı",
-    "group": "ŞAFT & AKS MALZEMELERİ",
-    "subcategory": "VİTES AKSAMLARI",
-    "code": "7756",
-    "brand": "KARDEN",
-    "name": "1300 Vites Kolu Tamir Takımı",
-    "image": "7756.png"
+    "name": "Vites Alt Kolu Yayı",
+    "image": "altvitesyay.png"
   },
   {
     "id": "310-KARDEN-Vites_Alt_Körüğü",
@@ -1261,22 +1198,49 @@
     "image": "310.jpeg"
   },
   {
-    "id": "312-KARDEN-Vites_Üst_Körüğü",
+    "id": "099 373-KARDEN-Vites_Üst_Körüğü",
     "group": "ŞAFT & AKS MALZEMELERİ",
     "subcategory": "VİTES AKSAMLARI",
-    "code": "312",
+    "code": "099 373",
     "brand": "KARDEN",
     "name": "Vites Üst Körüğü",
     "image": "312.jpeg"
   },
   {
-    "id": "318-KARDEN-Vites_Çanağı",
+    "id": "KARDEN-Vites_Üst_Çanağı",
+    "group": "ŞAFT & AKS MALZEMELERİ",
+    "subcategory": "VİTES AKSAMLARI",
+    "code": "",
+    "brand": "KARDEN",
+    "name": "Vites Üst Çanağı",
+    "image": "üstçanak.png"
+  },
+  {
+    "id": "318-KARDEN-Vites_Alt_Çanağı",
     "group": "ŞAFT & AKS MALZEMELERİ",
     "subcategory": "VİTES AKSAMLARI",
     "code": "318",
     "brand": "KARDEN",
-    "name": "Vites Çanağı",
-    "image": ""
+    "name": "Vites Alt Çanağı",
+    "image": "altçanak.png"
+  },
+    {
+    "id": "7756-KARDEN-1300_Vites_Kolu_Tamir_Takımı",
+    "group": "ŞAFT & AKS MALZEMELERİ",
+    "subcategory": "VİTES AKSAMLARI",
+    "code": "7756",
+    "brand": "KARDEN",
+    "name": "1300 Vites Kolu Tamir Takımı",
+    "image": "1300vites.png"
+  },
+    {
+    "id": "KARDEN-Vites_Alt_Kolu_SLX",
+    "group": "ŞAFT & AKS MALZEMELERİ",
+    "subcategory": "VİTES AKSAMLARI",
+    "code": "",
+    "brand": "KARDEN",
+    "name": "Vites Alt Kolu SLX",
+    "image": "viteskolkomple.png"
   },
   {
     "id": "760-KARDEN-Arka_Teker_Bijonu",
@@ -1285,7 +1249,7 @@
     "code": "760",
     "brand": "KARDEN",
     "name": "Arka Teker Bijonu",
-    "image": ""
+    "image": "arkabijon.png"
   },
   {
     "id": "7600-KARDEN-Arka_Teker_Bijonu__Çakma_Tip",
@@ -1294,7 +1258,7 @@
     "code": "7600",
     "brand": "KARDEN",
     "name": "Arka Teker Bijonu – Çakma Tip",
-    "image": "7600.jpeg"
+    "image": "çakma.png"
   },
   {
     "id": "7882-KARDEN-Çakma_Bijon_Somunu",
@@ -1504,22 +1468,13 @@
     "image": "balatayay.png"
   },
   {
-    "id": "KARDEN-Yağmur_Debriyaj_Balata_Saplaması",
-    "group": "DEBRİYAJ, FREN & BALATA MALZEMELERİ",
-    "subcategory": "DEBRİYAJ & BALATA AKSAMLARI",
-    "code": "",
-    "brand": "KARDEN",
-    "name": "Yağmur Debriyaj Balata Saplaması",
-    "image": "saplama.png"
-  },
-  {
     "id": "346-KARDEN-Fren_Konik_Yay__Arka_M131__DKŞ",
     "group": "DEBRİYAJ, FREN & BALATA MALZEMELERİ",
     "subcategory": "FREN YAYLARI & KÜÇÜK PARÇALAR",
     "code": "346",
     "brand": "KARDEN",
     "name": "Fren Konik Yay – Arka (M131 / D.K.Ş.)",
-    "image": ""
+    "image": "konik.png"
   },
   {
     "id": "348-KARDEN-Fren_Çapraz_Yayı__Arka_M131__DKŞ",
@@ -1528,7 +1483,7 @@
     "code": "348",
     "brand": "KARDEN",
     "name": "Fren Çapraz Yayı – Arka (M131 / D.K.Ş.)",
-    "image": ""
+    "image": "çapraz.png"
   },
   {
     "id": "350-KARDEN-Fren_Üst_Yayı__Kalın_M131__DKŞ",
@@ -1537,7 +1492,7 @@
     "code": "350",
     "brand": "KARDEN",
     "name": "Fren Üst Yayı – Kalın (M131 / D.K.Ş.)",
-    "image": ""
+    "image": "kalınyay.png"
   },
   {
     "id": "352-KARDEN-Fren_Alt_Yayı__İnce_M131__DKŞ",
@@ -1546,7 +1501,7 @@
     "code": "352",
     "brand": "KARDEN",
     "name": "Fren Alt Yayı – İnce (M131 / D.K.Ş.)",
-    "image": ""
+    "image": "inceyay.png"
   },
   {
     "id": "354-KARDEN-Fren_Konik_Yay_Mührü_M131__DKŞ",
@@ -1555,7 +1510,7 @@
     "code": "354",
     "brand": "KARDEN",
     "name": "Fren Konik Yay Mührü (M131 / D.K.Ş.)",
-    "image": ""
+    "image": "frenmührü.png"
   },
   {
     "id": "356-KARDEN-Kamalı_Mil_Somunu_M131__DKŞ",
@@ -1564,7 +1519,7 @@
     "code": "356",
     "brand": "KARDEN",
     "name": "Kamalı Mil Somunu (M131 / D.K.Ş.)",
-    "image": ""
+    "image": "kamalı.png"
   },
   {
     "id": "358-KARDEN-Mahruti_Ayar_Somunu_M131__DKŞ",
@@ -1573,7 +1528,7 @@
     "code": "358",
     "brand": "KARDEN",
     "name": "Mahruti Ayar Somunu (M131 / D.K.Ş.)",
-    "image": ""
+    "image": "mahruti.png"
   },
   {
     "id": "360-KARDEN-Fren_Tahliye_Rekoru__İnce_Diş_Tofaş",
@@ -1582,7 +1537,7 @@
     "code": "360",
     "brand": "KARDEN",
     "name": "Fren Tahliye Rekoru – İnce Diş (Tofaş)",
-    "image": ""
+    "image": "tahliyerekor.png"
   },
 
   {
@@ -2250,7 +2205,7 @@
     "code": "",
     "brand": "KARDEN",
     "name": "Diferansiyel Kapağı – 1600",
-    "image": ""
+    "image": "1600kapak.png"
   },
   {
     "id": "652-KARDEN-Diferansiyel_Contası__1600_Römork_İçin",
@@ -2259,7 +2214,7 @@
     "code": "652",
     "brand": "KARDEN",
     "name": "Diferansiyel Contası – 1600 (Römork İçin)",
-    "image": ""
+    "image": "1600dif.png"
   },
   {
     "id": "654-KARDEN-Diferansiyel_Contası__1300_Römork_İçin",
@@ -2268,7 +2223,7 @@
     "code": "654",
     "brand": "KARDEN",
     "name": "Diferansiyel Contası – 1300 (Römork İçin)",
-    "image": ""
+    "image": "1600dif.png"
   },
   {
     "id": "660-KARDEN-Şanzıman_Contası",
@@ -2277,7 +2232,7 @@
     "code": "660",
     "brand": "KARDEN",
     "name": "Şanzıman Contası",
-    "image": ""
+    "image": "şanzımantakım.png"
   },
   {
     "id": "662-KARDEN-Şanzıman_Arka_Contası",
@@ -2286,7 +2241,7 @@
     "code": "662",
     "brand": "KARDEN",
     "name": "Şanzıman Arka Contası",
-    "image": ""
+    "image": "şanzımanarka.png"
   },
   {
     "id": "664-KARDEN-Şanzıman_Ön_Contası",
@@ -2295,7 +2250,7 @@
     "code": "664",
     "brand": "KARDEN",
     "name": "Şanzıman Ön Contası",
-    "image": ""
+    "image": "şanzımanön.png"
   },
   {
     "id": "666-KARDEN-Şanzıman_Alt_Contası",
@@ -2304,7 +2259,7 @@
     "code": "666",
     "brand": "KARDEN",
     "name": "Şanzıman Alt Contası",
-    "image": ""
+    "image": "şanzımanalt.png"
   },
   {
     "id": "670-KARDEN-Karter_Contası_Motor_İçin_No_1",
@@ -2313,7 +2268,7 @@
     "code": "670",
     "brand": "KARDEN",
     "name": "Karter Contası (Motor İçin No: 1)",
-    "image": ""
+    "image": "karter.png"
   },
   {
     "id": "672-KARDEN-Şanzıman_Üst_Contası_Motor_İçin_No_2",
@@ -2322,7 +2277,7 @@
     "code": "672",
     "brand": "KARDEN",
     "name": "Şanzıman Üst Contası (Motor İçin No: 2)",
-    "image": ""
+    "image": "üstconta.jpeg"
   },
   {
     "id": "674-KARDEN-Ön_Flanş_Contası_Motor_İçin_No_3",
@@ -2331,7 +2286,7 @@
     "code": "674",
     "brand": "KARDEN",
     "name": "Ön Flanş Contası (Motor İçin No: 3)",
-    "image": ""
+    "image": "önflanş.jpeg"
   },
   {
     "id": "676-KARDEN-Aks_Contası_Motor_İçin_No_4",
@@ -2340,7 +2295,7 @@
     "code": "676",
     "brand": "KARDEN",
     "name": "Aks Contası (Motor İçin No: 4)",
-    "image": ""
+    "image": "defyanconta.png"
   },
   {
     "id": "678-KARDEN-Şanzıman_Ara_Contası_Motor_İçin_No_5",
@@ -2349,7 +2304,7 @@
     "code": "678",
     "brand": "KARDEN",
     "name": "Şanzıman Ara Contası (Motor İçin No: 5)",
-    "image": ""
+    "image": "şanzımanara.png"
   },
   {
     "id": "680-KARDEN-Diferansiyel_Yan_Contası_Motor_İçin_No_6",
@@ -2358,7 +2313,7 @@
     "code": "680",
     "brand": "KARDEN",
     "name": "Diferansiyel Yan Contası (Motor İçin No: 6)",
-    "image": ""
+    "image": "defyanconta.png"
   },
   {
     "id": "682-KARDEN-Karbüratör_Kapak_Contası_Motor_İçin_No_7",
@@ -2367,7 +2322,7 @@
     "code": "682",
     "brand": "KARDEN",
     "name": "Karbüratör Kapak Contası (Motor İçin No: 7)",
-    "image": ""
+    "image": "karbürtör.png"
   },
   {
     "id": "684-KARDEN-Mesnet_Contası_Motor_İçin_No_8",
@@ -2385,7 +2340,7 @@
     "code": "686",
     "brand": "KARDEN",
     "name": "Hava Filtre Contası (Motor İçin No: 9)",
-    "image": ""
+    "image": "havafiltrecon.png"
   },
   {
     "id": "688-KARDEN-Jikle_Contası_Motor_İçin_No_10",
@@ -2394,7 +2349,7 @@
     "code": "688",
     "brand": "KARDEN",
     "name": "Jikle Contası (Motor İçin No: 10)",
-    "image": ""
+    "image": "jikle.png"
   },
   {
     "id": "690-KARDEN-Egzoz_Contası_Motor_İçin_No_11",
@@ -2403,7 +2358,16 @@
     "code": "690",
     "brand": "KARDEN",
     "name": "Egzoz Contası (Motor İçin No: 11)",
-    "image": ""
+    "image": "eksozcont.png"
+  },
+  {
+    "id": "KARDEN-Vites_Çanağı_Contası",
+    "group": "DİFERANSİYEL, ŞANZUMAN & CONTA GRUBU",
+    "subcategory": "MOTOR CONTALARI (NUMARALI SET)",
+    "code": "",
+    "brand": "KARDEN",
+    "name": "Vites Çanağı Contası ",
+    "image": "vitescontası.png"
   },
   {
     "id": "099_323-KARDEN-Kabin_Aynası__Tane",
@@ -3735,7 +3699,7 @@
     "code": "60BO12.926.02K",
     "brand": "SEGER",
     "name": "Korsa Çift Fişli Dadat",
-    "image": "60BO12.926.02K.png"
+    "image": "60BO12.926.02K.JPG"
   },
   {
     "id": "82EH1200003-SEGER-12V_Dali_Dali_Korna",
@@ -4756,7 +4720,7 @@
     "code": "630374",
     "brand": "KWC",
     "name": "630374 Aks Rulman",
-    "image": ""
+    "image": "630374"
   },
   {
     "id": "30205-KWC-30205_Rulman",
@@ -4774,52 +4738,7 @@
     "code": "7857",
     "brand": "KWC",
     "name": "Masura Rulman (Prizdirek İçin)",
-    "image": ""
-  },
-  {
-    "id": "203-KWC-KWC-203_Rulman",
-    "group": "KWC RULMAN",
-    "subcategory": "KWC – SARHOŞ & ÖZEL RULMANLAR",
-    "code": "203",
-    "brand": "KWC",
-    "name": "KWC-203 Rulman",
-    "image": ""
-  },
-  {
-    "id": "204-KWC-KWC-204_Sarhoş_Rulman",
-    "group": "KWC RULMAN",
-    "subcategory": "KWC – SARHOŞ & ÖZEL RULMANLAR",
-    "code": "204",
-    "brand": "KWC",
-    "name": "KWC-204 Sarhoş Rulman",
-    "image": ""
-  },
-  {
-    "id": "205-KWC-KWC-205_Sarhoş_Rulman",
-    "group": "KWC RULMAN",
-    "subcategory": "KWC – SARHOŞ & ÖZEL RULMANLAR",
-    "code": "205",
-    "brand": "KWC",
-    "name": "KWC-205 Sarhoş Rulman",
-    "image": ""
-  },
-  {
-    "id": "206-KWC-KWC-206_Sarhoş_Rulman",
-    "group": "KWC RULMAN",
-    "subcategory": "KWC – SARHOŞ & ÖZEL RULMANLAR",
-    "code": "206",
-    "brand": "KWC",
-    "name": "KWC-206 Sarhoş Rulman",
-    "image": ""
-  },
-  {
-    "id": "207-KWC-Kafesli_İğne_Rulman_20__26__17",
-    "group": "KWC RULMAN",
-    "subcategory": "KWC – SARHOŞ & ÖZEL RULMANLAR",
-    "code": "207",
-    "brand": "KWC",
-    "name": "Kafesli İğne Rulman 20 × 26 × 17",
-    "image": ""
+    "image": "masura.png"
   },
   {
     "id": "718-YET-YET-510_Toz_Keçesi",
@@ -6095,24 +6014,6 @@
     "image": "pimsiz.png"
   },
   {
-    "id": "099_8524-PASO_4-Gaz_Teli_Merkezleme_Ara_Rekoru",
-    "group": "YEDEK PARÇA GRUBU",
-    "subcategory": "AYAR VE ARA PARÇALAR",
-    "code": "099 8524",
-    "brand": "PASO 4",
-    "name": "Gaz Teli Merkezleme Ara Rekoru",
-    "image": ""
-  },
-  {
-    "id": "099_8525-PASO_6-Debriyaj_Teli_Merkezleme_Ara_Rekoru",
-    "group": "YEDEK PARÇA GRUBU",
-    "subcategory": "AYAR VE ARA PARÇALAR",
-    "code": "099 8525",
-    "brand": "PASO 6",
-    "name": "Debriyaj Teli Merkezleme Ara Rekoru",
-    "image": ""
-  },
-  {
     "id": "099_8520-YAĞMUR-Manet_Pimi__Yuvalı",
     "group": "YEDEK PARÇA GRUBU",
     "subcategory": "PİMLER",
@@ -6299,7 +6200,7 @@
     "code": "099 8555",
     "brand": "KARDEN",
     "name": "Gidon Bağlantı Kelepçesi",
-    "image": ""
+    "image": "udemiri.JPG"
   },
   {
     "id": "KARDEN-Gidon_Bağlantı_Kelepçesi_Plastiği",
@@ -6308,16 +6209,7 @@
     "code": "",
     "brand": "KARDEN",
     "name": "Gidon Bağlantı Kelepçesi Plastiği",
-    "image": ""
-  },
-  {
-    "id": "KARDEN-Vites_Kolu_Plastiği_Takım_22__4_Parça__Beyaz",
-    "group": "YEDEK PARÇA GRUBU",
-    "subcategory": "DİĞER",
-    "code": "",
-    "brand": "KARDEN",
-    "name": "Vites Kolu Plastiği Takım (2+2 / 4 Parça – Beyaz)",
-    "image": ""
+    "image": "uplastiği.JPG"
   },
   {
     "id": "KARDEN-Amortisör_Takozu_Takım_44__8_Parça",
