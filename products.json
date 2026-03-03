@@ -1027,22 +1027,13 @@
     "image": "çalıştırmaipi.png"
   },
   {
-    "id": "099_367_-_2-KARDEN-Çalıştırma_İpi",
-    "group": "KAPUT TAKOZLARI, KÖRÜK VE KAUÇUK AKSAMLAR",
-    "subcategory": "ÇALIŞTIRMA MEKANİZMASI",
-    "code": "099 367 - 2",
-    "brand": "KARDEN",
-    "name": "Çalıştırma İpi",
-    "image": "ipplastiği.png"
-  },
-  {
     "id": "099_367-KARDEN-Çalıştırma_İpi_Plastiği",
     "group": "KAPUT TAKOZLARI, KÖRÜK VE KAUÇUK AKSAMLAR",
     "subcategory": "ÇALIŞTIRMA MEKANİZMASI",
     "code": "099 367",
     "brand": "KARDEN",
     "name": "Çalıştırma İpi Plastiği",
-    "image": ""
+    "image": "ipplastiği.png"
   },
   {
     "id": "099_390_-_1-KARDEN-Direksiyon_Simidi",

@@ -48,8 +48,13 @@
 </header>
 
 <main>
-  <!-- ✅ Artık buraya grup/alt grup + grid basılacak -->
-  <div id="productGrid" class="catalog"></div>
+  <!-- ✅ PRINT üst başlık (ekranda gizli, sadece Ctrl+P’de görünür) -->
+  <div class="print-header" id="printHeader" aria-hidden="true">
+    <img src="images/karadeniz.png" alt="Karadeniz Ticaret" class="print-logo">
+    <div class="print-title">Ürün Kataloğu</div>
+  </div>
+
+  <div id="productGrid" class="grid"></div>
 </main>
 
 <!-- ✅ WhatsApp Sipariş Hattı Butonu -->

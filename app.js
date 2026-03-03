@@ -41,7 +41,7 @@ function readStateFromUrl() {
       : (currentSub ? `${currentGroup} > ${currentSub}` : currentGroup)
   );
 
-  applyFilters(false);
+  applyFilters(false); // push yapma
 }
 
 /* Geri/ileri tuşu */
@@ -108,26 +108,18 @@ function buildMenu() {
   const menuBody = document.getElementById("menuBody");
   if (!menuBody) return;
 
-  // ✅ Menüde de products.json sırasını korumak için:
-  // groupOrder ve subOrder set gibi çalışır (ilk göründüğü sıra)
-  const groupOrder = [];
-  const subOrderMap = new Map();
-
-  allProducts.forEach(p => {
+  // Menüde de JSON sırasını koruyalım:
+  const map = new Map(); // group -> Set(subs)
+  for (const p of allProducts) {
     const g = (p.group || "").trim();
     const s = (p.subcategory || "").trim();
-    if (!g) return;
+    if (!g) continue;
 
-    if (!subOrderMap.has(g)) {
-      subOrderMap.set(g, []);
-      groupOrder.push(g);
-    }
+    if (!map.has(g)) map.set(g, new Set());
+    if (s) map.get(g).add(s);
+  }
 
-    if (s) {
-      const arr = subOrderMap.get(g);
-      if (!arr.includes(s)) arr.push(s);
-    }
-  });
+  const groups = Array.from(map.keys()); // ✅ A-Z YOK
 
   menuBody.innerHTML = `
     <div class="menu-top">
@@ -146,8 +138,8 @@ function buildMenu() {
     });
   }
 
-  groupOrder.forEach(groupName => {
-    const subs = subOrderMap.get(groupName) || [];
+  groups.forEach(groupName => {
+    const subs = Array.from(map.get(groupName)); // ✅ A-Z YOK
 
     const item = document.createElement("div");
     item.className = "group-item";
@@ -231,106 +223,144 @@ function applyFilters(pushHistory = true) {
     });
   }
 
-  renderCatalogKeepJsonOrder(filtered);
+  renderProducts(filtered);
 
   if (pushHistory) setUrlFromState(true);
 }
 
-/* ---------- ✅ KATALOG: products.json sırasını KORU ---------- */
-function renderCatalogKeepJsonOrder(products) {
-  const root = document.getElementById("productGrid");
-  if (!root) return;
+/* ---------- Ürünleri bas (ekran) ---------- */
+function renderProducts(products) {
+  const grid = document.getElementById("productGrid");
+  if (!grid) return;
 
-  root.innerHTML = "";
+  // print sınıflarını temizle
+  grid.classList.remove("print-catalog");
 
-  // groupOrder: grup ilk göründüğü sırayla
-  const groupOrder = [];
-  // subOrderMap: alt gruplar ilk göründüğü sırayla
-  const subOrderMap = new Map();
-  // itemsMap: group -> sub -> items (ürünler de JSON sırasıyla push)
-  const itemsMap = new Map();
+  grid.innerHTML = "";
 
   products.forEach(p => {
-    const g = (p.group || "GRUPSUZ").trim() || "GRUPSUZ";
-    const s = (p.subcategory || "ALT GRUP YOK").trim() || "ALT GRUP YOK";
+    const card = document.createElement("div");
+    card.className = "card";
 
-    if (!itemsMap.has(g)) {
-      itemsMap.set(g, new Map());
+    const imgSrc = p.image ? `images/${p.image}` : "images/placeholder.png";
+
+    card.innerHTML = `
+      <img src="${imgSrc}" alt="" onerror="this.src='images/placeholder.png'">
+      <div class="name">${escapeHtml(p.name || "")}</div>
+      <div class="code">${escapeHtml(p.code || "")}</div>
+      <div class="brand">${escapeHtml(p.brand || "")}</div>
+    `;
+
+    card.addEventListener("click", () => {
+      const ref = encodeURIComponent(window.location.pathname + window.location.search);
+      window.location.href = `product.html?id=${encodeURIComponent(p.id)}&ref=${ref}`;
+    });
+
+    grid.appendChild(card);
+  });
+}
+
+/* ---------- PRINT: Gruplu katalog basımı ---------- */
+function renderPrintCatalog(productsInOrder) {
+  const grid = document.getElementById("productGrid");
+  if (!grid) return;
+
+  // grid yerine print-catalog
+  grid.classList.add("print-catalog");
+  grid.innerHTML = "";
+
+  // ✅ JSON sırasına göre group->sub->ürünler
+  const groupOrder = [];
+  const groupMap = new Map(); // group -> { subOrder:[], subMap: Map(sub -> items[]) }
+
+  for (const p of productsInOrder) {
+    const g = (p.group || "").trim() || "DİĞER";
+    const s = (p.subcategory || "").trim() || "DİĞER";
+
+    if (!groupMap.has(g)) {
+      groupMap.set(g, { subOrder: [], subMap: new Map() });
       groupOrder.push(g);
-      subOrderMap.set(g, []);
     }
 
-    const subList = subOrderMap.get(g);
-    if (!subList.includes(s)) subList.push(s);
+    const gObj = groupMap.get(g);
+    if (!gObj.subMap.has(s)) {
+      gObj.subMap.set(s, []);
+      gObj.subOrder.push(s);
+    }
 
-    const subMap = itemsMap.get(g);
-    if (!subMap.has(s)) subMap.set(s, []);
-    subMap.get(s).push(p); // ✅ burada JSON sırası korunur
-  });
+    gObj.subMap.get(s).push(p);
+  }
 
-  groupOrder.forEach(groupName => {
-    const groupSection = document.createElement("section");
-    groupSection.className = "cat-group";
-    groupSection.innerHTML = `<div class="cat-group-title">${escapeHtml(groupName)}</div>`;
+  // DOM yaz
+  for (const g of groupOrder) {
+    const gTitle = document.createElement("div");
+    gTitle.className = "p-group-title";
+    gTitle.textContent = g;
+    grid.appendChild(gTitle);
 
-    const subs = subOrderMap.get(groupName) || [];
-    const subMap = itemsMap.get(groupName) || new Map();
+    const gObj = groupMap.get(g);
+    for (const s of gObj.subOrder) {
+      const sTitle = document.createElement("div");
+      sTitle.className = "p-sub-title";
+      sTitle.textContent = s;
+      grid.appendChild(sTitle);
 
-    subs.forEach(subName => {
-      const subWrap = document.createElement("div");
-      subWrap.className = "cat-sub";
-      subWrap.innerHTML = `
-        <div class="cat-sub-title">${escapeHtml(subName)}</div>
-        <div class="grid"></div>
-      `;
-
-      const grid = subWrap.querySelector(".grid");
-      const items = subMap.get(subName) || [];
-
-      items.forEach(p => {
+      const items = gObj.subMap.get(s) || [];
+      for (const p of items) {
         const card = document.createElement("div");
-        card.className = "card";
+        card.className = "p-card";
 
         const imgSrc = p.image ? `images/${p.image}` : "images/placeholder.png";
 
         card.innerHTML = `
           <img src="${imgSrc}" alt="" onerror="this.src='images/placeholder.png'">
-          <div class="name">${escapeHtml(p.name || "")}</div>
-          <div class="code">${escapeHtml(p.code || "")}</div>
-          <div class="brand">${escapeHtml(p.brand || "")}</div>
+          <div class="p-name">${escapeHtml(p.name || "")}</div>
+          <p class="p-code">${escapeHtml(p.code || "")}</p>
+          <p class="p-brand">${escapeHtml(p.brand || "")}</p>
         `;
 
-        card.addEventListener("click", () => {
-          const ref = encodeURIComponent(window.location.pathname + window.location.search);
-          window.location.href = `product.html?id=${encodeURIComponent(p.id)}&ref=${ref}`;
-        });
-
         grid.appendChild(card);
-      });
-
-      groupSection.appendChild(subWrap);
-    });
-
-    root.appendChild(groupSection);
-  });
-
-  if (products.length === 0) {
-    root.innerHTML = `<div style="padding:20px;color:#666;">Bu filtrede ürün bulunamadı.</div>`;
+      }
+    }
   }
 }
 
-/* ---------- helpers ---------- */
-function escapeHtml(str) {
-  return String(str)
-    .replaceAll("&","&amp;")
-    .replaceAll("<","&lt;")
-    .replaceAll(">","&gt;")
-    .replaceAll('"',"&quot;")
-    .replaceAll("'","&#039;");
-}
-function escapeHtmlAttr(str) {
-  return escapeHtml(str).replaceAll('"', "&quot;");
-}
+/* Ctrl+P basınca otomatik print layout */
+window.addEventListener("beforeprint", () => {
+  // ekranda hangi filtre varsa onu bas:
+  // (istenirse sadece ALL basmak için burada kontrol koyarız)
+  let filtered = allProducts;
+
+  if (currentGroup !== "ALL") {
+    filtered = filtered.filter(p => (p.group || "").trim() === currentGroup);
+  }
+  if (currentSub) {
+    filtered = filtered.filter(p => (p.subcategory || "").trim() === currentSub);
+  }
+  if (searchText) {
+    filtered = filtered.filter(p => {
+      const name = (p.name || "").toLowerCase();
+      const code = (p.code || "").toLowerCase();
+      const brand = (p.brand || "").toLowerCase();
+      const group = (p.group || "").toLowerCase();
+      const sub = (p.subcategory || "").toLowerCase();
+      return (
+        name.includes(searchText) ||
+        code.includes(searchText) ||
+        brand.includes(searchText) ||
+        group.includes(searchText) ||
+        sub.includes(searchText)
+      );
+    });
+  }
+
+  renderPrintCatalog(filtered);
+});
+
+window.addEventListener("afterprint", () => {
+  // print sonrası normal ekrana dön
+  applyFilters(false);
+});
 
 /* ---------- Logo: anasayfaya dön (Tümü) ---------- */
 const homeLogoBtn = document.getElementById("homeLogoBtn");
@@ -347,4 +377,17 @@ if (homeLogoBtn) {
     applyFilters(true);
     closeMenu();
   });
+}
+
+/* ---------- helpers ---------- */
+function escapeHtml(str) {
+  return String(str)
+    .replaceAll("&","&amp;")
+    .replaceAll("<","&lt;")
+    .replaceAll(">","&gt;")
+    .replaceAll('"',"&quot;")
+    .replaceAll("'","&#039;");
+}
+function escapeHtmlAttr(str) {
+  return escapeHtml(str).replaceAll('"', "&quot;");
 }
