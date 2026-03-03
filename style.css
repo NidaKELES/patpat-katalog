@@ -286,7 +286,7 @@ body {
 }
 
 /* =========================
-   ✅ PRINT AYARLARI
+   ✅ PRINT AYARLARI (BOŞ SAYFA YOK + 4'LÜ GRID)
    ========================= */
 @media print {
   body { background: #fff; }
@@ -298,7 +298,7 @@ body {
   #searchInput,
   .menu-wrap { display: none !important; }
 
-  /* Sticky olmasın */
+  /* Sticky olmasın, normal belge gibi aksın */
   .top-bar {
     position: static !important;
     background: transparent !important;
@@ -306,9 +306,10 @@ body {
     padding: 0 0 10px 0 !important;
   }
 
+  /* Logo biraz daha büyük */
   .brand-logo { height: 70px !important; }
 
-  /* ✅ ÖNEMLİ: Büyük bloklara break-inside verme (boş sayfa üretiyor) */
+  /* ✅ ÖNEMLİ: Büyük blokları bölünebilir bırak (boş sayfa üretmesin) */
   .cat-group,
   .cat-sub,
   .grid {
@@ -322,38 +323,38 @@ body {
     page-break-inside: avoid !important;
   }
 
-  /* ✅ Başlıklar sayfa sonunda tek kalmasın */
+  /* ✅ Başlık sayfa sonunda tek kalmasın */
   .cat-group-title,
   .cat-sub-title {
     break-after: avoid !important;
     page-break-after: avoid !important;
   }
 
-  /* ✅ Baskıda “boşluksuz / sıkı” görünüm */
+  /* ✅ Baskıda sıkı dizilim: boşluk yok, 4 ürün yanyana */
   .catalog { padding: 8px 10px !important; }
   .grid {
-    gap: 0 !important;              /* boşluk istemiyorsun */
+    grid-template-columns: repeat(4, 1fr) !important;
+    gap: 0 !important;
     padding: 0 !important;
-    grid-template-columns: repeat(3, 1fr) !important; /* baskıda daha stabil */
   }
 
   .card {
-    box-shadow: none !important;    /* baskıda gölge gereksiz */
+    box-shadow: none !important;
     border: 1px solid #e6e6e6 !important;
-    border-radius: 0 !important;    /* sıkı dizilim için */
-    padding: 6px !important;
+    border-radius: 0 !important;
+    padding: 4px !important;
     margin: 0 !important;
   }
 
   .card img {
     background: #fff !important;
-    height: 120px !important;
+    height: 105px !important;
     border-radius: 0 !important;
-    margin-bottom: 6px !important;
+    margin-bottom: 4px !important;
   }
 
-  /* Sayfa kenar boşluğu */
-  @page { margin: 8mm; }
+  /* Sayfa kenar boşluğu (sayfa sayısını azaltır) */
+  @page { margin: 6mm; }
 }
 /* =========================
    ÜRÜN DETAY (2. görsel gibi)
