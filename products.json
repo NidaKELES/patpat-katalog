@@ -23,7 +23,7 @@
     "subcategory": "KOMPLE MARŞ MOTORLARI",
     "code": "STR 3484",
     "brand": "KARDEN",
-    "name": "Marş Motoru Valeo Tipi Antor, 22’lik, 8 Diş, CCW",
+    "name": "Marş Motoru Valeo Tipi Antor, 17’lik, 9 Diş, CCW",
     "image": "STR3484.png"
   },
   {
@@ -132,7 +132,7 @@
     "code": "77-78-127",
     "brand": "GOVA",
     "name": "Marş Burç Takımı (77-78-127) – Bosch Tipi",
-    "image": ""
+    "image": "burç.png"
   },
   {
     "id": "KARDEN-Marş_Dişlisi__Graves_Tipi_8_Diş",
@@ -204,7 +204,7 @@
     "code": "",
     "brand": "KARDEN",
     "name": "36 Diş Dişli Yuvası (Plastik) – Graves Tipi",
-    "image": ""
+    "image": "dişliyuva.png"
   },
   {
     "id": "KARDEN-Redüktör_Dişli_Takımı__Graves_Tipi",
@@ -583,7 +583,7 @@
     "code": "6K020E",
     "brand": "KARDEN",
     "name": "6’lı Konjektör Soketi",
-    "image": "6020.png"
+    "image": "konjsoket.png"
   },
   {
     "id": "099_296-KARDEN-Yağmur_Kaput__Komple_EM",
@@ -669,7 +669,7 @@
   {
     "id": "099_304-KARDEN-510_Yağ_Filtresi",
     "group": "FİLTRE GRUBU",
-    "subcategory": "YAĞ FİLTRELERİ",
+    "subcategory": "YAĞ & MAZOT & HAVA FİLTRELERİ",
     "code": "099 304",
     "brand": "KARDEN",
     "name": "510 Yağ Filtresi",
@@ -678,7 +678,7 @@
   {
     "id": "099_305-KARDEN-Graves_Yağ_Filtresi",
     "group": "FİLTRE GRUBU",
-    "subcategory": "YAĞ FİLTRELERİ",
+    "subcategory": "YAĞ & MAZOT & HAVA FİLTRELERİ",
     "code": "099 305",
     "brand": "KARDEN",
     "name": "Graves Yağ Filtresi",
@@ -687,7 +687,7 @@
   {
     "id": "099_301-KARDEN-Yağ_Filtresi_Bolat_ZP550_5003_Uzun_Tip",
     "group": "FİLTRE GRUBU",
-    "subcategory": "YAĞ FİLTRELERİ",
+    "subcategory": "YAĞ & MAZOT & HAVA FİLTRELERİ",
     "code": "099 301",
     "brand": "KARDEN",
     "name": "Yağ Filtresi Bolat ZP550 (5003 Uzun Tip)",
@@ -696,16 +696,25 @@
   {
     "id": "099_302-KARDEN-Yağ_Filtresi_Bolat_ZP506__EM_5018_Tombul_Tip",
     "group": "FİLTRE GRUBU",
-    "subcategory": "YAĞ FİLTRELERİ",
+    "subcategory": "YAĞ & MAZOT & HAVA FİLTRELERİ",
     "code": "099 302",
     "brand": "KARDEN",
     "name": "Yağ Filtresi Bolat ZP506 – E.M (5018 Tombul Tip)",
     "image": "5018YAĞ.jpeg"
   },
+    {
+    "id": "099_300-KARDEN-Mazot_Filtresi_Bolat_526_5013_Kısa_Tip",
+    "group": "FİLTRE GRUBU",
+    "subcategory": "YAĞ & MAZOT & HAVA FİLTRELERİ",
+    "code": "099 300",
+    "brand": "KARDEN",
+    "name": "Mazot Filtresi Bolat 526 (5013 Kısa Tip)",
+    "image": "5013mazot.jpeg"
+  },
   {
     "id": "099_307-KARDEN-510_Mazot_Filtresi",
     "group": "FİLTRE GRUBU",
-    "subcategory": "MAZOT FİLTRELERİ",
+    "subcategory": "YAĞ & MAZOT & HAVA FİLTRELERİ",
     "code": "099 307",
     "brand": "KARDEN",
     "name": "510 Mazot Filtresi",
@@ -714,7 +723,7 @@
   {
     "id": "099_308-KARDEN-360_Mazot_Filtresi",
     "group": "FİLTRE GRUBU",
-    "subcategory": "MAZOT FİLTRELERİ",
+    "subcategory": "YAĞ & MAZOT & HAVA FİLTRELERİ",
     "code": "099 308",
     "brand": "KARDEN",
     "name": "360 Mazot Filtresi",
@@ -723,7 +732,7 @@
   {
     "id": "099_313-KARDEN-Uzun_Tip_Mazot_Filtresi",
     "group": "FİLTRE GRUBU",
-    "subcategory": "MAZOT FİLTRELERİ",
+    "subcategory": "YAĞ & MAZOT & HAVA FİLTRELERİ",
     "code": "099 313",
     "brand": "KARDEN",
     "name": "Uzun Tip Mazot Filtresi",
@@ -732,7 +741,7 @@
   {
     "id": "099_312-KARDEN-Orta_Tip_Mazot_Filtresi",
     "group": "FİLTRE GRUBU",
-    "subcategory": "MAZOT FİLTRELERİ",
+    "subcategory": "YAĞ & MAZOT & HAVA FİLTRELERİ",
     "code": "099 312",
     "brand": "KARDEN",
     "name": "Orta Tip Mazot Filtresi",
@@ -741,7 +750,7 @@
   {
     "id": "099_311-KARDEN-Kısa_Tip_Mazot_Filtresi",
     "group": "FİLTRE GRUBU",
-    "subcategory": "MAZOT FİLTRELERİ",
+    "subcategory": "YAĞ & MAZOT & HAVA FİLTRELERİ",
     "code": "099 311",
     "brand": "KARDEN",
     "name": "Kısa Tip Mazot Filtresi",
@@ -750,25 +759,16 @@
   {
     "id": "099_310-KARDEN-İtalyan_Tip_Mazot_Filtresi__Üç_Çıkışlı",
     "group": "FİLTRE GRUBU",
-    "subcategory": "MAZOT FİLTRELERİ",
+    "subcategory": "YAĞ & MAZOT & HAVA FİLTRELERİ",
     "code": "099 310",
     "brand": "KARDEN",
     "name": "İtalyan Tip Mazot Filtresi – Üç Çıkışlı",
     "image": "3çıkışitalyan.jpeg"
   },
   {
-    "id": "099_300-KARDEN-Mazot_Filtresi_Bolat_526_5013_Kısa_Tip",
-    "group": "FİLTRE GRUBU",
-    "subcategory": "MAZOT FİLTRELERİ",
-    "code": "099 300",
-    "brand": "KARDEN",
-    "name": "Mazot Filtresi Bolat 526 (5013 Kısa Tip)",
-    "image": "5013mazot.jpeg"
-  },
-  {
     "id": "099_277_-_1458-KARDEN-510_Hava_Filtre_Süngeri",
     "group": "FİLTRE GRUBU",
-    "subcategory": "HAVA FİLTRELERİ & AKSAMLARI",
+    "subcategory": "YAĞ & MAZOT & HAVA FİLTRELERİ",
     "code": "099 277 - 1458",
     "brand": "KARDEN",
     "name": "510 Hava Filtre Süngeri",
@@ -777,7 +777,7 @@
   {
     "id": "099_336_-_1-KARDEN-360_Hava_Filtre_Süngeri",
     "group": "FİLTRE GRUBU",
-    "subcategory": "HAVA FİLTRELERİ & AKSAMLARI",
+    "subcategory": "YAĞ & MAZOT & HAVA FİLTRELERİ",
     "code": "099 336 - 1",
     "brand": "KARDEN",
     "name": "360 Hava Filtre Süngeri",
@@ -786,7 +786,7 @@
   {
     "id": "099_336_-_2-KARDEN-360_Hava_Filtre_Süngeri__2_Katlı",
     "group": "FİLTRE GRUBU",
-    "subcategory": "HAVA FİLTRELERİ & AKSAMLARI",
+    "subcategory": "YAĞ & MAZOT & HAVA FİLTRELERİ",
     "code": "099 336 - 2",
     "brand": "KARDEN",
     "name": "360 Hava Filtre Süngeri – 2 Katlı",
@@ -795,30 +795,22 @@
   {
     "id": "099_347-KARDEN-Hava_Filtre_Camı",
     "group": "FİLTRE GRUBU",
-    "subcategory": "HAVA FİLTRELERİ & AKSAMLARI",
+    "subcategory": "YAĞ & MAZOT & HAVA FİLTRELERİ",
     "code": "099 347",
     "brand": "KARDEN",
     "name": "Hava Filtre Camı",
     "image": "filtrecamı.jpeg"
   },
   {
-    "id": "099_354-KARDEN-Kaput_Takozu_Üst__Yağmur_EM",
+    "id": "099_354-KARDEN-Kaput_Takozu_Üst",
     "group": "KAPUT TAKOZLARI, KÖRÜK VE KAUÇUK AKSAMLAR",
     "subcategory": "KAPUT TAKOZLARI & BAĞLANTI ELEMANLARI",
     "code": "099 354",
     "brand": "KARDEN",
-    "name": "Kaput Takozu Üst – Yağmur E.M",
+    "name": "Kaput Takozu Üst",
     "image": "üsttakoz.jpeg"
   },
-  {
-    "id": "099_350-KARDEN-Kaput_Takozu_Üst__Yağmur_YM",
-    "group": "KAPUT TAKOZLARI, KÖRÜK VE KAUÇUK AKSAMLAR",
-    "subcategory": "KAPUT TAKOZLARI & BAĞLANTI ELEMANLARI",
-    "code": "099 350",
-    "brand": "KARDEN",
-    "name": "Kaput Takozu Üst – Yağmur Y.M",
-    "image": "placeholder.png"
-  },
+
   {
     "id": "099_351-KARDEN-Kaput_Takozu_Üst__Yağmur_YM_Dış",
     "group": "KAPUT TAKOZLARI, KÖRÜK VE KAUÇUK AKSAMLAR",
@@ -829,22 +821,13 @@
     "image": "dıştakozym.jpeg"
   },
   {
-    "id": "099_353-KARDEN-Kaput_Takozu_Alt_Yağmur_YM_Dış",
-    "group": "KAPUT TAKOZLARI, KÖRÜK VE KAUÇUK AKSAMLAR",
-    "subcategory": "KAPUT TAKOZLARI & BAĞLANTI ELEMANLARI",
-    "code": "099 353",
-    "brand": "KARDEN",
-    "name": "Kaput Takozu Alt– Yağmur Y.M Dış",
-    "image": ""
-  },
-  {
     "id": "099_352-KARDEN-Kaput_Takozu_Alt_Yağmur_YM_İç",
     "group": "KAPUT TAKOZLARI, KÖRÜK VE KAUÇUK AKSAMLAR",
     "subcategory": "KAPUT TAKOZLARI & BAĞLANTI ELEMANLARI",
     "code": "099 352",
     "brand": "KARDEN",
     "name": "Kaput Takozu Alt– Yağmur Y.M İç",
-    "image": ""
+    "image": "takkoz.png"
   },
   {
     "id": "099_355-KARDEN-Kaput_Yan_Bağlantı_Takozu",
@@ -934,30 +917,12 @@
     "code": "780",
     "brand": "KARDEN",
     "name": "Makas Bağlantı Aparatı (Römork İçin)",
-    "image": ""
-  },
-  {
-    "id": "768-KARDEN-Kaput_Üst_Takozu_Motor_İçin",
-    "group": "KAPUT TAKOZLARI, KÖRÜK VE KAUÇUK AKSAMLAR",
-    "subcategory": "MOTOR & ŞANZIMAN TAKOZLARI",
-    "code": "768",
-    "brand": "KARDEN",
-    "name": "Kaput Üst Takozu (Motor İçin)",
-    "image": ""
-  },
-  {
-    "id": "774-KARDEN-Şanzıman_Alt_Takozu_Motor_İçin",
-    "group": "KAPUT TAKOZLARI, KÖRÜK VE KAUÇUK AKSAMLAR",
-    "subcategory": "MOTOR & ŞANZIMAN TAKOZLARI",
-    "code": "774",
-    "brand": "KARDEN",
-    "name": "Şanzıman Alt Takozu (Motor İçin)",
-    "image": ""
+    "image": "makas.png"
   },
   {
     "id": "099_322-KARDEN-Eksoz_Takozu__Somunlu",
     "group": "KAPUT TAKOZLARI, KÖRÜK VE KAUÇUK AKSAMLAR",
-    "subcategory": "MOTOR & ŞANZIMAN TAKOZLARI",
+    "subcategory": "MAKAS & YÜK TAKOZLARI",
     "code": "099 322",
     "brand": "KARDEN",
     "name": "Eksoz Takozu – Somunlu",
@@ -1186,7 +1151,7 @@
     "code": "310",
     "brand": "KARDEN",
     "name": "Vites Alt Körüğü",
-    "image": "310.jpeg"
+    "image": "altkörük.png"
   },
   {
     "id": "099 373-KARDEN-Vites_Üst_Körüğü",
@@ -2316,15 +2281,6 @@
     "image": "karbürtör.png"
   },
   {
-    "id": "684-KARDEN-Mesnet_Contası_Motor_İçin_No_8",
-    "group": "DİFERANSİYEL, ŞANZUMAN & CONTA GRUBU",
-    "subcategory": "MOTOR CONTALARI (NUMARALI SET)",
-    "code": "684",
-    "brand": "KARDEN",
-    "name": "Mesnet Contası (Motor İçin No: 8)",
-    "image": ""
-  },
-  {
     "id": "686-KARDEN-Hava_Filtre_Contası_Motor_İçin_No_9",
     "group": "DİFERANSİYEL, ŞANZUMAN & CONTA GRUBU",
     "subcategory": "MOTOR CONTALARI (NUMARALI SET)",
@@ -2826,7 +2782,7 @@
     "code": "099 652",
     "brand": "KARDEN",
     "name": "Yağmur Far Tesisatı",
-    "image": ""
+    "image": "yağmurfar.png"
   },
   {
     "id": "099_650-KARDEN-Emirsan_Tesisatı",
@@ -2844,7 +2800,7 @@
     "code": "099 651",
     "brand": "KARDEN",
     "name": "Bolat Tesisatı",
-    "image": ""
+    "image": "bolattes.png"
   },
   {
     "id": "099_651-1-KARDEN-Bolat_Far_Tesisatı",
@@ -2951,7 +2907,7 @@
     "subcategory": "TTR KABLOLARI",
     "code": "200-43",
     "brand": "KARDEN",
-    "name": "2×1.0 mm TTR Kablo",
+    "name": "2×1 mm TTR Kablo",
     "image": "200-43.jpeg"
   },
   {
@@ -2960,7 +2916,7 @@
     "subcategory": "TTR KABLOLARI",
     "code": "200-45",
     "brand": "KARDEN",
-    "name": "3×1.0 mm TTR Kablo",
+    "name": "3×1 mm TTR Kablo",
     "image": "200-45.jpeg"
   },
   {
@@ -2969,7 +2925,7 @@
     "subcategory": "TTR KABLOLARI",
     "code": "200-46",
     "brand": "KARDEN",
-    "name": "4×1.0 mm TTR Kablo",
+    "name": "4×1 mm TTR Kablo",
     "image": "200-46.jpeg"
   },
   {
@@ -2978,7 +2934,7 @@
     "subcategory": "TTR KABLOLARI",
     "code": "200-47",
     "brand": "KARDEN",
-    "name": "5×1.0 mm TTR Kablo",
+    "name": "5×1 mm TTR Kablo",
     "image": "200-47.jpeg"
   },
   {
@@ -2987,7 +2943,7 @@
     "subcategory": "TTR KABLOLARI",
     "code": "200-48",
     "brand": "KARDEN",
-    "name": "7×1.0 mm TTR Kablo",
+    "name": "7×1 mm TTR Kablo",
     "image": "200-48.jpeg"
   },
   {
@@ -3050,7 +3006,7 @@
     "subcategory": "KALAYLI ELEKTRİK KABLOLARI",
     "code": "10 1100",
     "brand": "SEVTEL",
-    "name": "1.0 mm Kalaylı Kablo",
+    "name": "1 mm Kalaylı Kablo",
     "image": "1100.jpeg"
   },
   {
@@ -3068,7 +3024,7 @@
     "subcategory": "KALAYLI ELEKTRİK KABLOLARI",
     "code": "10 1200",
     "brand": "SEVTEL",
-    "name": "2.0 mm Kalaylı Kablo",
+    "name": "2 mm Kalaylı Kablo",
     "image": "1200.jpeg"
   },
   {
@@ -3086,7 +3042,7 @@
     "subcategory": "KALAYLI ELEKTRİK KABLOLARI",
     "code": "10 1300",
     "brand": "SEVTEL",
-    "name": "3.0 mm Kalaylı Kablo",
+    "name": "3 mm Kalaylı Kablo",
     "image": "1300.jpeg"
   },
   {
@@ -3095,7 +3051,7 @@
     "subcategory": "KALAYLI ELEKTRİK KABLOLARI",
     "code": "10 1400",
     "brand": "SEVTEL",
-    "name": "4.0 mm Kalaylı Kablo",
+    "name": "4 mm Kalaylı Kablo",
     "image": "1400.png"
   },
   {
@@ -3104,7 +3060,7 @@
     "subcategory": "KALAYLI ELEKTRİK KABLOLARI",
     "code": "10 1500",
     "brand": "SEVTEL",
-    "name": "5.0 mm Kalaylı Kablo",
+    "name": "5 mm Kalaylı Kablo",
     "image": "1500.jpeg"
   },
   {
@@ -3113,7 +3069,7 @@
     "subcategory": "KALAYLI ELEKTRİK KABLOLARI",
     "code": "10 1600",
     "brand": "SEVTEL",
-    "name": "6.0 mm Kalaylı Kablo",
+    "name": "6 mm Kalaylı Kablo",
     "image": "1600.jpeg"
   },
   {
@@ -3125,7 +3081,7 @@
     "name": "6 mm Spiral Hortum",
     "image": "spiral.jpg"
   },
-  {
+  { 
     "id": "2460_SP02-MURAT-9_mm_Spiral_Hortum",
     "group": "KABLO ve HORTUM ÇEŞİTLERİ",
     "subcategory": "SPİRAL HORTUMLAR",
@@ -4477,7 +4433,16 @@
     "code": "630374",
     "brand": "ORS",
     "name": "630374 Aks Rulman",
-    "image": ""
+    "image": "aksrulman.png"
+  },
+   {
+    "id": "630374-ORS-630374_Aks_Rulman",
+    "group": "ORS RULMAN",
+    "subcategory": "ORS – PRİZDİREK / AKS / KONİK",
+    "code": "630374",
+    "brand": "ORS",
+    "name": "630374 Aks Rulman Set",
+    "image": "630374.png"
   },
   {
     "id": "30205-ORS-30205_Rulman",
@@ -4702,7 +4667,7 @@
     "code": "6306",
     "brand": "KWC",
     "name": "6306 ZNR Prizdirek Rulman",
-    "image": ""
+    "image": "6303.png"
   },
   {
     "id": "630374-KWC-630374_Aks_Rulman",
@@ -4711,7 +4676,7 @@
     "code": "630374",
     "brand": "KWC",
     "name": "630374 Aks Rulman",
-    "image": "630374"
+    "image": "aksrulman.png"
   },
   {
     "id": "30205-KWC-30205_Rulman",
@@ -4728,7 +4693,7 @@
     "subcategory": "KWC – PRİZDİREK / AKS / KONİK",
     "code": "7857",
     "brand": "KWC",
-    "name": "Masura Rulman (Prizdirek İçin)",
+    "name": "Taral Masura Rulman (20 x 26 x 17)",
     "image": "masura.png"
   },
   {
