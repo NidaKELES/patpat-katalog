@@ -120,7 +120,7 @@
     "id": "099_040-KARDEN-Redüktör_Dişli_Takımı__Bosch_Tipi",
     "group": "MARŞ GRUBU",
     "subcategory": "BOSCH TİPİ MARŞ PARÇALARI",
-    "code": "099 040",
+    "code": "099 340",
     "brand": "KARDEN",
     "name": "Redüktör Dişli Takımı – Bosch Tipi",
     "image": "099_040.png"
@@ -156,43 +156,35 @@
     "id": "KARDEN-Marş_Otomatiği__Bosch_Tipi_Graves_Uyumlu",
     "group": "MARŞ GRUBU",
     "subcategory": "GRAVES TİPİ MARŞ PARÇALARI",
-    "code": "",
+    "code": "099 278 - 2209",
     "brand": "KARDEN",
     "name": "Marş Otomatiği – Bosch Tipi (Graves Uyumlu)",
     "image": "099_278_2208g.jpeg"
   },
-  {
-    "id": "KARDEN-Marş_Otomatiği__Graves_Tipi",
-    "group": "MARŞ GRUBU",
-    "subcategory": "GRAVES TİPİ MARŞ PARÇALARI",
-    "code": "128 101",
-    "brand": "KARDEN",
-    "name": "Marş Otomatiği – Graves Tipi",
-    "image": "128 101.png"
-  },
+
   {
     "id": "KARDEN-Marş_Kömür_Yuvası__Graves_Tipi",
     "group": "MARŞ GRUBU",
     "subcategory": "GRAVES TİPİ MARŞ PARÇALARI",
-    "code": "151 102",
+    "code": "151 101",
     "brand": "KARDEN",
     "name": "Marş Kömür Yuvası – Graves Tipi",
-    "image": "151 102.png"
+    "image": "151 101.png"
   },
   {
     "id": "KARDEN-Marş_Kömür_Yuvası__Kalın_Çift_Silindir_Graves_T",
     "group": "MARŞ GRUBU",
     "subcategory": "GRAVES TİPİ MARŞ PARÇALARI",
-    "code": "",
+    "code": "151 102",
     "brand": "KARDEN",
     "name": "Marş Kömür Yuvası – Kalın (Çift Silindir), Graves T.",
-    "image": ""
+    "image": "151 102.png"
   },
   {
     "id": "KARDEN-Marş_Redüktör_Mili_Komple__Graves_Tipi",
     "group": "MARŞ GRUBU",
     "subcategory": "GRAVES TİPİ MARŞ PARÇALARI",
-    "code": "",
+    "code": "099 851",
     "brand": "KARDEN",
     "name": "Marş Redüktör Mili Komple – Graves Tipi",
     "image": ""
@@ -201,7 +193,7 @@
     "id": "KARDEN-36_Diş_Dişli_Yuvası_Plastik__Graves_Tipi",
     "group": "MARŞ GRUBU",
     "subcategory": "GRAVES TİPİ MARŞ PARÇALARI",
-    "code": "",
+    "code": "099 278 - 2414",
     "brand": "KARDEN",
     "name": "36 Diş Dişli Yuvası (Plastik) – Graves Tipi",
     "image": "dişliyuva.png"
@@ -210,7 +202,7 @@
     "id": "KARDEN-Redüktör_Dişli_Takımı__Graves_Tipi",
     "group": "MARŞ GRUBU",
     "subcategory": "GRAVES TİPİ MARŞ PARÇALARI",
-    "code": "",
+    "code": "153 099",
     "brand": "KARDEN",
     "name": "Redüktör Dişli Takımı – Graves Tipi",
     "image": ""
@@ -219,7 +211,7 @@
     "id": "KARDEN-Marş_Burç_Takımı__Graves_Tipi",
     "group": "MARŞ GRUBU",
     "subcategory": "GRAVES TİPİ MARŞ PARÇALARI",
-    "code": "",
+    "code": "099 410",
     "brand": "KARDEN",
     "name": "Marş Burç Takımı – Graves Tipi ",
     "image": ""
@@ -243,19 +235,10 @@
     "image": "JEN DİŞLİ.png"
   },
   {
-    "id": "KARDEN-Marş_Kollektörü__17lik_Valeo_Tipi",
+    "id": "099_278_-_4495-KARDEN-Marş_Otomatiği__Valeo_Tipi",
     "group": "MARŞ GRUBU",
     "subcategory": "VALEO TİPİ MARŞ PARÇALARI",
-    "code": "",
-    "brand": "KARDEN",
-    "name": "Marş Kollektörü – 22’lik Valeo Tipi",
-    "image": ""
-  },
-  {
-    "id": "099_278_-_2208-KARDEN-Marş_Otomatiği__Valeo_Tipi",
-    "group": "MARŞ GRUBU",
-    "subcategory": "VALEO TİPİ MARŞ PARÇALARI",
-    "code": "099 278 - 2208",
+    "code": "099 278 - 4495",
     "brand": "KARDEN",
     "name": "Marş Otomatiği – Valeo Tipi",
     "image": "099_278_2208.jpeg"
@@ -300,40 +283,40 @@
     "id": "KARDEN-Marş_Burç_Takımı__Valeo_Tipi",
     "group": "MARŞ GRUBU",
     "subcategory": "VALEO TİPİ MARŞ PARÇALARI",
-    "code": "",
+    "code": "099 411",
     "brand": "KARDEN",
     "name": "Marş Burç Takımı – Valeo Tipi",
     "image": ""
   },
   {
-    "id": "099_275_-_0142-KARDEN-Marş_Pinyon_Kapağı__Jeneratör",
+    "id": "099_413-KARDEN-Marş_Pinyon_Kapağı__Jeneratör",
     "group": "MARŞ GRUBU",
     "subcategory": "JENERATÖR TİPİ MARŞ PARÇALARI",
-    "code": "",
+    "code": "099 413",
     "brand": "KARDEN",
     "name": "Marş Pinyon Kapağı – Jeneratör",
     "image": "PİNYONKAP.png"
   },
   {
-    "id": "099_277_-_2008-KARDEN-Marş_Dişlisi__Jeneratör",
+    "id": "099_277_-_2009-KARDEN-Marş_Dişlisi__Jeneratör",
     "group": "MARŞ GRUBU",
     "subcategory": "JENERATÖR TİPİ MARŞ PARÇALARI",
-    "code": "",
+    "code": "099 277 - 2009",
     "brand": "KARDEN",
     "name": "Marş Dişlisi – Jeneratör",
     "image": "jendiş.png"
   },
   {
-    "id": "11HIT6303-KARDEN-Marş_Kollektörü__Jeneratör",
+    "id": "IM_6303-KARDEN-Marş_Kollektörü__Jeneratör",
     "group": "MARŞ GRUBU",
     "subcategory": "JENERATÖR TİPİ MARŞ PARÇALARI",
-    "code": "6303",
+    "code": "IM 6303",
     "brand": "KARDEN",
     "name": "Marş Kollektörü – Jeneratör",
     "image": "6303.png"
   },
   {
-    "id": "14HIT10801-KARDEN-Marş_Otomatiği__Jeneratör",
+    "id": "10801-KARDEN-Marş_Otomatiği__Jeneratör",
     "group": "MARŞ GRUBU",
     "subcategory": "JENERATÖR TİPİ MARŞ PARÇALARI",
     "code": "10801",
@@ -342,48 +325,31 @@
     "image": "10801.png"
   },
   {
-    "id": "13HIT10300-KARDEN-Marş_Kömür_Yuvası__Jeneratör",
+    "id": "BHH 10300-KARDEN-Marş_Kömür_Yuvası__Jeneratör",
     "group": "MARŞ GRUBU",
     "subcategory": "JENERATÖR TİPİ MARŞ PARÇALARI",
-    "code": "10300",
+    "code": "BHH 10300",
     "brand": "KARDEN",
     "name": "Marş Kömür Yuvası – Jeneratör",
     "image": "10300.png"
   },
+  
   {
-    "id": "KARDEN-Marş_Redüktör_Mili_Komple__Jeneratör",
+    "id": "KARDEN-Gövdeli_Marş_Yastığı__Jeneratör",
     "group": "MARŞ GRUBU",
     "subcategory": "JENERATÖR TİPİ MARŞ PARÇALARI",
-    "code": "",
+    "code": "MC 1742",
     "brand": "KARDEN",
-    "name": "Marş Redüktör Mili Komple – Jeneratör",
+    "name": "Gövdeli Marş Yastığı – Jeneratör",
     "image": ""
   },
   {
-    "id": "KARDEN-36_Diş_Dişli_Yuvası_Plastik__Jeneratör",
+    "id": "KARDEN-Marş_Çatalı__Jeneratör",
     "group": "MARŞ GRUBU",
     "subcategory": "JENERATÖR TİPİ MARŞ PARÇALARI",
-    "code": "",
+    "code": "RC 0061",
     "brand": "KARDEN",
-    "name": "36 Diş Dişli Yuvası (Plastik) – Jeneratör",
-    "image": ""
-  },
-  {
-    "id": "KARDEN-Redüktör_Dişli_Takımı__Jeneratör",
-    "group": "MARŞ GRUBU",
-    "subcategory": "JENERATÖR TİPİ MARŞ PARÇALARI",
-    "code": "",
-    "brand": "KARDEN",
-    "name": "Redüktör Dişli Takımı – Jeneratör",
-    "image": ""
-  },
-  {
-    "id": "KARDEN-Marş_Burç_Takımı__Jeneratör",
-    "group": "MARŞ GRUBU",
-    "subcategory": "JENERATÖR TİPİ MARŞ PARÇALARI",
-    "code": "",
-    "brand": "KARDEN",
-    "name": "Marş Burç Takımı – Jeneratör",
+    "name": "Marş Çatalı – Jeneratör",
     "image": ""
   },
   {
@@ -480,7 +446,7 @@
     "id": "5003-KARDEN-Alternatör_Dış_Kasnak__Mıknatıslı",
     "group": "ALTERNATÖR GRUBU",
     "subcategory": "ALTERNATÖR KASNAKLARI",
-    "code": "5003",
+    "code": "099 280 - 5003",
     "brand": "KARDEN",
     "name": "Alternatör Dış Kasnak – Mıknatıslı",
     "image": "5003.png"
@@ -489,7 +455,7 @@
     "id": "KARDEN-Alternatör_Dış_Kasnak__Mıknatıslı_Graves_Tipi",
     "group": "ALTERNATÖR GRUBU",
     "subcategory": "ALTERNATÖR KASNAKLARI",
-    "code": "",
+    "code": "099 280 - 5004",
     "brand": "KARDEN",
     "name": "Alternatör Dış Kasnak – Mıknatıslı, Graves Tipi",
     "image": ""
@@ -498,7 +464,7 @@
     "id": "5001-KARDEN-Alternatör_İç_Sargı__Marşlı_3_Uçlu",
     "group": "ALTERNATÖR GRUBU",
     "subcategory": "ALTERNATÖR İÇ SARGILARI",
-    "code": "5001",
+    "code": "099 279 - 5001",
     "brand": "KARDEN",
     "name": "Alternatör İç Sargı – Marşlı, 3 Uçlu",
     "image": "5001.png"
@@ -507,7 +473,7 @@
     "id": "5002-KARDEN-Alternatör_İç_Sargı__Aydınlatma_Tek_Kablolu",
     "group": "ALTERNATÖR GRUBU",
     "subcategory": "ALTERNATÖR İÇ SARGILARI",
-    "code": "5002",
+    "code": "099 281 - 5002",
     "brand": "KARDEN",
     "name": "Alternatör İç Sargı – Aydınlatma, Tek Kablolu",
     "image": "5002.png"
@@ -516,7 +482,7 @@
     "id": "KARDEN-Alternatör_İç_Sargı__Graves_Tipi",
     "group": "ALTERNATÖR GRUBU",
     "subcategory": "ALTERNATÖR İÇ SARGILARI",
-    "code": "",
+    "code": "099 279 - 5002",
     "brand": "KARDEN",
     "name": "Alternatör İç Sargı – Graves Tipi",
     "image": ""
@@ -553,7 +519,7 @@
     "id": "KARDEN-Alternatör_Konjektör__Graves_Tipi",
     "group": "ALTERNATÖR GRUBU",
     "subcategory": "ALTERNATÖR KONJEKTÖRLERİ",
-    "code": "",
+    "code": "099 277 - 1457",
     "brand": "KARDEN",
     "name": "Alternatör Konjektör – Graves Tipi",
     "image": ""
@@ -580,7 +546,7 @@
     "id": "6K020E-KARDEN-6lı_Konjektör_Soketi",
     "group": "ALTERNATÖR GRUBU",
     "subcategory": "KONJEKTÖR AKSESUARLARI",
-    "code": "6K020E",
+    "code": "099 316-1",
     "brand": "KARDEN",
     "name": "6’lı Konjektör Soketi",
     "image": "konjsoket.png"
@@ -766,28 +732,28 @@
     "image": "3çıkışitalyan.jpeg"
   },
   {
-    "id": "099_277_-_1458-KARDEN-510_Hava_Filtre_Süngeri",
+    "id": "099_335-_1458-KARDEN-510_Hava_Filtre_Süngeri",
     "group": "FİLTRE GRUBU",
     "subcategory": "YAĞ & MAZOT & HAVA FİLTRELERİ",
-    "code": "099 277 - 1458",
+    "code": "099 335",
     "brand": "KARDEN",
     "name": "510 Hava Filtre Süngeri",
     "image": "510SÜNGER.jpeg"
   },
   {
-    "id": "099_336_-_1-KARDEN-360_Hava_Filtre_Süngeri",
+    "id": "099_336-KARDEN-360_Hava_Filtre_Süngeri",
     "group": "FİLTRE GRUBU",
     "subcategory": "YAĞ & MAZOT & HAVA FİLTRELERİ",
-    "code": "099 336 - 1",
+    "code": "099 336",
     "brand": "KARDEN",
     "name": "360 Hava Filtre Süngeri",
     "image": "360sünger.jpeg"
   },
   {
-    "id": "099_336_-_2-KARDEN-360_Hava_Filtre_Süngeri__2_Katlı",
+    "id": "099_336_-_1-KARDEN-360_Hava_Filtre_Süngeri__2_Katlı",
     "group": "FİLTRE GRUBU",
     "subcategory": "YAĞ & MAZOT & HAVA FİLTRELERİ",
-    "code": "099 336 - 2",
+    "code": "099 336 - 1",
     "brand": "KARDEN",
     "name": "360 Hava Filtre Süngeri – 2 Katlı",
     "image": "360süngeriki.jpeg"
@@ -860,7 +826,7 @@
     "id": "KARDEN-Yet_-_250_Tutucu_Plastiği",
     "group": "KAPUT TAKOZLARI, KÖRÜK VE KAUÇUK AKSAMLAR",
     "subcategory": "KAPUT TAKOZLARI & BAĞLANTI ELEMANLARI",
-    "code": "",
+    "code": "099 480",
     "brand": "KARDEN",
     "name": "Yet-250 Tutucu Plastiği",
     "image": "yettutucu.JPG"
@@ -869,7 +835,7 @@
     "id": "KARDEN-Yet_-_510_Tutucu_Plastiği",
     "group": "KAPUT TAKOZLARI, KÖRÜK VE KAUÇUK AKSAMLAR",
     "subcategory": "KAPUT TAKOZLARI & BAĞLANTI ELEMANLARI",
-    "code": "",
+    "code": "099 481",
     "brand": "KARDEN",
     "name": "Yet-510 Tutucu Plastiği",
     "image": "yettutucu.JPG"
@@ -878,7 +844,7 @@
     "id": "KARDEN-Taral_Tutucu_Plastiği",
     "group": "KAPUT TAKOZLARI, KÖRÜK VE KAUÇUK AKSAMLAR",
     "subcategory": "KAPUT TAKOZLARI & BAĞLANTI ELEMANLARI",
-    "code": "",
+    "code": "099 482",
     "brand": "KARDEN",
     "name": "Taral Tutucu Plastiği",
     "image": "yettutucu.JPG"
@@ -911,10 +877,10 @@
     "image": "makasyük2.JPG"
   },
   {
-    "id": "780-KARDEN-Makas_Bağlantı_Aparatı_Römork_İçin",
+    "id": "772-KARDEN-Makas_Bağlantı_Aparatı_Römork_İçin",
     "group": "KAPUT TAKOZLARI, KÖRÜK VE KAUÇUK AKSAMLAR",
     "subcategory": "MAKAS & YÜK TAKOZLARI",
-    "code": "780",
+    "code": "772",
     "brand": "KARDEN",
     "name": "Makas Bağlantı Aparatı (Römork İçin)",
     "image": "makas.png"
@@ -929,19 +895,19 @@
     "image": "eksoztakozu.JPG"
   },
   {
-    "id": "099_800-KARDEN-Akü_Ayırıcı_Jak_2535",
+    "id": "099_769-KARDEN-Akü_Ayırıcı_Jak_2535",
     "group": "KAPUT TAKOZLARI, KÖRÜK VE KAUÇUK AKSAMLAR",
     "subcategory": "AKÜ & ELEKTRİK AKSAMLARI",
-    "code": "099 800",
+    "code": "099 769",
     "brand": "KARDEN",
     "name": "Akü Ayırıcı Jak 25/35",
     "image": "JAK25.jpeg"
   },
   {
-    "id": "099_801-KARDEN-Akü_Ayırıcı_Jak_3550",
+    "id": "099_770-KARDEN-Akü_Ayırıcı_Jak_3550",
     "group": "KAPUT TAKOZLARI, KÖRÜK VE KAUÇUK AKSAMLAR",
     "subcategory": "AKÜ & ELEKTRİK AKSAMLARI",
-    "code": "099 801",
+    "code": "099 770",
     "brand": "KARDEN",
     "name": "Akü Ayırıcı Jak 35/50",
     "image": "JAK35.jpeg"
@@ -983,10 +949,10 @@
     "image": "yağkapağı.JPG"
   },
   {
-    "id": "099_367_-_1-KARDEN-Çalıştırma_İpi__Komple",
+    "id": "099_3671-KARDEN-Çalıştırma_İpi__Komple",
     "group": "KAPUT TAKOZLARI, KÖRÜK VE KAUÇUK AKSAMLAR",
     "subcategory": "ÇALIŞTIRMA MEKANİZMASI",
-    "code": "099 367 - 1",
+    "code": "099 3671",
     "brand": "KARDEN",
     "name": "Çalıştırma İpi – Komple",
     "image": "çalıştırmaipi.png"
@@ -1001,19 +967,19 @@
     "image": "ipplastiği.png"
   },
   {
-    "id": "099_390_-_1-KARDEN-Direksiyon_Simidi",
+    "id": "099_390-KARDEN-Direksiyon_Simidi",
     "group": "KAPUT TAKOZLARI, KÖRÜK VE KAUÇUK AKSAMLAR",
     "subcategory": "DİREKSİYON AKSAMLARI",
-    "code": "099 390 - 1",
+    "code": "099 390",
     "brand": "KARDEN",
     "name": "Direksiyon Simidi",
     "image": "DİREKSİYON.png"
   },
   {
-    "id": "099_390-KARDEN-Direksiyon_Simidi__Göbekli",
+    "id": "099_391-KARDEN-Direksiyon_Simidi__Göbekli",
     "group": "KAPUT TAKOZLARI, KÖRÜK VE KAUÇUK AKSAMLAR",
     "subcategory": "DİREKSİYON AKSAMLARI",
-    "code": "099 390",
+    "code": "099 391",
     "brand": "KARDEN",
     "name": "Direksiyon Simidi – Göbekli",
     "image": "direksiyongöbekli.png"
@@ -1109,28 +1075,28 @@
     "image": "3102.png"
   },
   {
-    "id": "304-KARDEN-Vites_Üst_Kolu",
+    "id": "4031-KARDEN-Vites_Üst_Kolu",
     "group": "ŞAFT & AKS MALZEMELERİ",
     "subcategory": "VİTES AKSAMLARI",
-    "code": "304",
+    "code": "4031",
     "brand": "KARDEN",
     "name": "Vites Üst Kolu",
     "image": "304.png"
   },
   {
-    "id": "306-KARDEN-1300_Vites_Alt_Kolu",
+    "id": "7612-KARDEN-1300_Vites_Alt_Kolu",
     "group": "ŞAFT & AKS MALZEMELERİ",
     "subcategory": "VİTES AKSAMLARI",
-    "code": "306",
+    "code": "7612",
     "brand": "KARDEN",
     "name": "1300 Vites Alt Kolu",
     "image": "306.png"
   },
   {
-    "id": "308-KARDEN-Vites_Alt_Kolu__Komple",
+    "id": "107-KARDEN-Vites_Alt_Kolu__Komple",
     "group": "ŞAFT & AKS MALZEMELERİ",
     "subcategory": "VİTES AKSAMLARI",
-    "code": "308",
+    "code": "107",
     "brand": "KARDEN",
     "name": "Vites Alt Kolu – Komple",
     "image": "altkolkomple.png"
@@ -1181,10 +1147,10 @@
     "image": "altçanak.png"
   },
     {
-    "id": "7756-KARDEN-1300_Vites_Kolu_Tamir_Takımı",
+    "id": "8080-KARDEN-1300_Vites_Kolu_Tamir_Takımı",
     "group": "ŞAFT & AKS MALZEMELERİ",
     "subcategory": "VİTES AKSAMLARI",
-    "code": "7756",
+    "code": "8080",
     "brand": "KARDEN",
     "name": "1300 Vites Kolu Tamir Takımı",
     "image": "1300vites.png"
@@ -1193,7 +1159,7 @@
     "id": "KARDEN-Vites_Alt_Kolu_SLX",
     "group": "ŞAFT & AKS MALZEMELERİ",
     "subcategory": "VİTES AKSAMLARI",
-    "code": "",
+    "code": "3135",
     "brand": "KARDEN",
     "name": "Vites Alt Kolu SLX",
     "image": "vitesaltkol.png"
@@ -1217,13 +1183,13 @@
     "image": "çakma.png"
   },
   {
-    "id": "7882-KARDEN-Çakma_Bijon_Somunu",
+    "id": "7882-KARDEN-Çakma_Bijon_Somunlu",
     "group": "ŞAFT & AKS MALZEMELERİ",
     "subcategory": "TEKER BİJONLARI (RÖMORK İÇİN)",
     "code": "7882",
     "brand": "KARDEN",
-    "name": "Çakma Bijon Somunu",
-    "image": "bijon.png"
+    "name": "Çakma Bijon Somunlu",
+    "image": "somonlu.jpeg"
   },
   {
     "id": "099_459-KARDEN-1600_Fren_Silindiri",
@@ -1422,6 +1388,14 @@
     "brand": "KARDEN",
     "name": "Debriyaj Balata Yayı",
     "image": "balatayay.png"
+  },  {
+    "id": "099392-KARDEN-Debriyaj_Balata_Cıvatası",
+    "group": "DEBRİYAJ, FREN & BALATA MALZEMELERİ",
+    "subcategory": "DEBRİYAJ & BALATA AKSAMLARI",
+    "code": "099 544",
+    "brand": "KARDEN",
+    "name": "Debriyaj Balata Cıvatası",
+    "image": "balatacıv.png"
   },
   {
     "id": "346-KARDEN-Fren_Konik_Yay__Arka_M131__DKŞ",
@@ -1497,10 +1471,10 @@
   },
 
   {
-    "id": "175-KARDEN-Tofaş_El_Fren_Tabancası",
+    "id": "41303-KARDEN-Tofaş_El_Fren_Tabancası",
     "group": "ELCİK VE MANET AKSAMLARI",
     "subcategory": "EL FRENİ AKSAMI",
-    "code": "175",
+    "code": "41303",
     "brand": "KARDEN",
     "name": "Tofaş El Fren Tabancası",
     "image": "175.jpeg"
@@ -1518,7 +1492,7 @@
     "id": "101_80272_1-KARDEN-Gaz_Mandalı__Kare",
     "group": "ELCİK VE MANET AKSAMLARI",
     "subcategory": "GAZ & KUMANDA PARÇALARI",
-    "code": "101 80272-1",
+    "code": "106 80271",
     "brand": "KARDEN",
     "name": "Gaz Mandalı – Kare",
     "image": "karemandal.png"
@@ -1527,7 +1501,7 @@
     "id": "101_80272_2-KARDEN-Gaz_Mandalı__Cırcırlı",
     "group": "ELCİK VE MANET AKSAMLARI",
     "subcategory": "GAZ & KUMANDA PARÇALARI",
-    "code": "101 80272-2",
+    "code": "101 80270",
     "brand": "KARDEN",
     "name": "Gaz Mandalı – Cırcırlı",
     "image": "cırcırlıkol.png"
@@ -1554,7 +1528,7 @@
     "id": "102_80273-KARDEN-Yağmur_Manet__Sol",
     "group": "ELCİK VE MANET AKSAMLARI",
     "subcategory": "GAZ & KUMANDA PARÇALARI",
-    "code": "102 80273",
+    "code": "102 80272",
     "brand": "KARDEN",
     "name": "Yağmur Manet – Sol",
     "image": "manetsol.png"
@@ -1572,7 +1546,7 @@
     "id": "102_80273-KARDEN-Yağmur_Manet_Kulaklı_Kol__Sol",
     "group": "ELCİK VE MANET AKSAMLARI",
     "subcategory": "GAZ & KUMANDA PARÇALARI",
-    "code": "104 80273",
+    "code": "104 80273 - 1",
     "brand": "KARDEN",
     "name": "Yağmur Manet Kulaklı Kol – Sol",
     "image": "kulaksol.JPG"
@@ -1590,7 +1564,7 @@
     "id": "101_80272_1-KARDEN-Taral_Manet__Sağ",
     "group": "ELCİK VE MANET AKSAMLARI",
     "subcategory": "GAZ & KUMANDA PARÇALARI",
-    "code": "101 80272 - 1",
+    "code": "104 80269",
     "brand": "KARDEN",
     "name": "Taral Manet – Sağ",
     "image": "taralmanetsağ.png"
@@ -1599,7 +1573,7 @@
     "id": "101_80272_2-KARDEN-Taral_Manet__Sol",
     "group": "ELCİK VE MANET AKSAMLARI",
     "subcategory": "GAZ & KUMANDA PARÇALARI",
-    "code": "101 80272 - 2",
+    "code": "104 80268",
     "brand": "KARDEN",
     "name": "Taral Manet – Sol",
     "image": "taralmanetsol.png"
@@ -1762,18 +1736,18 @@
     "id": "HY85X-KARDEN-Universal_Yuvarlak_Sis_Farı__Büyük_85_mm",
     "group": "AYDINLATMA ÇEŞİTLERİ",
     "subcategory": "ÖN FAR & SİS LAMBALARI",
-    "code": "HY85X",
+    "code": "099 329",
     "brand": "KARDEN",
-    "name": "Universal Yuvarlak Sis Farı – Büyük (85 mm)",
+    "name": "HY85X Universal Yuvarlak Sis Farı – Büyük (85 mm)",
     "image": "hy85x.jpeg"
   },
   {
     "id": "HY85-KARDEN-Universal_Yuvarlak_Sis_Farı__Küçük_65_mm",
     "group": "AYDINLATMA ÇEŞİTLERİ",
     "subcategory": "ÖN FAR & SİS LAMBALARI",
-    "code": "HY85",
+    "code": "099 328",
     "brand": "KARDEN",
-    "name": "Universal Yuvarlak Sis Farı – Küçük (65 mm)",
+    "name": "HY85 Universal Yuvarlak Sis Farı – Küçük (65 mm)",
     "image": "hy85.jpeg"
   },
   {
@@ -2497,11 +2471,11 @@
     "image": "004_030.jpeg"
   },
   {
-    "id": "006_005-INWELLS-H3_100W_Sis_Ampulü__Kablolu",
+    "id": "TRIFA-1638-H3_100W_Sis_Ampulü__Kablolu",
     "group": "AMPUL GRUBU",
     "subcategory": "SİS AMPULLERİ",
-    "code": "006 005",
-    "brand": "INWELLS",
+    "code": "1638",
+    "brand": "TRIFA",
     "name": "H3 100W Sis Ampulü – Kablolu",
     "image": "004_030.jpeg"
   },
@@ -2551,10 +2525,10 @@
     "image": "13077.jpeg"
   },
   {
-    "id": "099_0020-KARDEN-Universal_Damper_Kaldırma__Cam_Açma_Anahtarı",
+    "id": "156_101-KARDEN-Universal_Damper_Kaldırma__Cam_Açma_Anahtarı",
     "group": "ANAHTAR & GÖSTERGE LAMBALARI",
     "subcategory": "UNİVERSAL & LED'Lİ ANAHTARLAR",
-    "code": "099 0020",
+    "code": "156 101",
     "brand": "KARDEN",
     "name": "Universal Damper Kaldırma & Cam Açma Anahtarı",
     "image": "damper.png"
@@ -2614,11 +2588,11 @@
     "image": "13 001.jpeg"
   },
   {
-    "id": "13062-AKSA-Renault_12_Fren_Müşürü__İnce_Diş",
+    "id": "13062-DETAŞ-Renault_12_Fren_Müşürü__İnce_Diş",
     "group": "MÜŞÜRLER",
     "subcategory": "FREN MÜŞÜRLERİ",
     "code": "13062",
-    "brand": "AKSA",
+    "brand": "DETAŞ",
     "name": "Renault 12 Fren Müşürü – İnce Diş",
     "image": "13062.png"
   },
@@ -2659,11 +2633,11 @@
     "image": "099 358.png"
   },
   {
-    "id": "KARDENKLF-22lik_Yağ_Müşürü",
+    "id": "KLF-22lik_Yağ_Müşürü",
     "group": "MÜŞÜRLER",
     "subcategory": "YAĞ, HARARET VE FAN MÜŞÜRLERİ",
-    "code": "",
-    "brand": "KARDEN",
+    "code": "110805",
+    "brand": "KLF",
     "name": "22’lik Yağ Müşürü",
     "image": "22 yağ.jpeg"
   },
@@ -2707,7 +2681,7 @@
     "id": "KARDEN-Kontak_Anahtarı__Komple",
     "group": "KONTAK & TESİSAT GRUBU",
     "subcategory": "KONTAK ANAHTARLARI",
-    "code": "",
+    "code": "099 283",
     "brand": "KARDEN",
     "name": "Kontak Anahtarı – Komple",
     "image": "komplekontak.png"
@@ -2752,7 +2726,7 @@
     "id": "099_283-KARDEN-Kontak_Tesisatı__Komple",
     "group": "KONTAK & TESİSAT GRUBU",
     "subcategory": "TESİSATLAR",
-    "code": "099 283",
+    "code": "099 284",
     "brand": "KARDEN",
     "name": "Kontak Tesisatı – Komple",
     "image": "099 283.jpeg"
@@ -2772,7 +2746,7 @@
     "subcategory": "TESİSATLAR",
     "code": "099 280",
     "brand": "KARDEN",
-    "name": "Yağmur Tesisatı",
+    "name": "Yağmur Tesisatı - Kapüşonlu (2 parça)",
     "image": "099 280.jpeg"
   },
   {
@@ -4868,10 +4842,10 @@
     "image": "CTF.png"
   },
   {
-    "id": "852-CTF-46__78__10_Diferansiyel_Keçe",
+    "id": "22025-CTF-46__78__10_Diferansiyel_Keçe",
     "group": "KEÇE GRUBU",
     "subcategory": "CTF KEÇE ÇEŞİTLERİ",
-    "code": "852",
+    "code": "22025",
     "brand": "CTF",
     "name": "46 × 78 × 10 Diferansiyel Keçe",
     "image": "CTF.png"
@@ -5183,37 +5157,37 @@
     "image": "kısaçapa.jpg"
   },
   {
-    "id": "099_0600-KARDEN-Ateşleme_Bujisi_A7TC",
+    "id": "100.0_-_0600-Ateşleme_Bujisi_A7TC",
     "group": "ATEŞLEME BUJİLERİ",
     "subcategory": "ATEŞLEME BUJİLERİ",
-    "code": "",
-    "brand": "KARDEN",
+    "code": "100.0-0600",
+    "brand": "TYPER",
     "name": "Ateşleme Bujisi A7TC",
     "image": "099 06001.png"
   },
   {
-    "id": "099_0606-KARDEN-Ateşleme_Bujisi_WS7F",
+    "id": "TYPER-Ateşleme_Bujisi_WS7F",
     "group": "ATEŞLEME BUJİLERİ",
     "subcategory": "ATEŞLEME BUJİLERİ",
-    "code": "099 0606",
-    "brand": "KARDEN",
+    "code": "100.0-0606-EZL",
+    "brand": "TYPER",
     "name": "Ateşleme Bujisi WS7F",
     "image": "099 0606.png"
   },
   {
-    "id": "099_0608-KARDEN-Ateşleme_Bujisi_N9YC",
+    "id": "TYPER-Ateşleme_Bujisi_N9YC",
     "group": "ATEŞLEME BUJİLERİ",
     "subcategory": "ATEŞLEME BUJİLERİ",
-    "code": "099 0608",
-    "brand": "KARDEN",
+    "code": "100.0-0608",
+    "brand": "TYPER",
     "name": "Ateşleme Bujisi N9YC",
     "image": "099 0608.png"
   },
   {
-    "id": "099_003-CHAMPION-Ateşleme_Bujisi_N9YC",
+    "id": "3-CHAMPION-Ateşleme_Bujisi_N9YC",
     "group": "ATEŞLEME BUJİLERİ",
     "subcategory": "ATEŞLEME BUJİLERİ",
-    "code": "099 003",
+    "code": "3",
     "brand": "CHAMPION",
     "name": "Ateşleme Bujisi N9YC",
     "image": "099 003.png"
@@ -5222,7 +5196,7 @@
     "id": "BOSCH-Ateşleme_Bujisi_WR6C",
     "group": "ATEŞLEME BUJİLERİ",
     "subcategory": "ATEŞLEME BUJİLERİ",
-    "code": "",
+    "code": "242240592",
     "brand": "BOSCH",
     "name": "Ateşleme Bujisi WR6C",
     "image": "wr6c.png"
@@ -5231,7 +5205,7 @@
     "id": "BOSCH-Ateşleme_Bujisi_W7DC",
     "group": "ATEŞLEME BUJİLERİ",
     "subcategory": "ATEŞLEME BUJİLERİ",
-    "code": "",
+    "code": "241235755",
     "brand": "BOSCH",
     "name": "Ateşleme Bujisi W7DC",
     "image": "w7dc.png"
@@ -5267,7 +5241,7 @@
     "id": "099_1111-YAĞMUR-Debriyaj_Teli_T-Baş__İç__Dış_-_YM",
     "group": "TEL GRUBU",
     "subcategory": "YAĞMUR GRUBU",
-    "code": "099 1111",
+    "code": "099 1111 - A ",
     "brand": "YAĞMUR",
     "name": "Debriyaj Teli, T-Baş – İç & Dış - Y.M",
     "image": "099 1111.png"
@@ -5883,7 +5857,7 @@
     "id": "099_8501-KARDEN-Debriyaj_Teli_Sıkma_Vidası",
     "group": "YEDEK PARÇA GRUBU",
     "subcategory": "SIKMA VİDALARI",
-    "code": "",
+    "code": "099 8501-1",
     "brand": "KARDEN",
     "name": "Debriyaj Teli Sıkma Vidası - Kare",
     "image": "debsıkkare.png"
@@ -5928,7 +5902,7 @@
     "id": "M10-Ayar_Civatası_Burçlu",
     "group": "YEDEK PARÇA GRUBU",
     "subcategory": "AYAR VE ARA PARÇALAR",
-    "code": "",
+    "code": "099 750",
     "brand": "M10",
     "name": "Ayar Civatası – Burçlu",
     "image": "m10m.png"
@@ -5937,7 +5911,7 @@
     "id": "M12-Ayar_Civatası_Burçlu",
     "group": "YEDEK PARÇA GRUBU",
     "subcategory": "AYAR VE ARA PARÇALAR",
-    "code": "",
+    "code": "099 751",
     "brand": "M12",
     "name": "Ayar Civatası – Burçlu",
     "image": "m12.png"
@@ -5946,7 +5920,7 @@
     "id": "KAAN-Gaz_Teli_Ayar_Civatası",
     "group": "YEDEK PARÇA GRUBU",
     "subcategory": "AYAR VE ARA PARÇALAR",
-    "code": "",
+    "code": "099 771",
     "brand": "KAAN",
     "name": "Gaz Teli Ayar Civatası",
     "image": "gazayar.png"
@@ -5955,8 +5929,8 @@
     "id": "Kısa_El_Fren_Teli_Ayar_Civatası_Pimli",
     "group": "YEDEK PARÇA GRUBU",
     "subcategory": "AYAR VE ARA PARÇALAR",
-    "code": "",
-    "brand": "",
+    "code": "099 752",
+    "brand": "KARDEN",
     "name": "Kısa El Fren Teli Ayar Civatası - Pimli",
     "image": "pimli.png"
   },
@@ -5964,8 +5938,8 @@
     "id": "Kısa_El_Fren_Teli_Ayar_Civatası_Pimli",
     "group": "YEDEK PARÇA GRUBU",
     "subcategory": "AYAR VE ARA PARÇALAR",
-    "code": "",
-    "brand": "",
+    "code": "099 753",
+    "brand": "KARDEN",
     "name": "Kısa El Fren Teli Ayar Civatası - Pimsiz",
     "image": "pimsiz.png"
   },
@@ -5979,38 +5953,38 @@
     "image": "manetyuvalı.JPG"
   },
   {
-    "id": "099_8522-TARAL-Manet_Pimi__Yarıklı",
+    "id": "099_8521-TARAL-Manet_Pimi__Yarıklı",
     "group": "YEDEK PARÇA GRUBU",
     "subcategory": "PİMLER",
-    "code": "099 8522",
+    "code": "099 8521",
     "brand": "TARAL",
     "name": "Manet Pimi – Yarıklı",
     "image": "manetyarıklı.png"
   },
 {
-  "id": "NO_CODE--Tofas_Renault_El_Fren_Teli_Burcu",
+  "id": "099_754--Tofas_Renault_El_Fren_Teli_Burcu",
   "group": "YEDEK PARÇA GRUBU",
   "subcategory": "PİMLER",
-  "code": "",
-  "brand": "",
+  "code": "099 754",
+  "brand": "KARDEN",
   "name": "Tofaş Renault El Fren Teli Burcu",
   "image": "elfrenburç.png"
 },
 {
-  "id": "NO_CODE--Yuksuk_5_7_8_Capli",
+  "id": "099_8522-KARDEN-Yuksuk_5_7_8_Capli",
   "group": "YEDEK PARÇA GRUBU",
   "subcategory": "PİMLER",
-  "code": "",
-  "brand": "",
+  "code": "099 8522",
+  "brand": "KARDEN",
   "name": "Yüksük (5-7-8 Çaplı)",
   "image": "yüksük.png"
 },
 {
-  "id": "NO_CODE--9x9_Pim_3_2_2_7_Delikli",
+  "id": "KT017-KARDEN-9x9_Pim_3_2_2_7_Delikli",
   "group": "YEDEK PARÇA GRUBU",
   "subcategory": "PİMLER",
-  "code": "",
-  "brand": "",
+  "code": "KT017",
+  "brand": "KARDEN",
   "name": "9 x 9 Pim (3,2 -2,7 Delikli)",
   "image": "9x9.png"
 },
@@ -6018,80 +5992,80 @@
   "id": "NO_CODE--7_5x7_5_Pim_3_2_2_7_Delikli",
   "group": "YEDEK PARÇA GRUBU",
   "subcategory": "PİMLER",
-  "code": "",
-  "brand": "",
+  "code": "099-345",
+  "brand": "KARDEN",
   "name": "7,5 x 7,5 Pim (3,2 -2,7 Delikli)",
   "image": "7,5x.png"
 },
 {
-  "id": "NO_CODE--Pasolu_Yuksuk",
+  "id": "099_755-KARDEN-Pasolu_Yuksuk",
   "group": "YEDEK PARÇA GRUBU",
   "subcategory": "PİMLER",
-  "code": "",
-  "brand": "",
+  "code": "099 755",
+  "brand": "KARDEN",
   "name": "Pasolu Yüksük",
   "image": "pasoluyüksük.png"
 },
 {
-  "id": "NO_CODE-YAGMUR-Cekic_Bas",
+  "id": "756-YAGMUR-Cekic_Bas",
   "group": "YEDEK PARÇA GRUBU",
   "subcategory": "PİMLER",
-  "code": "",
+  "code": "756",
   "brand": "YAĞMUR",
   "name": "Çekiç Baş",
   "image": "çekiçbaş.png"
 },
 {
-  "id": "NO_CODE-KAAN-Armut_Tel_Bas",
+  "id": "757-KAAN-Armut_Tel_Bas",
   "group": "YEDEK PARÇA GRUBU",
   "subcategory": "PİMLER",
-  "code": "",
+  "code": "757",
   "brand": "KAAN",
   "name": "Armut Tel Baş",
   "image": "armuttel.png"
 },
 {
-  "id": "NO_CODE--17lik_Yarik_Halka",
+  "id": "758-KARDEN-17lik_Yarik_Halka",
   "group": "YEDEK PARÇA GRUBU",
   "subcategory": "PİMLER",
-  "code": "",
-  "brand": "",
+  "code": "758",
+  "brand": "KARDEN",
   "name": "17'lik Yarık Halka",
   "image": "17yarık.png"
 },
 {
-  "id": "NO_CODE--14luk_Halka",
+  "id": "759-KARDEN-14luk_Halka",
   "group": "YEDEK PARÇA GRUBU",
   "subcategory": "PİMLER",
-  "code": "",
-  "brand": "",
+  "code": "759",
+  "brand": "KARDEN",
   "name": "14'lük Halka",
   "image": "14halka.png"
 },
 {
-  "id": "NO_CODE-ROMORK-Kanca",
+  "id": "760-ROMORK-Kanca",
   "group": "YEDEK PARÇA GRUBU",
   "subcategory": "PİMLER",
-  "code": "",
+  "code": "760",
   "brand": "RÖMORK",
   "name": "Kanca",
   "image": "kanca.png"
 },
 {
-  "id": "NO_CODE--Lada_El_Fren_Teli_Burcu",
+  "id": "761-KARDEN-Lada_El_Fren_Teli_Burcu",
   "group": "YEDEK PARÇA GRUBU",
   "subcategory": "PİMLER",
-  "code": "",
-  "brand": "",
+  "code": "761",
+  "brand": "KARDEN",
   "name": "Lada El Fren Teli Burcu",
   "image": "lada.png"
 },
 {
-  "id": "NO_CODE--Cim_Bicme_Tel_Basi",
+  "id": "762-KARDEN-Cim_Bicme_Tel_Basi",
   "group": "YEDEK PARÇA GRUBU",
   "subcategory": "PİMLER",
-  "code": "",
-  "brand": "",
+  "code": "762",
+  "brand": "KARDEN",
   "name": "Çim Biçme Tel Başı",
   "image": "çimbiçme.png"
 },
@@ -6114,39 +6088,39 @@
     "image": "gidonem.png"
   },
   {
-    "id": "099_8587-YAĞMUR-Tampon_Sehpa_Yayı",
+    "id": "099_763-YAĞMUR-Tampon_Sehpa_Yayı",
     "group": "YEDEK PARÇA GRUBU",
     "subcategory": "YAYLAR",
-    "code": "099 8587",
+    "code": "099 763",
     "brand": "YAĞMUR",
     "name": "Tampon Sehpa Yayı",
     "image": "tampon.png"
   },
   {
-    "id": "099_8588-TARAL-Tampon_Sehpa_Yayı",
+    "id": "099_764-TARAL-Tampon_Sehpa_Yayı",
     "group": "YEDEK PARÇA GRUBU",
     "subcategory": "YAYLAR",
-    "code": "099 8588",
+    "code": "099 764",
     "brand": "TARAL",
     "name": "Tampon Sehpa Yayı",
     "image": "tampon.png"
   },
     {
-    "id": "no_code-KARDEN-Tofaş_Renault_El_Fren_Teli_Yayı",
+    "id": "099_765-KARDEN-Tofaş_Renault_El_Fren_Teli_Yayı",
     "group": "YEDEK PARÇA GRUBU",
     "subcategory": "YAYLAR",
-    "code": "",
+    "code": "099 765",
     "brand": "KARDEN",
     "name": "Tofaş Renault El Fren Teli Yayı",
     "image": "elfrenyay.png"
   },
   {
-    "id": "099_8589-STD-Debriyaj_Teli_Takım",
+    "id": "099_766-STD-Debriyaj_Teli_Takım",
     "group": "YEDEK PARÇA GRUBU",
     "subcategory": "YAYLAR",
-    "code": "",
+    "code": "099 766",
     "brand": "STD",
-    "name": "   Ecetrak Debriyaj Teli Takım(Çatal,Pim,Yay)",
+    "name": "Ecetrak Debriyaj Teli Takım(Çatal,Pim,Yay)",
     "image": "teltakım.png"
   },
   {
@@ -6162,7 +6136,7 @@
     "id": "KARDEN-Gidon_Bağlantı_Kelepçesi_Plastiği",
     "group": "YEDEK PARÇA GRUBU",
     "subcategory": "DİĞER",
-    "code": "",
+    "code": "099 8556",
     "brand": "KARDEN",
     "name": "Gidon Bağlantı Kelepçesi Plastiği",
     "image": "uplastiği.JPG"
@@ -6171,7 +6145,7 @@
     "id": "KARDEN-Amortisör_Takozu_Takım_44__8_Parça",
     "group": "YEDEK PARÇA GRUBU",
     "subcategory": "DİĞER",
-    "code": "",
+    "code": "6890",
     "brand": "KARDEN",
     "name": "Amortisör Takozu Takım (4+4 / 8 Parça)",
     "image": "amortisor.png"
@@ -6180,7 +6154,7 @@
     "id": "KARDEN-Toz_Lastiği",
     "group": "YEDEK PARÇA GRUBU",
     "subcategory": "DİĞER",
-    "code": "",
+    "code": "7738",
     "brand": "KARDEN",
     "name": "Toz Lastiği",
     "image": "tozlastiği.png"
@@ -6189,7 +6163,7 @@
     "id": "KARDEN-Debriyaj_Teli_Toz_Lastiği",
     "group": "YEDEK PARÇA GRUBU",
     "subcategory": "DİĞER",
-    "code": "",
+    "code": "099 767",
     "brand": "BEYBOLAT",
     "name": "Debriyaj Teli Toz Lastiği",
     "image": "beybolattoz.png"
@@ -6198,7 +6172,7 @@
     "id": "KARDEN-Taral-250_Debriyaj_Teli_Plastiği",
     "group": "YEDEK PARÇA GRUBU",
     "subcategory": "DİĞER",
-    "code": "",
+    "code": "099 768",
     "brand": "KARDEN",
     "name": "Taral-250 Debriyaj Teli Plastiği",
     "image": "taralplastik.png"
