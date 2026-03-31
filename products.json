@@ -416,7 +416,7 @@
     "image": "099_454.png"
   },
   {
-    "id": "099_287-KARDEN-Marş_Kiti_Marş_motoru_iç-dış_sargı_kontak_tesisat_volant_dişli_flanşı_bağlantı_aparatı_konjektör",
+    "id": "099_287-KARDEN-Marş_Kiti_Marş_motoru_iç-dış_sargı_kontak_kutusu_tesisat_volant_dişli_flanşı_bağlantı_aparatı_konjektör",
     "group": "MARŞ GRUBU",
     "subcategory": "MARŞ KİTLERİ",
     "code": "099 287",
@@ -425,12 +425,12 @@
     "image": "099_287.png"
   },
   {
-    "id": "099_290-KARDEN-Komple_Marş_Kiti_Marş_motoru_iç-dış_sargı_kontak_tesisat_volant_dişli_flanşı_bağlantı_aparatı_konjektör_marş_sacı_büyük_marş_sacı_küçük_egzoz",
+    "id": "099_290-KARDEN-Komple_Marş_Kiti_Marş_motoru_iç-dış_sargı_kontak_kutusu_tesisat_volant_dişli_flanşı_bağlantı_aparatı_konjektör_marş_sacı_büyük_marş_sacı_küçük_egzoz",
     "group": "MARŞ GRUBU",
     "subcategory": "MARŞ KİTLERİ",
     "code": "099 290",
     "brand": "KARDEN",
-    "name": "Komple Marş Kiti\n(Marş motoru, iç-dış sargı, kontak, tesisat, volant dişli flanşı, bağlantı aparatı, konjektör, marş sacı büyük, marş sacı küçük, egzoz)",
+    "name": "Komple Marş Kiti\n(Marş motoru, iç-dış sargı, kontak kutusu, tesisat, volant dişli flanşı, bağlantı aparatı, konjektör, marş sacı büyük, marş sacı küçük, egzoz)",
     "image": "099_290.png"
   },
   {
@@ -533,6 +533,15 @@
     "name": "Alternatör 3 Uçlu Konjektör – Pır Pır Tip",
     "image": "1449.png"
   },
+    {
+    "id": "099_276-1449-KARDEN-Alternatör_Konjektör_Soketi",
+    "group": "ALTERNATÖR GRUBU",
+    "subcategory": "ALTERNATÖR KONJEKTÖRLERİ",
+    "code": "3001",
+    "brand": "KARDEN",
+    "name": "Alternatör Konjektör Soketi",
+    "image": "3001.png"
+  },
   {
     "id": "099_316-KARDEN-Konjektör_Toz_Lastiği",
     "group": "ALTERNATÖR GRUBU",
@@ -548,7 +557,7 @@
     "subcategory": "KONJEKTÖR AKSESUARLARI",
     "code": "099 316-1",
     "brand": "KARDEN",
-    "name": "6’lı Konjektör Soketi",
+    "name": "6’lı Konjektör Plastiği",
     "image": "konjsoket.png"
   },
   {
@@ -1775,7 +1784,7 @@
     "code": "KRD 11",
     "brand": "KARDEN",
     "name": "12V Döner Lamba – LED’li, Çakarlı",
-    "image": "KRD 11.jpeg"
+    "image": "krd11.png"
   },
   {
     "id": "KRD_41-KARDEN-1224V_3_Fonksiyonlu_LEDli_LambaÇakmak_FişliMık",
@@ -1784,7 +1793,7 @@
     "code": "KRD 41",
     "brand": "KARDEN",
     "name": "12/24V 3 Fonksiyonlu LED’li Lamba–Çakmak Fişli,Mık)",
-    "image": "KRD 41.jpeg"
+    "image": "krd41.png"
   },
   {
     "id": "058_-_013-KARDEN-9_LEDli_Kare_Çalışma_Lambası",
@@ -1929,6 +1938,15 @@
   "brand": "KARDEN",
   "name": "6 LED’li Parmak Lamba (Sarı / Kırmızı / Mavi / Beyaz)",
   "image": "1361.png"
+},
+{
+  "id": "1309-002-KARDEN-N312_Üçlü_Led",
+  "group": "AYDINLATMA ÇEŞİTLERİ",
+  "subcategory": "YAN İŞARET (SİDE MARKER) LAMBALAR",
+  "code": "1309 002",
+  "brand": "KARDEN",
+  "name": "N312 Üçlü Led",
+  "image": "samungled.png"
 },
   {
     "id": "1292-KARDEN-Takoz_Lamba",
@@ -2100,6 +2118,15 @@
   "brand": "FORMPLAS",
   "name": "6 LED'li Kobra Plaka Lamba",
   "image": "fr213.png"
+},
+{
+  "id": "8229-KARDEN-12V_Parmak_Lamba_Camlı_Soft",
+  "group": "AYDINLATMA ÇEŞİTLERİ",
+  "subcategory": "İŞARET VE POZİSYON LAMBALAR",
+  "code": "8229",
+  "brand": "KARDEN",
+  "name": "12V Parmak Lamba Camlı Soft",
+  "image": "karaköyled.png"
 },
   {
     "id": "EMR_20-EMİRAS-Döner_Lamba_Bağlantı_Ayağı__Ayarlı",
@@ -2683,7 +2710,7 @@
     "subcategory": "KONTAK ANAHTARLARI",
     "code": "099 283",
     "brand": "KARDEN",
-    "name": "Kontak Anahtarı – Komple",
+    "name": "Kontak Kutusu",
     "image": "komplekontak.png"
   },
   {
@@ -2775,6 +2802,15 @@
     "brand": "KARDEN",
     "name": "Bolat Tesisatı",
     "image": "bolattes.png"
+  },
+   {
+    "id": "024-022-KARDEN-Atom_Far_Fişi",
+    "group": "KONTAK & TESİSAT GRUBU",
+    "subcategory": "TESİSATLAR",
+    "code": "024 - 022",
+    "brand": "KARDEN",
+    "name": "Atom Far Fişi",
+    "image": "ATOMFAR.png"
   },
   {
     "id": "099_651-1-KARDEN-Bolat_Far_Tesisatı",
@@ -2971,7 +3007,7 @@
     "subcategory": "KALAYLI ELEKTRİK KABLOLARI",
     "code": "10 1075",
     "brand": "SEVTEL",
-    "name": "0.75 mm Kalaylı Kablo",
+    "name": "0.75 mm Kablo",
     "image": "1075.png"
   },
   {
@@ -2980,7 +3016,7 @@
     "subcategory": "KALAYLI ELEKTRİK KABLOLARI",
     "code": "10 1100",
     "brand": "SEVTEL",
-    "name": "1 mm Kalaylı Kablo",
+    "name": "1 mm Kablo",
     "image": "1100.jpeg"
   },
   {
@@ -2989,7 +3025,7 @@
     "subcategory": "KALAYLI ELEKTRİK KABLOLARI",
     "code": "10 1150",
     "brand": "SEVTEL",
-    "name": "1.5 mm Kalaylı Kablo",
+    "name": "1.5 mm Kablo",
     "image": "1150.jpeg"
   },
   {
@@ -2998,7 +3034,7 @@
     "subcategory": "KALAYLI ELEKTRİK KABLOLARI",
     "code": "10 1200",
     "brand": "SEVTEL",
-    "name": "2 mm Kalaylı Kablo",
+    "name": "2 mm Kablo",
     "image": "1200.jpeg"
   },
   {
@@ -3007,7 +3043,7 @@
     "subcategory": "KALAYLI ELEKTRİK KABLOLARI",
     "code": "10 1250",
     "brand": "SEVTEL",
-    "name": "2.5 mm Kalaylı Kablo",
+    "name": "2.5 mm Kablo",
     "image": "1250.png"
   },
   {
@@ -3016,7 +3052,7 @@
     "subcategory": "KALAYLI ELEKTRİK KABLOLARI",
     "code": "10 1300",
     "brand": "SEVTEL",
-    "name": "3 mm Kalaylı Kablo",
+    "name": "3 mm Kablo",
     "image": "1300.jpeg"
   },
   {
@@ -3025,7 +3061,7 @@
     "subcategory": "KALAYLI ELEKTRİK KABLOLARI",
     "code": "10 1400",
     "brand": "SEVTEL",
-    "name": "4 mm Kalaylı Kablo",
+    "name": "4 mm Kablo",
     "image": "1400.png"
   },
   {
@@ -3034,7 +3070,7 @@
     "subcategory": "KALAYLI ELEKTRİK KABLOLARI",
     "code": "10 1500",
     "brand": "SEVTEL",
-    "name": "5 mm Kalaylı Kablo",
+    "name": "5 mm Kablo",
     "image": "1500.jpeg"
   },
   {
@@ -3043,7 +3079,7 @@
     "subcategory": "KALAYLI ELEKTRİK KABLOLARI",
     "code": "10 1600",
     "brand": "SEVTEL",
-    "name": "6 mm Kalaylı Kablo",
+    "name": "6 mm Kablo",
     "image": "1600.jpeg"
   },
   {
@@ -3574,7 +3610,7 @@
     "subcategory": "KORNA ÇEŞİTLERİ",
     "code": "50FI1200002",
     "brand": "SEGER",
-    "name": "Korna Didit Sıvı İnce Ses 12V",
+    "name": "Korna Didit Sıvamalı İnce Ses 12V",
     "image": "50FI1200002.png"
   },
   {
@@ -3583,7 +3619,7 @@
     "subcategory": "KORNA ÇEŞİTLERİ",
     "code": "50FK1200002",
     "brand": "SEGER",
-    "name": "Korna Didit Sıvı Kalın Ses 12V",
+    "name": "Korna Didit Sıvamalı Kalın Ses 12V",
     "image": "50FK1200002.png"
   },
   {
@@ -4941,12 +4977,12 @@
     "image": "024-031.png"
   },
   {
-    "id": "199_01-KARDEN-Akü_Bağlantı_Sacı__Plastiği",
+    "id": "217_02-KARDEN-Akü_Bağlantı_Saplaması",
     "group": "AKÜ BAĞLANTI VE AKSESUAR GRUBU",
     "subcategory": "AKÜ BAĞLANTI EKİPMANLARI",
-    "code": "199 01",
+    "code": "217 02",
     "brand": "KARDEN",
-    "name": "Akü Bağlantı Sacı + Plastiği",
+    "name": "Akü Bağlantı Saplaması",
     "image": ""
   },
   {
@@ -6159,5 +6195,76 @@
     "name": "Taral-250 Debriyaj Teli Plastiği",
     "image": "taralplastik.png"
   }
-
+   {
+    "id": "KARDEN-Damper_Kaldırma_Ünitesi",
+    "group": "DAMPER KALDIRMA ÜNİTESİ VE PARÇALARI",
+    "subcategory": "DAMPER KALDIRMA ÜNİTESİ",
+    "code": "099 050",
+    "brand": "KARDEN",
+    "name": "Damper Kaldırma Ünitesi",
+    "image": "DAMPERBÜYÜK.png"
+  } 
+  {
+    "id": "KARDEN-Marş_Arka_Kapak",
+    "group": "DAMPER KALDIRMA ÜNİTESİ VE PARÇALARI",
+    "subcategory": "DAMPER KALDIRMA ÜNİTESİ PARÇALARI",
+    "code": "156 102",
+    "brand": "KARDEN",
+    "name": "Marş Arka Kapak",
+    "image": "DAMPERKAPAK.png"
+  }
+  {
+    "id": "KARDEN-Kömür_Yuvası_4_Kömürlü",
+    "group": "DAMPER KALDIRMA ÜNİTESİ VE PARÇALARI",
+    "subcategory": "DAMPER KALDIRMA ÜNİTESİ PARÇALARI",
+    "code": "138 100",
+    "brand": "KARDEN",
+    "name": "Kömür Yuvası 4 Kömürlü",
+    "image": "DAMPERKÖMÜR.png"
+  }
+   {
+    "id": "KARDEN-Gövdeli_Yastık",
+    "group": "DAMPER KALDIRMA ÜNİTESİ VE PARÇALARI",
+    "subcategory": "DAMPER KALDIRMA ÜNİTESİ PARÇALARI",
+    "code": "101 101",
+    "brand": "KARDEN",
+    "name": "Gövdeli Yastık",
+    "image": "DAMPERYASTIK.png"
+  }
+  {
+    "id": "KARDEN-Kollektör",
+    "group": "DAMPER KALDIRMA ÜNİTESİ VE PARÇALARI",
+    "subcategory": "DAMPER KALDIRMA ÜNİTESİ PARÇALARI",
+    "code": "113 100",
+    "brand": "KARDEN",
+    "name": "Kollektör",
+    "image": "DAMPERKOLLEKTÖR.png"
+  }
+    {
+    "id": "KARDEN-Damper_Kaldırma_20/5_Ara_Otomatik",
+    "group": "DAMPER KALDIRMA ÜNİTESİ VE PARÇALARI",
+    "subcategory": "DAMPER KALDIRMA ÜNİTESİ PARÇALARI",
+    "code": "099 286",
+    "brand": "KARDEN",
+    "name": "Damper Kaldırma 20/5 Ara Otomatik",
+    "image": "099_286.png"
+  }
+    {
+    "id": "KARDEN-Universal_Damper_Kaldırma_&_Cam_Açma_Anahtarı",
+    "group": "DAMPER KALDIRMA ÜNİTESİ VE PARÇALARI",
+    "subcategory": "DAMPER KALDIRMA ÜNİTESİ PARÇALARI",
+    "code": "156 101",
+    "brand": "KARDEN",
+    "name": "Universal Damper Kaldırma & Cam Açma Anahtarı",
+    "image": "damper.png"
+  }
+    {
+    "id": "HİDO-Korna_Bobini_(Damper_Ünitesi_için)",
+    "group": "DAMPER KALDIRMA ÜNİTESİ VE PARÇALARI",
+    "subcategory": "DAMPER KALDIRMA ÜNİTESİ PARÇALARI",
+    "code": "HD 204",
+    "brand": "KARDEN",
+    "name": "Korna Bobini (Damper Ünitesi İçin)",
+    "image": "DAMPERBOBİN.png"
+  }
 ]
